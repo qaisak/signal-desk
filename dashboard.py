@@ -85,7 +85,7 @@ for name, acc in store.items():
     m, pts = score(acc)
     why = why_now(acc)
     prod, angle = product(acc, pts)
-    rows.append(dict(name=name, persona=acc.get("persona", ""), contact=acc.get("contact", ""), product=prod, angle=angle, domain=acc["domain"], vertical=acc["vertical"], hq=acc["hq"], fit=int(acc["fit"]),
+    rows.append(dict(name=name, blurb=acc.get("blurb", ""), data=acc.get("data", ""), persona=acc.get("persona", ""), contact=acc.get("contact", ""), product=prod, angle=angle, domain=acc["domain"], vertical=acc["vertical"], hq=acc["hq"], fit=int(acc["fit"]),
                      momentum=m, total=int(acc["fit"]) * m, pts={k: round(v) for k, v in pts.items()},
                      why=why, opener=opener(acc, why), notes=acc["notes"],
                      new=sum(1 for s in acc["signals"] if s["first_seen"] == TODAY.isoformat()),
@@ -112,7 +112,7 @@ input[type=search],select{font:13px var(--body);padding:6px 9px;border:1px solid
 table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden}
 th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}th{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 tr[data-i]{cursor:pointer}tr[data-i]:hover,tr.sel{background:var(--soft)}
-.num{font:500 13px var(--mono);font-variant-numeric:tabular-nums}.why{font-size:12.5px;color:var(--muted);max-width:44ch}
+.num{font:500 13px var(--mono);font-variant-numeric:tabular-nums}.why{font-size:12.5px;color:var(--muted);max-width:52ch}
 .chip{display:inline-block;font:500 10.5px var(--mono);padding:1px 7px;border-radius:999px;background:var(--soft);color:var(--accent);margin-right:4px}
 .chip.hot{background:var(--hot);color:#fff}.chip.new{background:var(--ok);color:#fff}
 .stat{font:500 11px var(--mono);padding:2px 7px;border-radius:5px;border:1px solid var(--line);background:transparent;color:var(--ink)}
@@ -141,7 +141,7 @@ let sel=null;
 function tiles(){const hot=ROWS.filter(r=>r.momentum>=50).length,nw=ROWS.reduce((a,r)=>a+r.new,0),jobs=ROWS.reduce((a,r)=>a+r.pts.job/8,0)|0,cont=ROWS.filter(r=>['contacted','replied','meeting'].includes(st(r.name))).length;
 document.getElementById('tiles').innerHTML=[[ROWS.length,'accounts'],[hot,'hot (momentum ≥ 50)'],[nw,'new signals today'],[jobs,'open ML / CV roles'],[cont,'in conversation']].map(([b,s])=>`<div class="tile"><b>${b}</b><span>${s}</span></div>`).join('')}
 function render(){const q=document.getElementById('q').value.toLowerCase(),v=document.getElementById('vert').value,s=document.getElementById('st').value,on=document.getElementById('onlynew').checked;
-document.getElementById('tb').innerHTML=ROWS.filter(r=>(!q||(r.name+r.vertical+r.why).toLowerCase().includes(q))&&(!v||r.vertical===v)&&(!s||st(r.name)===s)&&(!on||r.new>0)).map((r,i)=>`<tr data-i="${r.name}" class="${sel===r.name?'sel':''}"><td class="num">${i+1}</td><td><b>${esc(r.name)}</b><br><span class="why">${esc(r.vertical)} · ${esc(r.hq)}</span></td><td class="num">${r.fit}</td><td class="num">${r.momentum}${r.momentum>=50?' <span class="chip hot">hot</span>':''}${r.new?` <span class="chip new">+${r.new}</span>`:''}</td><td class="num">${r.total}</td><td class="why">${esc(r.why)}</td><td class="why"><b>${esc(r.product)}</b></td><td><span class="stat">${st(r.name)}</span></td></tr>`).join('');
+document.getElementById('tb').innerHTML=ROWS.filter(r=>(!q||(r.name+r.vertical+r.why).toLowerCase().includes(q))&&(!v||r.vertical===v)&&(!s||st(r.name)===s)&&(!on||r.new>0)).map((r,i)=>`<tr data-i="${r.name}" class="${sel===r.name?'sel':''}"><td class="num">${i+1}</td><td><b>${esc(r.name)}</b> <span class="why">· ${esc(r.hq)}</span><div class="why" style="margin-top:2px">${esc(r.blurb)}</div><div class="why" style="margin-top:2px;color:var(--accent)">${esc(r.data)}</div></td><td class="num">${r.fit}</td><td class="num">${r.momentum}${r.momentum>=50?' <span class="chip hot">hot</span>':''}${r.new?` <span class="chip new">+${r.new}</span>`:''}</td><td class="num">${r.total}</td><td class="why">${esc(r.why)}</td><td class="why"><b>${esc(r.product)}</b></td><td><span class="stat">${st(r.name)}</span></td></tr>`).join('');
 document.querySelectorAll('tr[data-i]').forEach(tr=>tr.onclick=()=>{sel=tr.dataset.i;render();panel()})}
 function panel(){const r=ROWS.find(x=>x.name===sel);if(!r)return;const s=state[r.name]||{};
 document.getElementById('panel').innerHTML=`<h2>${esc(r.name)}</h2><div class="sub">${esc(r.vertical)} · ${esc(r.hq)} · <a href="https://${r.domain}" target="_blank">${r.domain}</a></div>
