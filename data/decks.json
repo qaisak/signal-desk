@@ -1,0 +1,87 @@
+{
+ "Wayve": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Humanoid": {
+  "ok": true,
+  "path": "decks/humanoid.pptx",
+  "built": "2026-09-20"
+ },
+ "Helsing UK": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Ocado Technology": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Oxa": {
+  "ok": true,
+  "path": "decks/oxa.pptx",
+  "built": "2026-09-20"
+ },
+ "CMR Surgical": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Proximie": {
+  "ok": true,
+  "path": "decks/proximie.pptx",
+  "built": "2026-09-20"
+ },
+ "Perceptual Robotics": {
+  "ok": true,
+  "path": "decks/perceptual-robotics.pptx",
+  "built": "2026-09-20"
+ },
+ "Tharsus": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Automata": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Dexory": {
+  "ok": true,
+  "path": "decks/dexory.pptx",
+  "built": "2026-09-20"
+ },
+ "Fieldwork Robotics": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Skyports Drone Services": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Extend Robotics": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Dogtooth Technologies": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Kheiron Medical": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Panakeia": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Opteran": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Sees.ai": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ },
+ "Muddy Machines": {
+  "ok": false,
+  "reason": "set verified=yes in accounts.csv once product, problem and fit are confirmed"
+ }
+}

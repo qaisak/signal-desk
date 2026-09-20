@@ -89,12 +89,14 @@ for name, acc in store.items():
     m, pts = score(acc)
     why = why_now(acc)
     prod, angle = product(acc, pts)
-    rows.append(dict(name=name, blurb=acc.get("blurb", ""), data=acc.get("data", ""), persona=acc.get("persona", ""), contact=acc.get("contact", ""), product=prod, angle=angle, domain=acc["domain"], vertical=acc["vertical"], hq=acc["hq"], fit=int(acc["fit"]),
+    rows.append(dict(name=name, verified=acc.get("verified", "no"), blurb=acc.get("blurb", ""), data=acc.get("data", ""), persona=acc.get("persona", ""), contact=acc.get("contact", ""), product=prod, angle=angle, domain=acc["domain"], vertical=acc["vertical"], hq=acc["hq"], fit=int(acc["fit"]),
                      momentum=m, total=int(acc["fit"]) * m, pts={k: round(v) for k, v in pts.items()},
                      why=why, opener=opener(acc, why), notes=acc["notes"],
                      new=sum(1 for s in acc["signals"] if s["first_seen"] == TODAY.isoformat()),
                      signals=sorted(acc["signals"], key=lambda s: s.get("date", ""), reverse=True)))
 rows.sort(key=lambda r: -r["total"])
+DECKS = json.load(open(ROOT / "data" / "decks.json", encoding="utf-8")) if (ROOT / "data" / "decks.json").exists() else {}
+for r in rows: r["deck"] = DECKS.get(r["name"], dict(ok=False, reason="run decks.py"))
 json.dump(rows, open(ROOT / "data" / "ranked.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 
 # ------------------------------------------------------------------ html
@@ -128,12 +130,13 @@ button{font:500 12px var(--mono);background:var(--accent);color:#fff;border:0;bo
 button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}label{font-size:12px;color:var(--muted)}
 .tbl{overflow-x:auto}
+.btn{display:inline-block;font:500 11px var(--mono);background:var(--accent);color:#fff;border-radius:6px;padding:4px 9px;text-decoration:none;white-space:nowrap}.lock{font:500 11px var(--mono);color:var(--muted);border:1px dashed var(--line);border-radius:6px;padding:3px 8px;cursor:help;white-space:nowrap}
 </style>
 <div class="wrap">
 <header><h1>Signal Desk</h1><div class="meta">UK physical-AI accounts · refreshed __DATE__ · score = fit × momentum</div></header>
 <div class="tiles" id="tiles"></div>
 <div class="bar"><input id="q" type="search" placeholder="filter accounts"><select id="vert"><option value="">all verticals</option></select><select id="st"><option value="">any status</option><option>untouched</option><option>contacted</option><option>replied</option><option>meeting</option><option>parked</option></select><label><input id="onlynew" type="checkbox"> new signals only</label></div>
-<div class="grid"><div class="tbl"><table><thead><tr><th>#</th><th>Account</th><th>Fit</th><th>Mom.</th><th>Score</th><th>Why now</th><th>Lead with</th><th>Status</th></tr></thead><tbody id="tb"></tbody></table></div><aside class="panel" id="panel"><div class="sub">select an account</div></aside></div>
+<div class="grid"><div class="tbl"><table><thead><tr><th>#</th><th>Account</th><th>Fit</th><th>Mom.</th><th>Score</th><th>Why now</th><th>Lead with</th><th>Deck</th><th>Status</th></tr></thead><tbody id="tb"></tbody></table></div><aside class="panel" id="panel"><div class="sub">select an account</div></aside></div>
 </div>
 <script>
 const ROWS=__DATA__;
@@ -145,7 +148,7 @@ let sel=null;
 function tiles(){const hot=ROWS.filter(r=>r.momentum>=50).length,nw=ROWS.reduce((a,r)=>a+r.new,0),jobs=ROWS.reduce((a,r)=>a+r.pts.job/8,0)|0,cont=ROWS.filter(r=>['contacted','replied','meeting'].includes(st(r.name))).length;
 document.getElementById('tiles').innerHTML=[[ROWS.length,'accounts'],[hot,'hot (momentum ≥ 50)'],[nw,'new signals today'],[jobs,'open ML / CV roles'],[cont,'in conversation']].map(([b,s])=>`<div class="tile"><b>${b}</b><span>${s}</span></div>`).join('')}
 function render(){const q=document.getElementById('q').value.toLowerCase(),v=document.getElementById('vert').value,s=document.getElementById('st').value,on=document.getElementById('onlynew').checked;
-document.getElementById('tb').innerHTML=ROWS.filter(r=>(!q||(r.name+r.vertical+r.why).toLowerCase().includes(q))&&(!v||r.vertical===v)&&(!s||st(r.name)===s)&&(!on||r.new>0)).map((r,i)=>`<tr data-i="${r.name}" class="${sel===r.name?'sel':''}"><td class="num">${i+1}</td><td><b>${esc(r.name)}</b> <span class="why">· ${esc(r.hq)}</span><div class="why" style="margin-top:2px">${esc(r.blurb)}</div><div class="why" style="margin-top:2px;color:var(--accent)">${esc(r.data)}</div></td><td class="num">${r.fit}</td><td class="num">${r.momentum}${r.momentum>=50?' <span class="chip hot">hot</span>':''}${r.new?` <span class="chip new">+${r.new}</span>`:''}</td><td class="num">${r.total}</td><td class="why">${esc(r.why)}</td><td class="why"><b>${esc(r.product)}</b></td><td><span class="stat">${st(r.name)}</span></td></tr>`).join('');
+document.getElementById('tb').innerHTML=ROWS.filter(r=>(!q||(r.name+r.vertical+r.why).toLowerCase().includes(q))&&(!v||r.vertical===v)&&(!s||st(r.name)===s)&&(!on||r.new>0)).map((r,i)=>`<tr data-i="${r.name}" class="${sel===r.name?'sel':''}"><td class="num">${i+1}</td><td><b>${esc(r.name)}</b> <span class="why">· ${esc(r.hq)}</span><div class="why" style="margin-top:2px">${esc(r.blurb)}</div><div class="why" style="margin-top:2px;color:var(--accent)">${esc(r.data)}</div></td><td class="num">${r.fit}</td><td class="num">${r.momentum}${r.momentum>=50?' <span class="chip hot">hot</span>':''}${r.new?` <span class="chip new">+${r.new}</span>`:''}</td><td class="num">${r.total}</td><td class="why">${esc(r.why)}</td><td class="why"><b>${esc(r.product)}</b></td><td>${r.deck.ok?`<a class="btn" href="${r.deck.path}" download onclick="event.stopPropagation()">deck ↓</a>`:`<span class="lock" title="${esc(r.deck.reason)}">locked</span>`}</td><td><span class="stat">${st(r.name)}</span></td></tr>`).join('');
 document.querySelectorAll('tr[data-i]').forEach(tr=>tr.onclick=()=>{sel=tr.dataset.i;render();panel()})}
 function panel(){const r=ROWS.find(x=>x.name===sel);if(!r)return;const s=state[r.name]||{};
 document.getElementById('panel').innerHTML=`<h2>${esc(r.name)}</h2><div class="sub">${esc(r.vertical)} · ${esc(r.hq)} · <a href="https://${r.domain}" target="_blank">${r.domain}</a></div>
@@ -153,6 +156,7 @@ document.getElementById('panel').innerHTML=`<h2>${esc(r.name)}</h2><div class="s
 <div class="row">${Object.entries(r.pts).filter(([k,v])=>v>0).map(([k,v])=>`<span class="chip">${k} +${v}</span>`).join('')}</div>
 <p style="font-size:13px;margin:6px 0"><b>Why now:</b> ${esc(r.why)}<br><span class="why">${esc(r.notes)}</span></p>
 <p style="font-size:13px;margin:6px 0"><b>Lead with:</b> ${esc(r.product)}<br><span class="why">${esc(r.angle)}</span></p>
+<div class="row"><label>deck</label>${r.deck.ok?`<a class="btn" href="${r.deck.path}" download>download ${esc(r.name)} deck</a><span class="why">built ${r.deck.built}</span>`:`<span class="why">locked: ${esc(r.deck.reason)}</span>`}</div>
 <div class="row"><label>target persona</label><span class="stat">${esc(r.persona)}</span></div>
 <div class="row"><label>contact</label><input id="pcontact" type="text" placeholder="name, title, LinkedIn URL" value="${esc(s.contact||r.contact||'')}" style="flex:1;font:12.5px var(--mono);padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)"></div>
 <div class="row"><b style="font-size:12px">Opener</b><button id="copy">copy</button></div><textarea id="op">${esc(s.opener||r.opener)}</textarea>
