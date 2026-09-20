@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional: briefs are skipped without it
+      SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}           # optional: morning digest to a channel
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,6 +22,6 @@ jobs:
       - run: python dashboard.py
       - run: |
           git config user.name "signal-desk bot" && git config user.email "bot@users.noreply.github.com"
-          git add data/signals.json data/briefs index.html docs/index.html docs/briefs
+          git add data/signals.json data/briefs index.html docs/index.html docs/briefs docs/digest.md
           git commit -m "refresh $(date -u +%F)" || echo "no change"
           git push

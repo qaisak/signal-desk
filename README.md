@@ -54,6 +54,27 @@ add a disambiguator for generic names). `ats_slugs` are guesses at the job
 board slug, semicolon separated; the first that answers wins. `paper_query`
 blank skips arXiv.
 
+## Two editions, one codebase
+
+| | GitHub Pages | claude.ai artifact |
+|---|---|---|
+| URL | https://qaisak.github.io/signal-desk/ | private link, shared from its Share menu |
+| Pipeline state | this browser only (localStorage) | shared live across the team (claude db), every action attributed |
+| Who am I | "you" | your claude.ai identity; owners and the activity feed show real names |
+| Deck download | direct | via the downloads capability |
+| Refresh | daily bot, or "refresh now" | republish after a run |
+
+The page detects which one it is running in. The header badge says `solo` or `team · live`.
+
+## Working the desk as a team
+
+- **Your day** strip at the top: your overdue and due-today follow-ups.
+- **Claim before you call**: set owner, so nobody double-contacts. Tiles show hot-and-unowned accounts.
+- **Log a touch**: email sent / call / reply received / note. Status changes set follow-ups automatically (contacted +3d, replied +1d). Everything lands in the team activity feed.
+- **Pipeline first** ordering keeps accounts in conversation on top, overdue ones first.
+- **Export CSV** for the weekly pipeline review.
+- **Daily digest** at `docs/digest.md`; set a `SLACK_WEBHOOK` secret and it posts to a channel every morning.
+
 ## State
 
 Status, next-step date, edited opener and notes live in the browser
