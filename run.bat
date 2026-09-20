@@ -4,4 +4,4 @@ python signals.py
 python dashboard.py
 python decks.py
 python dashboard.py
-start "" dashboard.html
+start "" docsindex.html

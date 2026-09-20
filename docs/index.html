@@ -1,4 +1,4 @@
-<title>Signal Desk</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Signal Desk</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 :root{--bg:#f4f5f9;--surface:#fff;--ink:#171a33;--muted:#5d6180;--line:#dfe2ee;--accent:#4f46e5;--soft:#e8e6fb;--hot:#c2410c;--warm:#b45309;--ok:#0f8a5f;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;--body:"IBM Plex Sans",system-ui,sans-serif}
@@ -66,4 +66,4 @@ document.getElementById('copy').onclick=()=>{navigator.clipboard&&navigator.clip
 document.getElementById('vert').innerHTML+=[...new Set(ROWS.map(r=>r.vertical))].sort().map(v=>`<option>${v}</option>`).join('');
 ['q','vert','st','onlynew'].forEach(id=>document.getElementById(id).addEventListener('input',render));
 tiles();render();if(ROWS.length){sel=ROWS[0].name;render();panel()}
-</script>
+</script></html>
