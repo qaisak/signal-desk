@@ -173,9 +173,11 @@ tiles();render();if(ROWS.length){sel=ROWS[0].name;render();panel()}
 page = page.replace("__DATA__", DATA).replace("__DATE__", TODAY.isoformat())
 (ROOT / "dashboard.html").write_text(page, encoding="utf-8")   # fragment: the claude.ai artifact wraps it
 (ROOT / "docs").mkdir(exist_ok=True)
-(ROOT / "docs" / "index.html").write_text(              # standalone: GitHub Pages and local double-click
+standalone = (              # standalone: GitHub Pages and local double-click
     '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-    + page.replace("<title>", "<title>", 1) + '</head><body></body></html>'.replace("</head><body></body>", ""), encoding="utf-8")
+    + page + "</html>")
+(ROOT / "docs" / "index.html").write_text(standalone, encoding="utf-8")
+(ROOT / "index.html").write_text(standalone.replace('href="decks/', 'href="docs/decks/'), encoding="utf-8")   # repo root, for Pages set to /
 print(f"ranked {len(rows)} accounts -> dashboard.html")
 for r in rows[:8]:
     print(f"  {r['total']:4d}  {r['name']:26s} fit {r['fit']}  mom {r['momentum']:3d}  {r['why'][:70]}")
