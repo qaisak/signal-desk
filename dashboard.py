@@ -18,7 +18,11 @@ from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).parent
+import csv
 store = json.load(open(ROOT / "data" / "signals.json", encoding="utf-8"))
+# account fields always come from the current accounts.csv, signals from the last pull
+for a in csv.DictReader(open(ROOT / "accounts.csv", encoding="utf-8")):
+    store.setdefault(a["name"], dict(signals=[], fetched="")).update(a)
 TODAY = date.today()
 W = dict(funding=(30, 30), launch=(12, 24), job=(8, 32), paper=(6, 12), hn=(3, 6), news=(2, 10))
 
