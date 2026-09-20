@@ -138,7 +138,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid 
 .btn{display:inline-block;font:500 11px var(--mono);background:var(--accent);color:#fff;border-radius:6px;padding:4px 9px;text-decoration:none;white-space:nowrap}.lock{font:500 11px var(--mono);color:var(--muted);border:1px dashed var(--line);border-radius:6px;padding:3px 8px;cursor:help;white-space:nowrap}
 </style>
 <div class="wrap">
-<header><h1>Signal Desk</h1><div class="meta">UK physical-AI accounts · refreshed __DATE__ · score = fit × momentum</div></header>
+<header><h1>Signal Desk</h1><div class="meta">data pulled __DATE__ · auto-refresh weekdays 07:00 UTC · score = fit × momentum &nbsp;<a class="btn" href="https://github.com/qaisak/signal-desk/actions/workflows/refresh.yml" target="_blank" rel="noopener" title="Opens GitHub. Click 'Run workflow', wait about two minutes, then reload this page.">refresh now ↗</a></div></header>
 <div class="tiles" id="tiles"></div>
 <div class="bar"><input id="q" type="search" placeholder="filter accounts"><select id="vert"><option value="">all verticals</option></select><select id="st"><option value="">any status</option><option>untouched</option><option>contacted</option><option>replied</option><option>meeting</option><option>parked</option></select><label><input id="onlynew" type="checkbox"> new signals only</label></div>
 <div class="grid"><div class="tbl"><table><thead><tr><th>#</th><th>Account</th><th>Fit</th><th>Mom.</th><th>Score</th><th>Why now</th><th>Lead with</th><th>Deck</th><th>Status</th></tr></thead><tbody id="tb"></tbody></table></div><aside class="panel" id="panel"><div class="sub">select an account</div></aside></div>
