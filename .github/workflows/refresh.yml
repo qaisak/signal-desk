@@ -1,23 +1,26 @@
 name: refresh signals
 on:
   schedule:
-    - cron: "0 7 * * 1-5"      # 07:00 UTC, weekdays (08:00 UK in summer)
+    - cron: "0 7 * * 1-5"      # 07:00 UTC, weekdays
   workflow_dispatch:           # "Run workflow" button for a manual refresh
 permissions:
   contents: write
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional: briefs are skipped without it
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install requests feedparser
+      - run: pip install requests feedparser anthropic python-pptx
       - run: python signals.py
+      - run: python brief.py
+      - run: python deck.py
       - run: python dashboard.py
       - run: |
-          true
           git config user.name "signal-desk bot" && git config user.email "bot@users.noreply.github.com"
-          git add data/signals.json index.html docs/index.html
+          git add data/signals.json data/briefs index.html docs/index.html docs/briefs
           git commit -m "refresh $(date -u +%F)" || echo "no change"
           git push

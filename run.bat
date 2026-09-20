@@ -1,6 +1,7 @@
 @echo off
 cd /d "%~dp0"
 python signals.py
+python brief.py
+python deck.py
 python dashboard.py
-python dashboard.py
-start "" docsindex.html
+start "" docs\index.html

@@ -1,0 +1,113 @@
+{
+ "headline": "Dexory scans the same racking every day, so the hard problem is not labelling more frames but choosing the few thousand frames that actually teach the new Storage Health classes, and proving per-site perception accuracy to the SLA numbers the business has committed to.",
+ "what_they_build": "Dexory builds autonomous scanning robots and the DexoryView platform, sold as a monthly per-site subscription to 3PLs and large warehouse operators such as Ziegler, Romark Logistics and Seac. The robots drive aisles daily, read location labels and stock, and the Integrity module flags inventory discrepancies, hygiene or damage risks and rack compliance issues, while Optimise covers slotting and space utilisation. Storage Health (launched Feb 2026) extends this into damaged stock and leaning pallet detection, which needs label classes that did not exist a year ago.",
+ "inferred_pipeline": [
+  "Robot drives the aisle on a scheduled mission, capturing camera imagery plus LIDAR and pose, with RFID or barcode reads tied to a rack location (guess: multi-camera vertical mast, several passes per rack face).",
+  "Scan data lands in cloud object storage per site and per mission, likely S3 or Azure given a Databricks lakehouse is named in the Senior Data Engineer ad (guess).",
+  "Perception models run inventory presence, location label reading and now Storage Health damage or lean classification; outputs are reconciled against the customer WMS to produce discrepancies.",
+  "Training data is selected ad hoc from failure reports and customer escalations, then sent to an internal or outsourced labelling effort (guess: mixture of in-house tooling and a BPO).",
+  "Model evaluation appears to be per-release and aggregate; the job ad implies perception accuracy is not yet modelled per site against contracted SLAs.",
+  "New classes such as damaged stock and leaning pallets are bootstrapped from a small hand-picked set, which is why recall on rare damage types is likely the current bottleneck (guess)."
+ ],
+ "hypotheses": [
+  {
+   "pain": "Massive redundancy: the same rack face is imaged on every pass, every day, across many sites, so labelling budget is spent on near-duplicate frames while rare damage and lean events stay under-represented.",
+   "evidence": "Website: automated daily scans across multiple warehouses, monthly subscription scaling to more sites; our note of three passes per rack and millions of near-identical shelf images per site per week.",
+   "encord_answer": "Index registers the existing buckets without moving data, computes embeddings and per-frame quality metrics (brightness, sharpness, uniqueness), then similarity search and the embedding plot let the team de-duplicate passes and build Collections of the rare cases. Our own simulated warehouse-robot run cut frames to label by 61 percent while keeping 95 percent of racks, and a YOLOv8n on the curated pick scored 0.48 mAP50 against 0.43 on a random pick of the same size."
+  },
+  {
+   "pain": "Per-site perception accuracy is not answerable on demand, so SLA conversations with customers rely on spreadsheets rather than a model evaluation view sliced by site, class and scan conditions.",
+   "evidence": "Senior Data Engineer ad: 'modelling perception accuracy, scan and mission performance, obstructions and scan coverage ... against the SLAs and KPIs we have committed to per site'.",
+   "encord_answer": "Active imports predictions and gives mAP, mAR, F1, PR curves and confusion matrix sliced by class, IoU threshold and any data metric, so you can slice accuracy by site, aisle lighting or blur. Metric-to-failure correlation then tells you which data to label next, and results are pullable via SDK into the Databricks layer the new data hire is building."
+  },
+  {
+   "pain": "New Storage Health classes (damaged stock, leaning pallets, rack compliance) need a fresh ontology and fresh labels, and early label quality for subjective classes like damage drifts between annotators.",
+   "evidence": "Our note that Storage Health launched Feb 2026; website lists damage risks, hygiene and rack compliance under the Integrity module as ML-flagged items.",
+   "encord_answer": "Annotate handles the ontology with attributes and frame classifications, native video and 3D point cloud labelling, SAM 3 auto-segmentation and object tracking with interpolation across a pass. Workflows give annotate, review and sampled review with routing, and Active label validation surfaces likely label errors. Agents can run a Dexory model as a pre-labelling or QA stage so humans only adjudicate the uncertain frames."
+  }
+ ],
+ "ontology": [
+  {
+   "name": "Pallet in location",
+   "shape": "3D cuboid",
+   "why": "Occupancy and overhang are geometric, and cuboids on the LIDAR sweep align presence with the WMS location rather than just a 2D box."
+  },
+  {
+   "name": "Location label or placard",
+   "shape": "bounding box",
+   "why": "The rack address is what ties every detection to a WMS location; box plus a decoded-string attribute supports OCR error analysis."
+  },
+  {
+   "name": "Damaged stock or wrapping breach",
+   "shape": "bitmask",
+   "why": "Damage is irregular and partial; a mask plus severity attribute supports the Storage Health alert threshold better than a box."
+  },
+  {
+   "name": "Leaning pallet lean axis",
+   "shape": "polyline",
+   "why": "Lean is an angle, not an area; annotating the load edge as a polyline lets you regress deflection and set a compliance threshold."
+  },
+  {
+   "name": "Rack beam or upright damage",
+   "shape": "keypoint",
+   "why": "Rack compliance inspections care about the specific deformation point on a beam or upright, which keypoints capture cheaply and consistently."
+  },
+  {
+   "name": "Aisle obstruction",
+   "shape": "polygon",
+   "why": "The job ad names obstructions as an operational signal; polygons handle stray pallets, cages and people blocking a scan pass."
+  },
+  {
+   "name": "Empty or blocked location",
+   "shape": "frame classification",
+   "why": "Cheap per-frame truth for the presence model and for scan coverage reporting, no geometry needed."
+  },
+  {
+   "name": "Scan condition",
+   "shape": "frame classification",
+   "why": "Glare, motion blur, low light and wrapped-film reflection explain most false negatives; tagging them lets Active correlate failure with condition."
+  }
+ ],
+ "modules": [
+  "Index",
+  "Active",
+  "Annotate",
+  "Agents"
+ ],
+ "case_study": {
+  "name": "Automotus",
+  "why_it_matches": "Automotus runs fixed street cameras producing huge volumes of highly repetitive footage of the same scenes, which is structurally the same curation problem as a robot re-scanning the same rack face daily. They solved it by curating rather than labelling more.",
+  "numbers": "+20 percent mAP, 35 percent smaller dataset, 33 percent lower labelling cost after curating with Encord."
+ },
+ "proof_of_value": [
+  "Week 1, day 1 to 2: register one site's last four weeks of scans in Index directly from the Dexory bucket (data never moves), generate embeddings and quality metrics, and agree the Storage Health ontology with the perception lead.",
+  "Week 1, day 3 to 5: de-duplicate passes with similarity search and build two Collections, a diverse baseline and a rare-event set for damaged stock and leaning pallets. Success metric: at least 50 percent fewer frames proposed for labelling versus the current selection for the same rack coverage.",
+  "Week 2, day 1 to 3: label the curated set in Annotate with SAM 3 and tracking across the pass, with a sampled review stage. Success metric: time per frame for damage masks versus the current tool, and reviewer disagreement rate under an agreed threshold.",
+  "Week 2, day 3 to 4: import Dexory's current Storage Health predictions into Active, produce mAP, F1 and confusion matrix sliced by site, class and scan condition, and run label validation over an existing labelled batch. Success metric: a named list of the top three failure slices and any label errors found in data they believed was clean.",
+  "Week 2, day 5: retrain or fine-tune on the curated set versus a random set of equal size and compare. Success metric: mAP uplift on a held-out set plus an agreed SDK export path into the Databricks layer so results feed the SLA reporting the new data hire is building."
+ ],
+ "discovery_questions": [
+  "When Storage Health flags a damaged pallet wrongly at a customer site, how do you trace that back to training data today, and how long does the loop take?",
+  "How do you currently decide which of the millions of scan frames get labelled, and who does the labelling?",
+  "The Senior Data Engineer ad talks about modelling perception accuracy per site against SLAs. Is that number produced today, and is it something perception can slice by class and scan condition or only in aggregate?",
+  "For the new classes, are you labelling on 2D camera frames, on the LIDAR point cloud, or both, and does the same object need to be consistent across them?",
+  "What is in place already for annotation and evaluation, is it internal tooling, an outsourced vendor, or open source, and what would have to be true for you to change it?"
+ ],
+ "risks": [
+  "Strong internal build culture: a robotics company with its own autonomy and perception teams often has home-grown labelling and eval scripts, and the new data hire's remit explicitly includes pragmatic build-versus-buy decisions.",
+  "No perception or ML job ad in the signals, so we do not know whether the perception team is growing or whether labelling volume is actually painful right now. The evidence for the specific pain is inferred, not stated.",
+  "Budget sits with a company still standing up its first company-wide data capability; a tooling purchase may wait for that foundation and for the Databricks decisions to settle.",
+  "Customer imagery from live warehouse sites may carry contractual restrictions on third-party processing, which needs the data-stays-in-your-bucket story landed early with whoever owns Dexory's data security requirements.",
+  "Competitive pressure from Scale, Labelbox or an incumbent already embedded with the perception team."
+ ],
+ "opener_email": "Hi [name],\n\nYour Senior Data Engineer ad mentions modelling perception accuracy and scan coverage per site against contracted SLAs. That is the part most robotics teams find hardest once new classes like damaged stock and leaning pallets go live.\n\nEncord registers data in your own bucket, de-duplicates near-identical rack passes, and slices model accuracy by site and scan condition. On a simulated warehouse-robot stream we cut frames to label by 61 percent and still improved mAP50.\n\nWorth 20 minutes?\n\nQais",
+ "confidence": "medium",
+ "account": "Dexory",
+ "generated": "2026-09-20",
+ "status": "DRAFT: review before sending",
+ "signals_used": 5,
+ "usage": {
+  "input": 5513,
+  "output": 4094
+ }
+}

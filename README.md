@@ -35,6 +35,18 @@ signals with recency decay: funding 30, launch 12 (cap 24), ML job 8 (cap 32),
 paper 6 (cap 12), HN 3 (cap 6), plain news 2 (cap 10), +5 if anything is new
 since the last run.
 
+## Briefs and decks
+
+Set `brief=yes` on an account you have decided to work. The next run gathers
+their website, their open ML/CV job ads and the month's signals, and asks
+Claude Opus 5 for a first-meeting brief: what they build, how we think their
+data flows, three ranked hypotheses with evidence, an ontology for their
+objects, the matching case study, a two-week proof of value, discovery
+questions and risks. `deck.py` turns it into a 7-slide pptx (questions and
+risks go in the speaker notes). Everything is marked DRAFT: read it before it
+goes anywhere. Briefs refresh weekly, not daily, to keep API spend low
+(roughly 10p each). Needs `ANTHROPIC_API_KEY` locally or as a GitHub secret.
+
 ## Adding an account
 
 One row in `accounts.csv`. `query` is the Google News search (quote the name,
