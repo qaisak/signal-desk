@@ -39,8 +39,10 @@ def score(acc):
 
 
 def why_now(acc):
-    sig = sorted(acc["signals"], key=lambda s: (s["type"] != "funding", s["type"] != "launch", s["type"] != "job", s.get("date", "")), reverse=False)
-    top = [s for s in sig if s["type"] in ("funding", "launch")][:1]
+    top = []
+    for t in ("funding", "launch"):
+        c = sorted([s for s in acc["signals"] if s["type"] == t], key=lambda s: s.get("date", ""), reverse=True)
+        if c: top = c[:1]; break
     jobs = [s for s in acc["signals"] if s["type"] == "job"]
     parts = []
     if top: parts.append(f"{top[0]['title'].split(' - ')[0]} ({top[0]['date']})")
@@ -48,6 +50,27 @@ def why_now(acc):
     papers = [s for s in acc["signals"] if s["type"] == "paper"]
     if papers and not parts: parts.append(f"published: {papers[0]['title'][:70]}")
     return "; ".join(parts) or "quiet: nurture"
+
+
+MEDICAL = {"Surgical robotics", "Surgical video", "Medical imaging", "Digital pathology"}
+VIDEO_3D = {"Warehouse robotics", "Industrial autonomy", "Humanoid robotics", "Autonomous driving", "Drones", "Drone inspection", "Defence AI", "Teleoperation", "Robot navigation"}
+
+def product(acc, pts):
+    """Which Encord module leads the conversation, and the one-line angle."""
+    v = acc["vertical"]; jobs = pts["job"] > 0; funded = pts["funding"] > 0
+    if v in MEDICAL:
+        return ("Annotate (DICOM / video) + Active", "Expert review workflows for clinicians, DICOM and surgical video native, label QA before regulatory submission")
+    if v == "Autonomous driving":
+        return ("Active (model evaluation)", "They have labelling covered in-house; sell evaluation: slice model failures by scene metric, find what to label next")
+    if v in VIDEO_3D and (jobs or funded):
+        return ("Index (curation) then Annotate", "Fleet data is mostly re-passes; curate first, then label with SAM and tracking on video / point clouds")
+    if v in VIDEO_3D:
+        return ("Annotate (video / 3D)", "Native video and point-cloud labelling with tracking; start with a labelling pilot")
+    if v == "Agri robotics":
+        return ("Annotate + Agents", "Fine-grained grading labels in messy lighting; agent pre-labelling with their own model cuts human time")
+    if v == "Lab automation":
+        return ("Annotate (images) + Agents", "Bench-camera QC and plate imaging; small team, so pre-labelling agents matter more than curation")
+    return ("Index + Annotate", "Standard land: curate, label, evaluate")
 
 
 def opener(acc, why):
@@ -61,7 +84,8 @@ rows = []
 for name, acc in store.items():
     m, pts = score(acc)
     why = why_now(acc)
-    rows.append(dict(name=name, domain=acc["domain"], vertical=acc["vertical"], hq=acc["hq"], fit=int(acc["fit"]),
+    prod, angle = product(acc, pts)
+    rows.append(dict(name=name, persona=acc.get("persona", ""), contact=acc.get("contact", ""), product=prod, angle=angle, domain=acc["domain"], vertical=acc["vertical"], hq=acc["hq"], fit=int(acc["fit"]),
                      momentum=m, total=int(acc["fit"]) * m, pts={k: round(v) for k, v in pts.items()},
                      why=why, opener=opener(acc, why), notes=acc["notes"],
                      new=sum(1 for s in acc["signals"] if s["first_seen"] == TODAY.isoformat()),
@@ -105,7 +129,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid 
 <header><h1>Signal Desk</h1><div class="meta">UK physical-AI accounts · refreshed __DATE__ · score = fit × momentum</div></header>
 <div class="tiles" id="tiles"></div>
 <div class="bar"><input id="q" type="search" placeholder="filter accounts"><select id="vert"><option value="">all verticals</option></select><select id="st"><option value="">any status</option><option>untouched</option><option>contacted</option><option>replied</option><option>meeting</option><option>parked</option></select><label><input id="onlynew" type="checkbox"> new signals only</label></div>
-<div class="grid"><div class="tbl"><table><thead><tr><th>#</th><th>Account</th><th>Fit</th><th>Mom.</th><th>Score</th><th>Why now</th><th>Status</th></tr></thead><tbody id="tb"></tbody></table></div><aside class="panel" id="panel"><div class="sub">select an account</div></aside></div>
+<div class="grid"><div class="tbl"><table><thead><tr><th>#</th><th>Account</th><th>Fit</th><th>Mom.</th><th>Score</th><th>Why now</th><th>Lead with</th><th>Status</th></tr></thead><tbody id="tb"></tbody></table></div><aside class="panel" id="panel"><div class="sub">select an account</div></aside></div>
 </div>
 <script>
 const ROWS=__DATA__;
@@ -117,19 +141,22 @@ let sel=null;
 function tiles(){const hot=ROWS.filter(r=>r.momentum>=50).length,nw=ROWS.reduce((a,r)=>a+r.new,0),jobs=ROWS.reduce((a,r)=>a+r.pts.job/8,0)|0,cont=ROWS.filter(r=>['contacted','replied','meeting'].includes(st(r.name))).length;
 document.getElementById('tiles').innerHTML=[[ROWS.length,'accounts'],[hot,'hot (momentum ≥ 50)'],[nw,'new signals today'],[jobs,'open ML / CV roles'],[cont,'in conversation']].map(([b,s])=>`<div class="tile"><b>${b}</b><span>${s}</span></div>`).join('')}
 function render(){const q=document.getElementById('q').value.toLowerCase(),v=document.getElementById('vert').value,s=document.getElementById('st').value,on=document.getElementById('onlynew').checked;
-document.getElementById('tb').innerHTML=ROWS.filter(r=>(!q||(r.name+r.vertical+r.why).toLowerCase().includes(q))&&(!v||r.vertical===v)&&(!s||st(r.name)===s)&&(!on||r.new>0)).map((r,i)=>`<tr data-i="${r.name}" class="${sel===r.name?'sel':''}"><td class="num">${i+1}</td><td><b>${esc(r.name)}</b><br><span class="why">${esc(r.vertical)} · ${esc(r.hq)}</span></td><td class="num">${r.fit}</td><td class="num">${r.momentum}${r.momentum>=50?' <span class="chip hot">hot</span>':''}${r.new?` <span class="chip new">+${r.new}</span>`:''}</td><td class="num">${r.total}</td><td class="why">${esc(r.why)}</td><td><span class="stat">${st(r.name)}</span></td></tr>`).join('');
+document.getElementById('tb').innerHTML=ROWS.filter(r=>(!q||(r.name+r.vertical+r.why).toLowerCase().includes(q))&&(!v||r.vertical===v)&&(!s||st(r.name)===s)&&(!on||r.new>0)).map((r,i)=>`<tr data-i="${r.name}" class="${sel===r.name?'sel':''}"><td class="num">${i+1}</td><td><b>${esc(r.name)}</b><br><span class="why">${esc(r.vertical)} · ${esc(r.hq)}</span></td><td class="num">${r.fit}</td><td class="num">${r.momentum}${r.momentum>=50?' <span class="chip hot">hot</span>':''}${r.new?` <span class="chip new">+${r.new}</span>`:''}</td><td class="num">${r.total}</td><td class="why">${esc(r.why)}</td><td class="why"><b>${esc(r.product)}</b></td><td><span class="stat">${st(r.name)}</span></td></tr>`).join('');
 document.querySelectorAll('tr[data-i]').forEach(tr=>tr.onclick=()=>{sel=tr.dataset.i;render();panel()})}
 function panel(){const r=ROWS.find(x=>x.name===sel);if(!r)return;const s=state[r.name]||{};
 document.getElementById('panel').innerHTML=`<h2>${esc(r.name)}</h2><div class="sub">${esc(r.vertical)} · ${esc(r.hq)} · <a href="https://${r.domain}" target="_blank">${r.domain}</a></div>
 <div class="row"><label>status</label><select id="pst">${['untouched','contacted','replied','meeting','parked'].map(o=>`<option ${st(r.name)===o?'selected':''}>${o}</option>`).join('')}</select><label>next step</label><input id="pnext" type="date" value="${s.next||''}"></div>
 <div class="row">${Object.entries(r.pts).filter(([k,v])=>v>0).map(([k,v])=>`<span class="chip">${k} +${v}</span>`).join('')}</div>
 <p style="font-size:13px;margin:6px 0"><b>Why now:</b> ${esc(r.why)}<br><span class="why">${esc(r.notes)}</span></p>
+<p style="font-size:13px;margin:6px 0"><b>Lead with:</b> ${esc(r.product)}<br><span class="why">${esc(r.angle)}</span></p>
+<div class="row"><label>target persona</label><span class="stat">${esc(r.persona)}</span></div>
+<div class="row"><label>contact</label><input id="pcontact" type="text" placeholder="name, title, LinkedIn URL" value="${esc(s.contact||r.contact||'')}" style="flex:1;font:12.5px var(--mono);padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)"></div>
 <div class="row"><b style="font-size:12px">Opener</b><button id="copy">copy</button></div><textarea id="op">${esc(s.opener||r.opener)}</textarea>
 <div class="row"><b style="font-size:12px">Notes</b></div><textarea id="notes" style="min-height:70px" placeholder="who you spoke to, what they said">${esc(s.notes||'')}</textarea>
 <div style="margin-top:10px;font:500 11px var(--mono);letter-spacing:.06em;color:var(--muted)">SIGNALS (${r.signals.length})</div>
 ${r.signals.map(x=>`<div class="sig"><span class="chip">${x.type}</span> <a href="${x.url}" target="_blank" rel="noopener">${esc(x.title)}</a><div class="d">${x.date||''}${x.loc?' · '+esc(x.loc):''}${x.first_seen===ROWS.today?' · new':''}</div></div>`).join('')||'<div class="sig">nothing in the window</div>'}`;
-const upd=()=>{state[r.name]={status:document.getElementById('pst').value,next:document.getElementById('pnext').value,opener:document.getElementById('op').value,notes:document.getElementById('notes').value};save();tiles();render()};
-['pst','pnext','op','notes'].forEach(id=>document.getElementById(id).addEventListener('change',upd));
+const upd=()=>{state[r.name]={status:document.getElementById('pst').value,next:document.getElementById('pnext').value,opener:document.getElementById('op').value,notes:document.getElementById('notes').value,contact:document.getElementById('pcontact').value};save();tiles();render()};
+['pst','pnext','op','notes','pcontact'].forEach(id=>document.getElementById(id).addEventListener('change',upd));
 document.getElementById('copy').onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText(document.getElementById('op').value);document.getElementById('copy').textContent='copied';setTimeout(()=>document.getElementById('copy').textContent='copy',1200)}}
 document.getElementById('vert').innerHTML+=[...new Set(ROWS.map(r=>r.vertical))].sort().map(v=>`<option>${v}</option>`).join('');
 ['q','vert','st','onlynew'].forEach(id=>document.getElementById(id).addEventListener('input',render));

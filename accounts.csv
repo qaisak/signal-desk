@@ -1,21 +1,21 @@
-name,domain,vertical,hq,fit,ats_slugs,notes,query,paper_query
-Dexory,dexory.com,Warehouse robotics,London,5,dexory,Camera robots scan racking daily; Storage Health launched Feb 2026,"""Dexory""",Dexory
-Oxa,oxa.tech,Industrial autonomy,Oxford,5,oxa;oxbotica,Autonomous vehicles for ports and airports; Oxa Foundry toolchain,"""Oxa"" autonomous OR autonomy",Oxa autonomous
-Humanoid,thehumanoid.ai,Humanoid robotics,London,5,humanoid;thehumanoid,Bosch contract manufacturing; scaling to fleet,"""Humanoid"" robotics startup London","""Humanoid"" Bosch"
-Wayve,wayve.ai,Autonomous driving,London,5,wayve,End-to-end AI driver; large in-house ML team,"""Wayve""",Wayve
-Dogtooth Technologies,dogtooth.tech,Agri robotics,Royston,4,dogtooth;dogtoothtechnologies,Fruit picking and grading robots,"""Dogtooth"" robot OR harvesting",Dogtooth
-Automata,automata.tech,Lab automation,London,3,automata;automatatech,LINQ platform; bench imaging,"""Automata"" lab automation",
-Skyports Drone Services,skyports.net,Drones,Aylesbury,4,skyports,BVLOS logistics and inspection,"""Skyports"" drone",Skyports
-CMR Surgical,cmrsurgical.com,Surgical robotics,Cambridge,5,cmrsurgical,Versius; surgical video analytics,"""CMR Surgical""","""CMR Surgical"" OR Versius"
-Kheiron Medical,kheironmed.com,Medical imaging,London,4,kheiron;kheironmedical,AI mammography,"""Kheiron"" mammography OR breast",Kheiron
-Opteran,opteran.com,Robot navigation,Sheffield,3,opteran,Insect-brain navigation,"""Opteran""",Opteran
-Tharsus,tharsus.co.uk,Robotics manufacturing,Blyth,3,tharsus,Builds robots for Ocado and others,"""Tharsus""",Tharsus
-Extend Robotics,extendrobotics.com,Teleoperation,Reading,3,extendrobotics;extend-robotics,VR teleop and autonomy data,"""Extend Robotics""","""Extend Robotics"""
-Proximie,proximie.com,Surgical video,London,4,proximie,Operating room video platform,"""Proximie""",Proximie
-Perceptual Robotics,perceptual-robotics.com,Drone inspection,Bristol,4,perceptualrobotics;perceptual-robotics,Wind turbine blade inspection by drone,"""Perceptual Robotics""","""Perceptual Robotics"""
-Muddy Machines,muddymachines.com,Agri robotics,London,3,muddymachines,Asparagus harvesting robot,"""Muddy Machines""","""Muddy Machines"""
-Ocado Technology,ocadogroup.com,Warehouse robotics,Hatfield,4,ocado;ocadogroup,Grid robots and robotic picking,"""Ocado"" robot OR robotics OR technology",Ocado
-Panakeia,panakeia.ai,Digital pathology,London,4,panakeia,Pathology slide AI,"""Panakeia""",Panakeia
-Sees.ai,sees.ai,Drones,London,3,seesai;sees-ai,BVLOS drone operations,"""sees.ai"" drone",
-Fieldwork Robotics,fieldworkrobotics.com,Agri robotics,Cambridge,3,fieldworkrobotics,Raspberry harvesting robots,"""Fieldwork Robotics""","""Fieldwork Robotics"""
-Helsing UK,helsing.ai,Defence AI,London,4,helsing,Defence perception and drones; UK office,"""Helsing"" defence",Helsing
+name,domain,vertical,hq,fit,ats_slugs,notes,query,paper_query,persona,contact
+Dexory,dexory.com,Warehouse robotics,London,5,dexory,Camera robots scan racking daily; Storage Health launched Feb 2026,"""Dexory""",Dexory,Head of Perception / ML Lead,
+Oxa,oxa.tech,Industrial autonomy,Oxford,5,oxa;oxbotica,Autonomous vehicles for ports and airports; Oxa Foundry toolchain,"""Oxa"" autonomous OR autonomy",Oxa autonomous,Perception Lead / Data Platform Lead,
+Humanoid,thehumanoid.ai,Humanoid robotics,London,5,humanoid;thehumanoid,Bosch contract manufacturing; scaling to fleet,"""Humanoid"" robotics startup London","""Humanoid"" Bosch",Head of AI / Data Infrastructure Lead,
+Wayve,wayve.ai,Autonomous driving,London,5,wayve,End-to-end AI driver; large in-house ML team,"""Wayve""",Wayve,Data Platform Lead (perception team is well covered),
+Dogtooth Technologies,dogtooth.tech,Agri robotics,Royston,4,dogtooth;dogtoothtechnologies,Fruit picking and grading robots,"""Dogtooth"" robot OR harvesting",Dogtooth,CTO / Lead CV Engineer,
+Automata,automata.tech,Lab automation,London,3,automata;automatatech,LINQ platform; bench imaging,"""Automata"" lab automation",,Head of Software / CV Lead,
+Skyports Drone Services,skyports.net,Drones,Aylesbury,4,skyports,BVLOS logistics and inspection,"""Skyports"" drone",Skyports,Head of Autonomy / CV Lead,
+CMR Surgical,cmrsurgical.com,Surgical robotics,Cambridge,5,cmrsurgical,Versius; surgical video analytics,"""CMR Surgical""","""CMR Surgical"" OR Versius",Head of Data Science / Clinical AI Lead,
+Kheiron Medical,kheironmed.com,Medical imaging,London,4,kheiron;kheironmedical,AI mammography,"""Kheiron"" mammography OR breast",Kheiron,Head of ML / Clinical Data Lead,
+Opteran,opteran.com,Robot navigation,Sheffield,3,opteran,Insect-brain navigation,"""Opteran""",Opteran,CTO / Perception Lead,
+Tharsus,tharsus.co.uk,Robotics manufacturing,Blyth,3,tharsus,Builds robots for Ocado and others,"""Tharsus""",Tharsus,Head of Software / Automation Lead,
+Extend Robotics,extendrobotics.com,Teleoperation,Reading,3,extendrobotics;extend-robotics,VR teleop and autonomy data,"""Extend Robotics""","""Extend Robotics""",CTO / Autonomy Lead,
+Proximie,proximie.com,Surgical video,London,4,proximie,Operating room video platform,"""Proximie""",Proximie,VP Engineering / Head of AI,
+Perceptual Robotics,perceptual-robotics.com,Drone inspection,Bristol,4,perceptualrobotics;perceptual-robotics,Wind turbine blade inspection by drone,"""Perceptual Robotics""","""Perceptual Robotics""",CTO / ML Lead,
+Muddy Machines,muddymachines.com,Agri robotics,London,3,muddymachines,Asparagus harvesting robot,"""Muddy Machines""","""Muddy Machines""",CTO / Lead CV Engineer,
+Ocado Technology,ocadogroup.com,Warehouse robotics,Hatfield,4,ocado;ocadogroup,Grid robots and robotic picking,"""Ocado"" robot OR robotics OR technology",Ocado,Head of Perception / ML Lead,
+Panakeia,panakeia.ai,Digital pathology,London,4,panakeia,Pathology slide AI,"""Panakeia""",Panakeia,Head of ML / Data Ops Lead,
+Sees.ai,sees.ai,Drones,London,3,seesai;sees-ai,BVLOS drone operations,"""sees.ai"" drone",,Head of Autonomy / CV Lead,
+Fieldwork Robotics,fieldworkrobotics.com,Agri robotics,Cambridge,3,fieldworkrobotics,Raspberry harvesting robots,"""Fieldwork Robotics""","""Fieldwork Robotics""",CTO / Lead CV Engineer,
+Helsing UK,helsing.ai,Defence AI,London,4,helsing,Defence perception and drones; UK office,"""Helsing"" defence",Helsing,"Perception Lead, UK / Data Platform Lead",
