@@ -45,7 +45,17 @@ button:focus-visible,select:focus-visible,input:focus-visible,.tile:focus-visibl
 <div class="tiles" id="tiles"></div>
 <div class="today" id="today" hidden></div>
 <div class="feed" id="feed" hidden></div>
-<div class="bar"><input id="q" type="search" placeholder="filter accounts"><select id="vert"><option value="">all verticals</option></select><select id="st"><option value="">any status</option><option>untouched</option><option>contacted</option><option>replied</option><option>meeting</option><option>parked</option></select><select id="own"><option value="">any owner</option></select><button class="chipbtn" id="mine">mine</button><label><input id="onlynew" type="checkbox"> new signals</label><label><input id="pipefirst" type="checkbox" checked> pipeline first</label></div>
+<div class="bar"><input id="q" type="search" placeholder="filter accounts"><select id="vert"><option value="">all verticals</option></select><select id="st"><option value="">any status</option><option>untouched</option><option>contacted</option><option>replied</option><option>meeting</option><option>parked</option></select><select id="own"><option value="">any owner</option></select><button class="chipbtn" id="mine">mine</button><label><input id="onlynew" type="checkbox"> new signals</label><label><input id="pipefirst" type="checkbox" checked> pipeline first</label><button id="addBtn" style="margin-left:auto">+ add account</button></div>
+<div class="help" id="addForm" hidden><div>
+<h3>Add an account</h3>
+<p class="why" style="margin:0 0 10px">Fills in a request; the desk bot adds the row, pulls its signals and, if ticked, writes a brief. Live in about three minutes.</p>
+<div class="row"><input id="a_name" type="text" placeholder="company name *" style="flex:1"><input id="a_domain" type="text" placeholder="domain, e.g. dexory.com *" style="flex:1"></div>
+<div class="row"><input id="a_vertical" type="text" placeholder="vertical, e.g. Warehouse robotics" style="flex:1"><input id="a_hq" type="text" placeholder="HQ city" style="flex:1"><select id="a_fit"><option value="3">fit 3</option><option value="4">fit 4</option><option value="5">fit 5</option><option value="2">fit 2</option><option value="1">fit 1</option></select></div>
+<div class="row"><input id="a_blurb" type="text" placeholder="what they build, one sentence" style="flex:1"></div>
+<div class="row"><input id="a_data" type="text" placeholder="the data we can help with, one sentence" style="flex:1"></div>
+<div class="row"><input id="a_persona" type="text" placeholder="target persona, e.g. Head of Perception" style="flex:1"><label><input id="a_brief" type="checkbox"> write a brief now</label></div>
+<div class="row"><button id="addGo">raise the request ↗</button><button class="ghost" id="addClose">cancel</button><span class="why">opens GitHub with everything filled in; press Submit there</span></div>
+</div></div>
 <div class="grid">
   <div class="tbl"><table><thead><tr><th>#</th><th>Account</th><th>Fit</th><th>Mom.</th><th>Score</th><th>Why now</th><th>Lead with</th><th>Owner</th><th>Next</th><th>Brief</th><th>Status</th></tr></thead><tbody id="tb"></tbody></table></div>
   <aside class="panel" id="panel"><div class="sub">select an account</div></aside>
@@ -141,7 +151,7 @@ function panel(){const r=ROWS.find(x=>x.name===sel);if(!r)return;const sl=slug(r
 <div class="row">${Object.entries(r.pts).filter(([k,v])=>v>0).map(([k,v])=>`<span class="chip">${k} +${v}</span>`).join('')}</div>
 <p style="font-size:13px;margin:6px 0"><b>Why now:</b> ${esc(r.why)}<br><span class="why">${esc(r.notes)}</span></p>
 <p style="font-size:13px;margin:6px 0"><b>Lead with:</b> ${esc(r.product)}<br><span class="why">${esc(r.angle)}</span></p>
-${r.brief?`<div class="brief"><div class="eb">FIRST-MEETING BRIEF · ${r.brief.confidence.toUpperCase()} CONFIDENCE · ${r.brief.generated} · DRAFT</div><p style="margin:6px 0;font-size:13.5px"><b>${esc(r.brief.headline)}</b></p><div class="why">Lead with ${r.brief.modules.join(' → ')}</div><div style="margin-top:6px;font-size:12.5px">${r.brief.hypotheses.map((h,i)=>`<div style="margin:3px 0"><b>H${i+1}</b> ${esc(h)}</div>`).join('')}</div><div class="row" style="margin-top:8px"><button id="deckBtn">download brief deck (pptx)</button><span class="why">7 slides · questions and risks in speaker notes</span></div></div>`:`<div class="row"><label>brief</label><span class="why">${esc(r.deck_lock)}</span></div>`}
+${r.brief?`<div class="brief"><div class="eb">FIRST-MEETING BRIEF · ${r.brief.confidence.toUpperCase()} CONFIDENCE · ${r.brief.generated} · DRAFT</div><p style="margin:6px 0;font-size:13.5px"><b>${esc(r.brief.headline)}</b></p><div class="why">Lead with ${r.brief.modules.join(' → ')}</div><div style="margin-top:6px;font-size:12.5px">${r.brief.hypotheses.map((h,i)=>`<div style="margin:3px 0"><b>H${i+1}</b> ${esc(h)}</div>`).join('')}</div><div class="row" style="margin-top:8px"><button id="deckBtn">download brief deck (pptx)</button><span class="why">7 slides · questions and risks in speaker notes</span></div></div>`:`<div class="row"><label>brief</label><button class="ghost" id="reqBrief">request a brief ↗</button><span class="why">reasoned point of view and deck, about three minutes</span></div>`}
 <div class="row"><label>target persona</label><span class="stat">${esc(r.persona)}</span></div>
 <div class="row"><label>contact</label><input id="pcontact" type="text" placeholder="name, title, LinkedIn URL" value="${esc(s.contact||r.contact||'')}" style="flex:1" ${ro?'disabled':''}></div>
 <div class="row"><b style="font-size:12px">Opener</b><button id="copy">copy</button></div><textarea id="op" ${ro?'disabled':''}>${esc(s.opener||r.opener)}</textarea>
@@ -158,6 +168,9 @@ ${r.signals.map(x=>`<div class="sig"><span class="chip">${x.type}</span> <a href
   $('ladd').onclick=()=>{const t=$('ltext').value.trim();if(!t)return;$('ltext').value='';logEntry(sl,'note',t)};
   $('ltext').onkeydown=e=>{if(e.key==='Enter')$('ladd').click()};
   document.querySelectorAll('button[data-k]').forEach(b=>b.onclick=()=>{const k=b.dataset.k,p=pending();if(k==='email'&&p.status==='untouched'){p.status='contacted';p.next=p.next||addDays(TODAY,3)}if(k==='reply'){p.status=p.status==='meeting'?'meeting':'replied';p.next=addDays(TODAY,1)}if(!p.owner)p.owner=ME.id;p.log=[{t:new Date().toISOString(),who:ME.id,kind:k,text:$('ltext').value.trim()}].concat(p.log).slice(0,40);$('ltext').value='';write(sl,p)});
+  const rb=$('reqBrief');if(rb)rb.onclick=()=>{issue('brief: '+r.name,`Please write a first-meeting brief and deck for ${r.name}.
+
+raised from the desk by ${ME.name||'a teammate'}`);logEntry(sl,'brief','requested a brief')};
   $('copy').onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText($('op').value);$('copy').textContent='copied';setTimeout(()=>$('copy').textContent='copy',1200)};
   const dk=$('deckBtn');if(dk)dk.onclick=async()=>{const f=BRIEF_FILES[sl];const name=`Encord-x-${sl}.pptx`;
     if(dl&&f){dk.disabled=true;try{const bin=Uint8Array.from(atob(f),c=>c.charCodeAt(0));await dl.save({filename:name,data:bin});logEntry(sl,'deck','downloaded brief deck')}catch(e){if(!(e&&e.code==='declined'))alert('could not save: '+(e&&e.message||e))}dk.disabled=false}
@@ -169,7 +182,22 @@ $('exportBtn').onclick=async()=>{const hdr=['account','vertical','fit','momentum
   const lines=[hdr.join(',')].concat(ROWS.map(r=>{const s=state[slug(r.name)]||{};const last=(s.log||[])[0];return [r.name,r.vertical,r.fit,r.momentum,r.total,st(r),who(own(r)),s.next||'',s.contact||'',r.why,r.product,last?last.t.slice(0,10)+' '+last.kind:''].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')}));
   const csv=lines.join('\n'),name=`signal-desk-pipeline-${TODAY}.csv`;
   if(dl){try{await dl.save({filename:name,data:csv})}catch(e){}}else{const a=document.createElement('a');a.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);a.download=name;document.body.appendChild(a);a.click();a.remove()}};
-$('helpBtn').onclick=()=>{$('help').hidden=false};$('helpClose').onclick=()=>{$('help').hidden=true};
+$('helpBtn').onclick=()=>{$('help').hidden=false};
+const ISSUES='https://github.com/qaisak/signal-desk/issues/new';
+const issue=(title,body)=>window.open(ISSUES+'?title='+encodeURIComponent(title)+'&body='+encodeURIComponent(body),'_blank','noopener');
+$('addBtn').onclick=()=>{$('addForm').hidden=false;$('a_name').focus()};$('addClose').onclick=()=>{$('addForm').hidden=true};
+$('addGo').onclick=()=>{const g=id=>$(id).value.trim();if(!g('a_name')||!g('a_domain')){alert('name and domain are required');return}
+  const body=`domain: ${g('a_domain')}
+vertical: ${g('a_vertical')||'Other'}
+hq: ${g('a_hq')}
+fit: ${g('a_fit')}
+blurb: ${g('a_blurb')}
+data: ${g('a_data')}
+persona: ${g('a_persona')||'ML Lead'}
+brief: ${$('a_brief').checked?'yes':'no'}
+
+raised from the desk by ${ME.name||'a teammate'}`;
+  issue('add account: '+g('a_name'),body);$('addForm').hidden=true};$('helpClose').onclick=()=>{$('help').hidden=true};
 $('mine').onclick=()=>{mineOnly=!mineOnly;$('mine').classList.toggle('on',mineOnly);render()};
 $('vert').innerHTML+=[...new Set(ROWS.map(r=>r.vertical))].sort().map(v=>`<option>${v}</option>`).join('');
 ['q','vert','st','own','onlynew','pipefirst'].forEach(id=>$(id).addEventListener('input',render));

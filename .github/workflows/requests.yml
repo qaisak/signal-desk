@@ -1,0 +1,39 @@
+name: handle request
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+jobs:
+  handle:
+    if: startsWith(github.event.issue.title, 'add account:') || startsWith(github.event.issue.title, 'brief:') || startsWith(github.event.issue.title, 'park:')
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+      ISSUE_TITLE: ${{ github.event.issue.title }}
+      ISSUE_BODY: ${{ github.event.issue.body }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests feedparser anthropic python-pptx
+      - id: req
+        run: |
+          echo "result=$(python requests.py)" >> "$GITHUB_OUTPUT"
+      - run: python signals.py
+      - run: python brief.py
+      - run: python deck.py
+      - run: python dashboard.py
+      - run: |
+          git config user.name "signal-desk bot" && git config user.email "bot@users.noreply.github.com"
+          git add accounts.csv data/signals.json data/briefs index.html docs/index.html docs/briefs docs/digest.md
+          git commit -m "request: ${{ github.event.issue.title }}" || echo "no change"
+          git pull --rebase origin main && git push
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const result = ${{ toJSON(steps.req.outputs.result) }};
+            await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body: `${result}\n\nDesk: https://qaisak.github.io/signal-desk/` });
+            await github.rest.issues.update({ ...context.repo, issue_number: context.issue.number, state: 'closed' });

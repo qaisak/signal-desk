@@ -47,9 +47,11 @@ risks go in the speaker notes). Everything is marked DRAFT: read it before it
 goes anywhere. Briefs refresh weekly, not daily, to keep API spend low
 (roughly 10p each). Needs `ANTHROPIC_API_KEY` locally or as a GitHub secret.
 
-## Adding an account
+## Adding an account or requesting a brief
 
-One row in `accounts.csv`. `query` is the Google News search (quote the name,
+From the desk: **+ add account** opens a pre-filled request; **request a brief** on any account does the same. Each is a GitHub issue that the `handle request` workflow reads, applies to `accounts.csv`, runs the pipeline for, and closes with a comment. About three minutes end to end. Teammates need a GitHub account with access to the repo.
+
+By hand: one row in `accounts.csv`. `query` is the Google News search (quote the name,
 add a disambiguator for generic names). `ats_slugs` are guesses at the job
 board slug, semicolon separated; the first that answers wins. `paper_query`
 blank skips arXiv.
