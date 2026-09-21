@@ -1,0 +1,113 @@
+{
+ "headline": "Wootzano sells a robot that must find the stem, judge the weight and snip cleanly on every truss, so its edge is the vision data behind that snip, and every new customer, cultivar and season means relabelling that data faster than a small team can by hand.",
+ "what_they_build": "Avarai is a collaborative robotic packing cell for post-harvest fresh produce, sized to replace one human on a punnet line. It combines a dexterous hand with patented food-safe electronic skin, vision-based stem detection and intelligent weight estimation to snip vine produce to a retailer's target weight without bruising. Packhouses and growers pay, pitched on labour cost per line and payback, with claimed 30% cost saving and 40-50% productivity uplift.",
+ "inferred_pipeline": [
+  "Guess: Intel RealSense or similar RGB-D cameras above the conveyor and on the arm capture continuous close-up video of trusses, punnets and the gripper, plus tactile streams from the electronic skin.",
+  "Guess: footage is pulled off the cell PC at each packhouse and pooled centrally, likely in object storage or on a NAS in Sedgefield, with little frame-level metadata beyond site, line and date.",
+  "Guess: engineers hand-pick frames for labelling, probably with an open source tool (CVAT or Label Studio) or a small in-house web app, and label stems, snip points and fruit masks.",
+  "Guess: models for stem and snip-point detection plus weight estimation are trained in-house, with grasp and force policy tuned against the skin sensor data separately.",
+  "Guess: validation is qualitative, watching the cell run on a new cultivar during a pilot week and patching failures by adding more frames from that site.",
+  "Guess: each new customer, produce type or packaging spec triggers a fresh collection and labelling cycle, which gates how fast installs can scale."
+ ],
+ "hypotheses": [
+  {
+   "pain": "Every new packhouse, cultivar or punnet spec needs a fresh labelled set before the snip is reliable, so data work, not hardware, sets the pace of installs.",
+   "evidence": "Site promises Day 1 install, Day 2 ready to use, and per-line ROI, which only holds if vision generalises across sites and produce types.",
+   "encord_answer": "Annotate with a shared ontology across sites, SAM 3 auto-segmentation and object tracking across native video to label whole truss sequences from a few clicks, then Agents to pre-label new-site footage with their own stem detector so humans only correct."
+  },
+  {
+   "pain": "Conveyor footage is overwhelmingly near-duplicate, so the team labels thousands of frames that teach the model nothing while rare defects and odd trusses stay under-represented.",
+   "evidence": "Fixed overhead camera on a repetitive packing line is inherently redundant; no CV job ads found, implying a small team with no curation tooling.",
+   "encord_answer": "Index registers their existing bucket, no data movement, computes embeddings and per-frame quality metrics, then similarity search and the embedding plot cut duplicates and build Collections of the rare cases worth labelling."
+  },
+  {
+   "pain": "No quantified way to say which failure mode is costing throughput, so model fixes are guessed from watching the cell rather than measured per class and condition.",
+   "evidence": "Marketing leads on precision snipping and clean stem detection, but nothing on site suggests a measured evaluation loop; no ML hires advertised.",
+   "encord_answer": "Active imports their predictions for mAP, F1, PR curves and confusion matrix, sliced by class, site or any data metric, and metric-to-failure correlation points at which frames to label next."
+  }
+ ],
+ "ontology": [
+  {
+   "name": "Truss stem / vine",
+   "shape": "polyline",
+   "why": "Stem is a thin curved structure; a polyline captures path and branch order for snipping."
+  },
+  {
+   "name": "Snip point",
+   "shape": "keypoint",
+   "why": "The exact cut location the gripper and cutter must target."
+  },
+  {
+   "name": "Individual fruit (tomato/berry)",
+   "shape": "bitmask",
+   "why": "Per-fruit pixel masks feed size and weight estimation on touching, overlapping produce."
+  },
+  {
+   "name": "Calyx / stalk attachment",
+   "shape": "keypoint",
+   "why": "Anchor for orientation and for judging whether a fruit detaches cleanly."
+  },
+  {
+   "name": "Grasp region on fruit",
+   "shape": "polygon",
+   "why": "Links vision to electronic-skin force targets for bruise-free handling."
+  },
+  {
+   "name": "Defect (bruise, split, mould, rot)",
+   "shape": "polygon",
+   "why": "Irregular boundaries; drives reject decisions and retailer quality specs."
+  },
+  {
+   "name": "Punnet / tray and fill state",
+   "shape": "bounding box",
+   "why": "Tracks target container and packed weight progress on the line."
+  },
+  {
+   "name": "Frame condition (cultivar, site, lighting, occlusion, wet)",
+   "shape": "frame classification",
+   "why": "Lets them slice model performance by packhouse and produce type in Active."
+  }
+ ],
+ "modules": [
+  "Annotate",
+  "Index",
+  "Active",
+  "Agents"
+ ],
+ "case_study": {
+  "name": "Automotus",
+  "why_it_matches": "Fixed cameras producing a continuous, highly repetitive stream of a narrow scene, exactly like an overhead conveyor view. The win came from curating which frames to label rather than labelling more, which is the shape of Wootzano's problem when onboarding each new packhouse.",
+  "numbers": "+20% mAP, 35% smaller dataset, 33% lower labelling cost after curating with Encord."
+ },
+ "proof_of_value": [
+  "Week 1, day 1-2: register one bucket of existing line footage from two sites or two cultivars into Index, data stays in their storage, and generate embeddings plus brightness, sharpness and uniqueness metrics per frame.",
+  "Week 1, day 3-5: build the truss, stem, snip point, fruit, defect and punnet ontology in Annotate; label roughly 1,000 frames using SAM 3, object tracking and interpolation across video, with a review stage in the workflow. Metric: labelled frames per annotator hour versus their current tool.",
+  "Week 2, day 6-8: use similarity search and diversity sampling to create a curated Collection and a random Collection of equal size from the same footage; train their stem/snip model on each. Metric: mAP50 on a held-out site, curated versus random.",
+  "Week 2, day 9-10: import their current production model's predictions into Active, review confusion matrix and PR curves sliced by cultivar, site and lighting, and run label validation to surface mislabelled snip points. Metric: number of label errors found and the top two failure slices named.",
+  "Wrap-up: agree a target for frames to label per new site onboarding and a go/no-go threshold, for example 50% fewer frames labelled at equal or better mAP, plus an Agents stage that pre-labels new footage with their own detector."
+ ],
+ "discovery_questions": [
+  "When you install at a new packhouse or take on a new cultivar, how much footage do you collect and how many frames actually get labelled before the cell is trusted to snip?",
+  "Who labels today, the engineering team, an agency or the customer's staff, and in which tool?",
+  "How do you currently decide a model is good enough to go live on a line, and is that a number or a week of watching it run?",
+  "Where does the camera footage live now, your own S3 or Azure bucket, or on the cell PCs at each site, and are packhouse customers restricted on what leaves their premises?",
+  "How do you pair the electronic skin force data with the vision frames, and would you want both reviewed against the same timeline?"
+ ],
+ "risks": [
+  "Small hardware-led company in Sedgefield with no advertised CV or ML roles, so the ML team may be two or three people using free tooling and with no budget line for a data platform.",
+  "Vision may be a solved-enough internal problem in their view, with hardware, the skin sensor and install throughput taking priority for spend.",
+  "Footage may sit on cell PCs at customer packhouses with contractual limits on export, which would slow any bucket registration.",
+  "In-house annotation app already built and good enough; switching cost and a CTO's preference for owning the stack.",
+  "No recent funding, hiring or product signals in window, so timing and budget are unknown and this could be a long nurture."
+ ],
+ "opener_email": "Hi [name],\n\nYour site leads on precise stem detection and a clean snip every time. That is a data problem as much as a hardware one: each new packhouse and cultivar needs fresh labelled footage before the cell can be trusted.\n\nEncord is a data platform for vision robotics. We label stems as polylines and snip points as keypoints straight on video, with tracking, and we cut how many near-duplicate conveyor frames you need to label at all.\n\nWorth 20 minutes to compare notes?\n\nQais",
+ "confidence": "low",
+ "account": "Wootzano",
+ "generated": "2026-09-21",
+ "status": "DRAFT: review before sending",
+ "signals_used": 0,
+ "usage": {
+  "input": 3341,
+  "output": 3619
+ }
+}

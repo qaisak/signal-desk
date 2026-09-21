@@ -54,7 +54,7 @@ button:focus-visible,select:focus-visible,input:focus-visible,.tile:focus-visibl
 <div class="row"><input id="a_blurb" type="text" placeholder="what they build, one sentence" style="flex:1"></div>
 <div class="row"><input id="a_data" type="text" placeholder="the data we can help with, one sentence" style="flex:1"></div>
 <div class="row"><input id="a_persona" type="text" placeholder="target persona, e.g. Head of Perception" style="flex:1"><label><input id="a_brief" type="checkbox"> write a brief now</label></div>
-<div class="row"><button id="addGo">raise the request ↗</button><button class="ghost" id="addClose">cancel</button><span class="why">opens GitHub with everything filled in; press Submit there</span></div>
+<div class="row"><button id="addGo">raise the request ↗</button><button class="ghost" id="addClose">cancel</button><span class="why" id="addHint">opens GitHub with everything filled in; press Submit there</span></div>
 </div></div>
 <div class="grid">
   <div class="tbl"><table><thead><tr><th>#</th><th>Account</th><th>Fit</th><th>Mom.</th><th>Score</th><th>Why now</th><th>Lead with</th><th>Owner</th><th>Next</th><th>Brief</th><th>Status</th></tr></thead><tbody id="tb"></tbody></table></div>
@@ -168,9 +168,9 @@ ${r.signals.map(x=>`<div class="sig"><span class="chip">${x.type}</span> <a href
   $('ladd').onclick=()=>{const t=$('ltext').value.trim();if(!t)return;$('ltext').value='';logEntry(sl,'note',t)};
   $('ltext').onkeydown=e=>{if(e.key==='Enter')$('ladd').click()};
   document.querySelectorAll('button[data-k]').forEach(b=>b.onclick=()=>{const k=b.dataset.k,p=pending();if(k==='email'&&p.status==='untouched'){p.status='contacted';p.next=p.next||addDays(TODAY,3)}if(k==='reply'){p.status=p.status==='meeting'?'meeting':'replied';p.next=addDays(TODAY,1)}if(!p.owner)p.owner=ME.id;p.log=[{t:new Date().toISOString(),who:ME.id,kind:k,text:$('ltext').value.trim()}].concat(p.log).slice(0,40);$('ltext').value='';write(sl,p)});
-  const rb=$('reqBrief');if(rb)rb.onclick=()=>{issue('brief: '+r.name,`Please write a first-meeting brief and deck for ${r.name}.
+  const rb=$('reqBrief');if(rb)rb.onclick=()=>{logEntry(sl,'brief','requested a brief');if(LOCAL){rb.disabled=true;localPost('/api/brief',{name:r.name}).catch(e=>{toast(e.message);rb.disabled=false})}else issue('brief: '+r.name,`Please write a first-meeting brief and deck for ${r.name}.
 
-raised from the desk by ${ME.name||'a teammate'}`);logEntry(sl,'brief','requested a brief')};
+raised from the desk by ${ME.name||'a teammate'}`)};
   $('copy').onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText($('op').value);$('copy').textContent='copied';setTimeout(()=>$('copy').textContent='copy',1200)};
   const dk=$('deckBtn');if(dk)dk.onclick=async()=>{const f=BRIEF_FILES[sl];const name=`Encord-x-${sl}.pptx`;
     if(dl&&f){dk.disabled=true;try{const bin=Uint8Array.from(atob(f),c=>c.charCodeAt(0));await dl.save({filename:name,data:bin});logEntry(sl,'deck','downloaded brief deck')}catch(e){if(!(e&&e.code==='declined'))alert('could not save: '+(e&&e.message||e))}dk.disabled=false}
@@ -184,8 +184,12 @@ $('exportBtn').onclick=async()=>{const hdr=['account','vertical','fit','momentum
   if(dl){try{await dl.save({filename:name,data:csv})}catch(e){}}else{const a=document.createElement('a');a.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);a.download=name;document.body.appendChild(a);a.click();a.remove()}};
 $('helpBtn').onclick=()=>{$('help').hidden=false};
 const ISSUES='https://github.com/qaisak/signal-desk/issues/new';
+const LOCAL=location.hostname==='localhost'||location.hostname==='127.0.0.1';
 const issue=(title,body)=>window.open(ISSUES+'?title='+encodeURIComponent(title)+'&body='+encodeURIComponent(body),'_blank','noopener');
-$('addBtn').onclick=()=>{$('addForm').hidden=false;$('a_name').focus()};$('addClose').onclick=()=>{$('addForm').hidden=true};
+function toast(t,sticky){let e=$('toast');if(!e){e=document.createElement('div');e.id='toast';e.style.cssText='position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:8px;font:500 12.5px var(--mono);z-index:20;max-width:90vw';document.body.appendChild(e)}e.textContent=t;e.hidden=false;clearTimeout(e._t);if(!sticky)e._t=setTimeout(()=>e.hidden=true,4000)}
+async function localPost(path,body){const r=await fetch(path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});const j=await r.json();if(!r.ok)throw new Error(j.error||'failed');toast(j.msg+' · the page will reload when done',true);watchLocal();return j}
+let watching=false;function watchLocal(){if(watching)return;watching=true;const t0=Date.now();const iv=setInterval(async()=>{try{const s=await (await fetch('/api/status')).json();if(!s.running&&s.done_at&&s.done_at*1000>t0){clearInterval(iv);toast('done, reloading');setTimeout(()=>location.reload(),800)}else if(s.log&&s.log.length)toast(s.log[s.log.length-1],true)}catch(e){}},3000)}
+$('addBtn').onclick=()=>{$('addForm').hidden=false;if(LOCAL)$('addHint').textContent='added straight away; signals pulled in about a minute';$('a_name').focus()};$('addClose').onclick=()=>{$('addForm').hidden=true};
 $('addGo').onclick=()=>{const g=id=>$(id).value.trim();if(!g('a_name')||!g('a_domain')){alert('name and domain are required');return}
   const body=`domain: ${g('a_domain')}
 vertical: ${g('a_vertical')||'Other'}
@@ -197,7 +201,10 @@ persona: ${g('a_persona')||'ML Lead'}
 brief: ${$('a_brief').checked?'yes':'no'}
 
 raised from the desk by ${ME.name||'a teammate'}`;
-  issue('add account: '+g('a_name'),body);$('addForm').hidden=true};$('helpClose').onclick=()=>{$('help').hidden=true};
+  $('addForm').hidden=true;
+  if(LOCAL){localPost('/api/add',{name:g('a_name'),domain:g('a_domain'),vertical:g('a_vertical'),hq:g('a_hq'),fit:g('a_fit'),blurb:g('a_blurb'),data:g('a_data'),persona:g('a_persona'),brief:$('a_brief').checked}).catch(e=>toast(e.message))}
+  else issue('add account: '+g('a_name'),body)};
+if(LOCAL){$('mode').textContent='local';const rn=document.querySelector('a.btn.ghost[href*="actions"]');if(rn){rn.textContent='refresh now';rn.removeAttribute('href');rn.removeAttribute('target');rn.style.cursor='pointer';rn.onclick=()=>localPost('/api/refresh',{}).catch(e=>toast(e.message))}}$('helpClose').onclick=()=>{$('help').hidden=true};
 $('mine').onclick=()=>{mineOnly=!mineOnly;$('mine').classList.toggle('on',mineOnly);render()};
 $('vert').innerHTML+=[...new Set(ROWS.map(r=>r.vertical))].sort().map(v=>`<option>${v}</option>`).join('');
 ['q','vert','st','own','onlynew','pipefirst'].forEach(id=>$(id).addEventListener('input',render));

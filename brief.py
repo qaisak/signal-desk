@@ -144,6 +144,7 @@ def main():
     client = anthropic.Anthropic()
     for acc in accounts:
         if only and acc["name"] != only: continue
+        if only and acc.get("brief", "").lower() != "yes": continue   # explicit name but not flagged: nothing to do
         if not only and acc.get("brief", "").lower() != "yes": continue
         out = BRIEFS / f"{slug(acc['name'])}.json"
         if not only and out.exists():

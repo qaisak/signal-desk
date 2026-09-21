@@ -7,6 +7,15 @@ B2B territory.
 
 ## Run
 
+Day to day you never touch GitHub:
+
+- **`desk.bat`**: opens the desk at http://localhost:8787 with a local server. "+ add account", "request a brief" and "refresh now" work instantly and push the result to the public page.
+- **`run.bat`**: the full pipeline plus push. Registered as a Windows scheduled task, weekdays 08:00 (`schtasks /Query /TN SignalDesk`).
+- The public page at https://qaisak.github.io/signal-desk/ and the claude.ai team edition are just what the laptop last pushed.
+
+The GitHub Action is a manual fallback for when the laptop is off.
+
+
 ```bash
 python signals.py     # pulls news, jobs, papers, HN for every account (~1 min)
 python dashboard.py   # scores, ranks, writes dashboard.html
@@ -49,7 +58,7 @@ goes anywhere. Briefs refresh weekly, not daily, to keep API spend low
 
 ## Adding an account or requesting a brief
 
-From the desk: **+ add account** opens a pre-filled request; **request a brief** on any account does the same. Each is a GitHub issue that the `handle request` workflow reads, applies to `accounts.csv`, runs the pipeline for, and closes with a comment. About three minutes end to end. Teammates need a GitHub account with access to the repo.
+From the desk opened with `desk.bat`: **+ add account** adds the row and pulls its signals (about ten seconds), **request a brief** writes the brief and deck (about two minutes). The page reloads itself when done. On the public page those buttons open a pre-filled GitHub issue instead, for teammates without the laptop.
 
 By hand: one row in `accounts.csv`. `query` is the Google News search (quote the name,
 add a disambiguator for generic names). `ats_slugs` are guesses at the job

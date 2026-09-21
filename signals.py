@@ -111,10 +111,13 @@ def hn(query):
 
 # ---------------------------------------------------------------- run
 def main():
+    import sys
+    only = sys.argv[1] if len(sys.argv) > 1 else None          # python signals.py "Name" pulls one account and merges
     prev = json.load(open(STORE, encoding="utf-8")) if STORE.exists() else {}
     accounts = list(csv.DictReader(open(ROOT / "accounts.csv", encoding="utf-8")))
-    store = {}
+    store = dict(prev) if only else {}
     for a in accounts:
+        if only and a["name"] != only: continue
         n = a["name"]; print(f"{n:28s}", end="", flush=True)
         items = news(a["query"]) + jobs(a["ats_slugs"]) + papers(a["paper_query"]) + hn(a["paper_query"] or n)
         old = {i["url"]: i for i in prev.get(n, {}).get("signals", [])}
