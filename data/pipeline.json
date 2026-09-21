@@ -19,5 +19,22 @@
   "next": "2026-09-24",
   "updated": "2026-09-21T21:57:40",
   "by": "Maya"
+ },
+ "dexory": {
+  "log": [
+   {
+    "t": "2026-09-21T17:58:27.660Z",
+    "who": "Qais",
+    "kind": "call",
+    "text": ""
+   }
+  ],
+  "status": "untouched",
+  "owner": "Qais",
+  "next": "",
+  "contact": "",
+  "opener": "Hi [name],\n\nYour Senior Data Engineer ad mentions modelling perception accuracy and scan coverage per site against contracted SLAs. That is the part most robotics teams find hardest once new classes like damaged stock and leaning pallets go live.\n\nEncord registers data in your own bucket, de-duplicates near-identical rack passes, and slices model accuracy by site and scan condition. On a simulated warehouse-robot stream we cut frames to label by 61 percent and still improved mAP50.\n\nWorth 20 minutes?\n\nQais",
+  "updated": "2026-09-21T21:58:27",
+  "by": "Qais"
  }
 }
