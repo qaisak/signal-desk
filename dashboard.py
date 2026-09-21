@@ -126,7 +126,7 @@ page = (ROOT / "template.html").read_text(encoding="utf-8").replace("__DATA__", 
 standalone = ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' + page + "</html>")
 (ROOT / "docs").mkdir(exist_ok=True)
 (ROOT / "docs" / "index.html").write_text(standalone, encoding="utf-8")
-(ROOT / "index.html").write_text(standalone.replace('"deck":"briefs/', '"deck":"docs/briefs/'), encoding="utf-8")   # repo root, for Pages set to /
+(ROOT / "index.html").write_text(standalone.replace('"deck": "briefs/', '"deck": "docs/briefs/'), encoding="utf-8")   # repo root, for Pages set to /
 
 # ------------------------------------------------------------------ daily digest (markdown + optional Slack)
 NL = chr(10)
