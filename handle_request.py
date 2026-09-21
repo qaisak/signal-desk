@@ -5,7 +5,7 @@ Handle a request raised as a GitHub issue from the dashboard.
   title "brief: <Name>"         -> brief=yes on that row (and verified=yes)
   title "park: <Name>"          -> brief=no
 
-Run by .github/workflows/requests.yml with ISSUE_TITLE / ISSUE_BODY set.
+Run by .github/workflows/requests.yml (file is named handle_request.py so it does not shadow the requests library) with ISSUE_TITLE / ISSUE_BODY set.
 Prints a one-line result for the bot to post back on the issue.
 """
 import csv, os, re, sys

@@ -21,7 +21,7 @@ jobs:
       - run: pip install requests feedparser anthropic python-pptx
       - id: req
         run: |
-          echo "result=$(python requests.py)" >> "$GITHUB_OUTPUT"
+          echo "result=$(python handle_request.py)" >> "$GITHUB_OUTPUT"
       - run: python signals.py
       - run: python brief.py
       - run: python deck.py
