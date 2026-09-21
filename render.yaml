@@ -16,3 +16,5 @@ services:
         sync: false        # briefs
       - key: GITHUB_TOKEN
         sync: false        # fine-grained PAT, Contents: read/write on this repo; lets the server save state to the repo
+      - key: GIT_REMOTE
+        value: https://github.com/qaisak/signal-desk.git

@@ -43,6 +43,10 @@ def sh(cmd, quiet=False):
 
 # ---------------------------------------------------------------- git persistence
 def git_setup():
+    if not (ROOT / ".git").exists() and TOKEN and os.environ.get("GIT_REMOTE"):
+        # host copied the files without .git: re-attach to the repo so state can be saved back
+        sh(["git", "init", "-q"], quiet=True); sh(["git", "remote", "add", "origin", os.environ["GIT_REMOTE"]], quiet=True)
+        sh(["git", "fetch", "-q", "origin", "main"], quiet=True); sh(["git", "reset", "-q", "--mixed", "origin/main"], quiet=True); sh(["git", "checkout", "-q", "-B", "main"], quiet=True)
     if TOKEN:
         url = os.environ.get("GIT_REMOTE") or subprocess.run(["git", "remote", "get-url", "origin"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
         url = re.sub(r"https://[^@]*@", "https://", url)
