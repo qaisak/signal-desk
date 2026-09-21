@@ -1,7 +1,11 @@
 name: refresh signals
-# Fallback only. The laptop's scheduled task (run.bat, weekdays 08:00) is the
-# primary refresh; this exists for when the laptop is off. Manual trigger only.
+# Daily signal refresh. Runs on GitHub so it happens whether or not the laptop
+# is on; the hosted server pulls the result within ten minutes. Briefs are only
+# written here if ANTHROPIC_API_KEY is set as a repo secret (the hosted server
+# writes them on demand anyway).
 on:
+  schedule:
+    - cron: "0 7 * * 1-5"
   workflow_dispatch:
 concurrency:
   group: desk

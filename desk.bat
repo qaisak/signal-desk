@@ -1,4 +1,4 @@
 @echo off
-rem Opens the desk with the local server (add account / request brief / refresh work instantly).
+rem Opens the desk locally (no password). Add account / request brief / refresh work instantly.
 cd /d "%~dp0"
-python serve.py
+python app.py --open --push

@@ -177,8 +177,18 @@ class H(SimpleHTTPRequestHandler):
         b = html.encode(); self.send_response(200); self.send_header("Content-Type", "text/html; charset=utf-8"); self.send_header("Content-Length", str(len(b))); self.end_headers(); self.wfile.write(b)
 
 
+def sync_loop():
+    """Every 10 minutes pull whatever the daily GitHub refresh pushed (signals, rebuilt page)."""
+    while True:
+        time.sleep(600)
+        if STATE["running"]: continue
+        with LOCK:
+            sh(["git", "pull", "-q", "--rebase", "-X", "theirs", "origin", "main"], quiet=True)
+
+
 if __name__ == "__main__":
     git_setup()
+    threading.Thread(target=sync_loop, daemon=True).start()
     if not (ROOT / "docs" / "index.html").exists(): sh([PY, "dashboard.py"])
     print(f"Signal Desk on http://0.0.0.0:{PORT}  password={'on' if PASSWORD else 'off'}  push={'on' if TOKEN else 'off'}", flush=True)
     if "--open" in sys.argv:

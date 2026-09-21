@@ -1,0 +1,18 @@
+# Render blueprint: New + > Blueprint > pick this repo. Free tier is enough.
+services:
+  - type: web
+    name: signal-desk
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12"
+      - key: DESK_PASSWORD
+        sync: false        # set in the dashboard: the team's shared password
+      - key: ANTHROPIC_API_KEY
+        sync: false        # briefs
+      - key: GITHUB_TOKEN
+        sync: false        # fine-grained PAT, Contents: read/write on this repo; lets the server save state to the repo

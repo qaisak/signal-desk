@@ -65,15 +65,23 @@ add a disambiguator for generic names). `ats_slugs` are guesses at the job
 board slug, semicolon separated; the first that answers wins. `paper_query`
 blank skips arXiv.
 
-## Two editions, one codebase
+## Hosting it for a team (Render, free)
 
-| | GitHub Pages | claude.ai artifact |
-|---|---|---|
-| URL | https://qaisak.github.io/signal-desk/ | private link, shared from its Share menu |
-| Pipeline state | this browser only (localStorage) | shared live across the team (claude db), every action attributed |
-| Who am I | "you" | your claude.ai identity; owners and the activity feed show real names |
-| Deck download | direct | via the downloads capability |
-| Refresh | daily bot, or "refresh now" | republish after a run |
+1. https://dashboard.render.com > New + > **Blueprint** > connect GitHub > pick `signal-desk`. Render reads `render.yaml`.
+2. It asks for three values: `DESK_PASSWORD` (choose one, share it with the team), `ANTHROPIC_API_KEY` (briefs), `GITHUB_TOKEN` (so the server can save state back to the repo: GitHub > Settings > Developer settings > Fine-grained tokens > this repo only > Contents: read and write).
+3. Deploy. Two minutes later you have `https://signal-desk-xxxx.onrender.com`. Everyone opens it, types their name and the password, done.
+
+What you get: one shared pipeline, names on every action, add account / request brief / refresh from the page, and the repo as the database (every change is committed, so a restart loses nothing and the public GitHub Pages copy stays current). Free-tier note: the instance sleeps after 15 idle minutes and takes ~30 s to wake on the first visit.
+
+## Three editions, one codebase
+
+| | Hosted server (Render) or `desk.bat` | GitHub Pages | claude.ai artifact |
+|---|---|---|---|
+| URL | your Render URL / localhost:8787 | https://qaisak.github.io/signal-desk/ | private link |
+| Pipeline state | shared, saved to the repo | this browser only | shared via claude db |
+| Who am I | name you sign in with | "you" | claude.ai identity |
+| Add account / brief / refresh | in the page, instant | opens a GitHub issue | no |
+| Badge | `team · hosted` / `local` | `solo` | `team · live` |
 
 The page detects which one it is running in. The header badge says `solo` or `team · live`.
 
