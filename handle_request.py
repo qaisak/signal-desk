@@ -51,12 +51,16 @@ if kind == "add account":
                persona=d.get("persona", "ML Lead"), blurb=d.get("blurb", d.get("what_they_build", "")), data=d.get("data", d.get("data_we_can_help_with", "")),
                verified="no", brief="yes" if d.get("brief", "").lower().startswith("y") else "no")
     rows.append(row); save()
-    print(f"added {name} ({row['vertical']}, fit {row['fit']}). Signals will be pulled on this run" + (" and a brief written." if row["brief"] == "yes" else "."))
+    tail = (" and a brief written." if row["brief"] == "yes" and os.environ.get("ANTHROPIC_API_KEY") else (" (brief skipped: no ANTHROPIC_API_KEY secret)." if row["brief"] == "yes" else "."))
+    print(f"added {name} ({row['vertical']}, fit {row['fit']}). Signals will be pulled on this run" + tail)
 elif kind == "brief":
     r = find(name)
     if not r: print(f"no account called {name}; add it first"); sys.exit(0)
     r["brief"] = "yes"; r["verified"] = "yes"; save()
-    print(f"brief requested for {name}. It is being written now; allow three minutes, then reload the desk.")
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        print(f"brief requested for {name}. It is being written now; allow three minutes, then reload the desk.")
+    else:
+        print(f"brief flagged for {name}, but the repo has no ANTHROPIC_API_KEY secret, so nothing can be written. Add it under Settings > Secrets and re-run 'refresh signals'.")
 else:
     r = find(name)
     if not r: print(f"no account called {name}"); sys.exit(0)
