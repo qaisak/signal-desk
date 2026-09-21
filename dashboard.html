@@ -81,16 +81,23 @@ const $=id=>document.getElementById(id);
 
 /* ---------- store: shared (claude db) or local -------------------------------- */
 let state={};            // slug -> {status,owner,next,contact,opener,log:[{t,who,kind,text}]}
-let ME={id:'me',name:'you'};let PROFILES={};let shared=false,canWrite=true,db=null,userCap=null,dl=null;
+let ME={id:'me',name:'you'};let PROFILES={};let shared=false,hosted=false,canWrite=true,db=null,userCap=null,dl=null;
 const K='signal-desk-state-v2';
 function localLoad(){try{state=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){state={}}}
 function localSave(){try{localStorage.setItem(K,JSON.stringify(state))}catch(e){}}
 async function write(sl,patch){const cur=state[sl]||{log:[]};const next=Object.assign({},cur,patch);state[sl]=next;render();panel();
+  if(hosted){const added=(patch.log||[]).filter(l=>!(cur.log||[]).includes(l));try{const r=await fetch('/api/state/'+sl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.assign({},patch,{log_add:added}))});if(r.status===401){location.href='/login';return}const saved=await r.json();state[sl]=saved;render();panel();feed()}catch(e){toast('save failed, retrying on next change')}return}
   if(shared&&db&&canWrite){try{await db.doc('pipeline/'+sl).set(next)}catch(e){if(e&&e.code==='invalid_argument'){canWrite=false;note('read-only view: your role cannot edit shared data')}else note('save failed: '+(e&&e.message||e))}}
   else localSave()}
 function logEntry(sl,kind,text){const cur=state[sl]||{log:[]};const log=[{t:new Date().toISOString(),who:ME.id,kind,text}].concat(cur.log||[]).slice(0,40);return write(sl,{log})}
 function note(t){const n=$('modeNote');n.textContent=t;$('help').hidden=false}
+async function hostedBoot(){
+  try{const me=await (await fetch('/api/me',{cache:'no-store'})).json();if(!me||!me.hosted)return false;
+    hosted=true;LOCAL=true;wireServerButtons();ME={id:me.who,name:me.who};$('mode').textContent='team · hosted';
+    const pull=async()=>{try{const r=await fetch('/api/state',{cache:'no-store'});if(r.status===401){location.href='/login';return}state=await r.json();render();panel();feed()}catch(e){}};
+    await pull();setInterval(pull,20000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)pull()});return true}catch(e){return false}}
 async function boot(){
+  if(await hostedBoot()){finishBoot();return}
   localLoad();render();panel();
   if(!(window.claude&&window.claude.use)){finishBoot();return}
   try{
@@ -105,7 +112,7 @@ async function boot(){
 }
 function finishBoot(){const m=$('me');m.innerHTML=`<span class="av" style="background:${ME.color||'var(--accent)'}">${esc((ME.name||'?').slice(0,2).toUpperCase())}</span><span>${esc(ME.name)}</span>`;render();panel();feed()}
 async function resolveProfiles(){if(!userCap)return;const ids=[...new Set(Object.values(state).flatMap(v=>[v.owner].concat((v.log||[]).map(l=>l.who))).filter(x=>x&&x!=='me'))];if(!ids.length)return;try{PROFILES=await userCap.profiles(ids)}catch(e){}}
-const who=id=>id===ME.id?ME.name||'you':(PROFILES[id]&&PROFILES[id].name)||(id==='me'?'you':'teammate');
+const who=id=>hosted?(id||''):(id===ME.id?ME.name||'you':(PROFILES[id]&&PROFILES[id].name)||(id==='me'?'you':'teammate'));
 
 /* ---------- derived ---------------------------------------------------------- */
 const st=r=>(state[slug(r.name)]||{}).status||'untouched';
@@ -126,7 +133,7 @@ function tiles(){const hot=ROWS.filter(r=>r.momentum>=50),nw=ROWS.reduce((a,r)=>
 }
 let quickFilter='';function quick(k){quickFilter=quickFilter===k?'':k;render()}
 function feed(){const all=[];for(const [sl,v] of Object.entries(state))for(const l of (v.log||[]))all.push(Object.assign({sl},l));all.sort((a,b)=>b.t.localeCompare(a.t));const f=$('feed');f.hidden=!all.length;
-  f.innerHTML=`<details ${shared?'open':''}><summary>TEAM ACTIVITY · last ${Math.min(all.length,12)}</summary>${all.slice(0,12).map(l=>{const r=ROWS.find(x=>slug(x.name)===l.sl);return `<div class="log"><span class="d">${l.t.slice(0,16).replace('T',' ')} · ${esc(who(l.who))}</span> &nbsp;<b>${esc(r?r.name:l.sl)}</b> · ${esc(l.kind)}${l.text?': '+esc(l.text):''}</div>`}).join('')}</details>`}
+  f.innerHTML=`<details ${shared||hosted?'open':''}><summary>TEAM ACTIVITY · last ${Math.min(all.length,12)}</summary>${all.slice(0,12).map(l=>{const r=ROWS.find(x=>slug(x.name)===l.sl);return `<div class="log"><span class="d">${l.t.slice(0,16).replace('T',' ')} · ${esc(who(l.who))}</span> &nbsp;<b>${esc(r?r.name:l.sl)}</b> · ${esc(l.kind)}${l.text?': '+esc(l.text):''}</div>`}).join('')}</details>`}
 
 /* ---------- table ------------------------------------------------------------- */
 let sel=null,mineOnly=false;
@@ -184,7 +191,7 @@ $('exportBtn').onclick=async()=>{const hdr=['account','vertical','fit','momentum
   if(dl){try{await dl.save({filename:name,data:csv})}catch(e){}}else{const a=document.createElement('a');a.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);a.download=name;document.body.appendChild(a);a.click();a.remove()}};
 $('helpBtn').onclick=()=>{$('help').hidden=false};
 const ISSUES='https://github.com/qaisak/signal-desk/issues/new';
-const LOCAL=location.hostname==='localhost'||location.hostname==='127.0.0.1';
+let LOCAL=location.hostname==='localhost'||location.hostname==='127.0.0.1';
 const issue=(title,body)=>window.open(ISSUES+'?title='+encodeURIComponent(title)+'&body='+encodeURIComponent(body),'_blank','noopener');
 function toast(t,sticky){let e=$('toast');if(!e){e=document.createElement('div');e.id='toast';e.style.cssText='position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:8px;font:500 12.5px var(--mono);z-index:20;max-width:90vw';document.body.appendChild(e)}e.textContent=t;e.hidden=false;clearTimeout(e._t);if(!sticky)e._t=setTimeout(()=>e.hidden=true,4000)}
 async function localPost(path,body){const r=await fetch(path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});const j=await r.json();if(!r.ok)throw new Error(j.error||'failed');toast(j.msg+' · the page will reload when done',true);watchLocal();return j}
@@ -204,7 +211,9 @@ raised from the desk by ${ME.name||'a teammate'}`;
   $('addForm').hidden=true;
   if(LOCAL){localPost('/api/add',{name:g('a_name'),domain:g('a_domain'),vertical:g('a_vertical'),hq:g('a_hq'),fit:g('a_fit'),blurb:g('a_blurb'),data:g('a_data'),persona:g('a_persona'),brief:$('a_brief').checked}).catch(e=>toast(e.message))}
   else issue('add account: '+g('a_name'),body)};
-if(LOCAL){$('mode').textContent='local';const rn=document.querySelector('a.btn.ghost[href*="actions"]');if(rn){rn.textContent='refresh now';rn.removeAttribute('href');rn.removeAttribute('target');rn.style.cursor='pointer';rn.onclick=()=>localPost('/api/refresh',{}).catch(e=>toast(e.message))}}$('helpClose').onclick=()=>{$('help').hidden=true};
+function wireServerButtons(){const rn=document.querySelector('a.btn.ghost[href*="actions"]');if(rn){rn.textContent='refresh now';rn.removeAttribute('href');rn.removeAttribute('target');rn.style.cursor='pointer';rn.onclick=()=>localPost('/api/refresh',{}).catch(e=>toast(e.message))}
+  const m=$('me');if(hosted){m.style.cursor='pointer';m.title='switch user';m.onclick=()=>{location.href='/login'}}}
+if(LOCAL){$('mode').textContent='local';wireServerButtons()}$('helpClose').onclick=()=>{$('help').hidden=true};
 $('mine').onclick=()=>{mineOnly=!mineOnly;$('mine').classList.toggle('on',mineOnly);render()};
 $('vert').innerHTML+=[...new Set(ROWS.map(r=>r.vertical))].sort().map(v=>`<option>${v}</option>`).join('');
 ['q','vert','st','own','onlynew','pipefirst'].forEach(id=>$(id).addEventListener('input',render));
