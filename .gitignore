@@ -3,6 +3,8 @@ data/serve.log
 data/serve.err
 data/app.log
 data/app.err
+data/tunnel.log
+data/tunnel.out
 .tools/
 .desk.env
 SHARE.md
