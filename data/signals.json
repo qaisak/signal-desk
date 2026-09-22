@@ -82,7 +82,7 @@
   "blurb": "Self-driving software for industrial vehicles in ports, airports and factories (customers DHL, bp)",
   "data": "Multi-camera and LIDAR streams from repetitive site routes; point clouds plus video that need synced 3D and 2D labelling",
   "verified": "yes",
-  "brief": "no",
+  "brief": "yes",
   "signals": [
    {
     "type": "news",
@@ -118,10 +118,10 @@
    },
    {
     "type": "news",
-    "title": "Oxa to develop global autonomous vehicle hub in Dubai - Smart Cities World",
+    "title": "Oxa to develop global autonomous vehicle hub in Dubai - smartcitiesworld.net",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYTVaR012RF96bzMwWVhPZEppNy0zZmZJYW91R25IQWtkanlDVHlRa2VIeXktLU9NX2twb2c0Zm93OGRUZEdFS1BRaGQwMUJBNXpwaUdQemlmY1VLOXlRZjdNaU91cXR1aXVqOEE3YUVQWmxVWkR2eUNzQXNWMVR3enVzZVpmRUlRclJ6VlR2Q01ReUwyVFZabHVQVjc3Vkdod3JqUEhqTFRmbnAyLTNEdmZUa1JqRE1FUFo2ekZVUmxzZEFo?oc=5",
     "date": "2026-08-04",
-    "source": "Smart Cities World",
+    "source": "smartcitiesworld.net",
     "first_seen": "2026-09-20"
    },
    {
@@ -142,10 +142,10 @@
    },
    {
     "type": "news",
-    "title": "Oxa & Dubai Future Foundation Open Autonomous Logistics Lab - CairoScene",
+    "title": "Oxa & Dubai Future Foundation Open Autonomous Logistics Lab - cairoscene.com",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbjBrM1ZaU3VUU3N5dHFVRXZzVy1NdEJ3ZWhTUHJ4dTlDalA0TWdNRzBPRnBiUE1JeG13WjZFYmh3TlA3U0ZPZGJJT1dXdk02UVFOa3VzdjlGeXFwTWZoVkdKQnZyRVRDLWJFQTE2M0dudEtDUlZCT2x1eDBsOXFJVDIxLVJZMDk1ZW9MWVowX1Uxam8?oc=5",
     "date": "2026-08-04",
-    "source": "CairoScene",
+    "source": "cairoscene.com",
     "first_seen": "2026-09-20"
    },
    {
@@ -1662,7 +1662,7 @@
   "blurb": "Cloud platform that records and streams surgery from 104+ NHS operating theatres",
   "data": "Huge surgical video corpus with AWS and Deloitte pilot; phase and instrument labelling at scale",
   "verified": "yes",
-  "brief": "no",
+  "brief": "yes",
   "signals": [
    {
     "type": "launch",

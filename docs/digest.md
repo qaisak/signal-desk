@@ -15,6 +15,9 @@
 - **Skyports Drone Services**: [hn] GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE); [hn] SDL Now Supports DOS
 - **Kheiron Medical**: [hn] KeiroLabs – Web research infrastructure for AI agents
 
+## New signals since yesterday
+- **Oxa**: [paper] Learning to Drive on Mars: Visual Multimodal Traversability Estimation for Off-W; [paper] Trajectory-Aware Benchmark Subset Selection for Cost-Efficient Software Engineer; [paper] SocioVerse2: A Longitudinal Dynamic Social Simulation Framework under a Human-AI
+
 ## Briefs ready
 - Dexory (medium confidence, 2026-09-20)
 - Wootzano (low confidence, 2026-09-21)

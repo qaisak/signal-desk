@@ -1,0 +1,112 @@
+{
+ "headline": "Proximie has just committed to the largest NHS surgical AI evaluation across 104 theatres, and an evaluation programme lives or dies on curated clips, trustworthy ground truth and a defensible way to score models, which is exactly the gap Encord fills without moving a single frame of patient video.",
+ "what_they_build": "Proximie is a cloud platform for connected operating rooms: hardware in theatre streams and records procedures, the Surgical Suite builds a video library for training and quality, and the Intelligence Suite applies computer vision to theatre workflow, throughput and utilisation. Buyers are NHS trusts and hospital groups plus 40+ medical device companies who want adoption, training and OR efficiency data. Roughly $11m ARR reported for 2025.",
+ "inferred_pipeline": [
+  "Theatre hardware captures laparoscopic, endoscopic and room-camera feeds, with on-device computer vision doing privacy protection (their words: built-in computer vision to protect privacy) before upload. Guess: faces and out-of-body frames are blurred or dropped at the edge.",
+  "Video lands in cloud object storage, almost certainly AWS S3 given the AWS partnership, alongside procedure metadata from the Proximie platform. 100+ TB stated on site.",
+  "Clip selection for AI work is likely manual or rule-based today (by procedure type, site, surgeon). Guess: no embedding-level search or duplicate/quality filtering across the corpus.",
+  "Ground truth for surgical phase, instrument presence and workflow events is produced by clinical reviewers or an outsourced team, probably in a bespoke internal tool or a general video annotation tool. Flagged as a guess, no ML job ads found.",
+  "Models (in-house plus third-party vendors in the NHS evaluation) are trained or fine-tuned, then scored with scripts and notebooks against held-out clips.",
+  "Results feed the Intelligence Suite dashboards on utilisation, turnover and throughput reported back to trusts."
+ ],
+ "hypotheses": [
+  {
+   "pain": "The NHS evaluation needs a consistent, auditable ground truth and a single scoring harness across multiple AI vendors and 104 theatres, otherwise results are not comparable or defensible to trusts.",
+   "evidence": "Sept 2026 launches with AWS, Deloitte and NHS described as the largest ever surgical AI evaluation across 104 operating theatres.",
+   "encord_answer": "Active: import each vendor's predictions, get mAP/mAR/F1, PR curves and confusion matrices on one ground truth, slice by hospital, procedure, camera or any data metric. Annotate gives the audited ground truth with sampled clinical review built into the workflow."
+  },
+  {
+   "pain": "100+ TB of surgical video is mostly redundant. Labelling clinician time is the scarce resource, so picking which minutes to annotate matters more than annotation speed.",
+   "evidence": "Site states 100+ terabytes of video, 500+ facilities, 80k recorded views; no ML job ads found, suggesting a small internal team.",
+   "encord_answer": "Index registers the video from their own S3, generates embeddings and per-frame quality metrics, then similarity search and Collections isolate the rare phases and edge cases. Our warehouse benchmark cut frames to label by 61% and still beat a random pick of equal size."
+  },
+  {
+   "pain": "Patient video cannot leave their environment, and NHS information governance review will stall any tool that copies frames into a vendor cloud.",
+   "evidence": "NHS deployment across 104 theatres; hardware page emphasises low-bandwidth and computer vision to protect privacy.",
+   "encord_answer": "Encord registers data from the customer's own S3 or Azure so frames never move; SOC2 Type II, HIPAA and GDPR. Agents can run their own de-identification or phase model as a workflow stage so QA happens on already redacted frames."
+  }
+ ],
+ "ontology": [
+  {
+   "name": "Surgical phase",
+   "shape": "frame classification",
+   "why": "Core unit for workflow timing, turnover and throughput analytics"
+  },
+  {
+   "name": "Out-of-body / non-clinical frame",
+   "shape": "frame classification",
+   "why": "Privacy gate and removes junk frames before any labelling spend"
+  },
+  {
+   "name": "Instrument",
+   "shape": "bounding box",
+   "why": "Instrument presence drives phase inference and product adoption reporting"
+  },
+  {
+   "name": "Instrument tip",
+   "shape": "keypoint",
+   "why": "Tip position supports dexterity and skills assessment metrics"
+  },
+  {
+   "name": "Critical anatomy (e.g. cystic duct, artery)",
+   "shape": "bitmask",
+   "why": "Safety milestones such as critical view of safety need pixel precision"
+  },
+  {
+   "name": "Bleeding / adverse event region",
+   "shape": "bitmask",
+   "why": "Irregular shapes, used for quality and complication review"
+  },
+  {
+   "name": "Staff / person in theatre",
+   "shape": "bounding box",
+   "why": "Room-camera utilisation, patient-in to patient-out timings"
+  },
+  {
+   "name": "Incision or port site",
+   "shape": "keypoint",
+   "why": "Marks procedure start and technique variation across surgeons"
+  }
+ ],
+ "modules": [
+  "Index",
+  "Annotate",
+  "Active",
+  "Agents"
+ ],
+ "case_study": {
+  "name": "Harvard Medical School and Massachusetts General Hospital",
+  "why_it_matches": "Clinician time is the bottleneck in both cases. Harvard/MGH use Encord on medical imaging with automation in the annotation loop, under the same HIPAA and GDPR expectations Proximie faces with NHS trusts. Automotus is the useful second reference for the curation half of the story: fixed cameras, huge redundant footage, model accuracy driven by which frames were chosen.",
+  "numbers": "Harvard/MGH: annotation time reduced from days to minutes. Automotus: +20% mAP with a 35% smaller dataset and 33% lower labelling cost. Encord's own claim on high-complexity use cases: 60-80% labelling cost reduction with automation plus active learning."
+ },
+ "proof_of_value": [
+  "Week 0: register 200 to 500 hours of one procedure type (e.g. laparoscopic cholecystectomy) from their existing S3 bucket into Index. Nothing is copied. Success: corpus indexed with embeddings and per-frame quality metrics, plus an embedding plot Proximie has never seen of their own library.",
+  "Week 1: build two Collections, one diversity-sampled training pick and one random pick of identical size, and quantify duplicate and low-quality frame rates. Success: a stated percentage of frames that can be dropped with rare phases retained.",
+  "Week 1: stand up the phase and instrument ontology in Annotate with an annotate to clinical review workflow, SAM 3 and object tracking on for instruments and anatomy. Success: median minutes per labelled video minute versus their current baseline.",
+  "Week 2: import predictions from one model in the NHS evaluation into Active. Success: mAP/F1 plus confusion matrix sliced by site, camera and procedure, and a shortlist of the slices where it fails.",
+  "Week 2: run label validation on an existing labelled set they already trust. Success: a count of confirmed ground truth errors found, with the metric-to-failure correlation naming what to label next."
+ ],
+ "discovery_questions": [
+  "For the 104-theatre evaluation, who owns the ground truth, and is it one shared annotated set across vendors or does each model bring its own?",
+  "How do you currently choose which hours of the 100+ TB get annotated, and who does the annotating: clinicians, an internal team, or an outsourced workforce?",
+  "What does the phase and instrument ontology look like today, and does it change between procedure types and trusts?",
+  "Where does de-identification happen, edge or cloud, and would a tool that reads from your S3 without copying frames shorten the information governance conversation?",
+  "When a model underperforms at a particular trust, how do you work out today whether it is the data, the labels, or the model?"
+ ],
+ "risks": [
+  "No ML or CV job ads found and $11m ARR suggests a small AI team, so they may be relying on Deloitte or AWS services (SageMaker Ground Truth, A2I) for the labelling and evaluation layer, with tooling bundled into the programme.",
+  "NHS information governance and clinical safety review can add months even with SOC2 Type II and HIPAA, especially where any vendor touches identifiable theatre video.",
+  "They market their own computer vision capability, so there is a build-not-buy instinct and possibly an existing internal annotation tool tied to their video player.",
+  "No named contact and no identified AI lead; the decision may sit inside the AWS/Deloitte programme governance rather than with Proximie engineering."
+ ],
+ "opener_email": "Hi [name],\n\nSaw the 104-theatre AI evaluation with AWS, Deloitte and the NHS. Multi-vendor evaluations usually stall on the same thing: one ground truth everyone agrees on, and one scoring view that slices results by trust, camera and procedure.\n\nEncord does both, reading video straight from your own S3 so frames never leave your bucket. We work with Philips and Harvard Medical School under the same governance constraints.\n\nWorth 20 minutes to compare notes on how you are handling ground truth?\n\nQais",
+ "confidence": "medium",
+ "account": "Proximie",
+ "generated": "2026-09-22",
+ "status": "DRAFT: review before sending",
+ "signals_used": 11,
+ "usage": {
+  "input": 4765,
+  "output": 3962
+ }
+}
