@@ -129,6 +129,12 @@ class H(SimpleHTTPRequestHandler):
         if p == "/api/state": return self._json(200, load_pipe())
         if p == "/api/me": return self._json(200, {"who": self._who(), "hosted": True, "password": bool(PASSWORD)})
         if p == "/": self.path = "/index.html"
+        if p.endswith(".pptx"):
+            f = (ROOT / "docs" / p.lstrip("/")).resolve()
+            if not str(f).startswith(str((ROOT / "docs").resolve())) or not f.exists(): return self._json(404, {"error": "no such deck"})
+            b = f.read_bytes(); self.send_response(200)
+            self.send_header("Content-Type", "application/octet-stream"); self.send_header("Content-Disposition", f'attachment; filename="Encord-x-{f.stem}.pptx"')
+            self.send_header("Content-Length", str(len(b))); self.send_header("Cache-Control", "no-store"); self.end_headers(); self.wfile.write(b); return
         return super().do_GET()
 
     def do_POST(self):

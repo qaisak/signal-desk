@@ -181,7 +181,7 @@ raised from the desk by ${ME.name||'a teammate'}`)};
   $('copy').onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText($('op').value);$('copy').textContent='copied';setTimeout(()=>$('copy').textContent='copy',1200)};
   const dk=$('deckBtn');if(dk)dk.onclick=async()=>{const f=BRIEF_FILES[sl];const name=`Encord-x-${sl}.pptx`;
     if(dl&&f){dk.disabled=true;try{const bin=Uint8Array.from(atob(f),c=>c.charCodeAt(0));await dl.save({filename:name,data:bin});logEntry(sl,'deck','downloaded brief deck')}catch(e){if(!(e&&e.code==='declined'))alert('could not save: '+(e&&e.message||e))}dk.disabled=false}
-    else if(r.brief&&r.brief.deck){const a=document.createElement('a');a.href=r.brief.deck;a.download=name;document.body.appendChild(a);a.click();a.remove()}};
+    else if(r.brief&&r.brief.deck){dk.disabled=true;try{const res=await fetch(r.brief.deck,{cache:'no-store'});if(!res.ok)throw new Error('deck not found ('+res.status+')');const blob=await res.blob();const u=URL.createObjectURL(blob);const a=document.createElement('a');a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),5000);if(hosted)logEntry(sl,'deck','downloaded brief deck')}catch(e){toast(e.message)}dk.disabled=false}};
 }
 
 /* ---------- export + help + wiring -------------------------------------------- */
