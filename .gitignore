@@ -1,4 +1,9 @@
 data/ranked.json
 data/serve.log
 data/serve.err
+data/app.log
+data/app.err
+.tools/
+.desk.env
+SHARE.md
 __pycache__/
