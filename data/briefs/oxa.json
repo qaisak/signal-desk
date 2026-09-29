@@ -1,71 +1,71 @@
 {
- "headline": "Oxa is scaling the same driver software across new sites and geographies (Port of Tyne, Heathrow, now Dubai via SHIFFT), so the bottleneck is finding and labelling the rare, site-specific frames in highly repetitive route data, not collecting more of it.",
- "what_they_build": "Oxa sells a 'universal AI driver' for industrial vehicles: self-driving software plus modular up-fit hardware and fleet management for ports, airports, yards and factories, with customers including DHL (Heathrow), bp and Port of Tyne. Buyers are logistics and infrastructure operators paying for productivity, throughput and safety, which means perception failures are a commercial and safety-case problem, not just a metric. The new Dubai joint venture SHIFFT adds a second geography with different vehicles, weather and site layouts.",
+ "headline": "Oxa's new Dubai and port deployments mean the same rack of sensor logs gets driven again and again, so the bottleneck is choosing which of those near-identical frames to label in 3D and 2D, not labelling capacity itself.",
+ "what_they_build": "Oxa sells a universal AI driver for industrial vehicles: self-driving software, modular up-fit hardware and fleet management for ports, airports, yards and factories. Buyers are logistics and infrastructure operators such as DHL (Heathrow), bp and Port of Tyne, plus the new SHIFFT joint venture with Dubai Future Foundation. Revenue comes from site deployments and fleet software, so perception quality per site is the product.",
  "inferred_pipeline": [
-  "Multi-camera plus LIDAR (and likely radar/GNSS/IMU) logged from vehicles on fixed, repetitive site routes; NVIDIA stack referenced in their Sep 2025 release. Guess.",
-  "Logs land in cloud object storage per site and per campaign; triage and search via their own Oxa Foundry toolchain, including the 'multimodal search' work they blogged about in Oct 2025. Partly evidenced.",
-  "Interesting clips selected by engineers for scenario mining, safety-case evidence and regression sets; most of the repetitive route footage is never labelled. Guess.",
-  "Labelling of 3D cuboids, lanes/driveable surface and 2D boxes, likely outsourced to a BPO vendor plus some in-house tooling, with 2D/3D synchronisation done manually or via a custom sensor fusion viewer. Guess.",
-  "Perception models trained and validated against scenario suites, then simulation and on-site shadow running before release; failures fed back as new data requests. Guess.",
-  "Each new site (Tyne, Heathrow, Dubai) triggers a fresh collection and relabel cycle to cover domain shift. Inferred from launch signals."
+  "Multi-camera plus LIDAR (and likely radar, GNSS/IMU) logged from up-fitted industrial vehicles running repetitive fixed routes at customer sites. Guess: ROS-style bags or a proprietary log format in cloud object storage.",
+  "Ingest into Oxa Foundry, their internal toolchain, with some multimodal search over clips, based on their October 2025 post 'Accelerating self-driving software development with multimodal search'. Guess: embedding search exists but curation is still engineer-driven.",
+  "Triage by scenario or trigger (disengagements, safety driver interventions, near misses) to pick clips for labelling. Guess.",
+  "Labelling split between 3D cuboids on point clouds and 2D boxes/masks on camera, likely via an external vendor or mixed internal/outsourced teams. Guess: 2D and 3D are not always labelled on the same synced clip.",
+  "Train and validate perception models, then site-specific validation and safety case evidence before deployment.",
+  "Redeploy to a new site (Dubai, a new port) and repeat much of the cycle because of domain shift. Guess, but strongly implied by the SHIFFT and Port of Tyne news."
  ],
  "hypotheses": [
   {
-   "pain": "New sites and a new climate mean re-collecting and relabelling from near zero, because existing labelled data is dominated by a few UK routes and does not transfer to Dubai ports and airports.",
-   "evidence": "August 2026 SHIFFT launch with Dubai Future Foundation, plus Port of Tyne and Heathrow deployments; a 'universal AI driver' claim across sites.",
-   "encord_answer": "Index registers each site's data in Oxa's own bucket and uses embeddings plus similarity search to show what the Dubai set contains that the UK set does not, so only the genuinely novel frames go to Annotate. Active then correlates model failures to site and condition slices."
+   "pain": "Repetitive fixed routes generate huge volumes of near-duplicate frames; teams pay to label redundancy and models plateau because rare edge cases are buried.",
+   "evidence": "Site-based operation in ports, airports and yards on repeated routes, plus their own post on multimodal search to accelerate development.",
+   "encord_answer": "Index registers data in their own bucket, computes embeddings and quality metrics per frame, and supports similarity search and diversity Collections. Our warehouse-robot test cut frames to label by 61% keeping 95% of racks, with higher mAP than a random pick of equal size."
   },
   {
-   "pain": "Repetitive fixed routes produce enormous near-duplicate volume; labelling budget is spent on frames that add no information while rare events stay under-represented.",
-   "evidence": "Site routes are by nature repetitive; their own Oct 2025 post on multimodal search suggests they already feel the find-the-right-clip problem.",
-   "encord_answer": "Index quality metrics (uniqueness, brightness, sharpness) plus embedding-based de-duplication and diversity sampling to build Collections. Our own warehouse-robot test cut frames to label by 61% while keeping 95% of racks, and the curated pick beat a random pick of equal size."
+   "pain": "Each new site (Dubai, a new port) is a fresh domain: new vehicle types, ground markings, weather and lighting, so labelled data does not transfer and the cold start repeats.",
+   "evidence": "SHIFFT joint venture with Dubai Future Foundation, Port of Tyne project and Heathrow via DHL, all announced within months of each other.",
+   "encord_answer": "Active correlates data metrics with model failures to show which slices break at the new site, so you label only the gap. Agents can run an existing Oxa model as a pre-labelling stage so site two starts from predictions, not blank frames."
   },
   {
-   "pain": "Synchronised 2D camera and 3D LIDAR labelling is slow and error-prone, and label errors surface late as perception regressions in a safety case.",
-   "evidence": "Our inference from multi-camera plus LIDAR sensor suites; no job ads or docs found to confirm, so treat as unvalidated.",
-   "encord_answer": "Annotate supports 3D point clouds/LIDAR alongside native video with cuboids, object tracking and interpolation; Active label validation surfaces likely label errors using data, label and model metrics before they reach training."
+   "pain": "Synced 3D point cloud and multi-camera labelling is handled in separate tools or vendor pipelines, so cross-modal consistency and QA cost engineering time.",
+   "evidence": "Inferred from the sensor stack rather than stated. Their site mentions safety, validation and monitoring but nothing about annotation tooling. Flagging this as a guess.",
+   "encord_answer": "Annotate supports 3D point clouds/LIDAR and native video in one ontology with object tracking and interpolation, plus annotate to review to complete workflows with sampled review. Active then finds label errors before they reach training."
   }
  ],
  "ontology": [
   {
-   "name": "Vehicle / cargo handler (reach stacker, tug, forklift, dolly)",
+   "name": "Vehicle (tug, forklift, truck, dolly, GSE)",
    "shape": "3D cuboid",
-   "why": "Primary dynamic obstacle in ports and airside; needs metric pose for planning"
+   "why": "Primary dynamic obstacle in yards and airside; needs metric position for planning"
   },
   {
-   "name": "Person / high-vis worker",
-   "shape": "3D cuboid",
-   "why": "Safety-critical class driving the stop decision and the safety case"
-  },
-  {
-   "name": "Container, ULD and pallet stack",
-   "shape": "3D cuboid",
-   "why": "Static clutter that changes hourly and defines driveable corridors"
-  },
-  {
-   "name": "Driveable surface / apron",
+   "name": "Person / ground crew",
    "shape": "bitmask",
-   "why": "Free-space segmentation for constrained yard and airside routes"
+   "why": "Highest safety class; needs precise boundary at range and partial occlusion"
   },
   {
-   "name": "Painted lane, stand marking and stop line",
-   "shape": "polyline",
-   "why": "Site markings anchor localisation and route adherence"
+   "name": "Container, ULD, pallet or trailer",
+   "shape": "3D cuboid",
+   "why": "Static-but-movable load objects that define drivable space at a terminal"
   },
   {
-   "name": "Aircraft, trailer or dock door",
+   "name": "Drivable surface and restricted zone",
    "shape": "polygon",
-   "why": "Docking and approach targets specific to airport and yard operations"
+   "why": "Yards lack lanes; free space and keep-out areas drive path planning"
   },
   {
-   "name": "Traffic control device (barrier, cone, signal, banksman gesture)",
-   "shape": "bounding box",
-   "why": "Rare but decisive events for right-of-way behaviour"
+   "name": "Painted marking, kerb, stop line",
+   "shape": "polyline",
+   "why": "Site-specific ground infrastructure that varies by port and airport"
   },
   {
-   "name": "Scene condition (night, rain, dust, glare, sensor degraded)",
+   "name": "Dock, charger or trailer coupling point",
+   "shape": "keypoint",
+   "why": "Precise docking and hitching manoeuvres need a single anchor point"
+  },
+  {
+   "name": "Scene condition (site, weather, lighting, surface)",
    "shape": "frame classification",
-   "why": "Slice axis for model evaluation and for UK versus Dubai domain shift"
+   "why": "Enables slicing model performance by site and condition in Active"
+  },
+  {
+   "name": "Signal, sign or barrier state",
+   "shape": "bounding box",
+   "why": "Gate and barrier state changes behaviour; cheap to label as 2D box"
   }
  ],
  "modules": [
@@ -75,38 +75,39 @@
   "Agents"
  ],
  "case_study": {
-  "name": "Automotus (street camera perception, curation-led)",
-  "why_it_matches": "Fixed-viewpoint, highly repetitive outdoor scenes with a long tail of rare events, exactly the structure of a port or airside route. They cut the dataset rather than grew it and the model improved, which is the argument for Oxa as they add Dubai sites.",
+  "name": "Automotus",
+  "why_it_matches": "Fixed-position cameras watching the same kerb over and over, which is the closest public analogue to Oxa's repeated fixed routes at a port or airside. The win came from curating the redundancy out, not from labelling faster.",
   "numbers": "+20% mAP, 35% smaller dataset, 33% lower labelling cost after curating with Encord."
  },
  "proof_of_value": [
-  "Week 0: Oxa registers one site's log set (say two weeks of Port of Tyne or an early Dubai collection) into Index from their own S3/GCS bucket. Data does not move. Success: catalogue live, embeddings and quality metrics computed on all frames.",
-  "Week 1: build Collections by uniqueness and condition, de-duplicate the repetitive route passes and produce a curated candidate set. Success metric: >50% reduction in frames proposed for labelling while retaining coverage of every scenario tag Oxa cares about.",
-  "Week 1-2: label the curated set in Annotate with a synced 2D video plus 3D point cloud ontology, using object tracking and interpolation. Success metric: labelled minutes per annotator hour versus their current baseline, agreed up front.",
-  "Week 2: import an existing Oxa perception model's predictions into Active, run mAP/F1, confusion matrix and slices by class, distance and scene condition, and use metric-to-failure correlation to rank what to label next. Success metric: a ranked, defensible next-batch list rather than a volume quota.",
-  "Week 2 close-out: side-by-side comparison of a model trained on the curated pick versus a random pick of equal size, plus a label-error report from Active label validation. Decision gate: cost per labelled scenario and mAP delta on Oxa's own held-out set."
+  "Week 1, day 1-2: register one site's logs (say Port of Tyne or a Heathrow yard) from Oxa's own S3/GCS via Index. No data movement, read-only credentials. Success: embeddings and quality metrics on 100k+ frames without a copy.",
+  "Week 1, day 3-5: build Collections by similarity and diversity across one month of repeated runs. Success: show what percentage of frames are near-duplicates and produce a curated pick that Oxa's perception lead agrees covers the route.",
+  "Week 2, day 1-2: label a synced 2D/3D slice in Annotate with Oxa's ontology, using SAM 3 and object tracking, plus one Agents stage running an existing Oxa detector as pre-labelling. Success: time per clip versus their current baseline.",
+  "Week 2, day 3-4: import Oxa predictions into Active and slice mAP/F1 by class, distance, weather and site. Success: name the three data slices that correlate with failure and the label errors found in the existing set.",
+  "Week 2, day 5: train or evaluate on curated versus random picks of equal size. Success metric agreed up front, for example equal or better mAP at 40% fewer labelled frames, plus a cost per site figure for the Dubai rollout."
  ],
  "discovery_questions": [
-  "Your Oct 2025 post on multimodal search suggests Foundry already does clip retrieval. Where does Foundry stop today, and where do you hand off to a labelling vendor or tool?",
-  "For the Dubai SHIFFT sites, are you planning to relabel from scratch or transfer from the UK datasets, and how will you decide what is genuinely new?",
-  "How do you currently label camera and LIDAR together, and how much of the annotator time goes on keeping 2D and 3D consistent across frames?",
-  "When a perception regression shows up in shadow running or the safety case, how do you trace it back to a data gap or a label error, and how long does that take?",
-  "Who owns the decision on how many frames get labelled per site per month, and what is the current cost per labelled clip or per sensor-hour?"
+  "Your October 2025 post talked about multimodal search speeding up development. What does that cover today, and where does it stop being enough?",
+  "When you stand up a new site like Dubai, roughly how many labelled frames do you need before perception is signed off, and how much of that is genuinely new versus a repeat of Heathrow or Tyne?",
+  "Are 3D point cloud and camera labelled on the same synced clip today, and who does the 3D work, internal team or vendor?",
+  "How do you currently decide which clips from a week of repeated route runs actually get sent for labelling?",
+  "What does Oxa Foundry own that you would never outsource, and where would you rather buy than build?"
  ],
  "risks": [
-  "Strong in-house tooling. Oxa Foundry and their published multimodal search work suggest they may already consider curation and search a solved, internal capability, and they are well funded ($103m Series D first close) to keep building it.",
-  "No ML/CV job ads found and no named contact, so we have no direct evidence of a hiring or tooling gap; the pain is inferred from deployment signals only.",
-  "Data access and residency. Port, airport and bp customer data may be under contractual restriction, and the Dubai joint venture may impose UAE residency requirements that complicate a GCP-hosted control plane, even though data stays in their bucket.",
-  "Incumbent AV toolchain. Automotive-grade competitors (Scale, Segments, Foretellix-style scenario tooling) or an NVIDIA-aligned stack may already be embedded via their NVIDIA partnership."
+  "Oxa Foundry is an internal toolchain and they have already invested in multimodal search, so this is a build-versus-buy fight, not a greenfield one.",
+  "No open ML/CV job ads found and no contact identified, so we have no direct evidence of a hiring or tooling gap. The pain is inferred.",
+  "Fresh capital ($103m Series D first close, March 2026) and the SHIFFT launch means attention is on commercial rollout in Dubai, not on internal tooling procurement.",
+  "Likely NVIDIA ecosystem ties (their September 2025 note on NVIDIA technology expansion) could pull them toward an NVIDIA-aligned data stack instead.",
+  "Automotive-grade AV teams often have incumbent 3D labelling vendors on long contracts."
  ],
- "opener_email": "Hi [name],\n\nYour October post on accelerating development with multimodal search stuck with me, and now SHIFFT adds Dubai ports and airports on top of Tyne and Heathrow. The usual problem there is deciding which of the new site's frames are actually new versus another pass down the same route.\n\nEncord's Index sits on your own bucket, computes embeddings and quality metrics, and shows exactly that gap before anything is labelled. On a repetitive robot stream we cut frames to label by 61% with a better model.\n\nWorth 20 minutes to see if it complements Foundry?\n\nQais",
+ "opener_email": "Hi [name],\n\nYour post on accelerating self-driving development with multimodal search is why I am writing. Teams running repeated fixed routes at ports and airports usually find most of their labelling spend goes on near-duplicate frames, and that gets worse when a new site like Dubai starts from scratch.\n\nWe do frame-level embeddings and quality metrics in place, in your own bucket, plus synced 3D point cloud and camera labelling.\n\nWorth 20 minutes to see if it adds anything to Foundry?\n\nQais",
  "confidence": "medium",
  "account": "Oxa",
- "generated": "2026-09-22",
+ "generated": "2026-09-29",
  "status": "DRAFT: review before sending",
  "signals_used": 22,
  "usage": {
-  "input": 4805,
-  "output": 3376
+  "input": 4787,
+  "output": 3375
  }
 }

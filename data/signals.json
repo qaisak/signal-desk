@@ -26,19 +26,19 @@
    },
    {
     "type": "news",
-    "title": "Stellantis’ new Dexory robot is an AI-powered vision-scanning system - The Detroit News",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV2VHYm5Yd1VYWDJNdUdtWGkxbDgxLU9kYTJUZ3VjSTJ0UXowaU5MT19LWVNTOWdiRlRDTlRYcDdVTGZQV0dsTmc3bmN1YU9sRTF1TzMzTmtmV2NDX0FDbDVjSTBMNlMxTjNUeXZnQ05taWZkN1JQdGlZbGNnWjN3UHlIeFV0LThESGhVbFdsNEtTc3g4TXJIOWpFajhWdW1BNWNVTXMxSU40cE13MnJBOUJVRTQzVEF0SlRSS1gzYlBUTG5BeTU4WDFCU2stLW1DSVhfakdWVjdPR2JuYnRnWm5uODE?oc=5",
-    "date": "2026-09-28",
-    "source": "The Detroit News",
-    "first_seen": "2026-09-28"
-   },
-   {
-    "type": "news",
     "title": "Robots, AI and warehouses – the Dexory story and Oana Jinga - Real Business",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONFBDQ3JzYkw2R0d2SGZNVjk4MnI0ZXVNbTMySDRrMUpVMExxdlV2bDcwbjRwb3ExSE1lZzZHdEZIajF1VjNYVWkxYlZmNS1HcnBLTU81cUQ3OGNfOUdRdXNFRzVXeHVHRjlxelBFR2NSZFlWQjdQYURWTUFQcVpCdWJNYmtzZw?oc=5",
     "date": "2026-08-03",
     "source": "Real Business",
     "first_seen": "2026-09-20"
+   },
+   {
+    "type": "news",
+    "title": "Stellantis’ new Dexory robot is an AI-powered vision-scanning system - The Detroit News",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV2VHYm5Yd1VYWDJNdUdtWGkxbDgxLU9kYTJUZ3VjSTJ0UXowaU5MT19LWVNTOWdiRlRDTlRYcDdVTGZQV0dsTmc3bmN1YU9sRTF1TzMzTmtmV2NDX0FDbDVjSTBMNlMxTjNUeXZnQ05taWZkN1JQdGlZbGNnWjN3UHlIeFV0LThESGhVbFdsNEtTc3g4TXJIOWpFajhWdW1BNWNVTXMxSU40cE13MnJBOUJVRTQzVEF0SlRSS1gzYlBUTG5BeTU4WDFCU2stLW1DSVhfakdWVjdPR2JuYnRnWm5uODE?oc=5",
+    "date": "2026-09-28",
+    "source": "The Detroit News",
+    "first_seen": "2026-09-28"
    },
    {
     "type": "news",
@@ -65,7 +65,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Oxa": {
   "name": "Oxa",
@@ -182,76 +182,76 @@
    },
    {
     "type": "paper",
-    "title": "Agentic Economies for Autonomous Scientific Discovery",
-    "url": "https://arxiv.org/abs/2609.31562v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning",
+    "url": "https://arxiv.org/abs/2609.35728v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Non-autonomous dynamics of inner functions: mixing and entropy",
-    "url": "https://arxiv.org/abs/2609.31476v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "Tracekit: Tamper-Evident Intent-Reasoning-Action Auditing for Autonomous Coding Agents",
+    "url": "https://arxiv.org/abs/2609.35659v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Learning to Leverage Compliance: A Policy-Admittance Learning Framework for Robotic Insertion",
-    "url": "https://arxiv.org/abs/2609.31439v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "RSI-Master: Structuring Experiments to Guide Autonomous Model Improvement",
+    "url": "https://arxiv.org/abs/2609.35561v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Wireless Evidence Acquisition for Multimodal Inference Constrained by Temporal Windows",
-    "url": "https://arxiv.org/abs/2609.31428v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "From Search to Research: Exploring Search Scaling in Autonomous Quantitative Factor Mining",
+    "url": "https://arxiv.org/abs/2609.35559v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Open Vocabulary Domain Unlearning",
-    "url": "https://arxiv.org/abs/2609.31356v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation",
+    "url": "https://arxiv.org/abs/2609.35551v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "AgentXploit: Autonomous Repository-to-Runtime Red-Teaming for AI Agents",
-    "url": "https://arxiv.org/abs/2609.31318v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "Argus: Agentic, Reference-Calibrated, Tree-Guided, System-Software-Level Bottleneck Localization",
+    "url": "https://arxiv.org/abs/2609.35508v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Dynamic Sampling for Telemetry in Microservices: A Reinforcement Learning and Entropy-Based Approach",
-    "url": "https://arxiv.org/abs/2609.31292v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "Terrain-Aware Autonomous Planetary Exploration for Exteroceptive-Proprioceptive Mapping with Quadruped Scouts",
+    "url": "https://arxiv.org/abs/2609.35493v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Agentic Limit Order Books: Phase Transitions and Market Impact",
-    "url": "https://arxiv.org/abs/2609.31260v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence",
+    "url": "https://arxiv.org/abs/2609.35432v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Partial regularity for local minimizers of functionals with double-phase Orlicz growth",
-    "url": "https://arxiv.org/abs/2609.31242v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "LLMs are General Asynchronous Agents",
+    "url": "https://arxiv.org/abs/2609.35427v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Evolutionary Safety of Recursive Self-Improving AI: Taxonomy, Risk Discovery, and Evaluation",
-    "url": "https://arxiv.org/abs/2609.31186v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "Forced-Term Modeling in the Koopman Framework for Linear Operator Learning in Nonlinear Dynamical Systems",
+    "url": "https://arxiv.org/abs/2609.35389v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Humanoid": {
   "name": "Humanoid",
@@ -272,18 +272,18 @@
   "signals": [
    {
     "type": "news",
-    "title": "Bosch to produce humanoid robots from 2027 - Denkstrom",
+    "title": "Bosch to produce humanoid robots from 2027 - denkstrom.org",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA0Zk1hMXRCMk8zOGVOeFR2Nk9meUxhbVJUYk84WnRBQzViakt6a3luSHdQZUhkMGpUcXRTSG5FaW5Td2tDNFhNR3pRbWpaN0hnYV8zN3VFU0M5Nm1DWlRMNGFZRmJPREV0WTBiUjh5czJSenBoUF8wdkRxeGo?oc=5",
     "date": "2026-08-21",
-    "source": "Denkstrom",
+    "source": "denkstrom.org",
     "first_seen": "2026-09-20"
    },
    {
     "type": "funding",
-    "title": "34,000 Pre-Orders, $2.4 Billion Pipeline: Inside Europe’s Newest Humanoid Robot Unicorn - forbes.com",
+    "title": "34,000 Pre-Orders, $2.4 Billion Pipeline: Inside Europe’s Newest Humanoid Robot Unicorn - Forbes",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYkRHWHllUEEtdXlLaEdTREJxU0tORUgxck9OalhxeFZScmpIVV9Lei1vRm5mQ3ZxTnhPenI4V1ZJc28ySHk0MlZacmFyWnNqVm5Dc2oxeWxfa1hoc0twdi1PV1ZWTkt1WUhZNm90Tkw0MGQ4dmdyUmgwcldoVXVNRkxNeHJuRUN4dUNYc1ZIdnI4NDVxTVpiSUQ5UWFRWk0tcVZaWDZBaHROdXQ1dk1ORi0xQl9EV0pBTFc5bjdFelFiREpFa3I4UUt0T1hXcGJs?oc=5",
     "date": "2026-09-08",
-    "source": "forbes.com",
+    "source": "Forbes",
     "first_seen": "2026-09-28"
    },
    {
@@ -352,73 +352,73 @@
    },
    {
     "type": "paper",
-    "title": "Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators",
-    "url": "https://arxiv.org/abs/2609.31577v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning",
+    "url": "https://arxiv.org/abs/2609.35728v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Rethinking Data Quality for AI-Driven Systems: Evidence from Practitioner Interviews",
-    "url": "https://arxiv.org/abs/2609.31191v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "Humanoid Loco-Manipulation With Discrete VLA Model",
+    "url": "https://arxiv.org/abs/2609.35709v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Bundled Contact Gradients: Stabilizing Differentiable Simulation for Deployable Dynamic Tasks",
-    "url": "https://arxiv.org/abs/2609.30951v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation",
+    "url": "https://arxiv.org/abs/2609.35450v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation",
-    "url": "https://arxiv.org/abs/2609.30735v1",
-    "date": "2026-09-25",
-    "first_seen": "2026-09-28"
+    "title": "CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration",
+    "url": "https://arxiv.org/abs/2609.34782v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation",
-    "url": "https://arxiv.org/abs/2609.30594v1",
-    "date": "2026-09-24",
-    "first_seen": "2026-09-28"
+    "title": "DexWeave: Learning Dexterous Humanoid Loco-Manipulation from Human Demonstrations",
+    "url": "https://arxiv.org/abs/2609.34724v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Tactile Sensing Array for Multi-Phalanx Sensing in Humanoid Hands",
-    "url": "https://arxiv.org/abs/2609.30506v1",
-    "date": "2026-09-24",
-    "first_seen": "2026-09-28"
+    "title": "HOI-Retarget: Contact-Centric Retargeting for Human-Object Interaction",
+    "url": "https://arxiv.org/abs/2609.34674v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Rolling-WAM: World Action Models with Rolling Imagination",
-    "url": "https://arxiv.org/abs/2609.30247v1",
-    "date": "2026-09-24",
-    "first_seen": "2026-09-25"
+    "title": "Model-Informed Safe Reinforcement Learning for Bipedal Locomotion via Step-to-Step Prediction",
+    "url": "https://arxiv.org/abs/2609.34486v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video",
-    "url": "https://arxiv.org/abs/2609.29850v1",
-    "date": "2026-09-24",
-    "first_seen": "2026-09-25"
+    "title": "DreamingGoose: Staged Distillation from Autoregressive Transformers to Bidirectional Recurrent Diffusion Language Models",
+    "url": "https://arxiv.org/abs/2609.34253v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Anthropomimetic Soft Robotic Forearm with Independently Articulated Carpal Bones Enabling Human-Like Adaptive Stiffness Modulability",
-    "url": "https://arxiv.org/abs/2609.29176v1",
-    "date": "2026-09-24",
-    "first_seen": "2026-09-25"
+    "title": "GAE: General Action Expert for Real-Time Humanoid Teleoperation",
+    "url": "https://arxiv.org/abs/2609.34233v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "paper",
-    "title": "Echo in the Steps: Learning Perceptive Humanoid Parkour with Gated Memory",
-    "url": "https://arxiv.org/abs/2609.28960v1",
-    "date": "2026-09-24",
-    "first_seen": "2026-09-25"
+    "title": "WB-WAM: Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation",
+    "url": "https://arxiv.org/abs/2609.34199v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "hn",
@@ -429,7 +429,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Wayve": {
   "name": "Wayve",
@@ -450,19 +450,11 @@
   "signals": [
    {
     "type": "news",
-    "title": "How to Invest in Wayve, the UK AI Firm Behind London’s Robotaxis - Morningstar",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZE5qWjRuOER3T0dUVkE1MGM4UTYyRGpkM1RHS3JoR1o0MmdsVkZMVmQtSjJpXzVUZFJtRzk3M2FkcHdRdVRXdW9kZnROMkZLeHJBSElWVFBSRFdOeExHS2JnelMycF9SRVlHbUxwNEs2aC1ZZ05nNVRlYWRzaHVnQ1FHOTctYUFoZV8xWGtoOVVCbllsSEJiLXJvUQ?oc=5",
-    "date": "2026-09-25",
-    "source": "Morningstar",
-    "first_seen": "2026-09-25"
-   },
-   {
-    "type": "news",
-    "title": "Investor Focus: Where to Buy Bonds, Berkshire’s Alphabet Bet, and How to Invest in Wayve - Morningstar",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOTZMaE4wTnJNVkMtcWU1NTlpUFN1c0liZUJLOXlyYVZSTVlxSGVQZGhWelEyNWQtb0RTNlU4QW1wdXFZVUhMZS1IeEZEQ2xsXzFzMDVIUS1ESHNmeFR2V3VSTkFpYm43bUQ0MlR1Z01rVmdLN0F3RGhuMkY0bi11WDlzRWFmXzlzZjFHbTJVQks3NERCd2xLVFg4UnM3S2IwcnE1aF84eTZKcVVEQ3JaQ0ZuTV92OXM?oc=5",
-    "date": "2026-09-26",
-    "source": "Morningstar",
-    "first_seen": "2026-09-28"
+    "title": "Why London has become the battleground for self-driving taxis - The Times",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd0U4UWNaTFE5RXVGbjRGU0d0N3hhcUlMZTRFRmE4S1N5c1lwZ2g2SHpLaWVKWThENFpQLTNTcHlvY2ROcDMydTJSOXE1bHBZUFRYOHZibEdtaG1LN0RaOG50Smo0bTJDeU9YcktOczFsYzlnTkUxNGJNbmpkQTdITkpqYUxTZVMwU3JIZVJRa2kyWGVGUWU3WjVNTzdOQW05YnVKSDdkazlZUWlKSzJ3?oc=5",
+    "date": "2026-09-29",
+    "source": "The Times",
+    "first_seen": "2026-09-29"
    },
    {
     "type": "news",
@@ -474,42 +466,18 @@
    },
    {
     "type": "news",
-    "title": "‘Leicester Square, please guv’: Self-driving taxis cleared for London streets ‘later this summer’ - The Guardian",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU3FqeWkzbUdsUFFwMi00eFFZakl6QXI2eU1lNTA3RDlWU0hVLVFoOVREVUhGRlJDTzV4WklucThPRnA5M29fbW5LT3h0UFF5UjB1YjVEOWpCb2huVmtFNnU1eTJhQXJHU0xTZFlMeUI0ZXNxeWsxNjh1SHA2SDRKUmktczZjZ2p5Wk5Pbi1lWWszeldNQmlaY1dZZTc0TUhjcVo1YjJlQzdKdWF5?oc=5",
-    "date": "2026-08-05",
+    "title": "How to Invest in Wayve, the UK AI Firm Behind London’s Robotaxis - Morningstar",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZE5qWjRuOER3T0dUVkE1MGM4UTYyRGpkM1RHS3JoR1o0MmdsVkZMVmQtSjJpXzVUZFJtRzk3M2FkcHdRdVRXdW9kZnROMkZLeHJBSElWVFBSRFdOeExHS2JnelMycF9SRVlHbUxwNEs2aC1ZZ05nNVRlYWRzaHVnQ1FHOTctYUFoZV8xWGtoOVVCbllsSEJiLXJvUQ?oc=5",
+    "date": "2026-09-25",
+    "source": "Morningstar",
+    "first_seen": "2026-09-25"
+   },
+   {
+    "type": "news",
+    "title": "London’s first self-driving taxis for hire hit the streets - The Guardian",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWc5V1hUaHJBWThCeU1kYWJKNmh6b2tPNWRsTlBPMWlMcTZ1cERZRjBqbUlfdzQ4VVJuMkZVcmxrbEtkNlllbV9RR3l6Q0F2SDRNTGx4c2VNd3JncGQ4MnZPdTQxRU9VN3RDZGhqLTU1T3I2NV9sTk43a1pDM3RYWlFlWFlndXUyWXpYdWs4Z2dMcHNOQl9jTjlFT0p4OHQxUVNfOA?oc=5",
+    "date": "2026-09-03",
     "source": "The Guardian",
-    "first_seen": "2026-09-20"
-   },
-   {
-    "type": "news",
-    "title": "Mercedes Taps Wayve For Tesla FSD-Like System Within 2 Years - InsideEVs",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQTU3VFRHR1YxOE1qTmIwbFZHck5BSEJfdjNOUElmUkltVzNkbmlfbTluVWZxSGNZQ0stNEpLUE9vSUdTOU41YXpBRlFxQ3lHb3FwcHB6eGo3eGRmc3NuT082al8tWVRpalVOUGpuc2gxNk9iWmdUYzVpbk5JUXBvNTlKYzhFdG8yRHdKajVtZ1RYXzJTaGc?oc=5",
-    "date": "2026-09-23",
-    "source": "InsideEVs",
-    "first_seen": "2026-09-23"
-   },
-   {
-    "type": "news",
-    "title": "Robotaxis granted licence to operate in London - bbc.co.uk",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zYkt4M0EySmFHWVE4TTY0VUxrNEdlRWhQUE1JUzhKNHh1bUVLZzZmN0tfYlFEdURVTmZneUEySTNlUmJFdVhxWGZjMVlEamlab0ZtVmNYYlNXQ1kx?oc=5",
-    "date": "2026-08-05",
-    "source": "bbc.co.uk",
-    "first_seen": "2026-09-23"
-   },
-   {
-    "type": "news",
-    "title": "Mercedes-Benz signs deal to put Wayve AI Driver in cars within 2 years - Electrek",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOejQwZmJHSEFCeFJNblpjd3RMSTY3Vkw5YnREUF9ua0RfcmhVT3ZxQVpxLUQ4clFlcXBxTzdjZlRoV1ZHSDFQbTlUbUFuWEVrUThxNVRDbWlRMUthVTJIdVdOM19mZ2dySGRIblZVdXc2S2xoSGRMNUVheUVyem5vUHNqbHdmb3E1cUE?oc=5",
-    "date": "2026-09-22",
-    "source": "Electrek",
-    "first_seen": "2026-09-23"
-   },
-   {
-    "type": "news",
-    "title": "Robotaxis Try Their Luck on London’s Medieval Roads - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jbm9aOFkxcVNhY1lHakNoeHRYc2hRdm1EdDNISnd6WFRFSTZhVHlNYlRQQmlnTnN1cjQtOFJzVDNTN19rVk0zTFpsWERKNHpCc1c2SS1hRVlLd2lxZ2FGOWNEdVJ3ckdfa1liOUhxdmpkSE04?oc=5",
-    "date": "2026-09-02",
-    "source": "The New York Times",
     "first_seen": "2026-09-20"
    },
    {
@@ -521,6 +489,14 @@
     "first_seen": "2026-09-23"
    },
    {
+    "type": "funding",
+    "title": "Weekly Recap: Rogue e-Power U.S. launch and Wayve Series D backing - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVlZpTlo1a01ucWczNXRhSWUybHFWSG93TVdfNS10U3RtSU1nbkE2UlhJNlV4WkVUQTBjRG51NlB1WFRScF9fZ0dsNDcwanlneGUyZ1pvS0lDeTlmcXBzcWd4bmVYVF80cmx3bGcwaVdFN1VLM1plT3prNnN4NGNPd2I4Mmx1d2paWjYtVHNBOWMtUUxRQVlWdmVleGV6eVNSRnhvRVFYSWpuLU9GcUZfRGVTalhsZEdGNFZISFphcnBXMnFU?oc=5",
+    "date": "2026-09-28",
+    "source": "TradingView",
+    "first_seen": "2026-09-29"
+   },
+   {
     "type": "news",
     "title": "Mercedes rides the AI Wayve with self-driving deal - City AM",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DY2FFaEVZb1ZXS0NHTW00Ym15T1VvWEtreEdQR1NCN2x3b3dTY0tGdW9CVHBWcldSZFNGV2FsdlhUdzBSRFltTzlPRnYwSHFxbVI3M3Z0aHdhQ3ViZXhXRTF2VDZsNW1ia1NoRTJFVmJKMGotdEVuWFlIUTE3eHM?oc=5",
@@ -529,11 +505,11 @@
     "first_seen": "2026-09-28"
    },
    {
-    "type": "news",
-    "title": "London’s first self-driving taxis for hire hit the streets - The Guardian",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWc5V1hUaHJBWThCeU1kYWJKNmh6b2tPNWRsTlBPMWlMcTZ1cERZRjBqbUlfdzQ4VVJuMkZVcmxrbEtkNlllbV9RR3l6Q0F2SDRNTGx4c2VNd3JncGQ4MnZPdTQxRU9VN3RDZGhqLTU1T3I2NV9sTk43a1pDM3RYWlFlWFlndXUyWXpYdWs4Z2dMcHNOQl9jTjlFT0p4OHQxUVNfOA?oc=5",
+    "type": "launch",
+    "title": "Uber Technologies, Inc. - Wayve and Uber Launch First-Ever Autonomous Rides in the UK - Uber Investor Relations",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUlpoZ2p2RU0wTnB4cnBVSEo2X1hMYUNHZl8xZGRKV3ltYmFiMmxPbnZNcDBiMi1xcnBuR1RWTWU4QmhhX3RoVWRZVTM4aWcxbTZkSC1NMDBQakFNcDVaOUpmbGhlYVFnVk54NDkzb2tDckR6SktxaDh6TWQtT2cxUUxSRVpEaXVrTy1BNWZMTUNjbVBOTHRJMHJmcnVlTnV3Xy1xME51OVZyalV0R2lndzVhT2c3M2w1YnF2VUU4VklLcVRhNEhvV2d5S3dLSmc0TnVWaGhsdHItLVpxTkhTZmhxTERQYTFEWWxrTVgtWQ?oc=5",
     "date": "2026-09-03",
-    "source": "The Guardian",
+    "source": "Uber Investor Relations",
     "first_seen": "2026-09-20"
    },
    {
@@ -546,50 +522,10 @@
    },
    {
     "type": "news",
-    "title": "Mercedes to bring Wayve AI Driver to consumer vehicles - Zag Daily",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYkhRZW5EMWtTLVFOeWtrNHY3TUx3bjZsYjJORnlzdFhKMkp6TEtmMWhKS0lITDNjaEpDVnZYQ185aTZldk5xQkt1UFZZTS1NSlZUeUhkVGFUUDB6b2RHak54QndTZFN2MGN4ejd0LU5QZnljRUpCd2tMX09XYk1qRmpNSHNXSHRfUkwyTXJGcw?oc=5",
-    "date": "2026-09-22",
-    "source": "Zag Daily",
-    "first_seen": "2026-09-23"
-   },
-   {
-    "type": "news",
-    "title": "Mercedes And Wayve Are Bringing A New AI Driver To Production Cars In Two Years - Motor1.com",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wanhWSHFxS3I3LVQyU1VUM0tMcGI5RGpqN3I3MVNJUjVDd3RMam92Rm1ZZVp6Q05XYjU3c2tRVk4tOHpnbTJMNEQtZHpHZWhnSnVGa1NCZ1dTeVJ1bWlSVnVXN3hHZ3J6N3ZpMU0xaUhhckd2MU1YNld4Y3E2Zw?oc=5",
-    "date": "2026-09-23",
-    "source": "Motor1.com",
-    "first_seen": "2026-09-23"
-   },
-   {
-    "type": "news",
-    "title": "Mercedes-Benz signs production deal for Wayve AI Driver - Automotive World",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeW92cDl0Rnp2aWxBOE5GTWoxTVJXNFZIZzBXQWc4SVBzX1g4QXhCSWo5VTN2d3dVc0VzY1ZHWUhOelVjWldmRWxEaGhHdHlEN0NiVnpqLTJFOElicXhpOG41bkoyQ3B3V2R6T1hWaHl1THQzRkpLa3poMUNMLTktMFJ3aFktT2hXenpjdDhLU2dkaE04MENiZw?oc=5",
-    "date": "2026-09-23",
-    "source": "Automotive World",
-    "first_seen": "2026-09-23"
-   },
-   {
-    "type": "news",
-    "title": "Wayve pens deal with Mercedes-Benz to integrate AI driving into production vehicles - imveurope.com",
+    "title": "Wayve pens deal with Mercedes-Benz to integrate AI driving into production vehicles - Imaging and Machine Vision Europe",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbW9RcDFNM0dERlMzcndZVHVhNm1CdEhPODJBZ2ttWnRZUTRWNlc5UDJ5dU1BTEJNZWN0ZXpuT3VxUUR5eWhUUW1tM1ExX2FILVAzSUFWbjROT3JtVzg5NlROZEJhREpUbGp4eHZkZHc1b1VCZjlDSjN1UzVKT3RWTndabWc2dW0yc3VjT3hVb0V2dldhX2dSNg?oc=5",
     "date": "2026-09-24",
-    "source": "imveurope.com",
-    "first_seen": "2026-09-25"
-   },
-   {
-    "type": "launch",
-    "title": "Uber Technologies, Inc. - Wayve and Uber Launch First-Ever Autonomous Rides in the UK - investor.uber.com",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUlpoZ2p2RU0wTnB4cnBVSEo2X1hMYUNHZl8xZGRKV3ltYmFiMmxPbnZNcDBiMi1xcnBuR1RWTWU4QmhhX3RoVWRZVTM4aWcxbTZkSC1NMDBQakFNcDVaOUpmbGhlYVFnVk54NDkzb2tDckR6SktxaDh6TWQtT2cxUUxSRVpEaXVrTy1BNWZMTUNjbVBOTHRJMHJmcnVlTnV3Xy1xME51OVZyalV0R2lndzVhT2c3M2w1YnF2VUU4VklLcVRhNEhvV2d5S3dLSmc0TnVWaGhsdHItLVpxTkhTZmhxTERQYTFEWWxrTVgtWQ?oc=5",
-    "date": "2026-09-03",
-    "source": "investor.uber.com",
-    "first_seen": "2026-09-20"
-   },
-   {
-    "type": "news",
-    "title": "Mercedes, Wayve partner up on autonomous driving - Euronext Markets",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXJOVFFlS1hSZGxtSWlGUlhPckxTV2s3eU82V1VVei1XS2tfaDNsblBqZFR5b3h3MFh5dmJLdzBMM3pVT0pxc18wMWJ2WU1uM0dHMEdCdll4YnphaGN3UEtwYXRXSHdMeFJ2MnpRZ1FMUDRibFVYZTN4UW1UeGtpNFU5VDdnR3kxYTZCdk9n?oc=5",
-    "date": "2026-09-22",
-    "source": "Euronext Markets",
+    "source": "Imaging and Machine Vision Europe",
     "first_seen": "2026-09-25"
    },
    {
@@ -602,51 +538,51 @@
    },
    {
     "type": "news",
-    "title": "Wayve Lands Mercedes-Benz: Embodied AI Enters Premium Auto - The Futurum Group",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYWpxOFpVUVotR0hyYW1MWDFPVmoxdGtvcmlOM0ZnS1ZORnFKNnhHb3dLbVNLNjdZN2NSOUJsVXRhUldIUUZLc0lPMl9nWXdKY1pCOHZlU2dLTWZFNHZpaUNidXdPM3dybVNacE9LS0tPcEpQVjFrbUVpMUJNR29wckJyTTFqZ1dTUWZ1aWVHbWU2UVJQNVdz?oc=5",
+    "title": "Mercedes-Benz signs production deal for Wayve AI Driver - Automotive World",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeW92cDl0Rnp2aWxBOE5GTWoxTVJXNFZIZzBXQWc4SVBzX1g4QXhCSWo5VTN2d3dVc0VzY1ZHWUhOelVjWldmRWxEaGhHdHlEN0NiVnpqLTJFOElicXhpOG41bkoyQ3B3V2R6T1hWaHl1THQzRkpLa3poMUNMLTktMFJ3aFktT2hXenpjdDhLU2dkaE04MENiZw?oc=5",
     "date": "2026-09-23",
-    "source": "The Futurum Group",
-    "first_seen": "2026-09-24"
-   },
-   {
-    "type": "news",
-    "title": "Wayve and Mercedes-Benz Sign AI Driver Production Agreement - Unite.AI",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWXJ6YUNsNmxlWk5XSWZEdEZPUW1CNDlSZnd0ZnA5S08tZExNOEhrSDRPb1ZoU2UtYU85MjZCSlhwVm41cFdNRFc4WXRjaGs2NS0xYUVwaGprVkM0OFBFejZPcmF4QXRYS3Nzb1NyR3pxbjM5MW5PeERsdmhhRC1kSjMza25ZM2hU?oc=5",
-    "date": "2026-09-22",
-    "source": "Unite.AI",
+    "source": "Automotive World",
     "first_seen": "2026-09-23"
    },
    {
-    "type": "funding",
-    "title": "Weekly Recap: €800M German labor cuts and 2,081,805-share buyback - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRW9qUFNfYXUtYVRWVHNwQlUzbTZxNmFaNzhLWERrQThZZl9SMmpfSVpHUHpFemN0NTh4bzh2bzVpN01mbkRFc1RWaW1kZ0xQemk0YUk1bEZoZktPMjR5ZHh3ZnQ4NHNoalBFb2prWE4tOXAyYjVHMmF5X2tkNjBCVDIzUU9GRGJYbXVxTHFBajRRaUFaYUJId0l5ZjZFbWszMUZzZUNPTnA4UDJmdWJJWGxyY3VYVzhwcGNnWVR3Z3FRSms?oc=5",
-    "date": "2026-09-28",
-    "source": "TradingView",
-    "first_seen": "2026-09-28"
-   },
-   {
     "type": "news",
-    "title": "Mercedes and Wayve Partner on Autonomous Driving Integration - Global Banking & Finance Review",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObjFCSEk2NHJGVVBBdXlneEZRWUVFSzAxSlBWQ3RaUV9nSVFYR3F6MzJZQjByc1hLTUt0YmtYNlFyVzNfQmkzQzEyX2tjX29YQU1uVjc4eDRxdV9aY2tkeWVlVmpKdDAxR0pzc2xpVFcwNW1JRkdKLUtLRkxvZWVxZllvNTgtdkpoWXEyLXVR?oc=5",
+    "title": "Mercedes to bring Wayve AI Driver to consumer vehicles - Zag Daily",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYkhRZW5EMWtTLVFOeWtrNHY3TUx3bjZsYjJORnlzdFhKMkp6TEtmMWhKS0lITDNjaEpDVnZYQ185aTZldk5xQkt1UFZZTS1NSlZUeUhkVGFUUDB6b2RHak54QndTZFN2MGN4ejd0LU5QZnljRUpCd2tMX09XYk1qRmpNSHNXSHRfUkwyTXJGcw?oc=5",
     "date": "2026-09-22",
-    "source": "Global Banking & Finance Review",
-    "first_seen": "2026-09-28"
+    "source": "Zag Daily",
+    "first_seen": "2026-09-23"
    },
    {
     "type": "news",
-    "title": "Mercedes-Benz, Wayve agree production deal for AI driving system - just-auto.com",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRT0FlZWktRzQyUGdxVnd1YXVmXzE4MWd3LWtfYTVFZ2syZXFXd3pMWHk5Z1l2aFhOUDdYbnNmN1JTS1YxMzEydFJESlVmanpCQ1Y2TTNOamFjUk5YV1p2YXlEUFNLcnZoeG8tQWFvYTdyQ09EcUlDTw?oc=5",
-    "date": "2026-09-23",
-    "source": "just-auto.com",
-    "first_seen": "2026-09-28"
-   },
-   {
-    "type": "news",
-    "title": "Wayve granted private hire licences for autonomous rides in London - FleetNews",
+    "title": "Wayve granted private hire licences for autonomous rides in London - fleetnews.co.uk",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOV0s5VDVWMnl1SmUxZEpPcjktYUtieTk4Y0NPRTZWR2I2ODVHRGp4Nm80R1hQZzJKdkJ0VFhJUmFYczEwQ3RRaHZ5czN6YTd5S0E3azlQNEZSUTBiTkNuTzJaaU1NZk9ndDk4c2s5X2phU2hjZ2tUNmphOWlIYnByOTQzT3FKQURqNFdrNTJnUTFQSXduWkFxTzVNZkFqMWtK?oc=5",
     "date": "2026-08-06",
-    "source": "FleetNews",
+    "source": "fleetnews.co.uk",
     "first_seen": "2026-09-25"
+   },
+   {
+    "type": "news",
+    "title": "Mercedes And Wayve Are Bringing A New AI Driver To Production Cars In Two Years - Motor1.com",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wanhWSHFxS3I3LVQyU1VUM0tMcGI5RGpqN3I3MVNJUjVDd3RMam92Rm1ZZVp6Q05XYjU3c2tRVk4tOHpnbTJMNEQtZHpHZWhnSnVGa1NCZ1dTeVJ1bWlSVnVXN3hHZ3J6N3ZpMU0xaUhhckd2MU1YNld4Y3E2Zw?oc=5",
+    "date": "2026-09-23",
+    "source": "Motor1.com",
+    "first_seen": "2026-09-23"
+   },
+   {
+    "type": "news",
+    "title": "Mercedes and Wayve Partner on Autonomous Driving Integration - globalbankingandfinance.com",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObjFCSEk2NHJGVVBBdXlneEZRWUVFSzAxSlBWQ3RaUV9nSVFYR3F6MzJZQjByc1hLTUt0YmtYNlFyVzNfQmkzQzEyX2tjX29YQU1uVjc4eDRxdV9aY2tkeWVlVmpKdDAxR0pzc2xpVFcwNW1JRkdKLUtLRkxvZWVxZllvNTgtdkpoWXEyLXVR?oc=5",
+    "date": "2026-09-22",
+    "source": "globalbankingandfinance.com",
+    "first_seen": "2026-09-28"
+   },
+   {
+    "type": "news",
+    "title": "Investor Focus: Where to Buy Bonds, Berkshire’s Alphabet Bet, and How to Invest in Wayve - Morningstar",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOTZMaE4wTnJNVkMtcWU1NTlpUFN1c0liZUJLOXlyYVZSTVlxSGVQZGhWelEyNWQtb0RTNlU4QW1wdXFZVUhMZS1IeEZEQ2xsXzFzMDVIUS1ESHNmeFR2V3VSTkFpYm43bUQ0MlR1Z01rVmdLN0F3RGhuMkY0bi11WDlzRWFmXzlzZjFHbTJVQks3NERCd2xLVFg4UnM3S2IwcnE1aF84eTZKcVVEQ3JaQ0ZuTV92OXM?oc=5",
+    "date": "2026-09-26",
+    "source": "Morningstar",
+    "first_seen": "2026-09-28"
    },
    {
     "type": "launch",
@@ -657,20 +593,20 @@
     "first_seen": "2026-09-20"
    },
    {
+    "type": "news",
+    "title": "Wayve Lands Mercedes-Benz: Embodied AI Enters Premium Auto - The Futurum Group",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYWpxOFpVUVotR0hyYW1MWDFPVmoxdGtvcmlOM0ZnS1ZORnFKNnhHb3dLbVNLNjdZN2NSOUJsVXRhUldIUUZLc0lPMl9nWXdKY1pCOHZlU2dLTWZFNHZpaUNidXdPM3dybVNacE9LS0tPcEpQVjFrbUVpMUJNR29wckJyTTFqZ1dTUWZ1aWVHbWU2UVJQNVdz?oc=5",
+    "date": "2026-09-23",
+    "source": "The Futurum Group",
+    "first_seen": "2026-09-24"
+   },
+   {
     "type": "launch",
     "title": "London rollout of robotaxis delayed amid lack of guidance for firms to follow - The Guardian",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPc1hna3MyNl9EZXNmWDZLMjkxME9vYlI1ZmVqSVA3UmpZbl8xbWpQZlFTdmV5eTZMY2hLVGxOQTNnVDhSTG1EdWdwaDllZXd4dUZRUXdjN1hSS3BjYjRTZDNJNzQ4bDdVZVJGNTNUNGZTbGNCSlZPZ29TaUxaQlJVRVRQbGlNeTZpXzNKRHhwV293YTdxNDI5T2J3?oc=5",
     "date": "2026-08-27",
     "source": "The Guardian",
     "first_seen": "2026-09-20"
-   },
-   {
-    "type": "news",
-    "title": "Mercedes-Benz To Integrate Wayve AI Driver in Its Vehicles by 2028, Sidelining CLA's Alpamayo System - autoevolution",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR29RVDFtb2IxTG5MQmpUeFhFOTVDZll6NjlNaHF2YnhhME1XcmFPTW5ZeDI3ZTFQSmxrcnE3eTQyT210aGd6X29BUDUwWnhLVEJkLWpTR04wQzhYa245eS1EVnVnWERNU2hNVXJSYkFTZ2hHcWYycE55ZHZoNzVyY0dCSEo1WWdtdHJCSXF4dl8yV1piWEtkMUpfRTZ2c1RMM2V4bzd3cVpndnRwX1VkTExGTGNFRllWQV9jdHRZbWJySVpweGl3U015b0V1NFIySFJSYzRMcWxTRGJaaTBr?oc=5",
-    "date": "2026-09-22",
-    "source": "autoevolution",
-    "first_seen": "2026-09-23"
    },
    {
     "type": "news",
@@ -697,20 +633,28 @@
     "first_seen": "2026-09-20"
    },
    {
+    "type": "news",
+    "title": "Mercedes-Benz, Wayve agree production deal for AI driving system - just-auto.com",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRT0FlZWktRzQyUGdxVnd1YXVmXzE4MWd3LWtfYTVFZ2syZXFXd3pMWHk5Z1l2aFhOUDdYbnNmN1JTS1YxMzEydFJESlVmanpCQ1Y2TTNOamFjUk5YV1p2YXlEUFNLcnZoeG8tQWFvYTdyQ09EcUlDTw?oc=5",
+    "date": "2026-09-23",
+    "source": "just-auto.com",
+    "first_seen": "2026-09-28"
+   },
+   {
+    "type": "news",
+    "title": "Mercedes, Wayve partner up on autonomous driving - Euronext Markets",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXJOVFFlS1hSZGxtSWlGUlhPckxTV2s3eU82V1VVei1XS2tfaDNsblBqZFR5b3h3MFh5dmJLdzBMM3pVT0pxc18wMWJ2WU1uM0dHMEdCdll4YnphaGN3UEtwYXRXSHdMeFJ2MnpRZ1FMUDRibFVYZTN4UW1UeGtpNFU5VDdnR3kxYTZCdk9n?oc=5",
+    "date": "2026-09-22",
+    "source": "Euronext Markets",
+    "first_seen": "2026-09-25"
+   },
+   {
     "type": "launch",
     "title": "Uber and Wayve Launch First Autonomous Taxis in London - Technology Magazine",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdElUVHRvU3hIdkozT1kzYXRGSEVmWkV3MTJadEdpWE5YamgyZmFvYk1WSnhiUTNkeGZROXlubGRjTV9TX2RWaFJPNU8zQ25KelhianpDUEZCTDVSbzFPTmFEejl2QUx1blItMmJXUFMtYnJoTWQ3SldTeTZodWg2S2RVdF9XcWREeTMtWEVCX245Q1Vy?oc=5",
     "date": "2026-09-15",
     "source": "Technology Magazine",
     "first_seen": "2026-09-20"
-   },
-   {
-    "type": "news",
-    "title": "Mercedes-Benz is putting a British AI driver into its production cars - thenextweb.com",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BSnRKWjZBbHVUdUhMRVZiY1RMWTZwMVhuQVBwaXpjYlkzUS1xSzZrSWFpQUQzVVpuZGo3ZWQza2JwaXEydEJjRmMxZHlDa1FWT2F4LUdmVlBoeGxpTGFmZnRsbWwxRTVSaXc?oc=5",
-    "date": "2026-09-22",
-    "source": "thenextweb.com",
-    "first_seen": "2026-09-23"
    },
    {
     "type": "news",
@@ -722,10 +666,26 @@
    },
    {
     "type": "news",
-    "title": "Wayve: Co And Mercedes-Benz Partner To Bring The Wayve AI Driver To Future Mercedes-Benz Vehicles- Statement - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQRlowZFZqbWlibF81ajc2a0E4UXVtb0xLcUhUdEJZdGFuUlkzWFAxWGh5cUUzRVhndi1aZzZXNjBVWlliN1R1MDF1OWFqaFlSbkNjVmpHa1IyYVhSREtVUWJoREZjSVlTb2xqTFZxSkJWN081N1prOEg0QTMxRWJrZWszUkM1VmNCdjJPeDVXSWZSd0lBM2lva2RPa0xLeF9FREVkR2JhQjFoWWJ0Q2lpZUNhWl9lTHN4ZVlwUDRWZzdVNlQ0cmwxUHhfY21XNmpRSVV5cGhsWjlYczhJLVBCT3k2V3ZfWWhhYlB2TWllQmRMMlNZbklPNHhUaDZoNFBSLTJYVWNZNA?oc=5",
+    "title": "Mercedes-Benz signs deal to put Wayve AI Driver in cars within 2 years - Electrek",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOejQwZmJHSEFCeFJNblpjd3RMSTY3Vkw5YnREUF9ua0RfcmhVT3ZxQVpxLUQ4clFlcXBxTzdjZlRoV1ZHSDFQbTlUbUFuWEVrUThxNVRDbWlRMUthVTJIdVdOM19mZ2dySGRIblZVdXc2S2xoSGRMNUVheUVyem5vUHNqbHdmb3E1cUE?oc=5",
     "date": "2026-09-22",
-    "source": "TradingView",
+    "source": "Electrek",
+    "first_seen": "2026-09-23"
+   },
+   {
+    "type": "news",
+    "title": "Wayve and Mercedes-Benz Sign AI Driver Production Agreement - Unite.AI",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWXJ6YUNsNmxlWk5XSWZEdEZPUW1CNDlSZnd0ZnA5S08tZExNOEhrSDRPb1ZoU2UtYU85MjZCSlhwVm41cFdNRFc4WXRjaGs2NS0xYUVwaGprVkM0OFBFejZPcmF4QXRYS3Nzb1NyR3pxbjM5MW5PeERsdmhhRC1kSjMza25ZM2hU?oc=5",
+    "date": "2026-09-22",
+    "source": "Unite.AI",
+    "first_seen": "2026-09-23"
+   },
+   {
+    "type": "news",
+    "title": "Robotaxis granted licence to operate in London - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zYkt4M0EySmFHWVE4TTY0VUxrNEdlRWhQUE1JUzhKNHh1bUVLZzZmN0tfYlFEdURVTmZneUEySTNlUmJFdVhxWGZjMVlEamlab0ZtVmNYYlNXQ1kx?oc=5",
+    "date": "2026-08-05",
+    "source": "BBC",
     "first_seen": "2026-09-23"
    },
    {
@@ -738,10 +698,10 @@
    },
    {
     "type": "news",
-    "title": "Londoners can hail a limited Uber Wayve robotaxi after new trial starts - metro.co.uk",
+    "title": "Londoners can hail a limited Uber Wayve robotaxi after new trial starts - Metro.co.uk",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOUFsVGRSWVNtcWR2MjVIanA2d0EzVVB0UHlyWHQ1N3JqaWhtTGUtVFdhS0FPeS1pbjBDZ0Z3dnc0X3psckI0c01Gc3IxX3liUUNIQUI4VXpjYU5GdzhyTjU4ckpVWXJEV3k5YXRueXp5TmZOSVhyMWNQSlNVM0REc01zZjF4NjdqS3lYUFZ1anVmNy1QWnJxRkgtUUEwdHJTb2YxbWFZMHNOd9IBrwFBVV95cUxNYlE4T2Y1cWdyUjExWmhTZ1FXNEFES1pZXzNtX1U3TzREZmhHQXA3ZGxQakNoZ0Fvd3ZxQUJpQk1JeWQzTE41d0ZQMmtGQU9ScDhvRUpnTEhIQVJGWWhDRlhuYmd0Yk1EX3FfQmtMSy1QY3VLdUhsLXBtTU83c0UyOW9UYXpuR0Rwa3pmREgzYkRTdll5Z2dkQWVmLXM3QUJDal8tSWt6VUpydlE5NmIw?oc=5",
     "date": "2026-09-03",
-    "source": "metro.co.uk",
+    "source": "Metro.co.uk",
     "first_seen": "2026-09-28"
    },
    {
@@ -754,11 +714,43 @@
    },
    {
     "type": "news",
-    "title": "Mercedes Adds Wayve as Third AI Driving Partner After Nvidia, Momenta - eletric-vehicles.com",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcElGcEswYi1lY05fRWUwZTNSOTZvSzJrV21Cb1BXZWYxaVcycXFLUERfWmwyOG1oUFVFYmJHMllaSXUwT0ExQUtEWlNfODZyX0pRckotTkR0Zy01VkVlbFBmYTdjNTBWdW85Vks4anl1VVhvSGttaUJrd3E3YWhtdzVJbHJTT0kteTg3UzMxRU11YlV4SjVSb2dzSU1qWjNaOF9rUVJzTjdYWWM?oc=5",
-    "date": "2026-09-22",
-    "source": "eletric-vehicles.com",
+    "title": "Mercedes Taps Wayve For Tesla FSD-Like System Within 2 Years - InsideEVs",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQTU3VFRHR1YxOE1qTmIwbFZHck5BSEJfdjNOUElmUkltVzNkbmlfbTluVWZxSGNZQ0stNEpLUE9vSUdTOU41YXpBRlFxQ3lHb3FwcHB6eGo3eGRmc3NuT082al8tWVRpalVOUGpuc2gxNk9iWmdUYzVpbk5JUXBvNTlKYzhFdG8yRHdKajVtZ1RYXzJTaGc?oc=5",
+    "date": "2026-09-23",
+    "source": "InsideEVs",
     "first_seen": "2026-09-23"
+   },
+   {
+    "type": "news",
+    "title": "Mercedes-Benz To Integrate Wayve AI Driver in Its Vehicles by 2028, Sidelining CLA's Alpamayo System - autoevolution",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR29RVDFtb2IxTG5MQmpUeFhFOTVDZll6NjlNaHF2YnhhME1XcmFPTW5ZeDI3ZTFQSmxrcnE3eTQyT210aGd6X29BUDUwWnhLVEJkLWpTR04wQzhYa245eS1EVnVnWERNU2hNVXJSYkFTZ2hHcWYycE55ZHZoNzVyY0dCSEo1WWdtdHJCSXF4dl8yV1piWEtkMUpfRTZ2c1RMM2V4bzd3cVpndnRwX1VkTExGTGNFRllWQV9jdHRZbWJySVpweGl3U015b0V1NFIySFJSYzRMcWxTRGJaaTBr?oc=5",
+    "date": "2026-09-22",
+    "source": "autoevolution",
+    "first_seen": "2026-09-23"
+   },
+   {
+    "type": "news",
+    "title": "Wayve Taps Ex-Waymo CFO Elisa de Martel to Navigate Critical Transition from R&D to Commercial Scale - Vocal",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSTZ5NlhOLW9ZZ016cms5ZFlBTG5lUUpfM1ZadEw1LWcwVHNsWW9XX0NwSkdZcHU5NmdjTHlXYnFFY1JSMGxLeUZFVEY0b2lJbE1tV2g5TDhpYjEzbVltOVI1RzdfVnY3NmtWT1c3a3U5R1lkSW5uV1FuWHRnTUJibEthZzFvV0lVUk1ISkxzZGxEYTZ1dTNsMTdwQkg3dGxCRC1OV1ZiSkloZ2V6YjdwYTJzYlZGQXAtc3hwLVZjTQ?oc=5",
+    "date": "2026-09-27",
+    "source": "Vocal",
+    "first_seen": "2026-09-29"
+   },
+   {
+    "type": "news",
+    "title": "Uber and Wayve granted licence to operate robotaxis in London - Business Travel News Europe",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUi16Z21HdFVYYkdoZmtRVUlNMXpOLWxEa1JKdklsR3ZOcFY2WXh4TVJuLUJXZng1X3hncmJpOVE1VjJHQ0RucDNJQ1lIeGFnSXRhZV9pb0JNZ2RTSEpXa1NmeEFJTjA3T052UjRVcDdXcmJxSTRjb2YyNEh6YjhmQnk0ZXlIWHJRTGpfRFRPT1B2cFRYUzd1TTMtMHNlY3ZYN1UxSEhjWFhhTGhud3EyWDhrODVlbFUtZXRZ?oc=5",
+    "date": "2026-08-06",
+    "source": "Business Travel News Europe",
+    "first_seen": "2026-09-29"
+   },
+   {
+    "type": "news",
+    "title": "Robotaxis Try Their Luck on London’s Medieval Roads - The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jbm9aOFkxcVNhY1lHakNoeHRYc2hRdm1EdDNISnd6WFRFSTZhVHlNYlRQQmlnTnN1cjQtOFJzVDNTN19rVk0zTFpsWERKNHpCc1c2SS1hRVlLd2lxZ2FGOWNEdVJ3ckdfa1liOUhxdmpkSE04?oc=5",
+    "date": "2026-09-02",
+    "source": "The New York Times",
+    "first_seen": "2026-09-20"
    },
    {
     "type": "job",
@@ -803,24 +795,8 @@
    {
     "type": "job",
     "title": "Machine Learning Engineer",
-    "url": "https://wayve.firststage.co/jobs?gh_jid=8431120002",
-    "loc": "Germany",
-    "ats": "greenhouse",
-    "first_seen": "2026-09-20"
-   },
-   {
-    "type": "job",
-    "title": "Machine Learning Engineer",
     "url": "https://wayve.firststage.co/jobs?gh_jid=8809685002",
     "loc": "Japan",
-    "ats": "greenhouse",
-    "first_seen": "2026-09-20"
-   },
-   {
-    "type": "job",
-    "title": "Machine Learning Engineer, ADAS",
-    "url": "https://wayve.firststage.co/jobs?gh_jid=8622191002",
-    "loc": "London",
     "ats": "greenhouse",
     "first_seen": "2026-09-20"
    },
@@ -834,9 +810,9 @@
    },
    {
     "type": "job",
-    "title": "Machine Learning Engineer, App SW",
-    "url": "https://wayve.firststage.co/jobs?gh_jid=8435254002",
-    "loc": "Sunnyvale",
+    "title": "Machine Learning Engineer, ADAS",
+    "url": "https://wayve.firststage.co/jobs?gh_jid=8622191002",
+    "loc": "London",
     "ats": "greenhouse",
     "first_seen": "2026-09-20"
    },
@@ -845,6 +821,14 @@
     "title": "Machine Learning Engineer, App SW",
     "url": "https://wayve.firststage.co/jobs?gh_jid=8568694002",
     "loc": "Detroit",
+    "ats": "greenhouse",
+    "first_seen": "2026-09-20"
+   },
+   {
+    "type": "job",
+    "title": "Machine Learning Engineer, App SW",
+    "url": "https://wayve.firststage.co/jobs?gh_jid=8435254002",
+    "loc": "Sunnyvale",
     "ats": "greenhouse",
     "first_seen": "2026-09-20"
    },
@@ -963,18 +947,18 @@
    {
     "type": "job",
     "title": "Senior Data Scientist",
-    "url": "https://wayve.firststage.co/jobs?gh_jid=8766985002",
-    "loc": "London; Sunnyvale",
+    "url": "https://wayve.firststage.co/jobs?gh_jid=8728411002",
+    "loc": "Sunnyvale",
     "ats": "greenhouse",
-    "first_seen": "2026-09-28"
+    "first_seen": "2026-09-20"
    },
    {
     "type": "job",
     "title": "Senior Data Scientist",
-    "url": "https://wayve.firststage.co/jobs?gh_jid=8487888002",
+    "url": "https://wayve.firststage.co/jobs?gh_jid=8766985002",
     "loc": "London; Sunnyvale",
     "ats": "greenhouse",
-    "first_seen": "2026-09-20"
+    "first_seen": "2026-09-28"
    },
    {
     "type": "job",
@@ -987,16 +971,16 @@
    {
     "type": "job",
     "title": "Senior Data Scientist",
-    "url": "https://wayve.firststage.co/jobs?gh_jid=8728411002",
-    "loc": "Sunnyvale",
+    "url": "https://wayve.firststage.co/jobs?gh_jid=8738575002",
+    "loc": "London",
     "ats": "greenhouse",
     "first_seen": "2026-09-20"
    },
    {
     "type": "job",
     "title": "Senior Data Scientist",
-    "url": "https://wayve.firststage.co/jobs?gh_jid=8738575002",
-    "loc": "London",
+    "url": "https://wayve.firststage.co/jobs?gh_jid=8487888002",
+    "loc": "London; Sunnyvale",
     "ats": "greenhouse",
     "first_seen": "2026-09-20"
    },
@@ -1184,7 +1168,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Dogtooth Technologies": {
   "name": "Dogtooth Technologies",
@@ -1220,7 +1204,7 @@
     "first_seen": "2026-09-28"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Automata": {
   "name": "Automata",
@@ -1241,10 +1225,10 @@
   "signals": [
    {
     "type": "news",
-    "title": "The future of scientific discovery starts with AI-ready labs - independent.co.uk",
+    "title": "The future of scientific discovery starts with AI-ready labs - The Independent",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWowbjJndm4wRXowSEtMWTVsWW1qVE1mT1VWd1JVeFNRWEctQ1R2Tm14NzlCa3ZuQl9sdkU1REVGSDhCOGhJUUJUcy16UFRLYUpUZS15Y1BqdnhQaEdxZHdmcm9xenI3aFlsMll5YnlyN1BIN0FUQjRLZ0tWcUdCNkZBaWtRdHJ5Ujc0ejhzaklOaldoUG9Gdlc0UU5ZWGtoQ1NkWW1DQXBEb2luYncxanMzTQ?oc=5",
     "date": "2026-09-23",
-    "source": "independent.co.uk",
+    "source": "The Independent",
     "first_seen": "2026-09-25"
    },
    {
@@ -1265,10 +1249,10 @@
    },
    {
     "type": "news",
-    "title": "Anthropic Opens Preview Of New Standard Allowing AI Agents To Control Lab Equipment - etvbharat.com",
+    "title": "Anthropic Opens Preview Of New Standard Allowing AI Agents To Control Lab Equipment - ETV Bharat",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT0VoUk91eTV5NjMwaWV1ZmkyVERCVjNkYnEyMmpaT1RvMUNqcDZ2WllmY0xFRktSZ2NUVkItdVEzcW9YdHNWQWVKdk1YVGhERl9ucURURTFNaWJTVHQwcmpBV0JFZURhckFkX2hkVWtMcDZKVllSRHM3cDdROW1iUExRSVRXSzJrbVd5MkZxS1JFNDZLb1BVQmthZjZucm5qbWJ1a0NxWUFFbmVZMUdoS0JiYWNmVWpWUDNUZU5nVklZdldtVVl4RWt5OVRFWG9GNFJ0RFh1SWw0Z9IB3wFBVV95cUxPMmV4a0h5Z0MtWGJQSXRoZjVVQWtjak90UDJWcU8tek1xcDZRUlhHWFhYRDRZOHY1TnFnUWJaXzJiYWxYaWZpZTBObHkwaHVOaXdVbWN2VmVSUU96OUtSMWNDZHBLb055SVBQWUVQekphdEhacUhHSDFmLVBPWEhxTTlGX3cySnQ5eGE4ZUE0T3RCSXp3WHFSYTIyaEdDNGZ4TzlYTkpaNkpqTUtCbzd1RDg5Y0QzRHdQQ0dBeE1kcEhVNnhKVXpkc3ZXVHR6RHotdTd5YmFGdFByOU9UemVZ?oc=5",
     "date": "2026-08-28",
-    "source": "etvbharat.com",
+    "source": "ETV Bharat",
     "first_seen": "2026-09-28"
    },
    {
@@ -1300,7 +1284,7 @@
     "title": "There is more to code review than (automatable) detection",
     "url": "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/",
     "date": "2026-09-26",
-    "points": 153,
+    "points": 161,
     "first_seen": "2026-09-28"
    },
    {
@@ -1320,7 +1304,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Skyports Drone Services": {
   "name": "Skyports Drone Services",
@@ -1349,18 +1333,18 @@
    },
    {
     "type": "news",
-    "title": "UK’s SP Electricity North West to trial remotely piloted drones for post-storm inspections - Unmanned airspace",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZlNsMEQ5Q0Y1VmgwZU0xYkhTd05zQzdvN2J4TUhjNGtycl9vc3Fub25ZSHdrbEJWbXdncW8tRmFOeWttYVVfb09QUFd4cU1aanNBclBuQmVZeUlsVExBTmJlcHhxX3YxdUVRNmpTRDhneUdJcnRzZHZBMGc2LTJnU2xDcDZHeFZGQl92OVo3UXhrdjk2cXdtQnhSX3NqRVZmSFNDeUlPQ3BwaGJja2tuaTR1cHJpMVRXN3FyZjg5MnUzYVlXcWpXVW5TeEV6akNHYndPeQ?oc=5",
-    "date": "2026-09-24",
-    "source": "Unmanned airspace",
-    "first_seen": "2026-09-24"
-   },
-   {
-    "type": "news",
     "title": "SP Electricity North West to Trial Remote Drones for Post-Storm Fault Finding - Commercial UAV News",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ3BoWHhPQ0NpYkNqb1RmalJmbmdYVjNIcnZNRTFrNjR3cDlZYlg3YV9nX1kxZl9sVTIwVkxhYmF4NDdNeTNpM09VSVRRckd0czVmYmdjR1h5QVhubXRKem12UlhXSTg3bngtYjAxeUlaa0hnbG5UcjVxa1ZRUW9sN3lVV0FSUnpyTm5RcWxjN1MyWk04bmlKb01qS1Vvb0xx?oc=5",
     "date": "2026-09-23",
     "source": "Commercial UAV News",
+    "first_seen": "2026-09-24"
+   },
+   {
+    "type": "news",
+    "title": "UK’s SP Electricity North West to trial remotely piloted drones for post-storm inspections - Unmanned airspace",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZlNsMEQ5Q0Y1VmgwZU0xYkhTd05zQzdvN2J4TUhjNGtycl9vc3Fub25ZSHdrbEJWbXdncW8tRmFOeWttYVVfb09QUFd4cU1aanNBclBuQmVZeUlsVExBTmJlcHhxX3YxdUVRNmpTRDhneUdJcnRzZHZBMGc2LTJnU2xDcDZHeFZGQl92OVo3UXhrdjk2cXdtQnhSX3NqRVZmSFNDeUlPQ3BwaGJja2tuaTR1cHJpMVRXN3FyZjg5MnUzYVlXcWpXVW5TeEV6akNHYndPeQ?oc=5",
+    "date": "2026-09-24",
+    "source": "Unmanned airspace",
     "first_seen": "2026-09-24"
    },
    {
@@ -1411,7 +1395,7 @@
     "first_seen": "2026-09-23"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "CMR Surgical": {
   "name": "CMR Surgical",
@@ -1461,7 +1445,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Kheiron Medical": {
   "name": "Kheiron Medical",
@@ -1482,46 +1466,46 @@
   "signals": [
    {
     "type": "hn",
-    "title": "Khronos Announces glTF Gaussian Splatting Extension",
-    "url": "https://www.khronos.org/news/press/gltf-gaussian-splatting-press-release",
-    "date": "2026-06-11",
+    "title": "Show HN: A bunch of Apache2/MIT log generators",
+    "url": "https://github.com/expanso-io/log-simulators",
+    "date": "2026-06-13",
     "points": 4,
-    "first_seen": "2026-09-28"
+    "first_seen": "2026-09-29"
    },
    {
     "type": "hn",
-    "title": "Khronos Group opens EU Entity to support European Projects with open standards",
-    "url": "https://www.gamingonlinux.com/2026/09/khronos-group-opens-eu-entity-to-support-european-projects-with-open-standards/",
-    "date": "2026-09-15",
-    "points": 3,
-    "first_seen": "2026-09-25"
-   },
-   {
-    "type": "hn",
-    "title": "Show HN: Browser-based light pollution simulator using real photometric data",
-    "url": "https://iesna.eu/?wasm=skyglow_demo",
-    "date": "2026-05-02",
-    "points": 44,
-    "first_seen": "2026-09-28"
-   },
-   {
-    "type": "hn",
-    "title": "glTF 2.1 Complex Scenes",
-    "url": "https://www.khronos.org/blog/introducing-gltf-2.1-with-complex-scenes",
-    "date": "2026-07-24",
+    "title": "Claude Generated Summary on Sri Lanka Batalanda Commission of Inquiry",
+    "url": "https://claude.ai/artifact/4xzcAXCXwFTeMSopXhJjvk",
+    "date": "2026-09-28",
     "points": 2,
-    "first_seen": "2026-09-28"
+    "first_seen": "2026-09-29"
    },
    {
     "type": "hn",
-    "title": "A first-person 3D adaptation of Zork I by Ethan Mollick",
-    "url": "https://github.com/emollick/zork-underground-empire",
-    "date": "2026-09-19",
-    "points": 3,
-    "first_seen": "2026-09-28"
+    "title": "Mullet of Log Processing: Determinism in the Front, AI at the Back (Expanso/Jev)",
+    "url": "https://expanso.io/blog/log-triage-expanso-jev/",
+    "date": "2026-09-21",
+    "points": 2,
+    "first_seen": "2026-09-29"
+   },
+   {
+    "type": "hn",
+    "title": "Bad Apple but It's Frontier Lab Benchmarks [video]",
+    "url": "https://www.youtube.com/watch?v=o3CJnpUG3tY",
+    "date": "2026-09-05",
+    "points": 2,
+    "first_seen": "2026-09-29"
+   },
+   {
+    "type": "hn",
+    "title": "DiscoBox: AI Coding Agents in Disposable Sandboxes",
+    "url": "https://github.com/discobox-ai/discobox",
+    "date": "2026-09-22",
+    "points": 1,
+    "first_seen": "2026-09-29"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Opteran": {
   "name": "Opteran",
@@ -1581,7 +1565,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Tharsus": {
   "name": "Tharsus",
@@ -1618,10 +1602,10 @@
    },
    {
     "type": "launch",
-    "title": "TUAL appoints Tharsus to produce ultra-deployable fast EV chargers - Engineer Live",
+    "title": "TUAL appoints Tharsus to produce ultra-deployable fast EV chargers - engineerlive.com",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeS1BVjhBWHpsN2VURU9xRWJwT0ZCS2hoQVFPdGg4YXZZOE5XMEprUnlZUXJGMjNnUXQyemVmRF8wNzh3T0dlRlY5bUpDZVY4UGN6VC0yREthUWJreUNXU2s1TUJiYkNHbnNhMkY4YTNINVB1RGp4YTJrVGFfNlpzWVV6YkY1TkN1c2VTV2ZVTC1pMnRRNzdZ?oc=5",
     "date": "2026-09-17",
-    "source": "Engineer Live",
+    "source": "engineerlive.com",
     "first_seen": "2026-09-20"
    },
    {
@@ -1631,9 +1615,49 @@
     "date": "2026-09-18",
     "source": "EMobility+",
     "first_seen": "2026-09-20"
+   },
+   {
+    "type": "hn",
+    "title": "AI Can't Recreate the Thrust Game (But It Can Help You Understand It)",
+    "url": "https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/",
+    "date": "2026-07-10",
+    "points": 52,
+    "first_seen": "2026-09-29"
+   },
+   {
+    "type": "hn",
+    "title": "NASA Fires Up Powerful Lithium-Fed Thruster for Trips to Mars",
+    "url": "https://www.nasa.gov/missions/tech-demonstration/nasa-fires-up-powerful-lithium-fed-thruster-for-trips-to-mars/",
+    "date": "2026-08-10",
+    "points": 10,
+    "first_seen": "2026-09-29"
+   },
+   {
+    "type": "hn",
+    "title": "Acceleration without fuel: superconducting thruster uses Earth's magnetic field",
+    "url": "https://www.space.com/technology/acceleration-without-fuel-revolutionary-superconducting-thruster-harnesses-earths-magnetic-field-in-1st-orbital-test",
+    "date": "2026-07-07",
+    "points": 10,
+    "first_seen": "2026-09-29"
+   },
+   {
+    "type": "hn",
+    "title": "NASA Tests Magnetoplasmadynamic Thruster in Milestone for Crewed Mars Propulsion",
+    "url": "https://theopenreader.org/Journalism:NASA_Tests_High-Power_Magnetoplasmadynamic_Thruster_in_Milestone_for_Crewed_Mars_Propulsion",
+    "date": "2026-05-03",
+    "points": 9,
+    "first_seen": "2026-09-29"
+   },
+   {
+    "type": "hn",
+    "title": "Thumbnail-sized thrusters could take CubeSats to Mars",
+    "url": "https://newatlas.com/space-systems/mit-thruster-ascent-cubesat-propulsion/",
+    "date": "2026-06-06",
+    "points": 6,
+    "first_seen": "2026-09-29"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Extend Robotics": {
   "name": "Extend Robotics",
@@ -1652,6 +1676,13 @@
   "verified": "no",
   "brief": "no",
   "signals": [
+   {
+    "type": "paper",
+    "title": "MM-ABC: Towards Generalist Mobile Manipulation via Seeing, Coordinating and Imagining",
+    "url": "https://arxiv.org/abs/2609.35652v1",
+    "date": "2026-09-28",
+    "first_seen": "2026-09-29"
+   },
    {
     "type": "paper",
     "title": "Effector-Centric NMPC of Tiltable-Multirotors for Offset-Free Omnidirectional Aerial Manipulation",
@@ -1709,7 +1740,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Proximie": {
   "name": "Proximie",
@@ -1793,7 +1824,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Perceptual Robotics": {
   "name": "Perceptual Robotics",
@@ -1830,14 +1861,14 @@
    },
    {
     "type": "news",
-    "title": "Industry Insights: This Drone Startup Spots Tiny Issues on Massive Wind Turbines - A3 Association for Advancing Automation",
+    "title": "Industry Insights: This Drone Startup Spots Tiny Issues on Massive Wind Turbines - automate.org",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTTZkMElNYkE0dTJwaTVILU50UHh2QkFoelpmVk1aRDg3Q0JKNEdHZzd0RWdEbTh3UmthdGNzeENIRkZCTEU0NjhKbGFieUl1RzY5bjFOd2RWdldIRjAyNFFGQ283Zlh1dEJ0R1pOdEo0OGpBYlFFM0lpd203Zmo5bzZDaHQxOHdwb1NaVDBiUmUzd2VWRnRZWGN5QjQtM2tXN08zcFNNenFIS3BYeVFmVkFiNUNiZw?oc=5",
     "date": "2026-09-01",
-    "source": "A3 Association for Advancing Automation",
+    "source": "automate.org",
     "first_seen": "2026-09-21"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Muddy Machines": {
   "name": "Muddy Machines",
@@ -1856,7 +1887,7 @@
   "verified": "no",
   "brief": "no",
   "signals": [],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Ocado Technology": {
   "name": "Ocado Technology",
@@ -1877,18 +1908,18 @@
   "signals": [
    {
     "type": "news",
-    "title": "Why Is Ocado Group (LSE:OCDO) Back In The Market Spotlight? - Kalkine Media",
+    "title": "Why Is Ocado Group (LSE:OCDO) Back In The Market Spotlight? - kalkinemedia.com",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR1ZEVjlVUFVqMGZDMXpVQnNoMVB5Z3J1Q0txbUFiLVVLV1EyTklMX0xmdWJSNS1fUmpUMXJzSF9yekZmajVKdXhYUExBQm9QaTUwc0ZnRVhmemYyTkJwTEZoQlRKTGVrU3ZwS054ck5HaVczaEtoR1pBSUV5ZkYtYzJ4YnJYbFNfLTlHRDAwRGpWVlhRdF9fcXpKV3lhQQ?oc=5",
     "date": "2026-09-28",
-    "source": "Kalkine Media",
+    "source": "kalkinemedia.com",
     "first_seen": "2026-09-28"
    },
    {
     "type": "funding",
-    "title": "Milestone for Ocado Retail as Profound bags $1.8bn valuation: last week's most read retail technology articles - Retail Technology Innovation Hub",
+    "title": "Milestone for Ocado Retail as Profound bags $1.8bn valuation: last week's most read retail technology articles - retailtechinnovationhub.com",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPaWF2TTRpY1ZfTllnUWgtNUc1VjEyMmxNWFd6RDBkTGVmbEFPQmdTcE1CNkdxUjRlRHJVUHFuTGptSUNNN1djNmQ5NXFBRlp6aVBjVUVHWEduYzdHV1BqZWVGVHdqUzBYZXluUXpMZjdqc1ZRZWNpVkZDU0xGSEFCY05zOEVibjduSjRkSWZWcW1kdkJreU9GOFdUT2EyTnlIeFFoNWNXZVlpX0pIbjlhbm13RGxvTC1DeWZDMkRWOVNhekpKNXJBSUV0Z0x4UWxtNjNZdGhPekVCZ3VjVUJr?oc=5",
     "date": "2026-09-20",
-    "source": "Retail Technology Innovation Hub",
+    "source": "retailtechinnovationhub.com",
     "first_seen": "2026-09-20"
    },
    {
@@ -1901,34 +1932,18 @@
    },
    {
     "type": "launch",
-    "title": "Ocado launches first automated customer fulfilment centre with Lotte Shopping in South Korea - Retail Technology Innovation Hub",
+    "title": "Ocado launches first automated customer fulfilment centre with Lotte Shopping in South Korea - retailtechinnovationhub.com",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNLUpENGd4YS1iajk2clEyZXZNVUFPeXBZSE13MWJLY0NMQUNRelNyY0d1MjR3d0VnT3RsNTZpX1NqYUl6R3ljWU00MUo4bGVGcUFMTkt6c1pKNGxId1NqQXpHaXJyOGM3UzNIV3ZLWXlnaDJXeXBJMElXc3NKRzZwVjBjLVlaTjB3cm9hQWpyS3NkVk9TLUxNYWEyLWNMc0d6T0RrblV2UXBhaGQyZTVld2FOV2xHUkFGSEFwUHI2cHZlR1ZZWXRkaFRwdDhpdVhGY3hLcXF2Sl9tQQ?oc=5",
     "date": "2026-08-09",
-    "source": "Retail Technology Innovation Hub",
+    "source": "retailtechinnovationhub.com",
     "first_seen": "2026-09-28"
    },
    {
     "type": "news",
-    "title": "New challenge for Colby Paige Richardson as she joins Global Technology Services team at Ocado Group - Retail Technology Innovation Hub",
+    "title": "New challenge for Colby Paige Richardson as she joins Global Technology Services team at Ocado Group - retailtechinnovationhub.com",
     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVUtCVFFyME9pRVlqVVBXOUplcDBKZjhZSTVTOXF3ODJjVFJyaTJHbEdtSUZWaURuR3ZYSkk3aWItaEpmakNjUjhGbWI2UmNLemdKVlFvOU1TN1YxQVd1clpsamw5cjBNMHZNRVZRcmJzcUVRVVpja09zZXgyQjBzVVJieWFEandya2E3N2N4TWVURms1RklwMTlNRWNiMGtkNmNZZTBoVFZkU2o5eFRucDZyMDRlb3MxUnBxaWlvTTViTWgyemwxTkFWU2NMM2liSG04YUhibkJIM1V1OVBRZ1pyR1JIdw?oc=5",
     "date": "2026-08-12",
-    "source": "Retail Technology Innovation Hub",
-    "first_seen": "2026-09-28"
-   },
-   {
-    "type": "news",
-    "title": "Ocado confirms Denmark's nemlig as latest European partner - reuters.com",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR3NQUlpCRkt0Ty1paDdVR3Z1THZUTGNTOUZKM3dGR1pUMHZKRzVlazBjNlZfWE1OMjd3Y19RZnZWdjRtSzlxNmJfOF9DYm5tRVE4QVJPVlkwaDlvVE0wbWNmTXU4YVRROFd3MG1MUm5sNWhOM0hOelpBRVRMdHlqeGtLdlBTd3VweEpVWDRMeHJKZTRhcWdWM3dlOTU5MEtRbUxJM1lvX1JnM041QzdzaEdueTFXZw?oc=5",
-    "date": "2026-08-20",
-    "source": "reuters.com",
-    "first_seen": "2026-09-28"
-   },
-   {
-    "type": "news",
-    "title": "Ocado reveals Danish grocer Nemlig as latest European partner - Retail Gazette",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTEVqSnB3bmNQZTZNeDBaRTVmMXpJT3hncGwtYlFlek1CV0VZZXZERG4zVHVYZXBmcWZ6NnBMSW53SkRNU1NHdFdfSWRPaHAtLXZVRGxXRjBzUzMyMWdiUEdGWExCeko3ZHhFY29uNUVlMHV5UXlvZHpzOHB0OFZOQkk3NXl0U3JQQlZIb1RfX2ExZGlLMWNHelBEZ3VxaGFrLWx3Z3RmQkx6VTA?oc=5",
-    "date": "2026-08-20",
-    "source": "Retail Gazette",
+    "source": "retailtechinnovationhub.com",
     "first_seen": "2026-09-28"
    },
    {
@@ -1988,7 +2003,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Panakeia": {
   "name": "Panakeia",
@@ -2009,46 +2024,14 @@
   "signals": [
    {
     "type": "news",
-    "title": "New Multi-Site Validation Study Published by Panakeia Reinforces Scalability of AI Multi-Omics Platform - finance.yahoo.com",
+    "title": "New Multi-Site Validation Study Published by Panakeia Reinforces Scalability of AI Multi-Omics Platform - Yahoo Finance",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTDIxYWc5cU1IU2VGaGdfZExrazVOT3BKcWJvZGdzVUN4T0lZTDVQYl9XSkJvU053bTRwbUtuMFNReHhKMHd4VmI5M2hfZEFzR1NJdDU4SWxRQ0lEV2QtWUxDcFExODZCd2JPWkMta29qWTJGOElQd2padHpBeU9OQ2FlWVd3WFZsYlBMYnh0cWJxOER3TktxY0dKS0ZNTnVOelZHUA?oc=5",
     "date": "2026-09-08",
-    "source": "finance.yahoo.com",
+    "source": "Yahoo Finance",
     "first_seen": "2026-09-28"
-   },
-   {
-    "type": "hn",
-    "title": "Is GraphQL the Panacea for Agentic AI?",
-    "url": "https://magiroux.com/posts/is-graphql-the-panacea-for-agentic-ai",
-    "date": "2026-05-08",
-    "points": 2,
-    "first_seen": "2026-09-24"
-   },
-   {
-    "type": "hn",
-    "title": "Show HN: Justif – Knuth-Plass justification and microtypography for the web",
-    "url": "https://justif.lyall.co/",
-    "date": "2026-07-17",
-    "points": 198,
-    "first_seen": "2026-09-24"
-   },
-   {
-    "type": "hn",
-    "title": "Ask HN: Do you see a Pancake in the top left menu at Github.com?",
-    "url": "https://news.ycombinator.com/item?id=49112739",
-    "date": "2026-07-30",
-    "points": 21,
-    "first_seen": "2026-09-25"
-   },
-   {
-    "type": "hn",
-    "title": "Live Atomic Spatial Audio",
-    "url": "https://panaudia.com/",
-    "date": "2026-09-03",
-    "points": 5,
-    "first_seen": "2026-09-24"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Sees.ai": {
   "name": "Sees.ai",
@@ -2067,7 +2050,7 @@
   "verified": "no",
   "brief": "no",
   "signals": [],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Fieldwork Robotics": {
   "name": "Fieldwork Robotics",
@@ -2088,10 +2071,10 @@
   "signals": [
    {
     "type": "news",
-    "title": "Autonomous raspberry-harvesting robots enter UK commercial trials - hortidaily.com",
+    "title": "Autonomous raspberry-harvesting robots enter UK commercial trials - Hortidaily",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMmsyYWo5Z1hqcEZrUWY1aC1MaUtIcWRxSURvWkMtejNnNXRPeG5HRU95T0ZXLW1rc0hVbUJqSE5UZXFjQXRrYVhtUlpFQmFpM0VXQjgwNWtwNEFObU82ZkZDTXdKQWpyYlJMLXBsVEwyaE0tOHFDU2ZaOV9YYU5UTHNodk9NR0ZWVVN2ODljU3FaNG5OM0xSVTVrTDBNcUlaWno2NlVVYXZpcHNnOVE?oc=5",
     "date": "2026-09-04",
-    "source": "hortidaily.com",
+    "source": "Hortidaily",
     "first_seen": "2026-09-28"
    },
    {
@@ -2111,7 +2094,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Helsing UK": {
   "name": "Helsing UK",
@@ -2148,18 +2131,18 @@
    },
    {
     "type": "news",
-    "title": "Beer and rockets: How Munich is firing up Germany's defence industry - euractiv.com",
+    "title": "Beer and rockets: How Munich is firing up Germany's defence industry - rapporteur.com",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQnJ3U2pCSUgxc2Z2eVA0cTZpNG12TGFFTGFMb0toaWljZk5tMmNuMGpHUEpJUTh5UWR6b1N4emxoQ2xWRW5rT2txcE5YeWd0eDZ3dEYxazNSQktSWVhCT3VkZW9oTFVFbGRQcTNMVGQxNlhsMVdwTWY4ZkQtRHhZS3ZWT2xPS0RuQkt0VHc2allGcUpUUHVRNURyWEdldw?oc=5",
     "date": "2026-08-18",
-    "source": "euractiv.com",
+    "source": "rapporteur.com",
     "first_seen": "2026-09-20"
    },
    {
     "type": "funding",
-    "title": "Helsing Raises $1.8B to Expand European Defence AI Platforms - Ventureburn",
+    "title": "Helsing Raises $1.8B to Expand European Defence AI Platforms - ventureburn.com",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtZzBNelVteGgtbmJiVURCb3NDaFJRS2VNT2QtcHV6cUVmUjQzY2FzVDlwcWFVbVZEN1p1ZUFXUHkySVgxalcwTmtSa0RPdDFuOF9wUzV2MUxjdUd1R3NyVmFySlpDRlhrc1Y2T1J6TFN2bW_SAXNBVV95cUxQbWcwTXpVbXhoLW5iYlVEQm9zQ2hSUUtlTU9kLXB1enFFZlI0M2Nhc1Q5cHFhVW1WRDdadWVBV1B5MklYMWpXME5rUmtET3QxbjhfcFM1djFMY3VHdUdzclZhckpaQ0ZYa3NWNk9SekxTdm1v?oc=5",
     "date": "2026-08-04",
-    "source": "Ventureburn",
+    "source": "ventureburn.com",
     "first_seen": "2026-09-20"
    },
    {
@@ -2304,7 +2287,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  },
  "Wootzano": {
   "name": "Wootzano",
@@ -2323,6 +2306,6 @@
   "verified": "no",
   "brief": "yes",
   "signals": [],
-  "fetched": "2026-09-28"
+  "fetched": "2026-09-29"
  }
 }
