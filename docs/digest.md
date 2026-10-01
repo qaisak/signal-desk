@@ -1,22 +1,22 @@
-# Signal Desk digest, 2026-09-30
+# Signal Desk digest, 2026-10-01
 
 ## Hot accounts
-- **Wayve** (390): Uber and Wayve Launch First Autonomous Taxis in London (2026-09-15); hiring 46 ML/CV roles: Applied Scientist / Machine Learning Engineer
+- **Wayve** (500): Is Mercedes Stock Worth Buying Following Partnership With Wayve? (2026-10-01); hiring 46 ML/CV roles: Applied Scientist / Machine Learning Engineer
 - **Humanoid** (330): 34,000 Pre-Orders, $2.4 Billion Pipeline: Inside Europe’s Newest Humanoid Robot Unicorn (2026-09-08); hiring 6 ML/CV roles: Senior Dev/ML Ops Engineer
-- **Ocado Technology** (252): Milestone for Ocado Retail as Profound bags $1.8bn valuation: last week's most read retail technology articles (2026-09-20); hiring 2 ML/CV roles: Senior Data Engineer 
-- **Helsing UK** (236): Helsing Raises $1.8B to Expand European Defence AI Platforms (2026-08-04); hiring 9 ML/CV roles: AI Research Engineer -  3D Computer Vision
+- **Ocado Technology** (228): Milestone for Ocado Retail as Profound bags $1.8bn valuation: last week's most read retail technology articles (2026-09-20); hiring 2 ML/CV roles: Senior Data Engineer 
+- **Helsing UK** (200): Helsing Raises $1.8B to Expand European Defence AI Platforms (2026-08-04); hiring 9 ML/CV roles: AI Research Engineer -  3D Computer Vision
 
 ## New signals since yesterday
-- **Wayve**: [news] Marie Claire UK’s Women Power London Dinner With Uber and Wayve - Marie Claire U; [news] Uber Heads Into Earnings With Fresh AV Win – Wayve’s London Approval Puts Robota; [news] Wayve, Uber Win Approval for Supervised Robotaxi Rides in London - WSJ
-- **Humanoid**: [paper] Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation; [paper] CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments; [paper] EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation
-- **Ocado Technology**: [news] Ocado selling off robotic grid-pick system ahead of Erith DC closure - The Groce
-- **Helsing UK**: [news] Japan is testing Helsing's HX-2 strike drone - TechRadar; [news] German drone maker Helsing enlists Rakuten to broker Japan military deal - The J; [news] Britain's Rolls-Royce Builds Separate Engine for German "Loyal Wingman", Confirm
-- **Oxa**: [paper] Skill-Space Shooting for Autonomous Robot Policy Improvement; [paper] Local autonomous inference machines for quantum LDPC codes; [paper] doPlan: A Variable-Horizon Dataset for Multi-Stage Language-Conditioned Planning
-- **CMR Surgical**: [paper] Surgical Master Console Using General-Purpose Robot Arms and a Separable Articul
-- **Dexory**: [launch] Iron Mountain expands Dexory warehouse robotics deployment with 18-meter AMRs - 
-- **Extend Robotics**: [paper] AeroManip-VLA: Scalable Vision-Language-Action Learning for Aerial Manipulation 
-- **Kheiron Medical**: [hn] KeiroLabs – Web research infrastructure for AI agents; [hn] Khronos Group opens EU Entity to support European Projects with open standards; [hn] After Parallel Turbo, Keiro launches $0.10/1K web search
-- **Panakeia**: [hn] Live Atomic Spatial Audio; [hn] Ask HN: Do you see a Pancake in the top left menu at Github.com?; [hn] Show HN: Justif – Knuth-Plass justification and microtypography for the web
+- **Wayve**: [news] Stellantis and Wayve to Demonstrate AI-Powered, Hands-Free Driving at Wave by Ve; [funding] Is Mercedes Stock Worth Buying Following Partnership With Wayve? - Zacks Investm; [news] Wayve and Uber move closer to autonomous rides in London - UKTN
+- **Humanoid**: [paper] StreamRig: Exploiting Intra-Rig Geometry for Streaming Multi-Camera Odometry; [paper] ECHO-G: Embodied Co-speech Humanoid mOtion Generation; [paper] IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric P
+- **Oxa**: [paper] How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?; [paper] GPU-Accelerated Path-Dependent Marginal Information Gain for Autonomous Explorat; [paper] CoEvoWhen: Policy-Tool Coevolution for Ultra-Long Video Temporal Grounding
+- **CMR Surgical**: [news] The hardware gap is why legacy medical devices struggle with modern connectivity
+- **Tharsus**: [hn] McDonald's Just Announced a Big Change to Its Drive-Thrus; [hn] Whisper's JetFoil Promises Near-VTOL at Half the Thrust; [hn] NASA Fires Up Powerful Lithium-Fed Thruster for Trips to Mars
+- **Automata**: [news] Automata Highlights Strategy for AI‑Ready Connected Lab Workflows - TipRanks
+- **Extend Robotics**: [paper] ASENA: Self-evolving Agents for Embodied Navigation
+- **Kheiron Medical**: [hn] Mullet of Log Processing: Determinism in the Front, AI at the Back (Expanso/Jev); [hn] A first-person 3D adaptation of Zork I by Ethan Mollick; [hn] Bad Apple but It's Frontier Lab Benchmarks [video]
+- **Panakeia**: [news] New Multi-Site Validation Study Published by Panakeia Reinforces Scalability of 
+- **Sees.ai**: [news] JPC Connectivity sees AI demand driving orders into 2027 as margins benefit from
 
 ## Briefs ready
 - Oxa (medium confidence, 2026-09-29)
