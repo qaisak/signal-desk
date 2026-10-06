@@ -1,27 +1,28 @@
-# Signal Desk digest, 2026-10-05
+# Signal Desk digest, 2026-10-06
 
 ## Hot accounts
-- **Wayve** (390): Volkswagen Picks Britain's Wayve Over Nvidia as Labor Chief Disputes Blume's Account of Contract Cut (2026-10-05); hiring 21 ML/CV roles: Data Scientist, Data Quality & Provenance Team
-- **Humanoid** (330): 34,000 Pre-Orders, $2.4 Billion Pipeline: Inside Europe’s Newest Humanoid Robot Unicorn (2026-09-08); hiring 6 ML/CV roles: Senior Dev/ML Ops Engineer
-- **Ocado Technology** (208): Milestone for Ocado Retail as Profound bags $1.8bn valuation: last week's most read retail technology articles (2026-09-20); hiring 2 ML/CV roles: Senior Data Engineer 
-- **Extend Robotics** (186): Extend Robotics Raises £2.6M in Funding to Expand Outcome-Based Industrial Robotics Model (2026-10-05)
+- **Wayve** (390): Volkswagen announce autonomous driving partnership with Wayve (2026-10-01); hiring 31 ML/CV roles: Data Scientist, Data Quality & Provenance Team
+- **Humanoid** (330): 34,000 Pre-Orders, $2.4 Billion Pipeline: Inside Europe’s Newest Humanoid Robot Unicorn (2026-09-08); hiring 7 ML/CV roles: Senior Dev/ML Ops Engineer
+- **Ocado Technology** (248): Milestone for Ocado Retail as Profound bags $1.8bn valuation: last week's most read retail technology articles (2026-09-20); hiring 3 ML/CV roles: Data Scientist 
+- **Helsing UK** (208): hiring 9 ML/CV roles: AI Research Engineer -  3D Computer Vision
+- **Extend Robotics** (198): Extend Robotics Raises £2.6M in Funding to Expand Outcome-Based Industrial Robotics Model (2026-10-05)
 
 ## New signals since yesterday
-- **Wayve**: [news] Driverless taxis deserve a clear run - thetimes.com; [news] Volkswagen reportedly selects Wayve for future autonomous driving technology - G; [news] Volkswagen Hands Self-Driving Software Reins to Wayve as Model Offensive and Bat
-- **Humanoid**: [paper] KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified ; [paper] Beyond Reward Hacking: Proxy Divergence Across Four Layers of a Staged Humanoid ; [paper] Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking
-- **Ocado Technology**: [news] Ocado Technology grows with Alcampo and will create 40 more jobs in Barcelona - ; [news] Hand delivered: will Ocado's robot soon be picking your shopping? - Ednews.net; [news] Ocado selling off robotic grid-pick system ahead of Erith DC closure - The Groce
-- **Helsing UK**: [news] Helsing, Destinus, C-Astral, UAVision, and Spirit Aeronautical advance in Sentin; [news] Inside Helsing’s push to reshape Europe’s defense industry - Decode39; [news] Helsing's Torsten Reil on building defence technologies to protect democracies -
-- **Extend Robotics**: [funding] Extend Robotics Raises £2.6M in Funding to Expand Outcome-Based Industrial Robot; [launch] MOSAIC-5G project aims to simplify private 5G deployment for enterprises - IOT I; [hn] UK's Extend Robotics Secures US$3.3M to Sell Factory Work Instead of Machines
-- **Dexory**: [launch] Iron Mountain expands Dexory warehouse robotics deployment with 18-meter AMRs - ; [news] Stellantis’ new Dexory robot is an AI-powered vision-scanning system - The Detro; [news] Oana Jinga, Co-Founder, Chief Commercial and Product Officer of Dexory – Intervi
-- **CMR Surgical**: [funding] CMR Surgical - 2026 Funding Rounds & List of Investors - Tracxn; [news] The hardware gap is why legacy medical devices struggle with modern connectivity
-- **Proximie**: [launch] Proximie, AWS, Deloitte Launch NHS Surgical AI Pilot - Healthcare Digital; [launch] Proximie launches largest ever surgical AI evaluation with AWS, Deloitte, and th
-- **Oxa**: [paper] CORNAV: Construction-Aware Reasoning for Robot Navigation on Active Worksites; [paper] UniIntervene++: An Adaptive Intervention Agent for Efficient Real-World Reinforc; [paper] LLA-MPC on Embedded Hardware: Rapid Adaptive Control with Thousands of Parallel 
-- **Skyports Drone Services**: [news] UK’s SP Electricity North West to trial remotely piloted drones for post-storm i; [news] Skyports partners with SP Electricity to trial AI-powered BVLOS drone inspection
+- **Wayve**: [news] Watch Wayve CEO Kendall on the Future of Driving - Bloomberg.com; [news] Volkswagen Selects Wayve for Self Driving Tech Over Nvidia - fuelcellsworks.com; [news] Autonomous driving: VW works with Wayve instead of Nvidia - heise online
+- **Humanoid**: [paper] InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion I; [paper] Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized; [paper] I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforce
+- **Ocado Technology**: [news] Barcelona, the best ecosystem for large companies like Nestlé, Pepsico and Ocado; [job] Data Scientist 
+- **Helsing UK**: [news] Helsing HX-2 Loitering Munition: Specs, Users, Cost - Calibre Defence; [news] Helsing’s chief scientist says defence startups can snag top tech talent - Resil
+- **Extend Robotics**: [news] MOSAIC-G integrates UK 5G tech - electronicsweekly.com; [funding] Armadin Hits $2.5B+ Valuation With $255.5M Series B for AI Hacker Agent Swarms -; [news] Google Sends Its First TPU Into Orbit to Test Space-Based AI Compute - AI Inside
+- **Oxa**: [paper] Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip De; [paper] Experimental Demonstration of Autonomous Class Aware Optimization via Digital Tw; [paper] Analysis of SWIR Imaging Detection Performance Under Adverse Environmental Condi
+- **Skyports Drone Services**: [hn] Scrcpy 5.0 now supports hardware decoding; [hn] Excel now supports multiple values in a single cell
+- **Tharsus**: [hn] NASA Fires Up Powerful Lithium-Fed Thruster for Trips to Mars; [hn] AI Can't Recreate the Thrust Game (But It Can Help You Understand It); [hn] Thumbnail-sized thrusters could take CubeSats to Mars
+- **Panakeia**: [news] New Multi-Site Validation Study Published by Panakeia Reinforces Scalability of 
+- **Dogtooth Technologies**: [hn] mRNA vaccine targeting tick proteins induces tick resistance in guinea pigs
 
 ## Briefs ready
 - Dexory (medium confidence, 2026-10-05)
-- Proximie (medium confidence, 2026-09-29)
-- Oxa (medium confidence, 2026-09-29)
+- Oxa (medium confidence, 2026-10-06)
+- Proximie (medium confidence, 2026-10-06)
 - Wootzano (low confidence, 2026-10-05)
 
 Open the desk: https://qaisak.github.io/signal-desk/
