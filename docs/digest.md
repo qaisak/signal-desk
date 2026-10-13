@@ -1,28 +1,27 @@
-# Signal Desk digest, 2026-10-12
+# Signal Desk digest, 2026-10-13
 
 ## Hot accounts
-- **Wayve** (380): Stellantis CEO says Wayve ADAS partnership will save money, development time (2026-10-09); hiring 33 ML/CV roles: Data Scientist, Data Quality & Provenance Team
-- **Humanoid** (295): 34,000 Pre-Orders, $2.4 Billion Pipeline: Inside Europe’s Newest Humanoid Robot Unicorn (2026-09-08); hiring 9 ML/CV roles: Senior Dev/ML Ops Engineer
-- **CMR Surgical** (275): Stryker invests $400M in CMR Surgical, gains exclusive U.S. rights By Investing.com (2026-10-12)
+- **Wayve** (375): Stellantis CEO says Wayve ADAS partnership will save money, development time (2026-10-09); hiring 34 ML/CV roles: Data Scientist, Data Quality & Provenance Team
+- **CMR Surgical** (315): CMR Surgical strikes £300m investment deal (2026-10-13)
+- **Helsing UK** (308): European defense startups to raise record $10.5 billion in 2026, Dealroom forecasts (2026-10-05); hiring 10 ML/CV roles: AI Research Engineer -  Computer Vision
 - **Ocado Technology** (268): Milestone for Ocado Retail as Profound bags $1.8bn valuation: last week's most read retail technology articles (2026-09-20); hiring 2 ML/CV roles: Senior Data Engineer 
-- **Extend Robotics** (192): Extend Robotics raises $3.3M seed for Result-as-a-Service (2026-10-03)
 
 ## New signals since yesterday
-- **Wayve**: [news] Stellantis and Wayve Aim to Cut Self-Driving Costs - Konsulteer; [news] London not ready for driverless 'robotaxis', report warns - London Evening Stand; [news] London’s plans for driverless cars ‘lack crucial safety features’ - The Times
-- **Humanoid**: [paper] ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching; [paper] PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Ge; [paper] PATACON: GPU-Parallel Tangent-Bundle RRT-Connect for Constrained Motion Planning
-- **CMR Surgical**: [funding] Stryker invests $400M in CMR Surgical, gains exclusive U.S. rights By Investing.; [funding] Stryker Announces $400 Million Investment in CMR Surgical With Option for Full A; [funding] Stryker to invest $400M in CMR Surgical, gains buyout option - TradingView
-- **Ocado Technology**: [launch] Why Is Ocado Group (LSE:OCDO) Stock Rising On New Robotic Warehouse News? - Kalk; [news] Up 46% in a month to 303p – the Ocado share price has suddenly got rocket booste; [news] Up 46% in a month to 303p – the Ocado share price has suddenly got rocket booste
-- **Extend Robotics**: [paper] KineWorld: Action-Induced Transport Fields for Embodied World Modeling; [news] Neura Robotics Expands Into Healthcare With Autonomous Hospital Transport Robot ; [funding] Snorkel AI Raises $350M Series E at $3.5B Valuation as Demand for AI Training Da
-- **Oxa**: [paper] Beyond the Snowflakes: Disentangling Weather Effects from Confounding Meta-Facto; [paper] Tracking the Invisible: Self-Supervised Wheel Track Detection with Thermal-RGB F; [paper] Mapless, Stabilizing, and Anti-Stuck Flipper Control for Articulated Tracked Rob
-- **Skyports Drone Services**: [news] Ørsted completes Hornsea 2 cargo drone trial - reNEWS; [hn] RustDesk now supports true unattended remote access on Wayland
-- **Tharsus**: [news] Robotics manufacturer Tharsus continues to invest as challenging year knocks pro
-- **Opteran**: [hn] AI agent bankrupted their operator while trying to scan DN42; [hn] I’ve built a virtual museum with nearly every operating system you can think of
-- **Fieldwork Robotics**: [news] Autonomous raspberry-harvesting robots enter UK commercial trials - Hortidaily
+- **Wayve**: [news] First Shift: U.S. EV sales slump as Europe surges - Automotive News; [launch] Uber and AI firm Wayve launch first self-driving robotaxis in London - Yahoo Fin; [job] Tech Lead Manager - ML Autonomy Performance
+- **CMR Surgical**: [funding] CMR Surgical strikes £300m investment deal - BusinessCloud; [funding] UK: Stryker takes US$400m stake in CMR Surgical with option to acquire outright ; [funding] Stryker dives into soft-tissue robotics with $400M play for CMR Surgical’s Versi
+- **Helsing UK**: [funding] European defense startups to raise record $10.5 billion in 2026, Dealroom foreca
+- **Ocado Technology**: [news] Is Ocado Group (LSE:OCDO) Still Seen As An AI Robotics Play As Holdings Notices 
+- **Dexory**: [news] ODW Logistics to Present on Automated Inventory Control at NextGen Supply Chain 
+- **Automata**: [launch] Zifo Co-Launches REAL 2026 to Spotlight the Next Generation of Connected, AI-Ena
+- **Skyports Drone Services**: [news] In pictures: Drones survey HumeLink West transmission project from 350km away - ; [hn] Show HN: An experimental pattern-first DAW that supports MCP; [news] Skyports partners with SP Electricity to trial AI-powered BVLOS drone inspection
+- **Tharsus**: [hn] McDonald's Just Announced a Big Change to Its Drive-Thrus; [hn] Whisper's JetFoil Promises Near-VTOL at Half the Thrust; [hn] NASA Fires Up Powerful Lithium-Fed Thruster for Trips to Mars
+- **Proximie**: [launch] NHS hospitals launch large-scale surgical AI evaluation - Home | Digital Health
+- **Panakeia**: [hn] Live Atomic Spatial Audio; [hn] Show HN: Justif – Knuth-Plass justification and microtypography for the web; [hn] Is GraphQL the Panacea for Agentic AI?
 
 ## Briefs ready
 - Dexory (medium confidence, 2026-10-05)
-- Oxa (medium confidence, 2026-10-06)
 - Proximie (medium confidence, 2026-10-06)
+- Oxa (medium confidence, 2026-10-06)
 - Wootzano (low confidence, 2026-10-05)
 
 Open the desk: https://qaisak.github.io/signal-desk/
