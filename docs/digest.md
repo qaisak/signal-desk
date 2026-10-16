@@ -1,23 +1,23 @@
-# Signal Desk digest, 2026-10-15
+# Signal Desk digest, 2026-10-16
 
 ## Hot accounts
-- **Wayve** (500): UK tech companies raise $25.7bn this year (2026-10-14); hiring 33 ML/CV roles: Data Scientist, Data Quality & Provenance
-- **Helsing UK** (300): European defense startups to raise record $10.5 billion in 2026, Dealroom forecasts (2026-10-05); hiring 10 ML/CV roles: AI Research Engineer -  Computer Vision
+- **Wayve** (500): UK tech companies raise $25.7bn this year (2026-10-14); hiring 36 ML/CV roles: Data Scientist, Data Quality & Provenance
+- **CMR Surgical** (325): Stryker’s $400M Funding In CMR Surgical ‘Gives It Another Potential Growth Vertical,’ Analysts Say (2026-10-15)
+- **Helsing UK** (320): European defense startups to raise record $10.5 billion in 2026, Dealroom forecasts (2026-10-05); hiring 10 ML/CV roles: AI Research Engineer -  Computer Vision
 - **Humanoid** (295): 34,000 Pre-Orders, $2.4 Billion Pipeline: Inside Europe’s Newest Humanoid Robot Unicorn (2026-09-08); hiring 8 ML/CV roles: Senior Dev/ML Ops Engineer
-- **CMR Surgical** (275): Stryker bets big on robot surgery, backing CMR Surgical in $400m deal (2026-10-14)
-- **Extend Robotics** (171): Extend Robotics raises $3.3M seed for Result-as-a-Service (2026-10-03)
+- **Ocado Technology** (200): Why Is Ocado Group (LSE:OCDO) Stock Rising On New Robotic Warehouse News? (2026-10-12); hiring 2 ML/CV roles: Senior Data Engineer 
 
 ## New signals since yesterday
-- **Wayve**: [news] Stellantis And Wayve Take Hands-Free Driving Tech To Turin - MoparInsiders; [news] Robotaxis Try Their Luck on London’s Medieval Roads - The New York Times
-- **Humanoid**: [paper] Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion; [paper] PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination; [paper] KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Gr
-- **CMR Surgical**: [news] Major medtech business moves from Stryker, STERIS - Today's Medical Developments; [news] Stryker pens deal with CMR Surgical to advance robotic-assisted surgery - Fierce; [funding] Recon: Roche inks $1.2B deal with China's Rona for obesity drug; Stryker invests
-- **Ocado Technology**: [news] Up 46% in a month to 303p – the Ocado share price has suddenly got rocket booste; [news] Ocado Retail reports online grocery delivery milestone as company hits 600,000 o
-- **Automata**: [news] Automata Highlights Strategic Foundations for Intelligent Lab Workflows - TipRan; [news] Focus on Robust Workflow Management in Lab Automation - TipRanks; [news] Automata Sponsors Genomics Symposium on Lab Automation and NGS - TipRanks
-- **Dexory**: [news] Physical AI and the shift to real-time warehousing - Logistics Magazine - Austra
-- **Oxa**: [paper] SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End; [paper] Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sp; [paper] Towards Agentic Robots: Model, Data, Environment, and Harness
-- **Proximie**: [launch] Amazon com : Global Healthtech Proximie, in Collaboration with AWS, Deloitte and
-- **Skyports Drone Services**: [news] Skyports Drone Services supports one of Australia’s largest transmission project
-- **Kheiron Medical**: [hn] glTF 2.1 Complex Scenes; [hn] OpenCL 3.1; [hn] Show HN: Browser-based light pollution simulator using real photometric data
+- **Wayve**: [launch] ‘We should all be worried’: calls grow to limit London rollout of robotaxis - Th; [news] Stellantis And Wayve Expand Hands-Free Driving Technology - MoparInsiders; [news] Stellantis partners with Wayve to cut autonomous driving costs By Investing.com 
+- **CMR Surgical**: [launch] CMR Surgical CEO outlines the path forward for Stryker’s robotics partnership - ; [funding] Stryker’s $400M Funding In CMR Surgical ‘Gives It Another Potential Growth Verti; [funding] Stryker invests $400M into CMR Surgical - The Robot Report
+- **Helsing UK**: [news] Growing Ukrainian demand for Helsing's HX-2 LT amid Starlink concerns - Janes; [news] Inside Helsing’s push to reshape Europe’s defense industry - Decode39
+- **Humanoid**: [paper] Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manip; [paper] Whole-Body Dexterity; [paper] Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Co
+- **Ocado Technology**: [news] Is Ocado Group (LSE:OCDO) Still Seen As An AI Robotics Play As Holdings Notices ; [news] Up 46% in a month to 303p – the Ocado share price has suddenly got rocket booste; [news] Ocado said to be in talks with Coles over robots in stores, shares jump - Sharec
+- **Dexory**: [news] ODW Logistics to Present on Automated Inventory Control at NextGen Supply Chain 
+- **Oxa**: [paper] Value as Memory: Online Value-Guided Post-training for General Robot Policies; [paper] MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Eng; [paper] Dexterity from Supervised Play
+- **Skyports Drone Services**: [news] Automated BVLOS Drone Surveys Take on Major Infrastructure Project in Australia ; [news] Remote drone surveys monitor construction project from 350km away - Construction; [hn] Microsoft Defender now supports Linux desktops
+- **Kheiron Medical**: [hn] KeiroLabs – Web research infrastructure for AI agents; [hn] After Parallel Turbo, Keiro launches $0.10/1K web search; [hn] United States of America vs. Matthew David Keirans [pdf]
+- **Panakeia**: [hn] Live Atomic Spatial Audio; [hn] Is GraphQL the Panacea for Agentic AI?
 
 ## Briefs ready
 - Dexory (medium confidence, 2026-10-05)
