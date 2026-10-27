@@ -1,23 +1,22 @@
-# Signal Desk digest, 2026-10-26
+# Signal Desk digest, 2026-10-27
 
 ## Hot accounts
-- **Wayve** (385): Wayve, Stellantis, and NVIDIA Join French Government on AV Deployment (2026-10-23); hiring 37 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
-- **Helsing UK** (372): European defense startups to raise record $10.5 billion in 2026, Dealroom forecasts (2026-10-05); hiring 10 ML/CV roles: AI Research Engineer - ML & Signal Processing
-- **CMR Surgical** (315): Nelson Advisors: Stryker’s investment in CMR Surgical marks the beginning of an era of multi platform competition in soft tissue robotic surgery (2026-10-19)
-- **Humanoid** (290): 34,000 Pre-Orders, $2.4 Billion Pipeline: Inside Europe’s Newest Humanoid Robot Unicorn (2026-09-08); hiring 8 ML/CV roles: Senior Dev/ML Ops Engineer
-- **Ocado Technology** (256): Ocado Group launches second customer fulfilment centre with AEON in Japan (2026-10-23); hiring 6 ML/CV roles: Data Engineer 
+- **Wayve** (380): Wayve, Stellantis, and NVIDIA collaborate to advance safe and responsible autonomous vehicle deployment across France (2026-10-23); hiring 37 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
+- **Humanoid** (340): An 11-person startup raised $40 million to challenge robotics' data-hungry giants (2026-10-27); hiring 8 ML/CV roles: Senior Dev/ML Ops Engineer
+- **Helsing UK** (300): Helsing launches autonomous Contra air defence/C-UAS system to mitigate high speed drone swarms (2026-10-27); hiring 10 ML/CV roles: AI Research Engineer - ML & Signal Processing
+- **CMR Surgical** (280): Nelson Advisors: Stryker’s investment in CMR Surgical marks the beginning of an era of multi platform competition in soft tissue robotic surgery (2026-10-19)
+- **Ocado Technology** (232): Ocado Group launches second customer fulfilment centre with AEON in Japan (2026-10-23); hiring 6 ML/CV roles: Data Engineer 
 
 ## New signals since yesterday
-- **Wayve**: [news] Wayve, NVIDIA and Stellantis Join Forces to Advance Autonomous Driving in France; [news] Autonomous & Self-Driving Vehicle News: Tesla, Mobileye, Aeva, Ouster, Pony.ai, ; [news] France Sets 2027 Autonomous Vehicle Approval Path as Stellantis, Wayve, Bolt and
-- **Helsing UK**: [launch] Helsing unveils Contra autonomous air defence alongside missile interceptors AD-; [launch] Helsing unveils new air defence system and 2 jet and rocket-powered drone interc; [launch] With the EU now in range of Russian attacks, Helsing unveils new AI-powered miss
-- **CMR Surgical**: [news] CMR Surgical Chose Agency Over Distribution To Keep Surgeons Close, CEO Says - M; [funding] Stryker invests $400m into CMR Surgical; secures future buyout option - Yahoo Fi; [launch] Stryker and CMR Surgical announce strategic alliance to advance robotic-assisted
-- **Humanoid**: [paper] RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning A; [paper] ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback; [paper] HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Tra
-- **Ocado Technology**: [launch] Ocado Group launches second customer fulfilment centre with AEON in Japan - Reta; [news] Ocado (LSE:OCDO) Soars on a Broker Rethink: FTSE 100 Watch - Kalkine Media; [news] Coles seeks an edge in online grocery race, explores robots in stores - AFR
-- **Oxa**: [paper] Frontier-OPD: Discovering the Edge of Agent Capability and Teaching Agents to Go; [paper] Semantic Representation for Agentic Self-Play in Automated Laboratories; [paper] Conditional Neural Processes for Self-Supervised Goal Discovery in Action Imitat
-- **Proximie**: [news] M42’s Healthpoint, Proximie partner to bring AI technology to operating rooms - 
-- **Tharsus**: [hn] McDonald's Just Announced a Big Change to Its Drive-Thrus; [hn] Whisper's JetFoil Promises Near-VTOL at Half the Thrust
-- **Kheiron Medical**: [hn] KeiroLabs – Web research infrastructure for AI agents; [hn] Khronos Announces glTF Gaussian Splatting Extension; [hn] Show HN: Browser-based light pollution simulator using real photometric data
-- **Sees.ai**: [news] AI Finds its Way Into Backcountry Search and Rescue - Communications of the ACM; [news] Chevron CEO Mike Wirth sees AI driving new frontier exploration - Upstream Onlin; [news] FCC Grants Covered List Exemption for Dronus K500L Drone System - Dronelife
+- **Wayve**: [launch] Autonomous Vehicle: Stellantis Allies with Wayve and Nvidia for Deployment in Fr; [news] In London, robotaxi tests draw backlash as drivers fear 'a machine that can work; [news] Watch Wayve CEO Kendall on the Future of Driving - Bloomberg.com
+- **Humanoid**: [funding] An 11-person startup raised $40 million to challenge robotics' data-hungry giant
+- **Helsing UK**: [launch] Helsing launches autonomous Contra air defence/C-UAS system to mitigate high spe; [launch] Helsing Unveils Low-Cost Drone Interceptors to Stop Russia’s New Jet-Powered Ger; [news] Defence start-up Helsing moves into missile interceptors - The Telegraph
+- **CMR Surgical**: [funding] Stryker Enters Soft-Tissue Robotics With $400 Million CMR Deal - Yahoo Finance; [launch] Stryker and CMR Surgical announce strategic alliance to advance robotic-assisted
+- **Dexory**: [news] Dexory expands warehouse intelligence and robotics safety capabilities with NVID; [news] Physical AI and the shift to real-time warehousing - Logistics Magazine - Austra; [funding] I’m a female founder with a liberal arts degree and my company has raised $280 m
+- **Skyports Drone Services**: [hn] An ESPN producer who quit because of sports gambling; [hn] GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)
+- **Tharsus**: [hn] NASA Fires Up Powerful Lithium-Fed Thruster for Trips to Mars; [hn] AI Can't Recreate the Thrust Game (But It Can Help You Understand It)
+- **Kheiron Medical**: [hn] OpenCL 3.1
+- **Panakeia**: [hn] Live Atomic Spatial Audio; [hn] Is GraphQL the Panacea for Agentic AI?
 
 ## Briefs ready
 - Oxa (medium confidence, 2026-10-06)
