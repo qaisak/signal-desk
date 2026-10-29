@@ -18,6 +18,14 @@
   "signals": [
    {
     "type": "news",
+    "title": "Dexory expands warehouse intelligence and robotics safety capabilities with NVIDIA - Logistics Magazine - Australia",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQWl3WUd6MDNfaW82bDE0RC1wOWlncFlCY19QdUtjREE5b2V6UERVakVWQXBZLXhaN2JGMlBxWmJ4SEczWkFMay14MnlucVA0OW9obUNiVGQ2OW1WVkoxMy1HT3FfeGs3YXNpVWR3YVZMNU8zNGhQdWJtRWlZLV9RWExVVHRBMWpwQ3l3SVBPdERLUlhBa2RtYlhTQkh1SFpPZzJuS2JVWFI3eEVTYnQ3T1NYS2ZEUXJHZm92N2ItVTI0UQ?oc=5",
+    "date": "2026-10-26",
+    "source": "Logistics Magazine - Australia",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
     "title": "CFO on the Spot: Five minutes with Bas Lustenhouwer, CFO of Dexory - Raconteur",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQnpGd1NLNVRxemlZekRsaTdYd2MzZkpxcFdQR2U3X3phTU1JZEZFUWxfLXB4V0I3NTg0U0R6S1BPUmxlVndxRDlJaU1vOUctQkRmcHM4QWRTdkVFcURHRW5HdVNtcG44OVplRkFsLVJBZVZDYTdrTlp2Q1RhRXl2UFM1dnVTLUpGRGMxTC1CR214eUFkZzdZMEtpQzlCZw?oc=5",
     "date": "2026-09-24",
@@ -41,7 +49,7 @@
     "first_seen": "2026-10-08"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Oxa": {
   "name": "Oxa",
@@ -67,14 +75,6 @@
     "date": "2026-09-08",
     "source": "The Naked Scientists",
     "first_seen": "2026-10-21"
-   },
-   {
-    "type": "funding",
-    "title": "Oxford autonomous car firm narrows annual losses to £52.5m - Oxford Mail",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYjVnRkJ6NFM0LUNHeFpxMzZlbUZmWXRLWENjb1M2bWVSeVdlRVc5Q012bGp0WG9Sc011em9tMk1tSmtoRFNXQl9uSldkZHltWDlOcm9BQ0MwbWZwLVdsZWFYbUNaVVppMXlXWkFDU1NQRjI0Z1BBTUVNemJtVWd6X1ppc3hpSHpXU1NRYlNpbEdIX1pua20zNFpR?oc=5",
-    "date": "2026-10-20",
-    "source": "Oxford Mail",
-    "first_seen": "2026-10-28"
    },
    {
     "type": "paper",
@@ -147,7 +147,7 @@
     "first_seen": "2026-10-28"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Humanoid": {
   "name": "Humanoid",
@@ -168,14 +168,6 @@
   "signals": [
    {
     "type": "funding",
-    "title": "Imperial College London Spinout Machenta Raises $40M in Seed Funding For Instant Learning Robots - AI Insider",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcXpzZzAtQVZBREhGVVQ0Wk1lSFJjRkVuLWtLWEdpTUgycUI1aElsdVViMElQMmp2UjE1X3pHN2Q1cTBYRkVURVJZWlV4T2xwWlBkMGZLeGN6RnF4N2VTZmwyQmhoVzlxVE95eGZhdDZYVU1UTEVRS3ZNUUxZWVZ6bmRxQjhfT2tHNVZtMGlzMVozSEwyRExXR3czMEJnZm5ONzNXQ01MWmM1WkRYdUFSV2RuZTVXdXJjc0tIUUFrcm9raDFtLW5MV0o1ZzdZZw?oc=5",
-    "date": "2026-10-27",
-    "source": "AI Insider",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "funding",
     "title": "An 11-person startup raised $40 million to challenge robotics' data-hungry giants - Business Insider",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYjB2SG9VZUt0LVctTXpQU2Jod0t6a3BFbGZuNFJicGVQT1BJdWlUbzZuYnRuOHE1UWxKS2lUcVlVY2w0SVU2bWtXakNyMVRXZDBOYkxwUm1xanY4QTZPRnI5VFJfNzVhYWQ4aW4xUEdaeWh5RVVON1Y3VElxWk1NT2djZVBDSU8tU0hJeUtmZUM2YjB1elhiV1cwM0JhZ1IzX3FCN2tKZ0cxNzgz?oc=5",
     "date": "2026-10-27",
@@ -184,11 +176,11 @@
    },
    {
     "type": "funding",
-    "title": "34,000 Pre-Orders, $2.4 Billion Pipeline: Inside Europe’s Newest Humanoid Robot Unicorn - Forbes",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYkRHWHllUEEtdXlLaEdTREJxU0tORUgxck9OalhxeFZScmpIVV9Lei1vRm5mQ3ZxTnhPenI4V1ZJc28ySHk0MlZacmFyWnNqVm5Dc2oxeWxfa1hoc0twdi1PV1ZWTkt1WUhZNm90Tkw0MGQ4dmdyUmgwcldoVXVNRkxNeHJuRUN4dUNYc1ZIdnI4NDVxTVpiSUQ5UWFRWk0tcVZaWDZBaHROdXQ1dk1ORi0xQl9EV0pBTFc5bjdFelFiREpFa3I4UUt0T1hXcGJs?oc=5",
-    "date": "2026-09-08",
-    "source": "Forbes",
-    "first_seen": "2026-10-08"
+    "title": "Imperial College London Spinout Machenta Raises $40M in Seed Funding For Instant Learning Robots - AI Insider",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcXpzZzAtQVZBREhGVVQ0Wk1lSFJjRkVuLWtLWEdpTUgycUI1aElsdVViMElQMmp2UjE1X3pHN2Q1cTBYRkVURVJZWlV4T2xwWlBkMGZLeGN6RnF4N2VTZmwyQmhoVzlxVE95eGZhdDZYVU1UTEVRS3ZNUUxZWVZ6bmRxQjhfT2tHNVZtMGlzMVozSEwyRExXR3czMEJnZm5ONzNXQ01MWmM1WkRYdUFSV2RuZTVXdXJjc0tIUUFrcm9raDFtLW5MV0o1ZzdZZw?oc=5",
+    "date": "2026-10-27",
+    "source": "AI Insider",
+    "first_seen": "2026-10-28"
    },
    {
     "type": "job",
@@ -333,7 +325,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Wayve": {
   "name": "Wayve",
@@ -362,14 +354,6 @@
    },
    {
     "type": "news",
-    "title": "Mercedes-Benz aims to close AI gap with China rivals through Wayve deal - Financial Times",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNemt6QnFHWmI4WEJUZTNhdXd5bHpEZVVYTDJWZmlaR1R2aWFTSjVYYzlGd3MyVmNjWE5oZzFDZkdEcFJyTUUwTm9yZEVtaTZjcGdsbzJRMUd6a1luSFkyeDNIT1BVa2hTWGdiVUFIOEh4MlZFZEU4cWlyWnRGUXZ0d01FbUY?oc=5",
-    "date": "2026-09-22",
-    "source": "Financial Times",
-    "first_seen": "2026-10-08"
-   },
-   {
-    "type": "news",
     "title": "Wayve, Stellantis, NVIDIA Collaborate on Autonomous Vehicles in France - Fuel Cells Works",
     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOX3MxQjhfdGRNclQ0QnNRenVlZ183TTZjRkt1ODdJNS1zUWJySUZxaVlBN1RwYmduZV9IUFNoeVJtRVc5UVNqeHgyM1FyVXA4RzNjV1dQTkE2QmNucVl3ZTRiUDRua01pV2VTNVN1X1hPbXdNeTFYTllIamVfUVRjOEpINWVUTk1JTkdVQjNBV2RPN19aZjdKMVMzTjd6aTR3Z0hZbXN0bzhzeGFGdGhoUGR4RzhldVBYNzBFV1BwYkN3RUdLc1pSbjRTQlZkU1Z0Z1pWRWJGYzZMZGRRTGUxTDZyczlmeWdrekZ6bnBrSEdJemZf?oc=5",
     "date": "2026-10-27",
@@ -378,11 +362,11 @@
    },
    {
     "type": "news",
-    "title": "Wayve, Stellantis and Nvidia partner on autonomy in France - Automotive World",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQzF0S1EwY0dYazEzclQxbmVpV0I2ZUF3TzRzRVhkb0NSeHpTeG5SUVNwWnRoOTBFRUt6X0lnMUc3WkJsbHBJNXU5UzhiZ3FVczNNYmRPRGg2VXREMzVFMzU3RzBRMTBnYXQ1bmNGaUNRczFVNmhoTzFLWnl0cjd4aVBtZmlkbU9nclhBWXlnczRQM3h4c3Vkck8wUQ?oc=5",
-    "date": "2026-10-23",
-    "source": "Automotive World",
-    "first_seen": "2026-10-26"
+    "title": "Mercedes-Benz aims to close AI gap with China rivals through Wayve deal - Financial Times",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNemt6QnFHWmI4WEJUZTNhdXd5bHpEZVVYTDJWZmlaR1R2aWFTSjVYYzlGd3MyVmNjWE5oZzFDZkdEcFJyTUUwTm9yZEVtaTZjcGdsbzJRMUd6a1luSFkyeDNIT1BVa2hTWGdiVUFIOEh4MlZFZEU4cWlyWnRGUXZ0d01FbUY?oc=5",
+    "date": "2026-09-22",
+    "source": "Financial Times",
+    "first_seen": "2026-10-08"
    },
    {
     "type": "news",
@@ -390,6 +374,22 @@
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZi1zNFE1VmJRREREX2NoaEY3ZUNwWjJRV0llVXI1SDhUanVISUtlS2xkRG9YSnFRVGVJdEVEMjdBUUNOQ3ZOazQ3MzRvRFVESllhSlNHUkhZempoTk9vaUZkTk9tcTN5Nl9wR0gyeHE2YXNqWk03OHJkNnBvdFpaR3QyWDV6X25US2JTczFjZnI2YV9XWG5TVEpmWlc1eDZGcHY2UVRsckNzMTNBaGl2UDNyLVZ5OWI1RjdV?oc=5",
     "date": "2026-10-26",
     "source": "Electric Cars Report",
+    "first_seen": "2026-10-26"
+   },
+   {
+    "type": "launch",
+    "title": "Volkswagen announce autonomous driving partnership with Wayve - electrive.com",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQkVNYnFMa2xqcUw1d1ZjMkJnOXc4U0g2eTl2VjA5WVFndFViMkxHRkxKNVFtYzRUSkNmdnhBUHlRazFvMXVMbEEtSlp5aUp5U0RtUFpUSVdBY0VOTkltWXRzbTF2YklnNHJ2eEk5bDRoRDYyUWpYemp2QmFHcFE3b0NTYy0xQjNSMDl4MHFtcEE4MVZxNEs3aEU0YWNjLXNw?oc=5",
+    "date": "2026-10-01",
+    "source": "electrive.com",
+    "first_seen": "2026-10-23"
+   },
+   {
+    "type": "news",
+    "title": "Wayve, Stellantis and Nvidia partner on autonomy in France - Automotive World",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQzF0S1EwY0dYazEzclQxbmVpV0I2ZUF3TzRzRVhkb0NSeHpTeG5SUVNwWnRoOTBFRUt6X0lnMUc3WkJsbHBJNXU5UzhiZ3FVczNNYmRPRGg2VXREMzVFMzU3RzBRMTBnYXQ1bmNGaUNRczFVNmhoTzFLWnl0cjd4aVBtZmlkbU9nclhBWXlnczRQM3h4c3Vkck8wUQ?oc=5",
+    "date": "2026-10-23",
+    "source": "Automotive World",
     "first_seen": "2026-10-26"
    },
    {
@@ -402,19 +402,51 @@
    },
    {
     "type": "launch",
-    "title": "Volkswagen announce autonomous driving partnership with Wayve - electrive.com",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQkVNYnFMa2xqcUw1d1ZjMkJnOXc4U0g2eTl2VjA5WVFndFViMkxHRkxKNVFtYzRUSkNmdnhBUHlRazFvMXVMbEEtSlp5aUp5U0RtUFpUSVdBY0VOTkltWXRzbTF2YklnNHJ2eEk5bDRoRDYyUWpYemp2QmFHcFE3b0NTYy0xQjNSMDl4MHFtcEE4MVZxNEs3aEU0YWNjLXNw?oc=5",
-    "date": "2026-10-01",
-    "source": "electrive.com",
-    "first_seen": "2026-10-23"
-   },
-   {
-    "type": "launch",
     "title": "Wayve, Stellantis, and NVIDIA Join French Government on AV Deployment - Unite.AI",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMFVrMXlJQUFxVmczUlhQVHpDejllUERJZ0lIWk5SdXQwajIxZ21kOWFnQ3Q0ckp3SGFBSEdEcnJuTUlHZkZmN2xqZUZSak5VTVRHbERnb3o4NDRiUHB6VWVkdW5WNjg3WlQ4aURSYzRSNkxkNmNxWkNaQnJ2VlA0TTJmOGFuVjBRVHR1SkJBWkFFd3M?oc=5",
     "date": "2026-10-23",
     "source": "Unite.AI",
     "first_seen": "2026-10-23"
+   },
+   {
+    "type": "news",
+    "title": "Protesters call for London robotaxi trials to stop - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LMjQ2Z1pqdXk3aWV2a3g0OUs1UTI4N1dwRS1Dd08xZ1QzejZrRWNkRkxvckFYdjZtWVhFZmRMR3BIUzJTRWxPSTZnaUsxanpqV2o1aExUbnJKNE9IWXc?oc=5",
+    "date": "2026-10-17",
+    "source": "BBC",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "France Sets 2027 Autonomous Vehicle Approval Path as Stellantis, Wayve, Bolt and G7 Pitch Pilots - AI Insider",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYV9LSWp4anNhM3l6bXVpcGN0algtUXFTcjdvRnZPT2ZyZU1kSEdNVGxHTUc0ZUdzWldsUHA0SjZXVVhfdHpPMVlITDFENldldDROcU1iMmxQeTFOVkJ4Q1FOYmFDdjhzck80ZllFd25fVGpGYUI5clVJenh5empMd3RiQzJVRHVXbFduTFRKcmNueU5VMG9oOE44eXJYRWh3TG9xbWJPTlJ0NTZ5aWh1d0xiVkVvSUpKS3dIajNfZ1BpczFsSjZ3bUliaE0?oc=5",
+    "date": "2026-10-24",
+    "source": "AI Insider",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "Uber to bring Pony AI’s robotaxis to London network alongside Wayve - Zag Daily",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc2R0RE56MF9VY19mS3dYTUcyM0QxbmEwRUJZdHlQQXJHYTQtX1RsYl9pR1B3TzlHdW1raUpHdmtFWTlVem9acmpDT0FwWTJFVFJ1R0tObWcwcFRHekN6RDBhQkwzNG9ObTZ0NmRBcm1oaXhUaG9vVDE5Uk1PUy1tYnAyMDBtZUVlSUtYWExMLTY0czhrSjRycXc0UTBVUkk?oc=5",
+    "date": "2026-10-08",
+    "source": "Zag Daily",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "AI-powered 2++ vehicles to run on Japanese roads from fiscal 2027 - 朝日新聞",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EZW4xV21QVU9kRzJHTFczaUNiVGdxaWxXTG5heW5aUDVDYUtxaEtDY1FZV1YybjRrMU05eE5jUFBLYk5ZQ2Z0V0htQzdhc20tUHVoQnFB?oc=5",
+    "date": "2026-10-29",
+    "source": "朝日新聞",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "launch",
+    "title": "Stellantis, Wayve, French Government Collaborating on Autonomous Vehicle Deployment in France - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSzZpSHFZZnJoWDRuZmdhS0twdW40TjE0M0pSX0k3SW1KYnVCc0xfZ1VnQV90R0M0TUk0WjFqQVJjWHJRRDhXNjkxY19SVkZxdlhoMUZyWmlaTkNxVFdLckRXaGNNVHZDSFptWUFtbUNHYlhtc2VuYnY0ajA1N3lKOEdfMWFWVHZhY3ExMzk0V0xXQVBGRkk1WDVrOGJMRW03N082cXlsT1hFQUNWS1k3d0R3?oc=5",
+    "date": "2026-10-23",
+    "source": "Yahoo Finance",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "news",
@@ -425,20 +457,20 @@
     "first_seen": "2026-10-19"
    },
    {
-    "type": "launch",
-    "title": "Uber and AI-firm Wayve launch London's first robotaxis - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLUM0eWN6Q0l5Z1FRZ2ZPX2JSREZCczlvTFpYdlpzVVBlVWlveG52eTRRaVpRQ0tqREZ0RnhPLUJLOGFjZHdweDVxNEVfTW9OLS1YdDg3aWw2N25DTnM1dmlXQzJvT0xxSW82MWpGdlFBZnN4ZXpsZEVRVjdhOVNqdXdyalNJN3BOTWFwT0R5MFZSNkhUMGxCdjR3?oc=5",
-    "date": "2026-09-02",
-    "source": "Reuters",
-    "first_seen": "2026-10-08"
+    "type": "news",
+    "title": "Uber adds Pony AI to London autonomous vehicle plans alongside Wayve - Highways News",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRG1RUUM2elU5MXpHemJhNGZpdWl1a2JXNFJyZlliVWJfZTVlbk5lcWRhVzZpZi1yS0FWME9iYmR3Vk9paWo0WHV5RVVhVWNVcDMzVlM1RHBuUXk0bU1reGlzSmFVZW41TjJteS1tVVdNUi1CRmR4Z2VodDRWN051VXlMSkRiRTFPb0ZIYzdUWkJQTW0yN2VVWVkxRQ?oc=5",
+    "date": "2026-10-09",
+    "source": "Highways News",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "news",
-    "title": "Why I won’t Wayve goodbye to Black Cabs - Liberal Democrat Voice",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNTZYRmM1dm5YT29lWVFsZjBJaFA1eUV5b1JKSng1VFgySTRQVmp3RXJBbUdFRElIRVhKaXZZRUt6dmhINy1yMVpUWThDOW1naklNQ0RIaHFYTzZ1UnBaRDcxMVdsejBaWDAxcEFhSGhRbE04eEs4SDlBRUQwcXNQMzhJNA?oc=5",
-    "date": "2026-10-02",
-    "source": "Liberal Democrat Voice",
-    "first_seen": "2026-10-28"
+    "title": "Londoners can now hail Wayve autonomous vehicles through Uber - Tech.eu",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNzZ2ekZMaG9EWmk2cklPbEgwYnlSMFpVTVEwclU1RW4xeC02cVVocThDYUdEa3IwTVh4YkhzZUFCUlR2bVZHNmtfemRKZWVWdEM2WnhCZzl0UU0wUUhXTWRraE9tMVJwdXZMWDlSRlhQc2h6ZEQ5SDQ3TEJRZE1ETDk5ZE5zWV8xNXc1ZFlkemJwSms?oc=5",
+    "date": "2026-09-03",
+    "source": "Tech.eu",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "news",
@@ -450,11 +482,27 @@
    },
    {
     "type": "news",
-    "title": "London’s first self-driving taxis for hire hit the streets - The Guardian",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWc5V1hUaHJBWThCeU1kYWJKNmh6b2tPNWRsTlBPMWlMcTZ1cERZRjBqbUlfdzQ4VVJuMkZVcmxrbEtkNlllbV9RR3l6Q0F2SDRNTGx4c2VNd3JncGQ4MnZPdTQxRU9VN3RDZGhqLTU1T3I2NV9sTk43a1pDM3RYWlFlWFlndXUyWXpYdWs4Z2dMcHNOQl9jTjlFT0p4OHQxUVNfOA?oc=5",
-    "date": "2026-09-03",
-    "source": "The Guardian",
-    "first_seen": "2026-10-08"
+    "title": "Volkswagen Selects Wayve for Self Driving Tech Over Nvidia - Fuel Cells Works",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNekxNRzIxNGszOUZJSjdfQnRWWWRLVGpDRnIwYUl6U0lLMUxoVFREcW1qSFVTeF9ZNDREUHExX2Y3a25WSkx1LUhxZS10UmxhamhTR0pvUHh4NUx2RHB3b2hESFBBOG5jVElBZERJdGN2RVIwUkdKN254MzJvaWEzdHhMb0NqeWNsZzR4d0pGMDFWTl9SV0hIYm5iblc1cFQ2bjNJRE5aYl9Xb0dlLVNvNjhyZU9lZXhOQUp0b3M1bWdLaTFqMkpYOGxNeGRjaDRQOUREeDBfMV9jZlJl?oc=5",
+    "date": "2026-10-04",
+    "source": "Fuel Cells Works",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "Wayve’s Alex Kendall: AI driving will be required ‘like a seatbelt’ - The Next Web",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT1oxeTlZZkhJRk56T3VELVZRVzVZVXE4R3RnZG1MeEZRWlI0aXBVN3MxLVlyLWhNV1Z5bDNIRFBJN01ubG1kTEllcm54QXZ6Q2p4MG1wN0c3WnZoR3ZZYzlUN2lHX1dxNk56TFVMZHFMc0NmVDE4a3pMX2x3RS1ZbHVpdjQ0MGRlXzByWTRkMEVCX0lFdWc?oc=5",
+    "date": "2026-10-09",
+    "source": "The Next Web",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "Watch Wayve CEO Kendall on the Future of Driving - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT1ZoV09JRWhBd1lXZW5ORnVVZHJCRTh1T0NseEZTZ3NEQkpMczFGU3pVdW5OZDBjckZQOXp2bW40Ung5Zjk4TDdiNGRlNmFEZ3RJYXBiemRaSS0tNXFnaUU5d3RXdWt6UHlQNWYtM3VlblNza1VIbURWZlppVFlPSWY2aHl2MkxtZTYwYUFDd0RvWEEyS05TTjRnY0FQUQ?oc=5",
+    "date": "2026-10-06",
+    "source": "Bloomberg",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "news",
@@ -466,51 +514,123 @@
    },
    {
     "type": "news",
-    "title": "Stellantis and Wayve to Demonstrate AI-Powered, Hands-Free Driving at Wave by Vento 2026 - Stellantis Media",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeDhNTXoyWVJSNVF2MUR2V19laG10Yy1mUFZ1OTFhQ2k5RGdDSUMydF9PblgyOFlGSGgyeDBFZlcwOTllYmVnTm9wMnhycXVtbnJDekJTMC1CTXNobjREazRwZmlXeDZqbW52SXVhenNjRFhsWEkwNUVTV3lsVnJiOS1JRVNGZUR0ejh6WE11OFdhX3lUdHM2b3RfaXNCdC1ndkFmR0thOFd1eGtJTjFMdWMwMGM3cXQxdUtvMmt0SldmV2hRTlpiWUJsalItSEdaMkNZY3FtdzdkQQ?oc=5",
-    "date": "2026-10-01",
-    "source": "Stellantis Media",
-    "first_seen": "2026-10-27"
+    "title": "How to Invest in Wayve, the UK AI Firm Behind London’s Robotaxis - Morningstar",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZE5qWjRuOER3T0dUVkE1MGM4UTYyRGpkM1RHS3JoR1o0MmdsVkZMVmQtSjJpXzVUZFJtRzk3M2FkcHdRdVRXdW9kZnROMkZLeHJBSElWVFBSRFdOeExHS2JnelMycF9SRVlHbUxwNEs2aC1ZZ05nNVRlYWRzaHVnQ1FHOTctYUFoZV8xWGtoOVVCbllsSEJiLXJvUQ?oc=5",
+    "date": "2026-09-25",
+    "source": "Morningstar",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "news",
-    "title": "Former Waymo CFO jumps to self-driving startup Wayve - TechCrunch",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEw4azZBQ2lHam1UendhMzZFbDg3eUVBTFd1VWFVWkxGa0hOcm9lMHcwOHVGTEcyXzdIVm1odGp3NlNaLWRWWExHX2J4d211eEEzSHc4c0J1bDByWlA4aUZpX2t5VlJXSUVWUUR2ZmYzVklLSmt0bXJGald3bXVLVjJMUFp1dGtpTmtpcG01VUw?oc=5",
-    "date": "2026-09-16",
-    "source": "TechCrunch",
-    "first_seen": "2026-10-27"
+    "title": "Wayve x Uber in London: \"Autonomous Driving Technology will Complement the city’s Rich Transport Network\" - EME Outlook Magazine",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLU9wb29ZQUxhbFZyYW1UektfbW5JelZFbmgxbkdlYldJbkVpYWVMLVcxT19GTWhQbS11OU5UQlB0eVRsOGRtTzJON2IxVWJCeVoyVjhNM3BOVVNwS1NKUE1GUlNjT0d6RV9QdEtVZV83R0NQdkVxS1FkOG9jWkRlSVNPSURZeHg5dEJqTnpfTVBpeGxtLWlzQzlNQ1JPZEowNlFnMTBYQ1VwUjJzT2hROHVuMS0xLWw5WDdwOXl0RjN3RkZtZmE1TDc0VTdzaXJ1UmJ4UjRtRDQ?oc=5",
+    "date": "2026-09-09",
+    "source": "EME Outlook Magazine",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "launch",
-    "title": "Autonomous Vehicle: Stellantis Allies with Wayve and Nvidia for Deployment in France - Idéal Investisseur",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeTU4R2VENUNydC1mOGRURFBrOFhWY3RFR0oxQUFzS1lrRHZXY1F6aHJtY2x0ZWxRbl84TVdhc0U1TFN0UnloaHN1bm9SQ0czZ3Q1RWJwdEFSNF9DY3BrdlJvTW85YkdUeEJuRHJBYVJOaWthMTBoNnJndzZxcDJyN3pwb1FxSnY0WjdEaEpoREtUNkpIbngzOExRRW4tQ3doTmRJTEZERTdGbWJhUE9sb1N2b180LXczT3VmMkttOEtSUG9oanlrVFJUbUo0bWw2Q1BrQWFzMGdfdw?oc=5",
-    "date": "2026-10-23",
-    "source": "Idéal Investisseur",
-    "first_seen": "2026-10-27"
+    "title": "Uber and AI-firm Wayve launch London's first robotaxis - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLUM0eWN6Q0l5Z1FRZ2ZPX2JSREZCczlvTFpYdlpzVVBlVWlveG52eTRRaVpRQ0tqREZ0RnhPLUJLOGFjZHdweDVxNEVfTW9OLS1YdDg3aWw2N25DTnM1dmlXQzJvT0xxSW82MWpGdlFBZnN4ZXpsZEVRVjdhOVNqdXdyalNJN3BOTWFwT0R5MFZSNkhUMGxCdjR3?oc=5",
+    "date": "2026-09-02",
+    "source": "Reuters",
+    "first_seen": "2026-10-08"
    },
    {
     "type": "news",
-    "title": "Autonomous & Self-Driving Vehicle News: Tesla, Mobileye, Aeva, Ouster, Pony.ai, NVIDIA, Stellantis, Bolt, Wayve, Volkswagen, Einride, Valeo, Aptiv & TIER IV | auto connected car news - AUTO Connected Car News",
-    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNLXpSRDZNWTdpaUNvcWdGUWJBRUxfMGlXTXYtNFEyV0NxU0hfTmhxUlQwb2JGN3Y0VW9QS25NeVRPNkxsVV93ZkZGdGp5bW9iU3VERTFwaW5MckVKc0xmTEJVR1NFTFJORXR5SVZ2VlNDY0VFRjhabEo4dkp4WU1xTFpYci1kcWNsNndSNHg2cExQUVlCRVEtb1plX0dLa2diaDV6eU9hX1dnT1pOTmVkZXBNQ1pnUHlZQ1BVX1FEWWJfcS1fejBXbUdWZE5qZDRDUGtmTnFUZVhYTkItWlN5emwyMnRGNWFITHVDTEZwQk9hdXpJT3d3N2UybExoRjRtLTVZUFE4ZFBZQVZJLXc?oc=5",
-    "date": "2026-10-26",
-    "source": "AUTO Connected Car News",
-    "first_seen": "2026-10-26"
+    "title": "London not ready for driverless 'robotaxis', report warns - London Evening Standard",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbU02dmpsZFBnazJPLTFBdnQ4cnZ2bzF3dFh6TlBQbnpvdTNhTDJPS0hQZEwzWEk5UG92dDJublM0dFVQNnpmS0U5UVdYY1k3ZFpxeWY2cU5CckRVc0trck5sSXZQS1RYU2djdmpNTHVMQlBiR0IyeC0yTkhPLVVTWDFqdW05aDBfaFdrWENwblQzdnRBWGc?oc=5",
+    "date": "2026-10-12",
+    "source": "London Evening Standard",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "news",
-    "title": "Mercedes-Benz signs deal to put Wayve AI Driver in cars within 2 years - Electrek",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOejQwZmJHSEFCeFJNblpjd3RMSTY3Vkw5YnREUF9ua0RfcmhVT3ZxQVpxLUQ4clFlcXBxTzdjZlRoV1ZHSDFQbTlUbUFuWEVrUThxNVRDbWlRMUthVTJIdVdOM19mZ2dySGRIblZVdXc2S2xoSGRMNUVheUVyem5vUHNqbHdmb3E1cUE?oc=5",
-    "date": "2026-09-22",
-    "source": "Electrek",
-    "first_seen": "2026-10-27"
-   },
-   {
-    "type": "launch",
-    "title": "Uber Technologies, Inc. - Wayve and Uber Launch First-Ever Autonomous Rides in the UK - Uber Investor Relations",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUlpoZ2p2RU0wTnB4cnBVSEo2X1hMYUNHZl8xZGRKV3ltYmFiMmxPbnZNcDBiMi1xcnBuR1RWTWU4QmhhX3RoVWRZVTM4aWcxbTZkSC1NMDBQakFNcDVaOUpmbGhlYVFnVk54NDkzb2tDckR6SktxaDh6TWQtT2cxUUxSRVpEaXVrTy1BNWZMTUNjbVBOTHRJMHJmcnVlTnV3Xy1xME51OVZyalV0R2lndzVhT2c3M2w1YnF2VUU4VklLcVRhNEhvV2d5S3dLSmc0TnVWaGhsdHItLVpxTkhTZmhxTERQYTFEWWxrTVgtWQ?oc=5",
+    "title": "London’s first self-driving taxis for hire hit the streets - The Guardian",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWc5V1hUaHJBWThCeU1kYWJKNmh6b2tPNWRsTlBPMWlMcTZ1cERZRjBqbUlfdzQ4VVJuMkZVcmxrbEtkNlllbV9RR3l6Q0F2SDRNTGx4c2VNd3JncGQ4MnZPdTQxRU9VN3RDZGhqLTU1T3I2NV9sTk43a1pDM3RYWlFlWFlndXUyWXpYdWs4Z2dMcHNOQl9jTjlFT0p4OHQxUVNfOA?oc=5",
     "date": "2026-09-03",
-    "source": "Uber Investor Relations",
-    "first_seen": "2026-10-27"
+    "source": "The Guardian",
+    "first_seen": "2026-10-08"
+   },
+   {
+    "type": "news",
+    "title": "Wayve nabs former Waymo CFO for finance chief - CFO Dive",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRHE3eTNab2hUc1NvcGFDbUlXeElyN2NScWtfS19uSS1PbGRhNkFveF8xeUJvWFhvNkxKVDNLQld3M1hqX3YxN1NSY2xDTy1FMXdVZ1RVWG1rYVREZ1drT1NVVnZHMkdkV0pENjd4VDBRLVBRTm1OQy13dlQxSWZMZm5mRUsteDFpVGY5RA?oc=5",
+    "date": "2026-09-17",
+    "source": "CFO Dive",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "launch",
+    "title": "Wayve and Uber launch first-ever autonomous rides in the UK - Uber",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91VkRTVFRqNG9pWkVUUi0tV21MMldUbnhIM2pZM1FDZmdlMXg3M2NNNmxzN0tyTnVFbzhKRW0ya0tmcjB6WlpkSi1JT3Q5cnIyZU9uOXdfWUVOUmwyS2hZ?oc=5",
+    "date": "2026-09-02",
+    "source": "Uber",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "launch",
+    "title": "Uber and AI firm Wayve launch first self-driving robotaxis in London - Yahoo Finance UK",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Ia051Z3k2aTh5dnYyWXZzX2Vwb3VSN0ZNSXZWNm5wVlNNb3B2OFZRUmhRRFRiU3ZwRWRyUTZuX1hsd2Fod0xWaHZmTkVhMjZKMklsUjVsYVVfX1pyU2hwTHJuVGFqZE5sZzZzSV9FS3lDT0huNnpPQkRlUUtxaVE?oc=5",
+    "date": "2026-09-03",
+    "source": "Yahoo Finance UK",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "France boosts autonomous driving with Wayve, Stellantis and NVIDIA - Foro3D",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObTNwcldneGFVUzJYS2tmNXM0RGhTTk1YWUlKWFRpRDQwazY4M2Npbm5vS2pwM0lGTUtZYkltang2THNvcFhEb3FxazFwNGgxd2swQlRwVklENHlOTUNWWVJQMk1uQmRncnlHdm14cVp6WUVVUm4yYmhta0RLU3BPeXR1VF9CVkdRSjVZVzRVZWQ5M2Q4TzdjbjgxSkJ0SXZ5Wk1WZnlnd3I3UHg1?oc=5",
+    "date": "2026-10-25",
+    "source": "Foro3D",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "Protesters Call For Limits On London Robotaxis - Silicon UK",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMEpoWDVobFR3S192T0xjM2xMcTktR01qdkVJa2hVQUtONk1NVjlPR1dXMnBMVHB0LXFPdEszMEVJVDE1QnZIaTJFaDFaV3lNc3Z0UlVLYWtlWDRpRW41V3N3RWdSOWZoSkhnTG1XVkhQUzdFRlZwSmxpUDdDTzY2d05OWF8zdGVtbTVZLUtfcDV1TzN3RExF?oc=5",
+    "date": "2026-10-20",
+    "source": "Silicon UK",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "Stellantis and Wayve Demonstrate How AI Can Scale Across Vehicle Platforms and Enhance Everyday Mobility - Stellantis Media",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcTVfVjlVNzQySmVnZnFEUFlCR2dTWWtxVU9wMWpMTVRHWEJMN05WekxjRkppTXdxc0Z4WlZfdVdJZ1hRZ2VXQzZNRV92bVVFbUVRdGcyb3pkWW9aNUJmMnFRSnRTZGxlY0pUR3RpNjlOR1BIVURZRUZqaFVDMkxENzR2N3psdl9KS2U3bVFyYTdPem5oQXhCcjB5OWNQSFh5eU0xSVBYSGNMSFBQRmJBa3gxQUJBUnNvTVdHcV9pYjNyUXRwb3lMTzdyQ0d5QjNPbFJQdVNWc3Q0eG1SX3hpVDBnUE1JZXdzSkg0N285b00?oc=5",
+    "date": "2026-10-09",
+    "source": "Stellantis Media",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "launch",
+    "title": "Wayve-Uber robotaxis launch on London’s streets today - BusinessCloud",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOXJCWWc5cGR1aWkxODQ2WDVfUEczZWx3ODFzV0ktU3BJdmdiZXFKX1JQSW0yS2h6b1BzMTZQR1VjeHlmV1U3a2V4RXdCUzVLSUZwdVVFMnNSbU94T2M2a042UGxETVJqVWlFR3B0aHh3Z1laODJVSk0yRXliV21IRVRJZUdUS3EyT2Nr?oc=5",
+    "date": "2026-09-03",
+    "source": "BusinessCloud",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "launch",
+    "title": "ADCU stages protest against Uber driverless rollout outside Wayve headquarters - TaxiPoint Taxi News",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTXFiRkJLVmQ5REhuMjRLT0tlcGEyekR4TzlpaFJyS2pnSVlramJMOGdBZWRUMFFnRHk3STc0eWduUWlyVzJMb2FMeDVOUWVpLUI4dURnWTFwN2h0S0xJSi1Da1kybFpQREpPMDMtQmxubW9vQkU5SzlvenZmUEp6UG5NSzg4cm1XcDZyaXU3MnYwT3ZiaHFmMWRWcmxrMU9iODRvWnd2LTlUWms3a3l0MG53?oc=5",
+    "date": "2026-10-18",
+    "source": "TaxiPoint Taxi News",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "launch",
+    "title": "Uber and Wayve launch autonomous taxis in London - greenfleet.net",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObTViWERzU1dWSWYyZ3plc2ZXZ0I1ZEFnNEdsYmo5X3pnOWpOS3cxXzVmOWZWUXltYzNEX2JtOHFPY28zOTNMVGM4X1hUVThXaVF3dE12R3ZZWlhYYTViT3FoWndfRVlyN25lSXdkSmNpOXhhNzJfLUxjQmFSdWJFR2VVRFZick91QXc?oc=5",
+    "date": "2026-09-03",
+    "source": "greenfleet.net",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "Mercedes to bring Wayve AI Driver to consumer vehicles - Zag Daily",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYkhRZW5EMWtTLVFOeWtrNHY3TUx3bjZsYjJORnlzdFhKMkp6TEtmMWhKS0lITDNjaEpDVnZYQ185aTZldk5xQkt1UFZZTS1NSlZUeUhkVGFUUDB6b2RHak54QndTZFN2MGN4ejd0LU5QZnljRUpCd2tMX09XYk1qRmpNSHNXSHRfUkwyTXJGcw?oc=5",
+    "date": "2026-09-22",
+    "source": "Zag Daily",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "job",
@@ -863,7 +983,7 @@
     "first_seen": "2026-10-26"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Dogtooth Technologies": {
   "name": "Dogtooth Technologies",
@@ -881,8 +1001,17 @@
   "data": "Close-up fruit images in messy lighting needing ripeness and defect labels; small team, no spare labelling capacity",
   "verified": "no",
   "brief": "no",
-  "signals": [],
-  "fetched": "2026-10-28"
+  "signals": [
+   {
+    "type": "hn",
+    "title": "mRNA vaccine targeting tick proteins induces tick resistance in guinea pigs",
+    "url": "https://medicine.yale.edu/news-article/yale-researchers-advance-work-in-diagnosing-and-preventing-tickborne-diseases/",
+    "date": "2026-07-13",
+    "points": 13,
+    "first_seen": "2026-10-29"
+   }
+  ],
+  "fetched": "2026-10-29"
  },
  "Automata": {
   "name": "Automata",
@@ -926,19 +1055,19 @@
     "first_seen": "2026-10-28"
    },
    {
-    "type": "launch",
-    "title": "Danaher is launching an AI-powered autonomous lab for drug discovery - Quartz",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sakpNM1JuZmNCV091NnM4ZEkwcWh6aVF2ckhOSTZhQWhGY3I5RUh0WDRoTUplTjFZbDJsWXVGT0MwaXdtcVNRcHpjb1FNY3ZodWJPWG5pWGdfLXYxc2dkRDhuemxjeGVTd3Q2UUx3WQ?oc=5",
-    "date": "2026-10-07",
-    "source": "Quartz",
-    "first_seen": "2026-10-28"
-   },
-   {
     "type": "news",
     "title": "Danaher and NVIDIA Partner to Accelerate Autonomous Science - Healthcare Digital",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcW5xT0xNSmF5MW9ibHp2T1BrWlUwLWtValNZWXp4NzBWV3VzZlhMMC1KOGZndVdLUXprS29lSUR0Qkhua1pNb3BHeGpMMWtUOVFDeUFKVVpmZWVxZVpKUFhEZVRyQWRyTUNGTnpXTF9JemM3UlNZTUpCdENoaVctM1dHeUN6RnB3dFVMNXM0Wm52S3RyX3MtNUhCRQ?oc=5",
     "date": "2026-10-18",
     "source": "Healthcare Digital",
+    "first_seen": "2026-10-28"
+   },
+   {
+    "type": "launch",
+    "title": "Danaher is launching an AI-powered autonomous lab for drug discovery - Quartz",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sakpNM1JuZmNCV091NnM4ZEkwcWh6aVF2ckhOSTZhQWhGY3I5RUh0WDRoTUplTjFZbDJsWXVGT0MwaXdtcVNRcHpjb1FNY3ZodWJPWG5pWGdfLXYxc2dkRDhuemxjeGVTd3Q2UUx3WQ?oc=5",
+    "date": "2026-10-07",
+    "source": "Quartz",
     "first_seen": "2026-10-28"
    },
    {
@@ -1006,7 +1135,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Skyports Drone Services": {
   "name": "Skyports Drone Services",
@@ -1035,91 +1164,11 @@
    },
    {
     "type": "news",
-    "title": "Big cargo drones complete first BVLOS delivery to North Sea wind farm - ADS Advance",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTXRTOUIzY2xxeEZyY3RXRExCRklqWUJjNDRmTFB5bk90THk4SWFNaUJOWm1USC1qMTJYeVE2VUtURUhqNi03SXMtRWVRRVZHOHNsazJjQ0ZaTmowY1VIdzVWcWRweFR4aUlpWjlVNUlINWE0ZU5zZ1VweTJpNWdsb2hn?oc=5",
-    "date": "2026-10-09",
-    "source": "ADS Advance",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "news",
     "title": "In pictures: Drones survey HumeLink West transmission project from 350km away - New Civil Engineer",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOFQ5ZE1zdUNNck9SaEZoSk5GOThqU0tMcEUyVElHQWVlNFo0MjEzNjZwbmt1dTZwSWFyRmFIS3p4LVF3cWJQcTR1Q1VaaE1kS3JkUERoT1pUcHhaTmNaaWVUN2d2QVEtS3l0Y2RwZ1JHUHhEYlZOVEtDSTdpZ3IyZWlBQWhseFFZb3Jfb2RPOWExWXJ4X1cwdkRLS0txeTllbTZEM3lQeVJfbzg5WllDS29FVnhyR3ZXNThrMWY0dW9kRk5LZzAw?oc=5",
     "date": "2026-10-13",
     "source": "New Civil Engineer",
     "first_seen": "2026-10-13"
-   },
-   {
-    "type": "news",
-    "title": "Ørsted completes Hornsea 2 cargo drone trial - reNEWS",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96T25vTVlJQ0o2Q01hYnQ4NVlPUmRMc3lSZElDbktkN0NlWWhOeTJKWG9PcVlXRDhiQ091eVYxTlZ4bms0NU9IZG1oTUI4b01NRk9MTkJidUhjbUJyczNSaVhTZXFjWi1iSE12ZDhLZUF3RzVzaV9FOWItTmxoNE0?oc=5",
-    "date": "2026-10-09",
-    "source": "reNEWS",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "news",
-    "title": "Automated BVLOS Drone Surveys Take on Major Infrastructure Project in Australia - Dronelife",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53cnR3UkhnUnRobjBwczlkZWhkaVhVWm9yV0lzMFRQSHVMX2xnWHVMNkpuWDY1YktmaFRrT1BMN1NpandEWjRzb002ek1QWGQ4Q1VjOUFJQXJ2Mmc1NHR4VGF6QVZuUUUwS1hZb1ZhU190dUUwNHMyT3AzSkM3Zw?oc=5",
-    "date": "2026-10-15",
-    "source": "Dronelife",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "news",
-    "title": "Remote drone surveys monitor construction project from 350km away - Trending Now Sustainable Construction",
-    "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOSFpyWF9jeFVXWWVVN2t0LVFJOTRSMnN4S3ZEWTdqaTF1TDNYeU00LWZqTUJSbTVINzN2QW9lVWxQNHBqTDdBenlveGJ5WnliZzhiMEFicjd4WWhKem10bGFxVWlBcG82UFF0Y1Y4S3BHZWxac25udm9udDN1QUJJX3ktNXduUnRmeXJjd3hxMVpfdlU0TXZHREhCWVVhb3pvNEVadTdqMkhjc0Q0dkRXeFE1NXB2bVVNQ3VzMk03MjJzcmhqTWczeWpSY3AzTlVxbG9HU093enhjWXYyMVRQbDFJZWhSdTVvaldocXhtYnJvRXVOYVJuWWZha19xOTN5RjFPS0wzUjkyVnJHYWxNVWRLWEtkSTNDdFAtX3pkYmpCZDBac3hUNVcwNjludmVBOE00aGNzNVMxWjFDV3c?oc=5",
-    "date": "2026-10-14",
-    "source": "Trending Now Sustainable Construction",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "news",
-    "title": "Substation-based drones to trial automated power-line inspections - Envirotec Magazine",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVDBjQmpWSmtRSkRzcG05OW1EY054UWNrTk15cThzdi1mWjJ5WGNnNDZmRXNQZ1Q0N1hRYUs5NWpNRmlfcDNkWk1DODlYRFIzcUhhTEV3WllNZWxJNld4OWUyRW5WOVkxVW9rYTlvOHUtZHpqY0dNX3oyQktyZUp2ekxVZS0xQ0RlNmI2MHhKczBfRi1rT2lpWWo1XzgtLThwbXA1V0QxRzNzRkU?oc=5",
-    "date": "2026-09-23",
-    "source": "Envirotec Magazine",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "news",
-    "title": "Skyports Drone Services supports one of Australia’s largest transmission projects, HumeLink West, with automated BVLOS “drone-in-a-box” surveying - AUVSI",
-    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQdUdDZnJlMlRkNXU5cUI2RzFGajhuSmU0OWx4UHBZblkxTm9tVkNOdXhESnY5dzFaSTNsWi1PYnZ5VnZtQlprNTdEckwxRk0taFpyXzJXcy01Y0dYU3pkSUFIUDdXYkxhb3NwcHhHeW5GbmFnV29wMnM5djlTSnJpV3dPLUg4Wnk1Qk45YXNOQ25hNHpXNHJHZGVRUU1TTHg3T1FQWmxoSzlIdmFIZ2NDeHNaSWR6aFFsTktLVGx2ZE1ONlRYOExMZk15LUsxbjRoeGFZeEpqdnlrVGdoSGpwUEFVTkVsQnVqZ201QzFETVh0ZVBrSUkwWjBEMno?oc=5",
-    "date": "2026-10-13",
-    "source": "AUVSI",
-    "first_seen": "2026-10-15"
-   },
-   {
-    "type": "news",
-    "title": "Ørsted's Turbine Drone Looks Like a DJI Heavy Lifter the US Taxes 100% - DroneXL",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMEIzRGJjeXFFNExnN0pTaXZjekhiVms5WHRsaGlQZ1hJTkhuRi1GUWlCQkk5Rm9MZENrc2xyc3lpZ3otOW9haGdQTURETGpXWnNybG1obFoxWnV5MUhNUlVGWHBqc0QycFVmUlczcTZMQjlTTjVScUwxSi1wbnA5a0hmX2pFMHp1?oc=5",
-    "date": "2026-10-19",
-    "source": "DroneXL",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "launch",
-    "title": "Skyports deploys automated BVLOS drones for Australia’s HumeLink power lines project - Robotics & Automation News",
-    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQOHcyNU84S1ptWFdsMUFEc2pTLW1wM1QwR2VaNzhCOFVpcWJwQWVkWVNwaWJoSnk0X3JWamstSHpsY3J0ZzI2aDhpZzRDLUZINkg3T19fb2Zua3c2X20tem5wcFZ1SHF0cmVlVFkzaDcyZmhNYnI3VUY2YWlzOGdUQXdYMkZuOG4xcFBCUXVmblFlcU9UTnJzeG4wMmhFRXhrN2dFUUNhaXRXZW91VTRmeXJ5RWtjbWtIakpuS29nYmdpVk5BM0tSS0M0ZXBRMldscHNwemFMakF4cDVBTGRCbzhiUGdhb2dUdGhxbjk3c3NkUFduMThWTFZJMURrUVM1SEY0MjRwNG1Ea3ZEYXppbHV4bWpsYm1lYUlkazZHR3pCVWc?oc=5",
-    "date": "2026-10-19",
-    "source": "Robotics & Automation News",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "news",
-    "title": "SP Electricity North West to Trial Remote Drones for Post-Storm Fault Finding - Commercial UAV News",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ3BoWHhPQ0NpYkNqb1RmalJmbmdYVjNIcnZNRTFrNjR3cDlZYlg3YV9nX1kxZl9sVTIwVkxhYmF4NDdNeTNpM09VSVRRckd0czVmYmdjR1h5QVhubXRKem12UlhXSTg3bngtYjAxeUlaa0hnbG5UcjVxa1ZRUW9sN3lVV0FSUnpyTm5RcWxjN1MyWk04bmlKb01qS1Vvb0xx?oc=5",
-    "date": "2026-09-23",
-    "source": "Commercial UAV News",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "news",
-    "title": "Ørsted completes heavy lift drone trial at Hornsea 2 - The Engineer",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcHVKVlZOS0ZGU1NUbUlGMTUyc2ZfUEpMOUx2eGQtbUpsX04zTGtlVnZhamNhbXdicmtJanNuUDd3ckFTMV9pQ3cwbjl2LXF2ZmFRS0k0YkFqUHExV05XTnhvcURUMUY3bUZlV3BoVGR3SHAyWWlZNVpIZFBHZjd1WmFSZGh4M3lkcTE0?oc=5",
-    "date": "2026-10-09",
-    "source": "The Engineer",
-    "first_seen": "2026-10-28"
    },
    {
     "type": "news",
@@ -1131,27 +1180,11 @@
    },
    {
     "type": "news",
-    "title": "HumeLink West takes drone monitoring to new heights - Energy Magazine",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVV9IQkVPVHRneU40b1dUWVdhWlRrMmRxTXZsZlJSTHJIRG1pYkRMUE13TXRoQWw3TUYwYUxyeklDNS1pYy1YUXRFVC1TckdLRXNhd3BNb3NwZXprNUJleHBEN2FhRjZZa1A3VzZuVld1LVVBb1JaQkFoTmtjMlczTGJRZVRMZG1PLUE3cmxBUQ?oc=5",
-    "date": "2026-10-19",
-    "source": "Energy Magazine",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "news",
-    "title": "UK’s SP Electricity North West to trial remotely piloted drones for post-storm inspections - Unmanned airspace",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZlNsMEQ5Q0Y1VmgwZU0xYkhTd05zQzdvN2J4TUhjNGtycl9vc3Fub25ZSHdrbEJWbXdncW8tRmFOeWttYVVfb09QUFd4cU1aanNBclBuQmVZeUlsVExBTmJlcHhxX3YxdUVRNmpTRDhneUdJcnRzZHZBMGc2LTJnU2xDcDZHeFZGQl92OVo3UXhrdjk2cXdtQnhSX3NqRVZmSFNDeUlPQ3BwaGJja2tuaTR1cHJpMVRXN3FyZjg5MnUzYVlXcWpXVW5TeEV6akNHYndPeQ?oc=5",
-    "date": "2026-09-24",
-    "source": "Unmanned airspace",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "news",
-    "title": "SP Electricity North West to trial remotely piloted drones, docked at substations, for post-storm fault finding and asset condition monitoring - AUVSI",
-    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONGtTSTNoUk5IVjJsV3JSaXRVNURVQnN3VUlXVlNfaGNNdXRsYUlWWnNkQ29MUUNWN2lzV29WczhsWnJwZ052QW5CTWRLWnVvclhRQVpXY3hEMkpKNk12bkJaaU1ldnRhT2pKOG9va2RfRzZjelh5NU9DYlZaZWRYSE42U0M5aG9YS2xoVTNhaTVnTDctTXExa1FiS0ZYNnF1SS11TkNyY0xqckU1U1ZoUkxIR0p1MEdKdjVHb2tuWkE5b1U2Y2lZXzhrckY1T3phYTBRZndIcmxHbGFyenV2UmFyOHpwWktWMEZMZTZSWWdtaTdLNDBjMG1ZbXM?oc=5",
-    "date": "2026-09-23",
+    "title": "Skyports Drone Services supports one of Australia’s largest transmission projects, HumeLink West, with automated BVLOS “drone-in-a-box” surveying - AUVSI",
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQdUdDZnJlMlRkNXU5cUI2RzFGajhuSmU0OWx4UHBZblkxTm9tVkNOdXhESnY5dzFaSTNsWi1PYnZ5VnZtQlprNTdEckwxRk0taFpyXzJXcy01Y0dYU3pkSUFIUDdXYkxhb3NwcHhHeW5GbmFnV29wMnM5djlTSnJpV3dPLUg4Wnk1Qk45YXNOQ25hNHpXNHJHZGVRUU1TTHg3T1FQWmxoSzlIdmFIZ2NDeHNaSWR6aFFsTktLVGx2ZE1ONlRYOExMZk15LUsxbjRoeGFZeEpqdnlrVGdoSGpwUEFVTkVsQnVqZ201QzFETVh0ZVBrSUkwWjBEMno?oc=5",
+    "date": "2026-10-13",
     "source": "AUVSI",
-    "first_seen": "2026-10-28"
+    "first_seen": "2026-10-15"
    },
    {
     "type": "paper",
@@ -1208,7 +1241,7 @@
     "first_seen": "2026-10-28"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "CMR Surgical": {
   "name": "CMR Surgical",
@@ -1236,6 +1269,14 @@
     "first_seen": "2026-10-12"
    },
    {
+    "type": "funding",
+    "title": "Stryker enters soft tissue robotics with $400M investment in CMR Surgical - MedTech Dive",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYXZlazRsX0VVa096OVdRdDljclNYdEdPT0dYeF9YYmJURG9sSXdreXFZdHdJSWpYczB1d1o0MFVwN0hxSnV1aUVhUG9qX1lfUkhvUWZoNzVRVkJQX2JDak4yTzk5bFlveFNvLUVKa1ZtUXhwbnNYVVhlQU9KX0ZPYTlIdldJeGFCVnBwUHc3NkF4elFsWDRkMFMySGhjbVRNdUtGSkxnR291WThBcVNOTWlFTQ?oc=5",
+    "date": "2026-10-12",
+    "source": "MedTech Dive",
+    "first_seen": "2026-10-13"
+   },
+   {
     "type": "news",
     "title": "CMR Surgical Chose Agency Over Distribution To Keep Surgeons Close, CEO Says - Medtech Insight",
     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUmtQV2tiWWhieGFkTTVjOWhTRXdJNk5rdUYteC1WbUdoSEh0My11MFYtQ29mTENYZHFzZHdtQm11TUt1emc0b19HWXY0VzFjaHgtYmROVlZDN0QxQTlyUGpXWmp3LVg5ZTBPZUJlUVl5UUFnV1pDUERpYWVzaUFFTUVwaUcwUXNXN0U1LWRhTFZCMlFRam0zdVFyUUF6eU5Iak5KMzFlYVd0ZndqWmdDVzdmeFVicE1mQkFuUlN6VWt0ZnQ2S09ZWWRncWxNbnVxM1FYLTQ0MFRqWHZPQzdBbmpxUzFVODFHUmFBcEQxRGszazBpMndvOFJwcUlKNVJh?oc=5",
@@ -1245,35 +1286,11 @@
    },
    {
     "type": "funding",
-    "title": "UK: Stryker takes US$400m stake in CMR Surgical with option to acquire outright - Investors in Healthcare",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOElicS1UVGJrWnZJbzcwZ2U5T1FMTFJLVG1EcEJ2VEhKOEdSVWY4RHRVUlZxTmhHaURkUmR1NThGeDVHdXluTnhQUDZXZTNNc3l6c1A5R3liR2hKbGtfb0cwa3VRWVNYSlc5SlY5TXhDS05JOWM2ZXpBUVVKQ0w3N3hhdWo5aGpSTW9SVi1zQWNRa19yUlFHWDIxTkk0ZnZjeXJFY2tJZm9YWGVUazJnYkRZeGNRS2tUblpEcjYzSUR1UWI0enRrMEw1SkdHQm9RODU4Y3hn?oc=5",
-    "date": "2026-10-13",
-    "source": "Investors in Healthcare",
-    "first_seen": "2026-10-13"
-   },
-   {
-    "type": "funding",
-    "title": "Stryker enters soft tissue robotics with $400M investment in CMR Surgical - MedTech Dive",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYXZlazRsX0VVa096OVdRdDljclNYdEdPT0dYeF9YYmJURG9sSXdreXFZdHdJSWpYczB1d1o0MFVwN0hxSnV1aUVhUG9qX1lfUkhvUWZoNzVRVkJQX2JDak4yTzk5bFlveFNvLUVKa1ZtUXhwbnNYVVhlQU9KX0ZPYTlIdldJeGFCVnBwUHc3NkF4elFsWDRkMFMySGhjbVRNdUtGSkxnR291WThBcVNOTWlFTQ?oc=5",
-    "date": "2026-10-12",
-    "source": "MedTech Dive",
-    "first_seen": "2026-10-13"
-   },
-   {
-    "type": "funding",
-    "title": "Stryker enters soft tissue robotics with $400M investment in CMR Surgical - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOczZReVVOYUtkQkd6Z3laWEZ1R05BUHg2cS02Wm9jQXl4dm1UaV9sZXJBN1B4VDlDRjAyYmtoNTZwblBjSzI3Nm41WlprSmJIRGpkQ2hzRHNVbl9jSmNMclJVSWpSNm9zUFM5cEhGY3c4d1hkMkVtVjVtNS13NWRBVElMYXBOV2tILVNqMDZ1Wk45eGRPY2hqcFFtRWo?oc=5",
-    "date": "2026-10-12",
-    "source": "Yahoo Finance",
-    "first_seen": "2026-10-23"
-   },
-   {
-    "type": "funding",
-    "title": "Cambridge surgical robot start-up sells $400m stake to US group - The Times",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUFlEU1U2eXRIeFZ0NnFJc1pGelFWc2xneTRxbWxaeUlkazk4SVJCS1hOdEVxbFlYRXBrNWlWdkhfcmRPeTFLVEdqVnBEVlVpak1SZkxsM2dGcjIyOG11SHlMVVFtSkRHVzl6Ynk1bURCLWprSDJ6V3VsUzNrMkV4bGg0eVM1d09lX1V4ZVE4aUFaY0tlVWR4anpjakpGMnBIb0h3UkkyVkRwZUVNVGxRcE05Tmsta2lIcWJB?oc=5",
-    "date": "2026-10-12",
-    "source": "The Times",
-    "first_seen": "2026-10-13"
+    "title": "Stryker bets big on robot surgery, backing CMR Surgical in $400m deal - BioXconomy",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMU5tYnpQRXp6a3ZMaVEzSnZsTlgwM2h4OXZqM210ZVN6NHFlMlJpRXV2TFY0ZFNsU21ockloRnNVaDc2aGppaGNYQW1LLWZ3Mk5mNGNKRHYyTlRadFFxbFlKZWJoQnpmNnJsRnl0Qi1neTJFc2RlMTZIMUtmaWMxWFp4NVVyZHVULWRTdnhxdTFFdWZ6aUpROWg1OENlVWdJVDZKTjl2RTU?oc=5",
+    "date": "2026-10-14",
+    "source": "BioXconomy",
+    "first_seen": "2026-10-14"
    },
    {
     "type": "funding",
@@ -1281,6 +1298,14 @@
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcV9sQXkyanJ0Ym41a1VPbS11UmlBa2xhdm82OWswWUhNWlZvRDBwVTc5TVVwclVnd0JLekJlUm5sYW9DRkZHTWo5R2kxVnUwMnZRYlZTUHBuTEpyQTMwd3d0U3U3bG1nSWRma2l0ZWx5b2ZrZnhKX1M0YVpYV0ZwWA?oc=5",
     "date": "2026-10-13",
     "source": "BusinessCloud",
+    "first_seen": "2026-10-13"
+   },
+   {
+    "type": "funding",
+    "title": "Cambridge surgical robot start-up sells $400m stake to US group - The Times",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUFlEU1U2eXRIeFZ0NnFJc1pGelFWc2xneTRxbWxaeUlkazk4SVJCS1hOdEVxbFlYRXBrNWlWdkhfcmRPeTFLVEdqVnBEVlVpak1SZkxsM2dGcjIyOG11SHlMVVFtSkRHVzl6Ynk1bURCLWprSDJ6V3VsUzNrMkV4bGg0eVM1d09lX1V4ZVE4aUFaY0tlVWR4anpjakpGMnBIb0h3UkkyVkRwZUVNVGxRcE05Tmsta2lIcWJB?oc=5",
+    "date": "2026-10-12",
+    "source": "The Times",
     "first_seen": "2026-10-13"
    },
    {
@@ -1298,14 +1323,6 @@
     "date": "2026-10-13",
     "source": "Fierce Biotech",
     "first_seen": "2026-10-15"
-   },
-   {
-    "type": "funding",
-    "title": "Stryker bets big on robot surgery, backing CMR Surgical in $400m deal - BioXconomy",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMU5tYnpQRXp6a3ZMaVEzSnZsTlgwM2h4OXZqM210ZVN6NHFlMlJpRXV2TFY0ZFNsU21ockloRnNVaDc2aGppaGNYQW1LLWZ3Mk5mNGNKRHYyTlRadFFxbFlKZWJoQnpmNnJsRnl0Qi1neTJFc2RlMTZIMUtmaWMxWFp4NVVyZHVULWRTdnhxdTFFdWZ6aUpROWg1OENlVWdJVDZKTjl2RTU?oc=5",
-    "date": "2026-10-14",
-    "source": "BioXconomy",
-    "first_seen": "2026-10-14"
    },
    {
     "type": "funding",
@@ -1327,24 +1344,8 @@
     "type": "funding",
     "title": "CMR Surgical to receive $400M strategic investment from Stryker - Dealroom",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdFZIMkdfT1M1WmctTUlrTHdoSzc5a2h6Q3VUb3E4dXMwQVA2YVVzTGQxZ1I1ZXZzLTVWOVNnZlItel9CdUotS2RiMGNyR0xDUHg1ckR5dHNUTTZ1R214ZzU5MUhMdVRWYm9RUU9sMmREbWViSFN4YkY2c2NBb1lGZENvQXdRSU9KQjkyeXJFdGNjREtPQncxRTFBNXI?oc=5",
-    "date": "2026-10-13",
-    "source": "Dealroom",
-    "first_seen": "2026-10-14"
-   },
-   {
-    "type": "launch",
-    "title": "CMR Surgical CEO outlines the path forward for Stryker’s robotics partnership - MassDevice",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMEtYSnE4RVYzQXFHMDAyNjBLa3ZYMDlBUEg0eUQ2cmZnTGVVWk8xVE9zSWRMNHBXN1lqd2Zvd0oxTm1jZURqYlVYbkNvVXZQbW9tVUdDZndyUUpZb0tXSHhuYm5QaGJNSGdpb1dIS3I5YU5tUTltbTV6MFQ5NENxcW10aUR3ald2OFZjRHVFRUdsSlRnS3VteXhnTEV6bXhIekRvWll0MA?oc=5",
-    "date": "2026-10-15",
-    "source": "MassDevice",
-    "first_seen": "2026-10-16"
-   },
-   {
-    "type": "funding",
-    "title": "Stryker to invest $400 million in CMR Surgical, secure option for full acquisition - DOTmed",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5EQWFMVjM1N25JUXRTdUdwd25Jc19tNHJfeTVzT3UwdDlVZ0MwSXF3dXZWNmE3QnUxOEJrOVo0RTJNOXE3QVFvWnFQcDhQODRS?oc=5",
     "date": "2026-10-14",
-    "source": "DOTmed",
+    "source": "Dealroom",
     "first_seen": "2026-10-14"
    },
    {
@@ -1357,38 +1358,6 @@
    },
    {
     "type": "funding",
-    "title": "Stryker dives into soft-tissue robotics with $400M play for CMR Surgical’s Versius - MassDevice",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLUpfV2hucVJKZUJUaXZCQVVEanl5ODlnQmRSQWZ1aVhHbUMzdW1acmtKU3kwb0syc3RmMlVkRHRoU3hsN2hiTjh2ZkJZUzIyOHlOSEhFem1yNUw0YVIxX0NtYzJpYTVvSkZKb18zZjJtTUExZ21HVjZjS21ndEt4cDRDYmE2b05rZ3l3NEExd2tsVjdHM0xMRDFVOHNjb1ExWk5JekhJQktDV0JT?oc=5",
-    "date": "2026-10-13",
-    "source": "MassDevice",
-    "first_seen": "2026-10-13"
-   },
-   {
-    "type": "funding",
-    "title": "Stryker’s $400M Funding In CMR Surgical ‘Gives It Another Potential Growth Vertical,’ Analysts Say - Medtech Insight",
-    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPOGVzNy1kcW53WjM3SHFEdzZjS1JvWnFNUmtQZ240OGpqMHJVUHItRDlNVTVUd3JWWXVwNlI3dWd0azBHNG82ODNMXzhoQXZjR2dSSVhHSDdCMDhQNm5MWFd3V3ZGLVVqY0UzRTVuT1lqUmQyRlRXMXRNbTlMVHJULWgwTm1aVXRMWVVHRzMzQXNWYlZuWEdXYmtfeGhBSWNjdDF5YnFoWTFnZjYzQUdodGNSV0dkdGZXN3dBbXJVblU3RXFxUkFpM3JFenB5bmRZbEJ3X211aEtWQnpTM2RiQ0o3cm03RFpfbFNlaGZZYzQ2ZTRQWmU3WlVBYmU4M0FVREQzcFJDUFlrbnk4aDJz?oc=5",
-    "date": "2026-10-15",
-    "source": "Medtech Insight",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "funding",
-    "title": "Stryker invests $400m into CMR Surgical; secures future buyout option - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeC1Zb1NWT0FkN3Q2dThneThMajJDZTlUWERzLVJXZXd0SGd6WEgxQUpMcGRKVU1uSVJPYjB4SFhGRWlKckJSRDFoSXFYa1pMVzRPbWE4dnZTb2ppb2Z6ZnF6dEVoSi1IaFBSRlpOeEVRYUMyY3RSV3V4X015TllsMHlyd1h6dw?oc=5",
-    "date": "2026-10-12",
-    "source": "Yahoo Finance",
-    "first_seen": "2026-10-26"
-   },
-   {
-    "type": "funding",
-    "title": "Stryker invests $400m in CMR Surgical - and could buy the rest - Cambridge Independent",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMHhnX1dJRVYyTlY5czAzX3FwSDV2bHFheXZBR09UcmpwR28tbFlpUWFja29sbjBrWGlPaVZSZE1mLWlzNF9oVlRqQ1RpRUIxY2Q2RHN2cm53SnNIV29hRkhldHI3VkpnbmdROHppRmhQWTVkWFNIVy0wRmdXY2wzOUlPc0ZUajE0cWNLbG51bGFxdlFQTXViYThoREk0UGRZdkNDalVqaHlYTkw4ZlkxaTN1TlM?oc=5",
-    "date": "2026-10-12",
-    "source": "Cambridge Independent",
-    "first_seen": "2026-10-13"
-   },
-   {
-    "type": "funding",
     "title": "Stryker plans $400M investment in CMR Surgical, secures acquisition option - Healthcare IT News",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV1ZuQlpNUThYUm10SlZMUlgyTHF5NVdYZWhGVlpHNG94VHRFU0trb3RlVlhKQktldFBZZ2xNMEE3NXhNOHR1Q0p4UU5pWFdaRFJWd2s1YWh4RE94bWgzd21JZEVXeXg4NlV3WTViMURLUl9mVVg4YThodXM2cG1DMElrZzVqTmRBZzR3MGhPbE9nUDlfek02b2xBaXU2RG5Pbm4zTm1QRWNXbHc?oc=5",
     "date": "2026-10-19",
@@ -1397,19 +1366,43 @@
    },
    {
     "type": "launch",
-    "title": "Stryker and CMR Surgical announce strategic alliance to advance robotic-assisted surgery - Investing News Network",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOamF1RUR3Ym9hZDRhRGM4VkhSUlVhSy1aajE4YUdLc3NRMXhsa0VaTGFsYmt4clNwMWxlajNqaUZrUUtPb0JEZEpVbldXdC1RME1IQWxKbzM4NHB1eGZFNUNaVGluZ1RZbEhTZ205WU11WmRPbUEwOGpPYnFFVkpibm45NUJaT3VyQzBidEkwbG1yRlY1dEdsTDBPRG4wTzdNaVh0bDdFS1JlSmFhbDgxOFJMYXRRZw?oc=5",
+    "title": "CMR Surgical CEO outlines the path forward for Stryker’s robotics partnership - MassDevice",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMEtYSnE4RVYzQXFHMDAyNjBLa3ZYMDlBUEg0eUQ2cmZnTGVVWk8xVE9zSWRMNHBXN1lqd2Zvd0oxTm1jZURqYlVYbkNvVXZQbW9tVUdDZndyUUpZb0tXSHhuYm5QaGJNSGdpb1dIS3I5YU5tUTltbTV6MFQ5NENxcW10aUR3ald2OFZjRHVFRUdsSlRnS3VteXhnTEV6bXhIekRvWll0MA?oc=5",
+    "date": "2026-10-15",
+    "source": "MassDevice",
+    "first_seen": "2026-10-16"
+   },
+   {
+    "type": "launch",
+    "title": "Stryker and CMR Surgical announce strategic alliance to advance robotic-assisted surgery - Macau Business",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVGxMMGlmWlNBeXppM0FJUmw0Z053U1ZGbU55ekE0cHBLQlhrZkwxM0RxM0ViVXFReEhBd3NiRS1jam90aTgwbTNsbV8wenNlM2V3VzE2Z1hjeWs2czdiWG5QZldNeHFTWVkwaGpCWFEwVkNBMGc5MlNZYzBOcWFjYjNYOEZubkQ5WEthM1U5UE9CVkROZ3ozMEQxM1AwRDhCNVQ0Nkd3NVNIZF9GRjkycXhtUWFwUQ?oc=5",
     "date": "2026-10-12",
-    "source": "Investing News Network",
-    "first_seen": "2026-10-27"
+    "source": "Macau Business",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "funding",
-    "title": "Stryker invests $400M in CMR Surgical with option to buy - Modern Healthcare News",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcy1vbVRTX2dMZ2lGRGNrX2RLYm0zTXVBNTMtNXdlRjFqV3YwazZRdW51VENkMmdFeU5ZUEx6b1I2RmR2VTRaSWVzQ3ZJNGJrWDNGUy1NSzRiREFySnFEQW9PRE5oMDVTLTZWRXZKcE5HUE1Pc0RNdzlVRDdqdXlDOVJVQkZKUmItVFYzbEtmazEtRUpBSVVxQ0xfM1U?oc=5",
+    "title": "Stryker enters soft tissue robotics with $400M investment in CMR Surgical - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOczZReVVOYUtkQkd6Z3laWEZ1R05BUHg2cS02Wm9jQXl4dm1UaV9sZXJBN1B4VDlDRjAyYmtoNTZwblBjSzI3Nm41WlprSmJIRGpkQ2hzRHNVbl9jSmNMclJVSWpSNm9zUFM5cEhGY3c4d1hkMkVtVjVtNS13NWRBVElMYXBOV2tILVNqMDZ1Wk45eGRPY2hqcFFtRWo?oc=5",
     "date": "2026-10-12",
-    "source": "Modern Healthcare News",
-    "first_seen": "2026-10-22"
+    "source": "Yahoo Finance",
+    "first_seen": "2026-10-23"
+   },
+   {
+    "type": "funding",
+    "title": "Stryker to invest $400 million in CMR Surgical, secure option for full acquisition - DOTmed",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5EQWFMVjM1N25JUXRTdUdwd25Jc19tNHJfeTVzT3UwdDlVZ0MwSXF3dXZWNmE3QnUxOEJrOVo0RTJNOXE3QVFvWnFQcDhQODRS?oc=5",
+    "date": "2026-10-14",
+    "source": "DOTmed",
+    "first_seen": "2026-10-14"
+   },
+   {
+    "type": "funding",
+    "title": "Stryker dives into soft-tissue robotics with $400M play for CMR Surgical’s Versius - MassDevice",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLUpfV2hucVJKZUJUaXZCQVVEanl5ODlnQmRSQWZ1aVhHbUMzdW1acmtKU3kwb0syc3RmMlVkRHRoU3hsN2hiTjh2ZkJZUzIyOHlOSEhFem1yNUw0YVIxX0NtYzJpYTVvSkZKb18zZjJtTUExZ21HVjZjS21ndEt4cDRDYmE2b05rZ3l3NEExd2tsVjdHM0xMRDFVOHNjb1ExWk5JekhJQktDV0JT?oc=5",
+    "date": "2026-10-13",
+    "source": "MassDevice",
+    "first_seen": "2026-10-13"
    },
    {
     "type": "funding",
@@ -1421,11 +1414,19 @@
    },
    {
     "type": "funding",
-    "title": "Stryker to invest $400M in CMR Surgical, gains buyout option - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWndERWZGem1IM2ZMNEhDcTE2akx4UHN4QlFxdjZmRnkwNHJQM3NaWFFQV2docFo1dHVLczVYWGg2Uk1UcXkxeE9ySTZnS1lzcUZNeVRMTXF3TllZamNCclNnaF82T2FPTzc0R2VXTkhDclNWMHFlUWJlX0V0S3NXRGt2bGt6bm56M1NORWVraDRTOXV0RTIwMmI3RkFVdUlZWUlfNDZVb0hXSjI2S24xLU9qbmRyOVItaDlRQ0F3?oc=5",
+    "title": "Stryker invests $400m in CMR Surgical - and could buy the rest - Cambridge Independent",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMHhnX1dJRVYyTlY5czAzX3FwSDV2bHFheXZBR09UcmpwR28tbFlpUWFja29sbjBrWGlPaVZSZE1mLWlzNF9oVlRqQ1RpRUIxY2Q2RHN2cm53SnNIV29hRkhldHI3VkpnbmdROHppRmhQWTVkWFNIVy0wRmdXY2wzOUlPc0ZUajE0cWNLbG51bGFxdlFQTXViYThoREk0UGRZdkNDalVqaHlYTkw4ZlkxaTN1TlM?oc=5",
     "date": "2026-10-12",
-    "source": "TradingView",
-    "first_seen": "2026-10-12"
+    "source": "Cambridge Independent",
+    "first_seen": "2026-10-13"
+   },
+   {
+    "type": "funding",
+    "title": "Stryker invests $400m into CMR Surgical; secures future buyout option - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeC1Zb1NWT0FkN3Q2dThneThMajJDZTlUWERzLVJXZXd0SGd6WEgxQUpMcGRKVU1uSVJPYjB4SFhGRWlKckJSRDFoSXFYa1pMVzRPbWE4dnZTb2ppb2Z6ZnF6dEVoSi1IaFBSRlpOeEVRYUMyY3RSV3V4X015TllsMHlyd1h6dw?oc=5",
+    "date": "2026-10-12",
+    "source": "Yahoo Finance",
+    "first_seen": "2026-10-26"
    },
    {
     "type": "funding",
@@ -1437,10 +1438,18 @@
    },
    {
     "type": "funding",
-    "title": "Recon: Roche inks $1.2B deal with China's Rona for obesity drug; Stryker invests $400M in CMR Surgical - RAPS",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVHRQZGp2a3F0dlJMa0tUamthY0dOX19jS1prZmh0a3VqVmdxLXVqQlRaTW5OLUt0ZWFvdjRscURFMS1vYmZaMVRDM1V5Ty16UjBLZkQzc2RrOC1YdlJ6bnJKWTN3eVpabjZNMjB6eUpXWDl2akdHUUFWdjE2dXNiUllxQVp5RnFxRzA3LWxKNEF5dEliR3JpS1dEd0NvRXFvT3hGSWRpbmRsTVpuZ0tFMmI1eHR0RlE4Y1dIVzFGOXFHQTBZUXdTNjMxN0tqUQ?oc=5",
-    "date": "2026-10-13",
-    "source": "RAPS",
+    "title": "Stryker invests $400M in UK surgical robotics company - Crain's Grand Rapids Business",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdkpfbXBtTXRNV0xqeUxhWWJJY1RORTBMRXdlMlVEUkg0NDJSMkVxUDlEcVUydUhVeWJGRVZSZVdoaHJ2S3ZjbW9HaW1DVGxtM1NQdWI2Q243Y3U4aWZ1eUoxUGVwbDkxT0dtb3RKaWlMQ2tpYzBTUTBMMWVYdEhKVC1IejA4R3YtYk9JWHoxazFndno0Y2J4bDVsX25CeTN1TzhodlZtUW1NQQ?oc=5",
+    "date": "2026-10-15",
+    "source": "Crain's Grand Rapids Business",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "funding",
+    "title": "Stryker invests $400M in CMR Surgical with option to buy - Modern Healthcare News",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcy1vbVRTX2dMZ2lGRGNrX2RLYm0zTXVBNTMtNXdlRjFqV3YwazZRdW51VENkMmdFeU5ZUEx6b1I2RmR2VTRaSWVzQ3ZJNGJrWDNGUy1NSzRiREFySnFEQW9PRE5oMDVTLTZWRXZKcE5HUE1Pc0RNdzlVRDdqdXlDOVJVQkZKUmItVFYzbEtmazEtRUpBSVVxQ0xfM1U?oc=5",
+    "date": "2026-10-12",
+    "source": "Modern Healthcare News",
     "first_seen": "2026-10-22"
    },
    {
@@ -1453,11 +1462,43 @@
    },
    {
     "type": "funding",
+    "title": "Stryker to invest $400M in CMR Surgical, gains buyout option - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWndERWZGem1IM2ZMNEhDcTE2akx4UHN4QlFxdjZmRnkwNHJQM3NaWFFQV2docFo1dHVLczVYWGg2Uk1UcXkxeE9ySTZnS1lzcUZNeVRMTXF3TllZamNCclNnaF82T2FPTzc0R2VXTkhDclNWMHFlUWJlX0V0S3NXRGt2bGt6bm56M1NORWVraDRTOXV0RTIwMmI3RkFVdUlZWUlfNDZVb0hXSjI2S24xLU9qbmRyOVItaDlRQ0F3?oc=5",
+    "date": "2026-10-12",
+    "source": "TradingView",
+    "first_seen": "2026-10-12"
+   },
+   {
+    "type": "funding",
+    "title": "Recon: Roche inks $1.2B deal with China's Rona for obesity drug; Stryker invests $400M in CMR Surgical - RAPS",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVHRQZGp2a3F0dlJMa0tUamthY0dOX19jS1prZmh0a3VqVmdxLXVqQlRaTW5OLUt0ZWFvdjRscURFMS1vYmZaMVRDM1V5Ty16UjBLZkQzc2RrOC1YdlJ6bnJKWTN3eVpabjZNMjB6eUpXWDl2akdHUUFWdjE2dXNiUllxQVp5RnFxRzA3LWxKNEF5dEliR3JpS1dEd0NvRXFvT3hGSWRpbmRsTVpuZ0tFMmI1eHR0RlE4Y1dIVzFGOXFHQTBZUXdTNjMxN0tqUQ?oc=5",
+    "date": "2026-10-13",
+    "source": "RAPS",
+    "first_seen": "2026-10-22"
+   },
+   {
+    "type": "funding",
     "title": "CMR Surgical Limited announced that it expects to receive £300 million in funding from Stryker Corporation - marketscreener.com",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNd1NqZmp5LVhwWGJhNHF4RkoyOExnY3hvZHNqTC0tZEt2Q29CM0xjUlBOTGEwY0prekxMdml2Vml5bTVGTWg4OEpsMDlwWm9QVml6dHF0Mmhta18tQ1A0RDhSSXpxVzNiVXROWjc1Ylh6MFVMcTRNdmRxcEpBX3Q4OVQxR0JfLUw5RTBHMWhTd2drWE51Uzd1ZHlUdzdLM2U5RDQ3eTJxY0ZJa2k4cEVZZkE1bjBrTHRsNUNsbnhSMjBNbFlnaWNBS3RLemRMYmdJLThCLVhCdVNPSTFvS3lpdDVEdjJySEk?oc=5",
     "date": "2026-10-11",
     "source": "marketscreener.com",
     "first_seen": "2026-10-22"
+   },
+   {
+    "type": "funding",
+    "title": "Stryker (SYK) Invests $400M in CMR Surgical to Boost Versius Rob - GuruFocus",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaG96ajNORERzbF9jSWg5ckcycENmbWJGNnBxMWMxSGIwdXBxaGp5Tm5lN093cktZWnlLRlpGclFTOUt4dGktY2U2RlFsT045Q1EtSmJoSmdDYlZfclNVY1NHOGp0eGUtMzZ5NzFMWDduQ2V6Sko3cXk5N0lWLTYtWnZyckNCZk1sdEFQRFJzQXNoTzZ5Zk5HTWhxczAzRzZZajZKbEZzUUg3V3BhX0RN?oc=5",
+    "date": "2026-10-12",
+    "source": "GuruFocus",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "funding",
+    "title": "Stryker Enters Soft-Tissue Robotics With $400 Million CMR Deal - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTDhoVnVBSVFaSzNEY0dmRUl5XzNLamFKSkhrX21jNDczU1BmalRwRHpIVnJOQ2JIaC1ZOXViaFppdDRONGh6UVNscUczUWhOOVQ4eEpXTkw5ekRvQnpFMTlVTm1kZUNhUk9EN3VfRlNfUE0zeWVQenR0Q2trcWRvNFNjSnUwMjhENElSbHB4OGZYXzFVOGU1bE5Cb3Q?oc=5",
+    "date": "2026-10-19",
+    "source": "Yahoo Finance",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "paper",
@@ -1481,7 +1522,7 @@
     "first_seen": "2026-10-28"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Kheiron Medical": {
   "name": "Kheiron Medical",
@@ -1510,14 +1551,6 @@
    },
    {
     "type": "hn",
-    "title": "KeiroLabs – Web research infrastructure for AI agents",
-    "url": "https://keirolabs.cloud/",
-    "date": "2026-09-22",
-    "points": 3,
-    "first_seen": "2026-10-26"
-   },
-   {
-    "type": "hn",
     "title": "Khronos Group opens EU Entity to support European Projects with open standards",
     "url": "https://www.gamingonlinux.com/2026/09/khronos-group-opens-eu-entity-to-support-european-projects-with-open-standards/",
     "date": "2026-09-15",
@@ -1534,14 +1567,22 @@
    },
    {
     "type": "hn",
-    "title": "Show HN: Browser-based light pollution simulator using real photometric data",
-    "url": "https://iesna.eu/?wasm=skyglow_demo",
-    "date": "2026-05-02",
-    "points": 44,
-    "first_seen": "2026-10-26"
+    "title": "OpenCL 3.1",
+    "url": "https://www.khronos.org/blog/opencl-3.1-is-here",
+    "date": "2026-05-13",
+    "points": 4,
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "hn",
+    "title": "MoltenVK (Vulkan on Metal) was deprecated in favor of KosmicKrisp",
+    "url": "https://github.com/KhronosGroup/MoltenVK",
+    "date": "2026-10-25",
+    "points": 3,
+    "first_seen": "2026-10-29"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Opteran": {
   "name": "Opteran",
@@ -1578,6 +1619,14 @@
    },
    {
     "type": "hn",
+    "title": "Evidence of a spying operation by ICE against left-wing social movements",
+    "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+    "date": "2026-10-28",
+    "points": 1157,
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "hn",
     "title": "I’ve built a virtual museum with nearly every operating system you can think of",
     "url": "https://virtualosmuseum.org/",
     "date": "2026-05-19",
@@ -1591,17 +1640,9 @@
     "date": "2026-07-16",
     "points": 600,
     "first_seen": "2026-10-26"
-   },
-   {
-    "type": "hn",
-    "title": "Seattle Shield, an intelligence-sharing network operated by the Seattle police",
-    "url": "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/",
-    "date": "2026-05-21",
-    "points": 492,
-    "first_seen": "2026-10-14"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Tharsus": {
   "name": "Tharsus",
@@ -1685,7 +1726,7 @@
     "first_seen": "2026-10-19"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Extend Robotics": {
   "name": "Extend Robotics",
@@ -1815,7 +1856,7 @@
     "first_seen": "2026-10-05"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Proximie": {
   "name": "Proximie",
@@ -1852,14 +1893,6 @@
    },
    {
     "type": "launch",
-    "title": "NHS hospitals launch large-scale surgical AI evaluation - Home | Digital Health",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQazJUbzZzbFVHOXRMNmxkVERTUGwzZ2VBb3BNLUFLcGdoenc3TzU1c2VjWkdJc0dlX3Q3TGpPWW5NM2hlSW5Qdll6Um5xeGtBQy1kR1R6ZE5Pdi1qOXZQS1NUa25mUENpcUZiMjBsbnJBd2NEUDBxWUtDQU5aVHp0Q0RidXhxZE1rSHB3MFhWWDA3cHlYMjdyd1RR?oc=5",
-    "date": "2026-09-09",
-    "source": "Home | Digital Health",
-    "first_seen": "2026-10-13"
-   },
-   {
-    "type": "launch",
     "title": "Proximie, AWS, Deloitte Launch NHS Surgical AI Pilot - Healthcare Digital",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPelFXSGpXTHdKV0FfcVlzT1cwU2o2d2VjTGl0aWVYSWhqeEYyWkRoQkVHcGQ2Umh1Rm5WNHRwN29XUmFLR0pxbWMwLVFzdnMyeGlZUms5ZnlKSWl6ZEhlTmZRbW5lVEFNbWtFNjY0NnFXVmJDalA2ZkVKMkNjME8tbWVJQzU2U2g3ZU9YeThrUQ?oc=5",
     "date": "2026-09-10",
@@ -1867,12 +1900,20 @@
     "first_seen": "2026-10-14"
    },
    {
+    "type": "launch",
+    "title": "NHS hospitals launch large-scale surgical AI evaluation - Home | Digital Health",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQazJUbzZzbFVHOXRMNmxkVERTUGwzZ2VBb3BNLUFLcGdoenc3TzU1c2VjWkdJc0dlX3Q3TGpPWW5NM2hlSW5Qdll6Um5xeGtBQy1kR1R6ZE5Pdi1qOXZQS1NUa25mUENpcUZiMjBsbnJBd2NEUDBxWUtDQU5aVHp0Q0RidXhxZE1rSHB3MFhWWDA3cHlYMjdyd1RR?oc=5",
+    "date": "2026-09-09",
+    "source": "Home | Digital Health",
+    "first_seen": "2026-10-13"
+   },
+   {
     "type": "news",
-    "title": "M42’s Healthpoint, Proximie partner to bring AI technology to operating rooms - www.wam.ae",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ3dlUV9QWEhTLTdURk9GRVhkR2U5V2hDc0JpTGphWDhzWkFJS2VOV0d0TGM5MTZxMGh4bmJMNzJ0Wll1Zk8wbXFQVEd5NExhOGw4R243aHFuZFFqS2hQbDQ4RFNyOGFuRENiWXltSHVpRWxsa3dxWG03dndyUW5UN0dXeE1lbXE2dkhDN1laSQ?oc=5",
-    "date": "2026-10-23",
-    "source": "www.wam.ae",
-    "first_seen": "2026-10-26"
+    "title": "Healthpoint, Proximie to bring AI technology to Abu Dhabi's operating rooms - TradeArabia",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0x6ZFBuaWFUX2s4V2E0anB6V0NnRE1JbEJFc3JRN2wycHNScHFESnAtalZzd3NpTWsxRTlZUWdrR3dMeEM3U0FlcFpnd08zcUVDUmhrcDBYNGs4U1I1X1I0R3pyOHd6YjctSHJkVU9zNWhVZFUtV004c2IyeWVBSlRQdkNDeFo1SHZibkllZ1NublduS0tSYXJCZ2phRHMwSkRpVnZSSmdPTXJ4dV9N?oc=5",
+    "date": "2026-10-25",
+    "source": "TradeArabia",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "launch",
@@ -1883,27 +1924,11 @@
     "first_seen": "2026-10-19"
    },
    {
-    "type": "news",
-    "title": "NEWS: NHS Hospitals Begin Large-Scale Surgical AI Trial - Practice Business",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWnBXYjJEd2p5ZGFsOEQtd3dDakVsWWJQNU1XMGx1SGJ0VmdwTS1MMHExMGFIYkEyeGtOUkZsajhfUkxPR2lvR3pldEgzQVZmYldOQ0VVN2t5YmhZNGo4UlE1Q0toOU9Lbm5qeDdHR19xVUJOY3pyTUZpdlRsRjU0LXBRZnk3bXN1aWV1VmRB?oc=5",
-    "date": "2026-09-10",
-    "source": "Practice Business",
-    "first_seen": "2026-10-28"
-   },
-   {
     "type": "launch",
     "title": "Burjeel Holdings’ AiMed Solutions and Proximie to co-develop next-generation of intelligent operating rooms that understand and predict - Zawya",
     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNdVBSZ2R0QlE4REVLdEdNbmN3c3htQzhtd1FpQUN3V1M4SWNGaThTOGMxYTUwNzJsb0VZZ200ZkdNZkc5ZmU5NF9UajZxTS1LYUlySnU0UXowd3Z5WWRrSUNRRy1ITWo2b0lVSFhIa1hhVV8zMndSZ0tydEZoX0Q4RVExa2JLNEFRMFhpVWRUa2NNUGxjNW9wRF95bEFsQk11QXMzZFdpNnVXN2JJX0o1MEFjUVVqRTFtUzhtN0NkZFdwR25MX2hhaTFRa05JWFgzMldUMFRnMXFNUUtsMjFpSUdsaFZfR1ZiZjRhZDZqZ0V3RkhhS2RKWHlFRmJ5aXB6d25OaGR2S2xSajlSZGc?oc=5",
     "date": "2026-10-22",
     "source": "Zawya",
-    "first_seen": "2026-10-22"
-   },
-   {
-    "type": "news",
-    "title": "Burjeel Holdings, Proximie collaborate to develop AI-powered operating rooms - www.wam.ae",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa0ZDSUNiVGZmWWtudWQ2OEhtcGlTaE5MVmhQQVZqU0pfYjVrenptRVBOSWNpcG1wNlc3dVZ6cTRpRHFzOFlIUkcxeTlxQ0pwal96bW5Ya0ZGWlpJMThrUWpWczJkakRudzJYdk5iU1h3c3J1SzJMU0d1VGFMSGpWRVRBRzJlZUc4TUNn?oc=5",
-    "date": "2026-10-22",
-    "source": "www.wam.ae",
     "first_seen": "2026-10-22"
    },
    {
@@ -1916,11 +1941,11 @@
    },
    {
     "type": "news",
-    "title": "How Kenya's rural hospitals are dialling into the world's best surgeons - Daily Nation",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSTY5eGZtcWNZVExtMG95UkV2VFNKbEFQWlVUa1dJMzQtbTMwZ0tfR1pxb2RkVUVUNy1PdnoyZG1BMjdFWmpIMzJfX2hSd2JVbk05aW16cF9rMEhiMFpyb25tb19zclBIYloyNk5YNlIxRzBHUHJKdGdKWnN3Wndabl9XSFQ2RjBZU2RFbUpvSVRVME5uQVpUbHBaTWo5V2REOXdrOUp4anY4SlQxR2VBYVpWRUM?oc=5",
-    "date": "2026-09-27",
-    "source": "Daily Nation",
-    "first_seen": "2026-10-28"
+    "title": "Burjeel Holdings, Proximie collaborate to develop AI-powered operating rooms - www.wam.ae",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa0ZDSUNiVGZmWWtudWQ2OEhtcGlTaE5MVmhQQVZqU0pfYjVrenptRVBOSWNpcG1wNlc3dVZ6cTRpRHFzOFlIUkcxeTlxQ0pwal96bW5Ya0ZGWlpJMThrUWpWczJkakRudzJYdk5iU1h3c3J1SzJMU0d1VGFMSGpWRVRBRzJlZUc4TUNn?oc=5",
+    "date": "2026-10-22",
+    "source": "www.wam.ae",
+    "first_seen": "2026-10-22"
    },
    {
     "type": "hn",
@@ -1963,7 +1988,7 @@
     "first_seen": "2026-09-24"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Perceptual Robotics": {
   "name": "Perceptual Robotics",
@@ -1991,7 +2016,7 @@
     "first_seen": "2026-10-08"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Muddy Machines": {
   "name": "Muddy Machines",
@@ -2010,7 +2035,7 @@
   "verified": "no",
   "brief": "no",
   "signals": [],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Ocado Technology": {
   "name": "Ocado Technology",
@@ -2038,36 +2063,12 @@
     "first_seen": "2026-10-23"
    },
    {
-    "type": "news",
-    "title": "Ocado Shares Rise 5.8% to 52-Week High Following Morgan Stanley Upgrade and JPMorgan Price Target Increase - Yahoo Finance UK",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jaHAwbWxfMjVKZlBCZWlDMTBnNDkxd0lNTkJHR2R5d1BWUVB4UVo5RnZqY3lGMVJNeklBcVVTTjhCck9xcTY2dlA0MXVQa1loaEt6a0tCd2ZYaURrTTd0UGVZV2RiMlFtVkFnME12OXdLRzd5S0UtcTln?oc=5",
-    "date": "2026-10-20",
-    "source": "Yahoo Finance UK",
-    "first_seen": "2026-10-20"
-   },
-   {
-    "type": "news",
-    "title": "Ocado (LSE:OCDO) Soars on a Broker Rethink: FTSE 100 Watch - Kalkine Media",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdzBDWmJ5NzNOR3BIU3BjWFRvNkxad0Q0XzdFWWdsY1RWTFFmYklRbTl5a0RWUzhuNmRBTFd3ZUctN2tlemY0a3p1cWtfSFRCMEpZTmhadkV6ZTBYa1htekxaZFNfY0pCd1E5T2R2TVpkel9lZzdIc19mdEVDYTlkeWZsRUlFaUpIbk9PV3dXU2JIMXJtUlUwbWpPR1pnX3NMTDRfd3cydWcwYlFYYkIxSnduSQ?oc=5",
-    "date": "2026-10-21",
-    "source": "Kalkine Media",
-    "first_seen": "2026-10-28"
-   },
-   {
     "type": "job",
     "title": "Data Engineer ",
     "url": "https://careers.ocadogroup.com/jobs/details?gh_jid=5001008101&gh_jid=5001008101",
     "loc": "Hatfield, United Kingdom",
     "ats": "greenhouse",
     "first_seen": "2026-10-19"
-   },
-   {
-    "type": "job",
-    "title": "Data Scientist ",
-    "url": "https://careers.ocadogroup.com/jobs/details?gh_jid=4945157101&gh_jid=4945157101",
-    "loc": "London, United Kingdom",
-    "ats": "greenhouse",
-    "first_seen": "2026-10-22"
    },
    {
     "type": "job",
@@ -2142,7 +2143,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Panakeia": {
   "name": "Panakeia",
@@ -2202,7 +2203,7 @@
     "first_seen": "2026-10-27"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Sees.ai": {
   "name": "Sees.ai",
@@ -2223,14 +2224,6 @@
   "signals": [
    {
     "type": "news",
-    "title": "Chevron CEO Mike Wirth sees AI driving new frontier exploration - Upstream Online",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdjJ3cGxLVDNKWHNvT0drV2pGMVEtc3pEd3JCRXVmQ1ZIYXRaSnhHVTlxMHU1WkFpZWt5cTZJWDRiQmttUE14RzJONHhESmtxOWJXNnhYMGRuZTh5S2V5aXhwSTU2LU1lNG5weVp0UE5nUXdUREg1SC1qWGlYV2d2NlNrZkZBRDFSV2Fad2VrZnB6cEtDR2FpbWxGNjg2WUpja2M2Z2hEYjgzajYxbEhYNDlJX3ZKWUs4Z0E?oc=5",
-    "date": "2026-10-06",
-    "source": "Upstream Online",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "news",
     "title": "AI Finds its Way Into Backcountry Search and Rescue - Communications of the ACM",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNVBFVlpheEJMRzdtSXFrZnBFUkJyaENWaFMtc05nZFJlWGRWMVRUYjBpZTRsLTBZb0ZIV2tPWFJiZmN4NGQzZE1nUzk3eFVuTGl1WlgzRWtFZ3hTQXdzSkVJVGN6YS1vY2FXWTViaER5NHV3Zk1uYnhZa21QS2ExZWZjNkI?oc=5",
     "date": "2026-10-19",
@@ -2246,7 +2239,7 @@
     "first_seen": "2026-10-28"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Fieldwork Robotics": {
   "name": "Fieldwork Robotics",
@@ -2282,7 +2275,7 @@
     "first_seen": "2026-10-12"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Helsing UK": {
   "name": "Helsing UK",
@@ -2303,14 +2296,6 @@
   "signals": [
    {
     "type": "launch",
-    "title": "Helsing unveils Contra air defence system and two interceptors to counter mass attacks - Defence Industry Europe",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUm1CU1FEZTBwOTd1WVlMRnp2VUt3T3lNX1NrYWM5TlFHSzc0dzUyU2E0ck5UR0hIaEZjNDRpdEdQMGlZWG5ZVFVma3RCRkRLY0JIdU44SjAzRC04QTg0TS1hbmVKb2RiNENmX1UxbXgxaFozaDdNcVN2NEw0SkpCbzFPSTJlb1lXLTc0N0h2WUpJb3dKcHh2Qmh5ckJ0NHFpUFUxQmhvb3VrakUzZTc1YUZHRHJTdw?oc=5",
-    "date": "2026-10-26",
-    "source": "Defence Industry Europe",
-    "first_seen": "2026-10-27"
-   },
-   {
-    "type": "launch",
     "title": "Helsing unveils Contra autonomous air defence alongside missile interceptors AD-1 Inferno and AD-2 Ambush - Helsing",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQmlGVVVfVE4tNkJOSDRCaExZU2xZZXBuSncwX3ozN1hLTmxWQnVfTUY5RU5YZHA2d1MzNXY0Z3BxeHZRSDNXNFR4U21zYklNQ0gyRjZVS0J3ZlJpQlVoeHR1MzZyUjM5bVVqd3J4bTdZR21IdTRET0tzU0l1R0JHU0dJUGRGZk5zSHNrbkdCeXllLWxDRHk5NXZSc2tzd3NMeEl3RXlBTXN6RGJva1NQVFVWdWRuelJrNm5ZOVA5RjZvU2hMNE02MWNVU2UwQQ?oc=5",
     "date": "2026-10-26",
@@ -2319,18 +2304,10 @@
    },
    {
     "type": "launch",
-    "title": "Anduril and Helsing Unveil Air Defence Interceptor Families in the Same Week - The Aviation Hub",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96dWRISmpNUzFTSXYwODVPX2l4aVhtYWVFVzczX2l2RkE2aGgwV3Nkb2VoR3RiLXBHV3JueDd0eEwwR0FKeUh4UlZaeXIyNFJqajI2bkNJNFJnR3pkVVNhVk56MUdkcjRwVFF6ZVlxdWZUNFZXb3JRVkVn?oc=5",
-    "date": "2026-10-27",
-    "source": "The Aviation Hub",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "news",
-    "title": "Helsing Contra: AI Interceptors Built to Hunt Russia’s Jet Gerans - MiGFlug",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdkcxR2t5Q0h0MDJOYXN0bWstX3FWWDRoZVNyT1U1Nm8yM3RZN0xQaTZPUmxxamhCSG9XME1QTGNWMUdMRS1leE93SUxCMVU4MDEtODBMYmdWSDZWRlU4UWlXVTViYk1ibjg5cC1lRlIzQ0w1aVJiTnd3LVFFNWVZMzYwdnVJUkRlVENXUmc5amVoOXV6Z1RHdGF1SWFWeU5p?oc=5",
-    "date": "2026-10-28",
-    "source": "MiGFlug",
+    "title": "Helsing unveils Contra air defence system and two interceptors - Janes",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMzMzZ0k2c3dFandQNlpvYnh1dHQ4d0xrWlIxaS1yMXZ1bTRzcVI1Vk9LUW16NGl0Sk1XZWJwZHlfcVB1Vnp6YUZ6WUJqWWJydEZZYUxEZWoxa1ZkTEMtMjBwXzNNOXBqQXRMZmxwbHJVRDhPZzFTVWxqWlVDV1pieHp1eElqYURsVFlyc3hvU3dXRVVXakdqR21RcW1ybmprZTlwZnRoZDZXTDFPRHVzU25mTHU0Ykdod3NNeERqenZQenN1cHFwWlhlSQ?oc=5",
+    "date": "2026-10-26",
+    "source": "Janes",
     "first_seen": "2026-10-28"
    },
    {
@@ -2347,6 +2324,14 @@
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uZW4xb0NHNk1ERmFveFFFM3Y2WGtJMHM2RW1ZVnUwVjhWbVNMU2REVk5HT3h5UWJ2cFRHMWh3aXQtdGFfcTYwdGNQY1JqY1hROFo1dE1sZWhrQThxOUVpLTlkb0VUcXpfNTBHQnNlV3RLMnhtMFE?oc=5",
     "date": "2026-10-27",
     "source": "Aerospace Global News",
+    "first_seen": "2026-10-28"
+   },
+   {
+    "type": "launch",
+    "title": "Anduril and Helsing Unveil Air Defence Interceptor Families in the Same Week - The Aviation Hub",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96dWRISmpNUzFTSXYwODVPX2l4aVhtYWVFVzczX2l2RkE2aGgwV3Nkb2VoR3RiLXBHV3JueDd0eEwwR0FKeUh4UlZaeXIyNFJqajI2bkNJNFJnR3pkVVNhVk56MUdkcjRwVFF6ZVlxdWZUNFZXb3JRVkVn?oc=5",
+    "date": "2026-10-27",
+    "source": "The Aviation Hub",
     "first_seen": "2026-10-28"
    },
    {
@@ -2375,19 +2360,11 @@
    },
    {
     "type": "launch",
-    "title": "Helsing Unveils Contra Air Defence System - Raksha Anirveda",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBiSWtuRWlMN0lrRE8zaHZUWlM5ZzNnUnVNM0xFbk9Ja1hDb2RRcnNHWHlNUDl5NVN5WnJrUzdGOVFOMUxveHJsQzQ5Z2VlRV9UZkNOeDlkZlA3TkpuUUk2b1ExMlNDUFJ2MV84WktZM3FHbFJFZ2wwazZ3?oc=5",
-    "date": "2026-10-28",
-    "source": "Raksha Anirveda",
-    "first_seen": "2026-10-28"
-   },
-   {
-    "type": "launch",
-    "title": "Helsing unveils new air defence system and 2 jet- and rocket-powered drone interceptors - Resilience Media",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeDVUWGN0anhNeVlaQ1ltMzdtaE1EWVBXMWVucXJ0Sl9zWGlMUDJpbjRYb0h1RURKTlBtRnpHOTF6aGRsOXZRUFBXMFEtSUN1dmdoNmlyd0RkOTNyMTBCLThqWmp6S0VSQ0w2eWFxQTJVU1FEc0RybGNDVFF1TW9rMDJZVXdINzRXZGhqdmJjbG5aZlJLWUVUMkdveWxRRGtMbW1aS01aUWxFY013bW41OU12dGY?oc=5",
+    "title": "Helsing unveils Contra air defence system and two interceptors to counter mass attacks - Defence Industry Europe",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUm1CU1FEZTBwOTd1WVlMRnp2VUt3T3lNX1NrYWM5TlFHSzc0dzUyU2E0ck5UR0hIaEZjNDRpdEdQMGlZWG5ZVFVma3RCRkRLY0JIdU44SjAzRC04QTg0TS1hbmVKb2RiNENmX1UxbXgxaFozaDdNcVN2NEw0SkpCbzFPSTJlb1lXLTc0N0h2WUpJb3dKcHh2Qmh5ckJ0NHFpUFUxQmhvb3VrakUzZTc1YUZHRHJTdw?oc=5",
     "date": "2026-10-26",
-    "source": "Resilience Media",
-    "first_seen": "2026-10-26"
+    "source": "Defence Industry Europe",
+    "first_seen": "2026-10-27"
    },
    {
     "type": "launch",
@@ -2399,11 +2376,11 @@
    },
    {
     "type": "launch",
-    "title": "Helsing unveils Contra air defence system and two interceptors - Janes",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMzMzZ0k2c3dFandQNlpvYnh1dHQ4d0xrWlIxaS1yMXZ1bTRzcVI1Vk9LUW16NGl0Sk1XZWJwZHlfcVB1Vnp6YUZ6WUJqWWJydEZZYUxEZWoxa1ZkTEMtMjBwXzNNOXBqQXRMZmxwbHJVRDhPZzFTVWxqWlVDV1pieHp1eElqYURsVFlyc3hvU3dXRVVXakdqR21RcW1ybmprZTlwZnRoZDZXTDFPRHVzU25mTHU0Ykdod3NNeERqenZQenN1cHFwWlhlSQ?oc=5",
+    "title": "Helsing unveils new air defence system and 2 jet- and rocket-powered drone interceptors - Resilience Media",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeDVUWGN0anhNeVlaQ1ltMzdtaE1EWVBXMWVucXJ0Sl9zWGlMUDJpbjRYb0h1RURKTlBtRnpHOTF6aGRsOXZRUFBXMFEtSUN1dmdoNmlyd0RkOTNyMTBCLThqWmp6S0VSQ0w2eWFxQTJVU1FEc0RybGNDVFF1TW9rMDJZVXdINzRXZGhqdmJjbG5aZlJLWUVUMkdveWxRRGtMbW1aS01aUWxFY013bW41OU12dGY?oc=5",
     "date": "2026-10-26",
-    "source": "Janes",
-    "first_seen": "2026-10-28"
+    "source": "Resilience Media",
+    "first_seen": "2026-10-26"
    },
    {
     "type": "launch",
@@ -2415,11 +2392,35 @@
    },
    {
     "type": "news",
+    "title": "Helsing Contra: AI Interceptors Built to Hunt Russia’s Jet Gerans - MiGFlug",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdkcxR2t5Q0h0MDJOYXN0bWstX3FWWDRoZVNyT1U1Nm8yM3RZN0xQaTZPUmxxamhCSG9XME1QTGNWMUdMRS1leE93SUxCMVU4MDEtODBMYmdWSDZWRlU4UWlXVTViYk1ibjg5cC1lRlIzQ0w1aVJiTnd3LVFFNWVZMzYwdnVJUkRlVENXUmc5amVoOXV6Z1RHdGF1SWFWeU5p?oc=5",
+    "date": "2026-10-28",
+    "source": "MiGFlug",
+    "first_seen": "2026-10-28"
+   },
+   {
+    "type": "news",
     "title": "Helsing rolls out Contra air defense design, plus two new inteceptors - Breaking Defense",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ180eW9pQWhmakRHZmVpNG1rd1owYnJYdFRqX25DX1ZVYWV6bUpFSDNhekg0TlkyN0Y0eEFXU1RMOVo0MVVIVmZrYl8ybWx2ckFXckpIY1pvZVI0SldCdUpPRFZlRDBoUHJkZ2Rucm5rYmFzYkdDcVhYeTZxbWdFZEtFY0tZaC05WkxJTWtWenVyZ3VBTnQ3VTFHdVpVUmVDNHJkZElUYnM?oc=5",
     "date": "2026-10-26",
     "source": "Breaking Defense",
     "first_seen": "2026-10-27"
+   },
+   {
+    "type": "launch",
+    "title": "Helsing unveils Contra AI air defence with AD-1 Inferno and AD-2 Ambush interceptors - Dealroom",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOVNZR1ZVanVwSFF6U1JSWnZYckkxZDJIZE1lWkY3dnpUcWdiQ0ZaNHRPbDkwUElYNS1SOHFHN3NtaUdHUi1BcXA1MnhiSDB2ZEdlVEJqbEhraXcxbl9jaG1Pc1JUOVBOSVc3TE1nSUJqTXFadFBKX0lPYW5GcUt3b2VvYzRidzFDZ3JQR0VlbFh0UHJOYjdIcFRHUjNzYVlmTlZiTTNqUFg1ZVphQ2hFdFdPRFVpdjE2cVE?oc=5",
+    "date": "2026-10-26",
+    "source": "Dealroom",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "launch",
+    "title": "Helsing Unveils Contra Air Defence System - Raksha Anirveda",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBiSWtuRWlMN0lrRE8zaHZUWlM5ZzNnUnVNM0xFbk9Ja1hDb2RRcnNHWHlNUDl5NVN5WnJrUzdGOVFOMUxveHJsQzQ5Z2VlRV9UZkNOeDlkZlA3TkpuUUk2b1ExMlNDUFJ2MV84WktZM3FHbFJFZ2wwazZ3?oc=5",
+    "date": "2026-10-28",
+    "source": "Raksha Anirveda",
+    "first_seen": "2026-10-28"
    },
    {
     "type": "news",
@@ -2438,27 +2439,19 @@
     "first_seen": "2026-10-28"
    },
    {
+    "type": "news",
+    "title": "Starlink Problems Fuel Interest in Germany's HX-2 Drones, but Can Helsing Meet Ukraine's Demand? - Defense Express",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWTMwdF9oaE4ybFZLbXFDT21Da3dtN3d0Wi1PRlVBanZ1ZGcxOTMwS3pXMTdXRGlVU2tBbmZ1bE1sLXFmaVcxbDNaUVNNb3NSWm91RW52VmJFdGlTeDMtdjZ6cTZ6THhlWG1PUVkyVERKMEZvLVFhdjUyNG1uOHFFMGFKdzZQcEcySS01QW1mdzJqa0VtZnI1blpZNGNIejNtNGZ5TG9hX0ZvTG96VGJhQzY5SEg3d0dpSjFOTDQ2U0o2c2ZxczJvR0dDOXRxN2Q1N0V3SkttQ0VUZWJ0RFE?oc=5",
+    "date": "2026-10-18",
+    "source": "Defense Express",
+    "first_seen": "2026-10-29"
+   },
+   {
     "type": "launch",
     "title": "Helsing Unveils Low-Cost Drone Interceptors to Stop Russia’s New Jet-Powered Gerans - The SOFX Report",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV213Qm9yaXhDQUpVelY2SXhLaE0xWE80Rms0bUlUSTllekNfbG5zS0M0X21xckJNRWdNZVRrRnMwWHMzWm1yM01LcXNTNlFyQU5vcy1QbVVkX3o3Z1RpV2pCanAyYUxpN2FFN3EwRGxqekVlSU4wRUJSMHNnclBEeXBsVzJRTFRCcWlVeF84cG9NdTA0UXhnYklyZlRNTnFTcjFMRVctRQ?oc=5",
     "date": "2026-10-27",
     "source": "The SOFX Report",
-    "first_seen": "2026-10-27"
-   },
-   {
-    "type": "launch",
-    "title": "Helsing unveils Contra, an autonomous system to intercept mass drone and missile attacks - Aviacionline",
-    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTFJVeUNCNXZuTEFtNDNHdHRHZVh2dWJuaWsxSmQ0OThfRTZRUlJXMEo5RFQ0NzVERDZOWEtBM0lsVDZrQmVuNGg4cmhvdDl1U3VKUU94QThIWkQ3cEx2c1dtbmN1ejQ2RFowbVcyT2dhcHRITFFXODczclNFbG9VcGFPdTU1U1pDa3BlYVpFU0ExUV9aclBVaVIwUGN5WEJpQ00xTUFrUkxJVkNzRG11VUN3Mzg5elJOejhVN1JtOG9GNmo2S0tuNnNaOFZnNDdwbXc5c3pISGg3UVI3YVl6dDNJbVp5WXpsNXZ1QmxuX2VPRXhHdXZCZA?oc=5",
-    "date": "2026-10-26",
-    "source": "Aviacionline",
-    "first_seen": "2026-10-27"
-   },
-   {
-    "type": "news",
-    "title": "Helsing Developed the Contra Autonomous AI-Controlled Air Defense System - Мілітарний",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONGwtTFhPSmNzdi1vSU1jN3dBTXhIc3RpQ21mSG9QVmxUMFQwQXNRQlhMT1dURUg5SFNtUmRDX2o5ZWgxRnBJN1MySTljLWtFRzNfd0ZRbHN1dVR5TjZVTDVaVVZXMFRqdDNVcmtBVEJUckpMc19nMkNEbUs4UlNvREtaUGk2d2pxMFlpX2h1SnJGeFp1?oc=5",
-    "date": "2026-10-26",
-    "source": "Мілітарний",
     "first_seen": "2026-10-27"
    },
    {
@@ -2470,6 +2463,30 @@
     "first_seen": "2026-10-08"
    },
    {
+    "type": "launch",
+    "title": "Helsing unveils Contra, an autonomous system to intercept mass drone and missile attacks - Aviacionline",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTFJVeUNCNXZuTEFtNDNHdHRHZVh2dWJuaWsxSmQ0OThfRTZRUlJXMEo5RFQ0NzVERDZOWEtBM0lsVDZrQmVuNGg4cmhvdDl1U3VKUU94QThIWkQ3cEx2c1dtbmN1ejQ2RFowbVcyT2dhcHRITFFXODczclNFbG9VcGFPdTU1U1pDa3BlYVpFU0ExUV9aclBVaVIwUGN5WEJpQ00xTUFrUkxJVkNzRG11VUN3Mzg5elJOejhVN1JtOG9GNmo2S0tuNnNaOFZnNDdwbXc5c3pISGg3UVI3YVl6dDNJbVp5WXpsNXZ1QmxuX2VPRXhHdXZCZA?oc=5",
+    "date": "2026-10-26",
+    "source": "Aviacionline",
+    "first_seen": "2026-10-27"
+   },
+   {
+    "type": "launch",
+    "title": "Germany's Helsing unveils in-house air defence system Contra - Yahoo",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQkRVWkJFUU1IcktoYU1uR21fN1Z4RWY5UlA2TERXWFQzaHItSWFvaVlpSEdESGJheGpFbVBxQl9zM2JITThuRXEydVgzSkctSi1ZdkotTEFIOFN1bzkzUDlGMVlEVE9XOGdlMU5tR2NWZkE0anY1ZWh6WTNxdTZnOWlFQTlJZzBia3hsZFdQVEppRDlrdUE?oc=5",
+    "date": "2026-10-26",
+    "source": "Yahoo",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "Helsing Developed the Contra Autonomous AI-Controlled Air Defense System - Мілітарний",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONGwtTFhPSmNzdi1vSU1jN3dBTXhIc3RpQ21mSG9QVmxUMFQwQXNRQlhMT1dURUg5SFNtUmRDX2o5ZWgxRnBJN1MySTljLWtFRzNfd0ZRbHN1dVR5TjZVTDVaVVZXMFRqdDNVcmtBVEJUckpMc19nMkNEbUs4UlNvREtaUGk2d2pxMFlpX2h1SnJGeFp1?oc=5",
+    "date": "2026-10-26",
+    "source": "Мілітарний",
+    "first_seen": "2026-10-27"
+   },
+   {
     "type": "news",
     "title": "12.5-mile range interceptors built to counter mass drone attacks - Interesting Engineering",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbGRCNFhxSFpodUFfYjdPMUZPLW9kTnFUTE9qVi1ZN0RROXhsMHQ2VWJkcEMxRl9NajAwT1o0R0VoTUJ0MkpEbGN1VVdJTGpscWtsaHBSVXZINWhidU0wN3h5UTdsZ1k2cnNYOERnZFI1RkNpbVZiQml5RXNua0Y2MFJVZHU?oc=5",
@@ -2479,11 +2496,83 @@
    },
    {
     "type": "news",
+    "title": "Helsing buys into drone maker Destinus as Europe's defence startups start to consolidate - Dealroom",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVzFwMGt0c2VUdmZxVWpEZkdETWZOdVo2eGxwTTV4M1F0ZVI2d01LQjZHNUpULUVPbzRwTEp3ZTYwaHV6d3d5UUdXLUdiTkhVUk44MndjRU9idXBZVHlndEJxaVNicHZ2QkZXOU9NU1pWVTJEXzRBcXlIVXVGX0NJV2JaeUNIVHNlbGxZeEFNb3lLTDlKSm9yVFZ4c1hoUTM1dHdxd3FwX0F2aFpBOWhYRThIOXoyaXUwUUE?oc=5",
+    "date": "2026-10-21",
+    "source": "Dealroom",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "launch",
+    "title": "Helsing Unveils the Contra Autonomous Air Defense System - Militär Aktuell",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQzIxQ0dVNDQxc2FVWUN1NGVPejFPNUNIN0FuSzhSUUduUGR2by1vSUlFS3ZKQnNOLWZoYnhtUWNfNU1Ob0ZlNXNLelFBeHo1elBRcGpKSmcwa092cDVrVThNYVc5S25iMGdwV0pROExFeWdEZjZCMjJhUUcwRWg5QnN4TklMN1lsQ2dWSzZlTzc?oc=5",
+    "date": "2026-10-28",
+    "source": "Militär Aktuell",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "Growing Ukrainian demand for Helsing's HX-2 LT amid Starlink concerns - Janes",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaWlFaDRBRGZ2T3hueHpZbWJNNFRtRUhUWFZQbGQzbVV1a0VXNWtzb2hKMTNSaHpCUXBsRkxvYTZLa0p4WEpLYzEyTjRhZkllQjdSX3RHQzRaTG5scE8tZ1lVVmJiVlVFRDdPT1A4dDlSdjJiOS1nMlJfTTBVYkRRYjItcm02WjlwYUZIcVNKcmFyQ3BPQjJlSjdSMU9wT0xBdHN3MFA4M21PdG1uOF9tS3pQY2h2TUYyX0wwUEVNbkh3Vmw1RmZtV21Rd2R1R1IwVVNr?oc=5",
+    "date": "2026-10-16",
+    "source": "Janes",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
     "title": "Helsing HX-2 Loitering Munition: Specs, Users, Cost - Calibre Defence",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jeE8tNkhyQlZKa0JSZmVQd2N3OThYOXltaEpzVG83c0cyQzQ5MHo0anNnV1lUa1A1bHQxVmVhalFjZndkMmR0dHU5SEVIU09qRENnWldyR3lRbGgtbGIxeFNqc1JwUk9uTnUtaG9tRjFSam8?oc=5",
     "date": "2026-10-06",
     "source": "Calibre Defence",
     "first_seen": "2026-10-08"
+   },
+   {
+    "type": "news",
+    "title": "Russia wants Europe used to not reacting, Helsing warns - UK Defence Journal",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOWJDWlhiMzBvYkg2TDltVTZ2b1ZwQWFuVWgtTFRlM2l4Q3FKU3drbEp0Q19tTmlGaTlSTFpfNnlNZE1XZGdDc0hjTUl0LVRCZ3g0WVBERGktRUt5UUl0dHUtNjZTUUxGMnV0clNZNm00OGFmMktuZXI3M2h0SHJoWURYdlZLakRJMGZqYTFSRHc?oc=5",
+    "date": "2026-10-08",
+    "source": "UK Defence Journal",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "Electronic warfare is driving the move to autonomy - UK Defence Journal",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN05jT1BMN3lWWTNhS283bzV6c1gzemVxMVhLZDROaXQ0cUE3ekJpcHlZZDhjZ2RGeWp2UkxENWFGdjkxOGJ4M0wyYjZ4QkViTDJac0JLRHloNEt6cjJkVkcwM3o0LVFQeFlnQnYzUzlzSFktRkFGdXFEZXo5ZnMxeGxPZ0xzSWxpV2o4?oc=5",
+    "date": "2026-10-09",
+    "source": "UK Defence Journal",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "UK experts designs AI missiles for 'Iron Dome-like' defence as WW3 fears soar - AOL.com",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02RmxKaWl5SWZiNU84MkJybDY4YkQtU2xyYldnajUxcUplOUJRS2FzM0JCS0FhanF0Z2x0eTlHRTQxSER1b2tua3o0c2t4T05LMjJ1cEVMeGZmdUQ0ajRtUGNDeC1OWk9LQlNCWndlNDZlT1JvYVlzZXZOU0c5ZEk?oc=5",
+    "date": "2026-10-27",
+    "source": "AOL.com",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "Inside Helsing’s push to reshape Europe’s defense industry - Decode39",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMWRUdHRUenc1UWRsX1I1Y0RmWk5ZUkNWblF1OGs5cjR5OThBcFBhQ1RLd3JwQ1Jaa2JXZGtrYTlCOGxVTVhhdkNFTkROQkpZSU91VW1zbktobGFfMzNTZng3bjJqVE4tWS11R25CcHZSV0puZ1lKTlBrMkhvelBHa015UlNDNDk1QVRMRw?oc=5",
+    "date": "2026-09-21",
+    "source": "Decode39",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "news",
+    "title": "German Army to Start Training With New Attack Drones Next Month - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX05KYVZrb3pwMklQYjNYdHhOZzlSM3R6ajJGM0tqWWtpcUtYWWhQeDcxbEJOdTRYd0pzMEZNRUVOQUFhSXhKSkpwUk5sTWVIR0R4YzZBZV9lV3I1aHhZd21mREpiMHpLSnp5MC1UZ2h2NnNLNUgxZWxZWVdsc1Vpa0dLam0wc2NwbjRiaHNjZV85cEZicG9lUVVIZF9OWUZCSEZBMlFDMHdIZnJoUU1YbzNOTHA?oc=5",
+    "date": "2026-10-02",
+    "source": "Bloomberg",
+    "first_seen": "2026-10-29"
+   },
+   {
+    "type": "funding",
+    "title": "European defense startups to raise record $10.5 billion in 2026, Dealroom forecasts - Defense News",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMTJPYXZfWXoyZ3JsVXE2aHJKNTFqWTlCdXBYY1BjWFhES0k4T1l6WEVBRnBhRFhPNmIwV3JuTmVpZWs1LTVUQm5EcEZ6UEl0RHRRUnVyUGRySDB4WFlBSHhOOVdRT1FzTHRWMHU4S1hoWkNFaUIzbVJvQ0pCNE1ReHdZNjd0dTRLZDZzV0d3Yk5oa1Fvckw4WUpyZkppUENzTHZHSHY1V01xeF8xWG5jbWVKNkx2RGFqVVViX0hjbG5kTmwybVFWRDhsNVZsUGM?oc=5",
+    "date": "2026-10-05",
+    "source": "Defense News",
+    "first_seen": "2026-10-29"
    },
    {
     "type": "job",
@@ -2537,7 +2626,7 @@
     "type": "job",
     "title": "Robotics Software Engineer",
     "url": "https://helsing.ai/jobs/4943195101?gh_jid=4943195101",
-    "loc": "Barcelona; Paris",
+    "loc": "Barcelona",
     "ats": "greenhouse",
     "first_seen": "2026-09-20"
    },
@@ -2620,7 +2709,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  },
  "Wootzano": {
   "name": "Wootzano",
@@ -2639,6 +2728,6 @@
   "verified": "no",
   "brief": "yes",
   "signals": [],
-  "fetched": "2026-10-28"
+  "fetched": "2026-10-29"
  }
 }
