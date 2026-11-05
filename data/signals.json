@@ -34,14 +34,6 @@
    },
    {
     "type": "news",
-    "title": "Dexory expands warehouse intelligence and robotics safety capabilities with NVIDIA - Logistics Magazine - Australia",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQWl3WUd6MDNfaW82bDE0RC1wOWlncFlCY19QdUtjREE5b2V6UERVakVWQXBZLXhaN2JGMlBxWmJ4SEczWkFMay14MnlucVA0OW9obUNiVGQ2OW1WVkoxMy1HT3FfeGs3YXNpVWR3YVZMNU8zNGhQdWJtRWlZLV9RWExVVHRBMWpwQ3l3SVBPdERLUlhBa2RtYlhTQkh1SFpPZzJuS2JVWFI3eEVTYnQ3T1NYS2ZEUXJHZm92N2ItVTI0UQ?oc=5",
-    "date": "2026-10-26",
-    "source": "Logistics Magazine - Australia",
-    "first_seen": "2026-10-29"
-   },
-   {
-    "type": "news",
     "title": "Stellantis’ new Dexory robot is an AI-powered vision-scanning system - The Detroit News",
     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV2VHYm5Yd1VYWDJNdUdtWGkxbDgxLU9kYTJUZ3VjSTJ0UXowaU5MT19LWVNTOWdiRlRDTlRYcDdVTGZQV0dsTmc3bmN1YU9sRTF1TzMzTmtmV2NDX0FDbDVjSTBMNlMxTjNUeXZnQ05taWZkN1JQdGlZbGNnWjN3UHlIeFV0LThESGhVbFdsNEtTc3g4TXJIOWpFajhWdW1BNWNVTXMxSU40cE13MnJBOUJVRTQzVEF0SlRSS1gzYlBUTG5BeTU4WDFCU2stLW1DSVhfakdWVjdPR2JuYnRnWm5uODE?oc=5",
     "date": "2026-09-28",
@@ -49,7 +41,7 @@
     "first_seen": "2026-10-08"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Oxa": {
   "name": "Oxa",
@@ -70,76 +62,76 @@
   "signals": [
    {
     "type": "paper",
-    "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
-    "url": "https://arxiv.org/abs/2611.05376v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
+    "title": "CompressionBench: How can your coding agents compress LLMs?",
+    "url": "https://arxiv.org/abs/2611.06858v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
    },
    {
     "type": "paper",
-    "title": "Quantum Pointwise Dimension (QUPID): An algorithm for identifying classical chaos in quantum dynamics",
-    "url": "https://arxiv.org/abs/2611.05369v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
+    "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+    "url": "https://arxiv.org/abs/2611.06748v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
    },
    {
     "type": "paper",
-    "title": "Low-Density 3D Point Cloud Classification",
-    "url": "https://arxiv.org/abs/2611.05291v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
+    "title": "Interactive World Simulation with Cosmos for Physical AI",
+    "url": "https://arxiv.org/abs/2611.06627v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
    },
    {
     "type": "paper",
-    "title": "Computational Aspects of Distortion",
-    "url": "https://arxiv.org/abs/2611.05257v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
+    "title": "Hard to Fool: A Bounded LLM Research Loop for Quantitative Finance, and What Two Dozen Campaigns Found",
+    "url": "https://arxiv.org/abs/2611.06607v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
    },
    {
     "type": "paper",
-    "title": "A semi-autonomous multi-agent pipeline for high-energy astrophysics research with enforced provenance and verifiable self-extension",
-    "url": "https://arxiv.org/abs/2611.05251v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
+    "title": "TwinBridge: Digital Twin-Driven Policy and Reward Transfer for Real-World Reinforcement Learning in Laboratory Robotics",
+    "url": "https://arxiv.org/abs/2611.06442v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
    },
    {
     "type": "paper",
-    "title": "Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs",
-    "url": "https://arxiv.org/abs/2611.05249v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
+    "title": "Kardar--Parisi--Zhang density hydrodynamics in a coherent XXZ--ASEP Lindbladian",
+    "url": "https://arxiv.org/abs/2611.06369v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
    },
    {
     "type": "paper",
-    "title": "Cosmological evolution and late-time attractors in axion-monopole interacting dark energy",
-    "url": "https://arxiv.org/abs/2611.05190v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
+    "title": "EnzymeRSI: A dual-loop recursive self-improvement system for enzyme design",
+    "url": "https://arxiv.org/abs/2611.06321v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
    },
    {
     "type": "paper",
-    "title": "WayTrace: A Map-to-Language-to-Trace Hierarchy for Embodied Urban Navigation",
-    "url": "https://arxiv.org/abs/2611.05129v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
+    "title": "Bug2Scenario: Root-Cause-Preserving Test Scenario Amplification for Autonomous Driving Software",
+    "url": "https://arxiv.org/abs/2611.06229v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
    },
    {
     "type": "paper",
-    "title": "From AutoResearch to Continual AutoResearch: Do Agents Learn Across Tasks?",
-    "url": "https://arxiv.org/abs/2611.05108v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
+    "title": "CoSafe: Cooperative Runtime Safety Assurance for Mixed-Traffic Autonomous Driving",
+    "url": "https://arxiv.org/abs/2611.06204v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
    },
    {
     "type": "paper",
-    "title": "Nested Field-of-View Barriers for Teleoperated Multi-Robot Relay Chains",
-    "url": "https://arxiv.org/abs/2611.05074v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
+    "title": "Annotator-Free Object Detection via Foundation Model Collaboration",
+    "url": "https://arxiv.org/abs/2611.06195v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Humanoid": {
   "name": "Humanoid",
@@ -160,35 +152,11 @@
   "signals": [
    {
     "type": "funding",
-    "title": "An 11-person startup raised $40 million to challenge robotics' data-hungry giants - Business Insider",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYjB2SG9VZUt0LVctTXpQU2Jod0t6a3BFbGZuNFJicGVQT1BJdWlUbzZuYnRuOHE1UWxKS2lUcVlVY2w0SVU2bWtXakNyMVRXZDBOYkxwUm1xanY4QTZPRnI5VFJfNzVhYWQ4aW4xUEdaeWh5RVVON1Y3VElxWk1NT2djZVBDSU8tU0hJeUtmZUM2YjB1elhiV1cwM0JhZ1IzX3FCN2tKZ0cxNzgz?oc=5",
-    "date": "2026-10-27",
-    "source": "Business Insider",
-    "first_seen": "2026-10-27"
-   },
-   {
-    "type": "news",
-    "title": "Robots able to do most industrial jobs ‘within two years’, says Humanoid founder - The Observer",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMWNPcEtBd1pRaWJyQjRaaTBJbXFvaklnakhHaGVkOWYzcTU5c2FfaFVUcmdmUWZLVndXM2RxR0liSVZTSmdDLUJEblRVNlE1ZWlmNUFVQlpBUkM3TUw5TXNjdVg2aXYyblRyR1pzMXNIYmlSYjhqTnItOEU2cGcyVEhjc3BwaDRlMDB2dWJMbTVOUUNZUUxiUlc0cDlOV1UwcURFLXp2c1BKOFhOd0FHZHR2UHFRbldtMEcxdDlNNA?oc=5",
-    "date": "2026-10-30",
-    "source": "The Observer",
-    "first_seen": "2026-11-04"
-   },
-   {
-    "type": "funding",
     "title": "34,000 Pre-Orders, $2.4 Billion Pipeline: Inside Europe’s Newest Humanoid Robot Unicorn - Forbes",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYkRHWHllUEEtdXlLaEdTREJxU0tORUgxck9OalhxeFZScmpIVV9Lei1vRm5mQ3ZxTnhPenI4V1ZJc28ySHk0MlZacmFyWnNqVm5Dc2oxeWxfa1hoc0twdi1PV1ZWTkt1WUhZNm90Tkw0MGQ4dmdyUmgwcldoVXVNRkxNeHJuRUN4dUNYc1ZIdnI4NDVxTVpiSUQ5UWFRWk0tcVZaWDZBaHROdXQ1dk1ORi0xQl9EV0pBTFc5bjdFelFiREpFa3I4UUt0T1hXcGJs?oc=5",
     "date": "2026-09-08",
     "source": "Forbes",
     "first_seen": "2026-10-30"
-   },
-   {
-    "type": "news",
-    "title": "Agility Robotics Begins Trading On Nasdaq As AGLT After SPAC Vote - Startup Fortune",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSnJ1OVVNazU0aGliU2tmMG83Um9RWTV5bmljQkhSOXNPSjVuUWtLMm9MaVg4VUR2dFZaRGVlZ1dhNFFHQnRSMDZvZXdJdmQxV2NiUUdmTmdHTXkzRlNwbUhmTW9QTzZ1Y2FJN2tqSFRxNnRpTW1oVXN1Qk05dlI4X3hBaVZJeW55V3pHbVptWFlHckZsR2JidA?oc=5",
-    "date": "2026-11-04",
-    "source": "Startup Fortune",
-    "first_seen": "2026-11-04"
    },
    {
     "type": "job",
@@ -256,6 +224,55 @@
    },
    {
     "type": "paper",
+    "title": "Perceptive Humanoid Motion from Simulation",
+    "url": "https://arxiv.org/abs/2611.06908v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
+   },
+   {
+    "type": "paper",
+    "title": "Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors",
+    "url": "https://arxiv.org/abs/2611.06564v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
+   },
+   {
+    "type": "paper",
+    "title": "H^2MARL: Hierarchical Heterogeneous Multi-agent Reinforcement Learning for Humanoid Robot Control",
+    "url": "https://arxiv.org/abs/2611.06523v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
+   },
+   {
+    "type": "paper",
+    "title": "Robots in the City: Persona-Based Perceptions of Urban Robots",
+    "url": "https://arxiv.org/abs/2611.05954v1",
+    "date": "2026-11-04",
+    "first_seen": "2026-11-05"
+   },
+   {
+    "type": "paper",
+    "title": "GRASP: Gradient-Guided Sampling for Contact-Rich Physics-Based Motion Retargeting",
+    "url": "https://arxiv.org/abs/2611.05754v1",
+    "date": "2026-11-03",
+    "first_seen": "2026-11-05"
+   },
+   {
+    "type": "paper",
+    "title": "Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain",
+    "url": "https://arxiv.org/abs/2611.05585v1",
+    "date": "2026-11-03",
+    "first_seen": "2026-11-05"
+   },
+   {
+    "type": "paper",
+    "title": "Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation",
+    "url": "https://arxiv.org/abs/2611.05507v1",
+    "date": "2026-11-03",
+    "first_seen": "2026-11-05"
+   },
+   {
+    "type": "paper",
     "title": "PACT: Pose-Robust Actuation Co-Design for Tendon-Driven Robotic Hands",
     "url": "https://arxiv.org/abs/2611.05302v1",
     "date": "2026-11-03",
@@ -264,63 +281,14 @@
    {
     "type": "paper",
     "title": "RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
-    "url": "https://arxiv.org/abs/2611.05163v1",
+    "url": "https://arxiv.org/abs/2611.05163v2",
     "date": "2026-11-03",
-    "first_seen": "2026-11-04"
+    "first_seen": "2026-11-05"
    },
    {
     "type": "paper",
     "title": "HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors",
     "url": "https://arxiv.org/abs/2611.05113v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
-   },
-   {
-    "type": "paper",
-    "title": "Caging Vision-Language Navigation for Legged Robots via Barrier-Certified Safety Architecture",
-    "url": "https://arxiv.org/abs/2611.04972v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
-   },
-   {
-    "type": "paper",
-    "title": "Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight",
-    "url": "https://arxiv.org/abs/2611.04839v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
-   },
-   {
-    "type": "paper",
-    "title": "ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control",
-    "url": "https://arxiv.org/abs/2611.04424v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
-   },
-   {
-    "type": "paper",
-    "title": "RAIPAL: A Powerful and Agile Humanoid Arm for Human Tasks",
-    "url": "https://arxiv.org/abs/2611.04334v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
-   },
-   {
-    "type": "paper",
-    "title": "ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms",
-    "url": "https://arxiv.org/abs/2611.04255v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
-   },
-   {
-    "type": "paper",
-    "title": "Online iLQR-MPC with Whole-Body Control for Robust Humanoid Locomotion",
-    "url": "https://arxiv.org/abs/2611.04204v1",
-    "date": "2026-11-03",
-    "first_seen": "2026-11-04"
-   },
-   {
-    "type": "paper",
-    "title": "Online Hamilton-Jacobi Reachability Onboard the Robot Control Loop: A Real-Time GPU Solver for Safety-Critical Autonomy",
-    "url": "https://arxiv.org/abs/2611.04096v1",
     "date": "2026-11-03",
     "first_seen": "2026-11-04"
    },
@@ -333,7 +301,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Wayve": {
   "name": "Wayve",
@@ -378,18 +346,18 @@
    },
    {
     "type": "news",
-    "title": "WAYVE BOYS Engage Fans in Yokohama Debut - 조선일보",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVlIxSjZsQ0JBemFjWjRXU255d3BZT1o5UExHUnBLR21SWTlaLWlBZ1d0cXJWbDA3bUpXSHAxZVJSODAzVXI0WC1Uc1lHTENSZGRCZUg3TjlUbVVBSnRXUmR5N0cxcS1rQkFRd3FoMW52NzFHY2QwWmNLRFU2aVpVa2w4WG1FVFoxZWttTU1B?oc=5",
-    "date": "2026-11-04",
-    "source": "조선일보",
-    "first_seen": "2026-11-04"
+    "title": "Uber to bring Pony AI’s robotaxis to London network alongside Wayve - Zag Daily",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc2R0RE56MF9VY19mS3dYTUcyM0QxbmEwRUJZdHlQQXJHYTQtX1RsYl9pR1B3TzlHdW1raUpHdmtFWTlVem9acmpDT0FwWTJFVFJ1R0tObWcwcFRHekN6RDBhQkwzNG9ObTZ0NmRBcm1oaXhUaG9vVDE5Uk1PUy1tYnAyMDBtZUVlSUtYWExMLTY0czhrSjRycXc0UTBVUkk?oc=5",
+    "date": "2026-10-08",
+    "source": "Zag Daily",
+    "first_seen": "2026-11-05"
    },
    {
     "type": "news",
-    "title": "Watch Wayve CEO Kendall on the Future of Driving - Bloomberg",
+    "title": "Watch Wayve CEO Kendall on the Future of Driving - Bloomberg.com",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT1ZoV09JRWhBd1lXZW5ORnVVZHJCRTh1T0NseEZTZ3NEQkpMczFGU3pVdW5OZDBjckZQOXp2bW40Ung5Zjk4TDdiNGRlNmFEZ3RJYXBiemRaSS0tNXFnaUU5d3RXdWt6UHlQNWYtM3VlblNza1VIbURWZlppVFlPSWY2aHl2MkxtZTYwYUFDd0RvWEEyS05TTjRnY0FQUQ?oc=5",
     "date": "2026-10-06",
-    "source": "Bloomberg",
+    "source": "Bloomberg.com",
     "first_seen": "2026-10-29"
    },
    {
@@ -410,6 +378,14 @@
    },
    {
     "type": "news",
+    "title": "Former Waymo CFO jumps to self-driving startup Wayve - TechCrunch",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEw4azZBQ2lHam1UendhMzZFbDg3eUVBTFd1VWFVWkxGa0hOcm9lMHcwOHVGTEcyXzdIVm1odGp3NlNaLWRWWExHX2J4d211eEEzSHc4c0J1bDByWlA4aUZpX2t5VlJXSUVWUUR2ZmYzVklLSmt0bXJGald3bXVLVjJMUFp1dGtpTmtpcG01VUw?oc=5",
+    "date": "2026-09-16",
+    "source": "TechCrunch",
+    "first_seen": "2026-10-30"
+   },
+   {
+    "type": "news",
     "title": "Stellantis CEO says Wayve tie-up can cut self-driving costs, development time - Reuters",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYldMeElseFhadXkybkktR0swTklvbVVTZVpZazBhcUYyZGR3dHhUMUE2ZVVsOC1pbFRjcVJGajk5Tlo3bFhqeGRVX0ZSSmV3aHVWR1FyQmFYQTJfR1MxVFB6UUozLTNoRHNiMVUwcEpFTk51TEk0MUxuRlM2X0ZJRm8wemM1MVo2cFFQcGRlVVlkcUZmNnVDREUtTmdORnJVLXZ5SXRYT2VWLXNEdlFaSDQ1NXE4Y2syTm0waWpPUUpmWVBxTi1xMjRvTWZhTlRoeUNDb1h1OUtPdw?oc=5",
     "date": "2026-10-09",
@@ -423,14 +399,6 @@
     "date": "2026-09-22",
     "source": "Reuters",
     "first_seen": "2026-10-08"
-   },
-   {
-    "type": "news",
-    "title": "Former Waymo CFO jumps to self-driving startup Wayve - TechCrunch",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEw4azZBQ2lHam1UendhMzZFbDg3eUVBTFd1VWFVWkxGa0hOcm9lMHcwOHVGTEcyXzdIVm1odGp3NlNaLWRWWExHX2J4d211eEEzSHc4c0J1bDByWlA4aUZpX2t5VlJXSUVWUUR2ZmYzVklLSmt0bXJGald3bXVLVjJMUFp1dGtpTmtpcG01VUw?oc=5",
-    "date": "2026-09-16",
-    "source": "TechCrunch",
-    "first_seen": "2026-10-30"
    },
    {
     "type": "news",
@@ -455,14 +423,6 @@
     "loc": "Leonberg, Germany",
     "ats": "ashby",
     "first_seen": "2026-10-05"
-   },
-   {
-    "type": "job",
-    "title": "Applied Scientist / Machine Learning Engineer",
-    "url": "https://jobs.ashbyhq.com/wayve/f3f61d23-6149-4391-8caa-3b92d809338b",
-    "loc": "Sunnyvale, California USA",
-    "ats": "ashby",
-    "first_seen": "2026-10-06"
    },
    {
     "type": "job",
@@ -775,7 +735,7 @@
     "first_seen": "2026-10-26"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Dogtooth Technologies": {
   "name": "Dogtooth Technologies",
@@ -803,7 +763,7 @@
     "first_seen": "2026-11-04"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Automata": {
   "name": "Automata",
@@ -871,7 +831,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Skyports Drone Services": {
   "name": "Skyports Drone Services",
@@ -900,19 +860,19 @@
    },
    {
     "type": "news",
-    "title": "Ørsted and Skyports Trial Heavy Cargo Drones for Turbine Maintenance at Hornsea 2 - Dronelife",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLVgyNDl5V3hteVlCc3AyTjQwdk5xVVpPSFEwMlhIa3BILXY0eU5SYUc1ZkdrdTJSa0ZLTmxSRzZySnRSaDRNdjNPNksyZVR0Y3MxV2RkbFI5bjhLaFpVMEt5aHFwTEZKTnoySk9wZl92V2RDSklhNm9pQ2VwQzV6TjJKaDRoSEVhMDNxVkdPaTR1NUZJUG8zbWt1TFNIQmRLTGFpY0RMc1V5UTFEZjNoVnlHRTFyUQ?oc=5",
-    "date": "2026-10-08",
-    "source": "Dronelife",
-    "first_seen": "2026-11-04"
-   },
-   {
-    "type": "news",
     "title": "In pictures: Drones survey HumeLink West transmission project from 350km away - New Civil Engineer",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOFQ5ZE1zdUNNck9SaEZoSk5GOThqU0tMcEUyVElHQWVlNFo0MjEzNjZwbmt1dTZwSWFyRmFIS3p4LVF3cWJQcTR1Q1VaaE1kS3JkUERoT1pUcHhaTmNaaWVUN2d2QVEtS3l0Y2RwZ1JHUHhEYlZOVEtDSTdpZ3IyZWlBQWhseFFZb3Jfb2RPOWExWXJ4X1cwdkRLS0txeTllbTZEM3lQeVJfbzg5WllDS29FVnhyR3ZXNThrMWY0dW9kRk5LZzAw?oc=5",
     "date": "2026-10-13",
     "source": "New Civil Engineer",
     "first_seen": "2026-10-13"
+   },
+   {
+    "type": "news",
+    "title": "Ørsted and Skyports Trial Heavy Cargo Drones for Turbine Maintenance at Hornsea 2 - Dronelife",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLVgyNDl5V3hteVlCc3AyTjQwdk5xVVpPSFEwMlhIa3BILXY0eU5SYUc1ZkdrdTJSa0ZLTmxSRzZySnRSaDRNdjNPNksyZVR0Y3MxV2RkbFI5bjhLaFpVMEt5aHFwTEZKTnoySk9wZl92V2RDSklhNm9pQ2VwQzV6TjJKaDRoSEVhMDNxVkdPaTR1NUZJUG8zbWt1TFNIQmRLTGFpY0RMc1V5UTFEZjNoVnlHRTFyUQ?oc=5",
+    "date": "2026-10-08",
+    "source": "Dronelife",
+    "first_seen": "2026-11-04"
    },
    {
     "type": "news",
@@ -993,7 +953,7 @@
     "first_seen": "2026-11-04"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "CMR Surgical": {
   "name": "CMR Surgical",
@@ -1014,27 +974,11 @@
   "signals": [
    {
     "type": "funding",
-    "title": "Stryker invests US$400m in CMR Surgical and secures option to acquire business - Pharmafile",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSk9wUkZNZEJQM0ItaHdvZ0dqdnRzNl84dUVsZHV0eTUtcUtQTU5SbzdNcGxYRUU3SGRDdVpUYmU5YVRxSFFwWUUwamdJM0R2NU90TVJ6RXcyT1RtMXowcW0yd20xdW1fM3AzUnBNakdJdUNSZ2g0cVdhdjZmcmVJS0xLeUtHbFZlUG1TeFZUYTd4NzFiOS1SMWt6TE4zSjNHbWlpQmN6OWJrdw?oc=5",
-    "date": "2026-11-03",
-    "source": "Pharmafile",
-    "first_seen": "2026-11-03"
-   },
-   {
-    "type": "funding",
     "title": "Stryker invests $400m in CMR Surgical with option for full acquisition - Business Weekly",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkRQaUFVTDVvdmh5TDNSR2Vua0p3WW9sTXpHVlg2SVlSWDFvbXA4ZEFSSnAtRmY5MDB4WU1Oc0p0WjdFYnk0ZTFmR1RvZjl2ZUI4SEZGU2ZFMHFfZ2lVRUV6aUV0emFBaE9kNHlSZnE3TmQwUEFIT05MQUplTFJBVnZ0UlNFUXBqS2cxVmhfTkFUSzlHd3NDLV9WVXpOdTRyN3N0MXNCOHp1Qlkw?oc=5",
     "date": "2026-10-11",
     "source": "Business Weekly",
     "first_seen": "2026-10-12"
-   },
-   {
-    "type": "funding",
-    "title": "Cambridge surgical robot start-up sells $400m stake to US group - The Times",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUFlEU1U2eXRIeFZ0NnFJc1pGelFWc2xneTRxbWxaeUlkazk4SVJCS1hOdEVxbFlYRXBrNWlWdkhfcmRPeTFLVEdqVnBEVlVpak1SZkxsM2dGcjIyOG11SHlMVVFtSkRHVzl6Ynk1bURCLWprSDJ6V3VsUzNrMkV4bGg0eVM1d09lX1V4ZVE4aUFaY0tlVWR4anpjakpGMnBIb0h3UkkyVkRwZUVNVGxRcE05Tmsta2lIcWJB?oc=5",
-    "date": "2026-10-12",
-    "source": "The Times",
-    "first_seen": "2026-10-13"
    },
    {
     "type": "funding",
@@ -1054,6 +998,14 @@
    },
    {
     "type": "funding",
+    "title": "Cambridge surgical robot start-up sells $400m stake to US group - The Times",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUFlEU1U2eXRIeFZ0NnFJc1pGelFWc2xneTRxbWxaeUlkazk4SVJCS1hOdEVxbFlYRXBrNWlWdkhfcmRPeTFLVEdqVnBEVlVpak1SZkxsM2dGcjIyOG11SHlMVVFtSkRHVzl6Ynk1bURCLWprSDJ6V3VsUzNrMkV4bGg0eVM1d09lX1V4ZVE4aUFaY0tlVWR4anpjakpGMnBIb0h3UkkyVkRwZUVNVGxRcE05Tmsta2lIcWJB?oc=5",
+    "date": "2026-10-12",
+    "source": "The Times",
+    "first_seen": "2026-10-13"
+   },
+   {
+    "type": "funding",
     "title": "CMR Surgical strikes £300m investment deal - BusinessCloud",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcV9sQXkyanJ0Ym41a1VPbS11UmlBa2xhdm82OWswWUhNWlZvRDBwVTc5TVVwclVnd0JLekJlUm5sYW9DRkZHTWo5R2kxVnUwMnZRYlZTUHBuTEpyQTMwd3d0U3U3bG1nSWRma2l0ZWx5b2ZrZnhKX1M0YVpYV0ZwWA?oc=5",
     "date": "2026-10-13",
@@ -1069,28 +1021,12 @@
     "first_seen": "2026-11-02"
    },
    {
-    "type": "funding",
-    "title": "Stryker invests $400M in CMR Surgical, gains exclusive U.S. rights By Investing.com - Investing.com UK",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZHIwUkpBNkowWm4yNFdTSHJETldTUko2WUNjdUlNcnEtMEVsVkZPTHZxZGFZMmlGTmlxckU4cmczYXZFVVFFQmlITWlFR3JOU2NLa0VwSzd1bnEzTW9iMFp6ZTBha1NaM0pEVnB4Y3hQOFZBMV9NT2I5WmtfQkswQUZIeWtObmtjSVctWG1CbUFTZk9Sa0oyaFZVaS1wb3hHLVV0THM4YV9RQXRiZWJYUE9oOHNiaVIzcFg2aEZjbnc?oc=5",
-    "date": "2026-10-12",
-    "source": "Investing.com UK",
-    "first_seen": "2026-10-28"
-   },
-   {
     "type": "news",
     "title": "Stryker pens deal with CMR Surgical to advance robotic-assisted surgery - Fierce Biotech",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNThYWXRTOHlvRy1oYUdhdnZBb3pBcmpUczFCMjY3MTU5alpyb0RrRndhVmVYendTaW13NzFhYzVFdGlsaFY0TjRibHFQcjNlcExTMWFodWNaaV91WTNLSHR3VjhIRVgtNWNRUWhSazJFbFV4bFlIcWdURkRfRk81MTBNMHl0bDlOUmlqSWgwQWtlZkZjcDVnY2hTV1FDeG1ZVzJv?oc=5",
     "date": "2026-10-13",
     "source": "Fierce Biotech",
     "first_seen": "2026-10-15"
-   },
-   {
-    "type": "funding",
-    "title": "Stryker invests $400m into CMR Surgical; secures future buyout option - Medical Device Network",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUWI3NXpaUEY0X1hYREtBWTNiak1MN2I4SDRBWjlZU3R1TGIzX08za2F1U0pFeVhvckxFc0R3UnliYjBFVGZEMDVEdFIxNFVjeDNOYUNtVEM4RnBvV3dGWXdhby1WMnEybjRYbHYxTEotblh5U093REFTVDFlMW0ybW9rb0ZPNy1BM0k5RmxnUnJYNFhyZHJzeG5BWnFWaGdudG9HTFU5ZlFOUjdIdkV3Vg?oc=5",
-    "date": "2026-10-12",
-    "source": "Medical Device Network",
-    "first_seen": "2026-11-04"
    },
    {
     "type": "funding",
@@ -1102,6 +1038,14 @@
    },
    {
     "type": "funding",
+    "title": "Stryker invests $400M in CMR Surgical, gains exclusive U.S. rights By Investing.com - Investing.com UK",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZHIwUkpBNkowWm4yNFdTSHJETldTUko2WUNjdUlNcnEtMEVsVkZPTHZxZGFZMmlGTmlxckU4cmczYXZFVVFFQmlITWlFR3JOU2NLa0VwSzd1bnEzTW9iMFp6ZTBha1NaM0pEVnB4Y3hQOFZBMV9NT2I5WmtfQkswQUZIeWtObmtjSVctWG1CbUFTZk9Sa0oyaFZVaS1wb3hHLVV0THM4YV9RQXRiZWJYUE9oOHNiaVIzcFg2aEZjbnc?oc=5",
+    "date": "2026-10-12",
+    "source": "Investing.com UK",
+    "first_seen": "2026-10-28"
+   },
+   {
+    "type": "funding",
     "title": "Stryker dives into soft-tissue robotics with $400M play for CMR Surgical’s Versius - MassDevice",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLUpfV2hucVJKZUJUaXZCQVVEanl5ODlnQmRSQWZ1aVhHbUMzdW1acmtKU3kwb0syc3RmMlVkRHRoU3hsN2hiTjh2ZkJZUzIyOHlOSEhFem1yNUw0YVIxX0NtYzJpYTVvSkZKb18zZjJtTUExZ21HVjZjS21ndEt4cDRDYmE2b05rZ3l3NEExd2tsVjdHM0xMRDFVOHNjb1ExWk5JekhJQktDV0JT?oc=5",
     "date": "2026-10-13",
@@ -1110,10 +1054,10 @@
    },
    {
     "type": "funding",
-    "title": "Stryker Announces $400 Million Investment in CMR Surgical With Option for Full Acquisition - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3d6UVdmai1tVnZlWHdROHk3WThOZktKdlc1YzdfSnc3bnYtZVI3M1NRRUN6RUpja0ZibDJPc3ZHX2duZXF3Y19KME1MNXNPQjhmQk4ySFBfZHZhZm16MkMweGNwT1RYRTRYbzUwQUhtSy1aTUVuYXYwckVmTUNCSEFTeE4tNDB3SVl3WDMxS1lmbmY1WmF3bjdGX09aUVpROXVR?oc=5",
+    "title": "Stryker invests $400m into CMR Surgical; secures future buyout option - Medical Device Network",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUWI3NXpaUEY0X1hYREtBWTNiak1MN2I4SDRBWjlZU3R1TGIzX08za2F1U0pFeVhvckxFc0R3UnliYjBFVGZEMDVEdFIxNFVjeDNOYUNtVEM4RnBvV3dGWXdhby1WMnEybjRYbHYxTEotblh5U093REFTVDFlMW0ybW9rb0ZPNy1BM0k5RmxnUnJYNFhyZHJzeG5BWnFWaGdudG9HTFU5ZlFOUjdIdkV3Vg?oc=5",
     "date": "2026-10-12",
-    "source": "Yahoo Finance",
+    "source": "Medical Device Network",
     "first_seen": "2026-11-04"
    },
    {
@@ -1133,20 +1077,20 @@
     "first_seen": "2026-10-16"
    },
    {
+    "type": "funding",
+    "title": "Stryker Announces $400 Million Investment in CMR Surgical With Option for Full Acquisition - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3d6UVdmai1tVnZlWHdROHk3WThOZktKdlc1YzdfSnc3bnYtZVI3M1NRRUN6RUpja0ZibDJPc3ZHX2duZXF3Y19KME1MNXNPQjhmQk4ySFBfZHZhZm16MkMweGNwT1RYRTRYbzUwQUhtSy1aTUVuYXYwckVmTUNCSEFTeE4tNDB3SVl3WDMxS1lmbmY1WmF3bjdGX09aUVpROXVR?oc=5",
+    "date": "2026-10-12",
+    "source": "Yahoo Finance",
+    "first_seen": "2026-11-04"
+   },
+   {
     "type": "news",
     "title": "Stryker lowers 2026 guidance after slowdown in hip, knee procedures - MedTech Dive",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdUVzcmV3a3dWbHpXUE42WkYzeXF4V3hhQzVzOE1jTnVNX016ejBhVUVNWktmS251LUtUcWRtVmVjYzd2anFTXzBxbHNMaHgyblBnWjNsMm1jX25vcWdhOTc2QjNRVkw2SGU1Q1Q3SFZaRS1zelRsdWFMYVlocUNsLVl2M3ViODdfZE1sT052cWEtVXMwSHNod29NY2JLeVhsNnByd0JlNWpzQW8?oc=5",
     "date": "2026-10-31",
     "source": "MedTech Dive",
     "first_seen": "2026-11-02"
-   },
-   {
-    "type": "funding",
-    "title": "Stryker invests $400M in CMR Surgical with option to buy - Modern Healthcare",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcy1vbVRTX2dMZ2lGRGNrX2RLYm0zTXVBNTMtNXdlRjFqV3YwazZRdW51VENkMmdFeU5ZUEx6b1I2RmR2VTRaSWVzQ3ZJNGJrWDNGUy1NSzRiREFySnFEQW9PRE5oMDVTLTZWRXZKcE5HUE1Pc0RNdzlVRDdqdXlDOVJVQkZKUmItVFYzbEtmazEtRUpBSVVxQ0xfM1U?oc=5",
-    "date": "2026-10-12",
-    "source": "Modern Healthcare",
-    "first_seen": "2026-10-22"
    },
    {
     "type": "launch",
@@ -1178,7 +1122,7 @@
     "first_seen": "2026-10-28"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Kheiron Medical": {
   "name": "Kheiron Medical",
@@ -1238,7 +1182,7 @@
     "first_seen": "2026-10-29"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Opteran": {
   "name": "Opteran",
@@ -1267,38 +1211,38 @@
    },
    {
     "type": "hn",
+    "title": "AI agent bankrupted their operator while trying to scan DN42",
+    "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+    "date": "2026-06-12",
+    "points": 1467,
+    "first_seen": "2026-11-05"
+   },
+   {
+    "type": "hn",
     "title": "Evidence of a spying operation by ICE against left-wing social movements",
     "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
     "date": "2026-10-28",
-    "points": 1197,
+    "points": 1199,
     "first_seen": "2026-11-04"
    },
    {
     "type": "hn",
-    "title": "Incident with Pull Requests, Git Operations and Issues",
-    "url": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
-    "date": "2026-11-04",
-    "points": 165,
-    "first_seen": "2026-11-04"
+    "title": "I’ve built a virtual museum with nearly every operating system you can think of",
+    "url": "https://virtualosmuseum.org/",
+    "date": "2026-05-19",
+    "points": 974,
+    "first_seen": "2026-11-05"
    },
    {
     "type": "hn",
-    "title": "Nvidia tells data center operators to limit business to Chinese customers",
-    "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits",
-    "date": "2026-11-03",
-    "points": 5,
-    "first_seen": "2026-11-04"
-   },
-   {
-    "type": "hn",
-    "title": "OpenAI employees warned about operational security lapses for years",
-    "url": "https://www.reuters.com/business/openai-employees-warned-about-operational-security-lapses-years-sources-say-2026-11-03/",
-    "date": "2026-11-04",
-    "points": 4,
-    "first_seen": "2026-11-04"
+    "title": "OnePlus halts operations in USA and Europe",
+    "url": "https://community.oneplus.com/thread/2170715118587871237",
+    "date": "2026-07-16",
+    "points": 600,
+    "first_seen": "2026-11-05"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Tharsus": {
   "name": "Tharsus",
@@ -1318,14 +1262,6 @@
   "brief": "no",
   "signals": [
    {
-    "type": "news",
-    "title": "Robotics manufacturer Tharsus continues to invest as challenging year knocks profits - Business Live",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYXVuaFFZeXo4b1lWR1FIN0dVRU5qdEVzeVF0TWxEVEpSekFzM09OQ3hwNmJQUXY3UU9QMjU2cTZPaFN1M0F5SnZyUHlYM0NpN0R6R3NCOXFDdUdidHdadWZUbjVPbjB1TnBSdzVEeEw1Vml4MkFTYVM0QUtxampFZVRKbGNWcXFlZmZHa1BQV0RFMklDWkU2eHNfaEVhSUkyU1RJ0gGoAUFVX3lxTE9rOERvaFhEWlZCN0JZRWh1OVlMSlpuNXdQVlpGQW1fYXQ2SlR3cE5lUWd0TDRpdWxpd19VSzd2QmZZNzNkVXZxUUNhX3NDSjVRNS0xcVA0UHhtZnl3TW1xQzhpdFkydUw4SnJ5dTgyT3pXUVc2Z3YzTUEzSVhONWp3RXI1SWlXUm5Dc2l0dFR1eWQ4X0dRRVVROTVlSnR5N1llVmdWeHBlUA?oc=5",
-    "date": "2026-09-06",
-    "source": "Business Live",
-    "first_seen": "2026-10-12"
-   },
-   {
     "type": "launch",
     "title": "TUAL appoints Tharsus to produce ultra-deployable fast EV chargers - Highways News",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb2F3TFZoVVpzaGNZZDB5UVIyN0dsVzF1bF95MnFZY1Y1U2Nya1dhNjhWc2lJRk8xNmg1dTNCNGdKM0szWGFMc3FqQTExMTdfVHFEMW5WWXdIWTdiTUR6LVNzMkd0SFhTc3BCRGFYM3Eyam5uQWlGbXJpT2ZvMlFQQmhOeGx4ZmEyd2hKS0I3ZFZiS2s1eGg3SQ?oc=5",
@@ -1340,6 +1276,14 @@
     "date": "2026-09-17",
     "source": "Engineer Live",
     "first_seen": "2026-10-09"
+   },
+   {
+    "type": "hn",
+    "title": "Tesla unveils 'flying' Roadster with SpaceX thrusters [video]",
+    "url": "https://www.youtube.com/watch?v=eqOfmtTJD1A",
+    "date": "2026-10-16",
+    "points": 63,
+    "first_seen": "2026-11-05"
    },
    {
     "type": "hn",
@@ -1372,17 +1316,9 @@
     "date": "2026-06-06",
     "points": 6,
     "first_seen": "2026-10-30"
-   },
-   {
-    "type": "hn",
-    "title": "Superconducting thruster harnesses Earth's magnetic field in first orbital test",
-    "url": "https://www.space.com/technology/acceleration-without-fuel-revolutionary-superconducting-thruster-harnesses-earths-magnetic-field-in-1st-orbital-test",
-    "date": "2026-07-08",
-    "points": 5,
-    "first_seen": "2026-10-19"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Extend Robotics": {
   "name": "Extend Robotics",
@@ -1416,14 +1352,6 @@
     "date": "2026-10-02",
     "source": "Dealroom",
     "first_seen": "2026-10-08"
-   },
-   {
-    "type": "funding",
-    "title": "UK’s Extend Robotics Secures £2.6M to Sell Factory Work Instead of Machines - Ventureburn",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIa283eTFkVVpFeFVva1VNZmlaRWZvUGFmdHI3YVZoMWR1TXg2U05LMVV4TEtraFM2Zm50ejN4LW9mX05MRU1leGtnTUZfWmlkOGlMMVFWQTFab09udUUyU1ZPUEjSAWRBVV95cUxQSGtvN3kxZFVaRXhVb2tVTWZpWkVmb1BhZnRyN2FWaDFkdU14NlNOSzFVeExLa2hTNmZudHozeC1vZl9OTEVNZXhrZ01GX1ppZDhpTDFRVkExWm9PbnVFMlNWT1BI?oc=5",
-    "date": "2026-10-02",
-    "source": "Ventureburn",
-    "first_seen": "2026-10-19"
    },
    {
     "type": "funding",
@@ -1512,7 +1440,7 @@
     "first_seen": "2026-10-05"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Proximie": {
   "name": "Proximie",
@@ -1644,7 +1572,7 @@
     "first_seen": "2026-11-03"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Perceptual Robotics": {
   "name": "Perceptual Robotics",
@@ -1663,7 +1591,7 @@
   "verified": "yes",
   "brief": "no",
   "signals": [],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Muddy Machines": {
   "name": "Muddy Machines",
@@ -1682,7 +1610,7 @@
   "verified": "no",
   "brief": "no",
   "signals": [],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Ocado Technology": {
   "name": "Ocado Technology",
@@ -1727,19 +1655,19 @@
    },
    {
     "type": "job",
+    "title": "Senior Data Scientist ",
+    "url": "https://careers.ocadogroup.com/jobs/details?gh_jid=5008443101&gh_jid=5008443101",
+    "loc": "London, United Kingdom",
+    "ats": "greenhouse",
+    "first_seen": "2026-11-05"
+   },
+   {
+    "type": "job",
     "title": "Senior Machine Learning Engineer (E3)",
     "url": "https://careers.ocadogroup.com/jobs/details?gh_jid=4921337101&gh_jid=4921337101",
     "loc": "Krakow, Poland; Wroclaw, Poland",
     "ats": "greenhouse",
     "first_seen": "2026-09-20"
-   },
-   {
-    "type": "job",
-    "title": "Senior Software Engineer - Data & ML",
-    "url": "https://careers.ocadogroup.com/jobs/details?gh_jid=4974163101&gh_jid=4974163101",
-    "loc": "London, United Kingdom",
-    "ats": "greenhouse",
-    "first_seen": "2026-10-23"
    },
    {
     "type": "hn",
@@ -1782,7 +1710,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Panakeia": {
   "name": "Panakeia",
@@ -1803,30 +1731,14 @@
   "signals": [
    {
     "type": "news",
-    "title": "New Multi-Site Validation Study Published by Panakeia Reinforces Scalability of AI Multi-Omics Platform - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTDIxYWc5cU1IU2VGaGdfZExrazVOT3BKcWJvZGdzVUN4T0lZTDVQYl9XSkJvU053bTRwbUtuMFNReHhKMHd4VmI5M2hfZEFzR1NJdDU4SWxRQ0lEV2QtWUxDcFExODZCd2JPWkMta29qWTJGOElQd2padHpBeU9OQ2FlWVd3WFZsYlBMYnh0cWJxOER3TktxY0dKS0ZNTnVOelZHUA?oc=5",
+    "title": "New Multi-Site Validation Study Published by Panakeia Reinforces Scalability of AI Multi-Omics Platform - The Manila Times",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQOF9IdWdGNmFGdUJ0V3poR1FrQWpka1UxTXpRUDBiamxQMzlfZVk1RkNaMHA2SE00X2VGZXpKN3ZvbFgtejFfS0xOWUZhVkRoQjdEQ0V5VnF1bHNBUEM2Mkw3OTRFUDFEblFfTjd6d1hxR2RfMVMxMk9xNUttNHFiUlpuOGw1SlpJUzFrcTVwWjAwa1NBd2lwRFJ4WWQtYWZaWjBicFFSSUFQb3MwVTFhcS1HOFUwaURJbEV6aVVES2VtTHFrRVBBbW01MWZTNU92N3RCUnBCbG1UeHhLMTRKMXBwR1BoTUFYV1Z2dkctMDRGQVRpNk9lSFdtaHRzdmNnTjNzRlBOdlnSAY4CQVVfeXFMTzlvaTZBTXpYYWc3M2R2cmVqQ2pGaFJ6bGxkZFZJVS00NXhNVzFxLTNkSlN2UWs4VmhWSVNhZlczN2cyb2VQNHN6R3hTLU05NkVXbENpSUhrQXhuTG5VVmtSc1JPTEJ5aVZfalRRNERtbk9kOU1sT24wb3ExTE1CQ1liOFRhaG5Qc3NOeEtWSzdRTnh0M2VSODhRSHB6Wmx4S2NBNWwxd3NZcGRFNHJicE9OYXdaaEpBNXFtRWtQM2tpd3hZRUtuUXhHLXZlUEhyeWxuUTRUZ1A4czdJOHozZWktcEp1ZFQtR1QyVGJDd0kwangwTkdELUVBU3lYRUJJOHJNT3VtUzI2aWtjcWR3?oc=5",
     "date": "2026-09-08",
-    "source": "Yahoo Finance",
-    "first_seen": "2026-10-20"
-   },
-   {
-    "type": "hn",
-    "title": "Ask HN: Do you see a Pancake in the top left menu at Github.com?",
-    "url": "https://news.ycombinator.com/item?id=49112739",
-    "date": "2026-07-30",
-    "points": 21,
-    "first_seen": "2026-11-04"
-   },
-   {
-    "type": "hn",
-    "title": "Live Atomic Spatial Audio",
-    "url": "https://panaudia.com/",
-    "date": "2026-09-03",
-    "points": 5,
-    "first_seen": "2026-11-03"
+    "source": "The Manila Times",
+    "first_seen": "2026-11-05"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Sees.ai": {
   "name": "Sees.ai",
@@ -1845,7 +1757,7 @@
   "verified": "no",
   "brief": "no",
   "signals": [],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Fieldwork Robotics": {
   "name": "Fieldwork Robotics",
@@ -1873,7 +1785,7 @@
     "first_seen": "2026-10-20"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Helsing UK": {
   "name": "Helsing UK",
@@ -1893,6 +1805,14 @@
   "brief": "no",
   "signals": [
    {
+    "type": "launch",
+    "title": "Helsing unveils Contra autonomous air defence alongside missile interceptors AD-1 Inferno and AD-2 Ambush - Helsing",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQmlGVVVfVE4tNkJOSDRCaExZU2xZZXBuSncwX3ozN1hLTmxWQnVfTUY5RU5YZHA2d1MzNXY0Z3BxeHZRSDNXNFR4U21zYklNQ0gyRjZVS0J3ZlJpQlVoeHR1MzZyUjM5bVVqd3J4bTdZR21IdTRET0tzU0l1R0JHU0dJUGRGZk5zSHNrbkdCeXllLWxDRHk5NXZSc2tzd3NMeEl3RXlBTXN6RGJva1NQVFVWdWRuelJrNm5ZOVA5RjZvU2hMNE02MWNVU2UwQQ?oc=5",
+    "date": "2026-10-26",
+    "source": "Helsing",
+    "first_seen": "2026-10-26"
+   },
+   {
     "type": "news",
     "title": "Helsing hands Germany ownership of combat-system software - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdkxMTHV1dTh5bnpCdkszQUQ2aE8tWnNibHVpNFljY0RHNjVnUU1ab29scVQ1T0Z6VFR5VFR0XzlQdEVYWUx1cFVMSDJWdUVISXhMVS1UR0NfMlc1SHFtNGhBT05QNmxaUDI4VjJWcmJWcElXd1dOM1lNeXRyMXgydllRZzVUaFFwaFlqWDNYeEpSblBpdDNjd1U5NmFtaDFDSnNlWXVFZ3Q1VkR4T2ZvU2hlczB4bDFO?oc=5",
@@ -1901,12 +1821,12 @@
     "first_seen": "2026-11-04"
    },
    {
-    "type": "launch",
-    "title": "Helsing unveils Contra autonomous air defence alongside missile interceptors AD-1 Inferno and AD-2 Ambush - Helsing",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQmlGVVVfVE4tNkJOSDRCaExZU2xZZXBuSncwX3ozN1hLTmxWQnVfTUY5RU5YZHA2d1MzNXY0Z3BxeHZRSDNXNFR4U21zYklNQ0gyRjZVS0J3ZlJpQlVoeHR1MzZyUjM5bVVqd3J4bTdZR21IdTRET0tzU0l1R0JHU0dJUGRGZk5zSHNrbkdCeXllLWxDRHk5NXZSc2tzd3NMeEl3RXlBTXN6RGJva1NQVFVWdWRuelJrNm5ZOVA5RjZvU2hMNE02MWNVU2UwQQ?oc=5",
-    "date": "2026-10-26",
-    "source": "Helsing",
-    "first_seen": "2026-10-26"
+    "type": "news",
+    "title": "Helsing Hands Germany the Source Code for Its Future Combat Drone Software - Technology Org",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT0RJVkZ6VEJKZW1wQjY2ZWpuZ2twZzZJMWZ2VGtzUEIwVUs5WDcwdVA2a1F5a2VSVmNucnVxcV9QWTAwLWVXV2JPYTNhdExvcUJJRm8tb0NtcHhTRHE1WVN5ZlhleFowYndSUlkzUlgySXNFUVVhNlI2LXpLNXg1MmljLWZ2YWpLUjNsUHZjQkNscTJ0cUNiMG52ZDk5QQ?oc=5",
+    "date": "2026-11-05",
+    "source": "Technology Org",
+    "first_seen": "2026-11-05"
    },
    {
     "type": "news",
@@ -2067,7 +1987,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  },
  "Wootzano": {
   "name": "Wootzano",
@@ -2086,6 +2006,6 @@
   "verified": "no",
   "brief": "yes",
   "signals": [],
-  "fetched": "2026-11-04"
+  "fetched": "2026-11-05"
  }
 }
