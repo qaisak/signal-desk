@@ -1,21 +1,21 @@
-# Signal Desk digest, 2026-11-09
+# Signal Desk digest, 2026-11-10
 
 ## Hot accounts
-- **Wayve** (350): CoreWeave (CRWV) Secures Multi-Year Cloud Partnership with Wayve to Accelerate Autonomous Driving AI (2026-11-09); hiring 34 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
+- **Wayve** (500): CRWV Stock Rallies 6%: Can Wayve Deal Fuel Its Physical AI Growth? (2026-11-10); hiring 34 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
+- **Helsing UK** (284): Germany's Helsing to unveil AI-based military software as a rival to Palantir (2026-11-10); hiring 10 ML/CV roles: AI Research Engineer - ML & Signal Processing
 - **Humanoid** (250): hiring 8 ML/CV roles: Senior Dev/ML Ops Engineer
-- **Helsing UK** (236): Helsing unveils Contra autonomous air defence alongside missile interceptors AD-1 Inferno and AD-2 Ambush (2026-10-26); hiring 10 ML/CV roles: AI Research Engineer - ML & Signal Processing
 
 ## New signals since yesterday
-- **Wayve**: [news] CoreWeave signs multi-year cloud deal with autonomous vehicle firm Wayve - Inves; [news] Wayve to train AI Driver on CoreWeave in multi-year deal - Automotive World; [news] CoreWeave signs multi-year cloud agreement with Wayve - Data Center Dynamics
-- **Humanoid**: [paper] DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control; [paper] Through Ups and Downs: the Transient Lensing Behaviour of SIDM halos undergoing ; [paper] SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesi
-- **Helsing UK**: [paper] Finding geometric criteria for negative eigenvalues of the Neumann--Poincaré ope; [job] AI Research Engineer - ML & Signal Processing; [job] Staff AI Research Engineer -  3D Computer Vision
-- **CMR Surgical**: [funding] Nelson Advisors: Stryker’s investment in CMR Surgical marks the beginning of an 
-- **Ocado Technology**: [job] Senior Software Engineer - Data & ML
-- **Extend Robotics**: [funding] Extend Robotics Raises £2.6M in Funding to Expand Outcome-Based Industrial Robot
-- **Skyports Drone Services**: [hn] Show HN: Flide: Make Jev-like decision models up to 9.5x faster; [hn] The NBA player who got hooked on sports betting
-- **Oxa**: [paper] Video-Coder: Reinforcing Agentic Coding for Video Generation; [paper] Scenario Orchestration for Closed-loop Policy Evaluation of Autonomous Driving; [paper] Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Se
-- **Dexory**: [news] Dexory expands warehouse intelligence and robotics safety capabilities with NVID
-- **Kheiron Medical**: [hn] DiscoBox: AI Coding Agents in Disposable Sandboxes; [hn] RegEx 101 for Data Pipelines; [hn] Mullet of Log Processing: Determinism in the Front, AI at the Back (Expanso/Jev)
+- **Wayve**: [news] CRWV Stock Rallies 6%: Can Wayve Deal Fuel Its Physical AI Growth? - Yahoo Finan; [launch] CoreWeave Cloud to power Wayve's AI Driver training in deployment of autonomous ; [launch] CoreWeave Falls 1% Pre-Market: Strikes Multi-Year AI Cloud Partnership With UK A
+- **Helsing UK**: [launch] Germany's Helsing to unveil AI-based military software as a rival to Palantir - 
+- **Humanoid**: [paper] Bridging Task Planning and Execution for Language-Conditioned Bimanual Manipulat; [paper] LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-G; [paper] Compass 1: Towards Open-World and Persistent Embodied Navigation from Monocular 
+- **CMR Surgical**: [funding] Stryker invests $400M in CMR Surgical with option to buy - Modern Healthcare
+- **Ocado Technology**: [job] Data Scientist (mid-snr) ; [job] Senior Software Engineer, Machine Learning
+- **Oxa**: [paper] WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi; [paper] Simulating Vein Compressibility for Ultrasound-Guided Femoral Access: Speed, Acc; [paper] Certified Zonotopic Reachability Analysis for Trajectory Tracking on Lie Groups
+- **Skyports Drone Services**: [hn] Firefox is now the last major browser that still supports uBlock Origin; [hn] RustDesk now supports true unattended remote access on Wayland
+- **Tharsus**: [hn] Northstar: A New Booster Engine with More Thrust and Less Mass; [hn] Tesla unveils 'flying' Roadster with SpaceX thrusters [video]; [hn] NASA Fires Up Powerful Lithium-Fed Thruster for Trips to Mars
+- **Kheiron Medical**: [hn] EC: 'Guidance to Google for AI Interoperability on Android'; [hn] Khronos Announces glTF Gaussian Splatting Extension
+- **Panakeia**: [hn] Live Atomic Spatial Audio; [hn] Ask HN: Do you see a Pancake in the top left menu at Github.com?; [hn] Show HN: Justif – Knuth-Plass justification and microtypography for the web
 
 ## Briefs ready
 - Oxa (medium confidence, 2026-10-06)
