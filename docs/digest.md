@@ -1,26 +1,21 @@
-# Signal Desk digest, 2026-11-11
+# Signal Desk digest, 2026-11-12
 
 ## Hot accounts
 - **Wayve** (500): CRWV Stock Rallies 6%: Can Wayve Deal Fuel Its Physical AI Growth? (2026-11-10); hiring 35 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
-- **Helsing UK** (316): Helsing launches Clarity, a competitor to Palantir’s Maven (2026-11-11); hiring 9 ML/CV roles: AI Research Engineer - ML & Signal Processing
-- **Humanoid** (250): hiring 8 ML/CV roles: Senior Dev/ML Ops Engineer
+- **Helsing UK** (316): Helsing unveils Clarity, a sovereign software platform for military intelligence (2026-11-11); hiring 10 ML/CV roles: AI Research Engineer - ML & Signal Processing
 
 ## New signals since yesterday
-- **Wayve**: [news] CRWV Stock Rallies 6%: Can Wayve Deal Fuel Its Physical AI Growth? - The Globe a; [news] CoreWeave Expands Into ‘Physical AI’ With Wayve Driverless-Car Deal, But CRWV St; [news] CoreWeave Stocks Jump 6.96% After Multi-Year Wayve Self-Driving AI Deal - Tradin
-- **Helsing UK**: [news] Helsing enters market for battlefield software built on combat data - Reuters; [launch] Helsing launches Clarity, a competitor to Palantir’s Maven - Resilience Media; [launch] Germany’s Helsing Unveils AI Defence Software to Challenge Palantir’s Military D
-- **Humanoid**: [paper] Personalized Affective Perception via Continual Learning in Human-Agent Negotiat; [paper] RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control; [paper] ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid 
-- **CMR Surgical**: [funding] Surgical-robotics startup Mosaic exits stealth with $47M seed - Dealroom
-- **Fieldwork Robotics**: [funding] Seed Innovations Limited (SEED) Reports £10.43m NAV with Three New Robotics Inve
-- **Extend Robotics**: [paper] HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulat
-- **Oxa**: [paper] SIGMO: Sigmoid Gated Interaction-Aware Motion Planning; [paper] Causal Concept Explanations for Deep Neural Models; [paper] Bi-Hamiltonian structure and conserved quantities of the Yajima-Oikawa-Newell sy
-- **Skyports Drone Services**: [news] Ørsted and Skyports Trial Heavy Cargo Drones for Turbine Maintenance at Hornsea 
-- **Proximie**: [launch] Amazon com : Global Healthtech Proximie, in Collaboration with AWS, Deloitte and
-- **Kheiron Medical**: [hn] MoltenVK (Vulkan on Metal) was deprecated in favor of KosmicKrisp; [hn] KeiroLabs – Web research infrastructure for AI agents; [hn] Khronos Group opens EU Entity to support European Projects with open standards
+- **Wayve**: [news] CoreWeave to power Wayve’s AI driver training in multi-year agreement - TelecomT; [news] As CoreWeave Lands a Wayve Deal, Here Is How You Should Play CRWV Stock - Barcha; [news] Wayve accelerates autonomous vehicle AI with CoreWeave - Computer Weekly
+- **Helsing UK**: [news] Germany’s Helsing Challenges Palantir With Defence AI Platform - Silicon UK; [launch] Helsing unveils Clarity, a sovereign software platform for military intelligence; [launch] Helsing introduces Clarity AI platform to identify potential military targets fo
+- **Skyports Drone Services**: [hn] How do you limit an agent's kubectl when dev and prod share a cluster?; [launch] Skyports deploys automated BVLOS drones for Australia’s HumeLink power lines pro
+- **Oxa**: [news] Rolls-Royce veteran to chair autonomous driving leader Oxa - BusinessCloud; [news] Oxa appoints new Chair to accelerate global expansion - https://megaproject.com/
+- **Dexory**: [news] Dexory collaborates with NVDIA on Physical AI platform, United Kingdom. News sto
+- **Opteran**: [hn] Tell HN: I'm working on original approaches to tag-based file organization; [hn] Show HN: Aircad – Professional drafting and 3D modeling in the browser; [hn] TimeNet: Open-source data infrastructure for Temporal Foundation Models
 
 ## Briefs ready
 - Oxa (medium confidence, 2026-10-06)
-- Proximie (medium confidence, 2026-10-06)
 - Dexory (medium confidence, 2026-10-05)
+- Proximie (medium confidence, 2026-10-06)
 - Wootzano (low confidence, 2026-10-05)
 
 Open the desk: https://qaisak.github.io/signal-desk/
