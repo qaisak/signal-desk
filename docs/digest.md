@@ -1,21 +1,20 @@
-# Signal Desk digest, 2026-11-16
+# Signal Desk digest, 2026-11-17
 
 ## Hot accounts
-- **Wayve** (500): CRWV Stock Rallies 6%: Can Wayve Deal Fuel Its Physical AI Growth? (2026-11-10); hiring 35 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
-- **Humanoid** (465): Eric Trump-Backed Robot Startup Foundation Missed Payroll After Its CEO Borrowed $4.6 Million From the Company (2026-11-15); hiring 8 ML/CV roles: Senior Dev/ML Ops Engineer
+- **Humanoid** (385): An 11-person startup raised $40 million to challenge robotics' data-hungry giants (2026-10-27); hiring 8 ML/CV roles: Senior Dev/ML Ops Engineer
+- **Wayve** (350): CoreWeave Announces Multi-Year AI Training Agreement With Wayve (2026-11-09); hiring 34 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
 - **Helsing UK** (328): Helsing unveils Clarity, a sovereign software platform for military intelligence (2026-11-11); hiring 10 ML/CV roles: AI Research Engineer - ML & Signal Processing
 
 ## New signals since yesterday
-- **Wayve**: [news] Autonomous & Self-Driving Vehicle News: Rivian, CoreWeave, Wayve, Kakao, Nvidia,; [news] CoreWeave partners with Wayve to accelerate AI training for autonomous vehicles ; [launch] CoreWeave Announces Multi-Year AI Training Agreement With Wayve - Securities.io
-- **Humanoid**: [funding] Eric Trump-Backed Robot Startup Foundation Missed Payroll After Its CEO Borrowed; [paper] When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust; [paper] Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deplo
-- **Helsing UK**: [paper] Finding geometric criteria for negative eigenvalues of the Neumann--Poincaré ope; [news] Defence start-up Helsing moves into missile interceptors - The Telegraph; [hn] On Comments
-- **CMR Surgical**: [news] CMR Surgical Chose Agency Over Distribution To Keep Surgeons Close, CEO Says - M
-- **Ocado Technology**: [job] Data Scientist 
-- **Extend Robotics**: [funding] Extend Robotics Raises £2.6M in Funding to Expand Outcome-Based Industrial Robot
-- **Oxa**: [news] Former Rolls-Royce executive appointed chair of Oxford tech firm - Oxford Mail; [paper] Complex fluid flow dynamics by bright scattershot boson sampling; [paper] Disturbance-Aware Informative Planning in Spatiotemporal Environments
-- **Skyports Drone Services**: [hn] GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)
-- **Proximie**: [launch] Burjeel Holdings’ AiMed Solutions and Proximie to co-develop next-generation of 
-- **Tharsus**: [hn] Northstar: A New Booster Engine with More Thrust and Less Mass; [hn] Tesla unveils 'flying' Roadster with SpaceX thrusters [video]; [hn] NASA Fires Up Powerful Lithium-Fed Thruster for Trips to Mars
+- **Humanoid**: [paper] ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Ex; [paper] Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstra; [paper] QTOP: Scaling Humanoid Motion Tracking with Quantile Critics
+- **Wayve**: [news] Cloudflare Jumps 11%, Nebius Surges 9% as AI Cloud Stocks Defy NVIDIA's Slide; C; [hn] I used sound waves to make espresso
+- **Helsing UK**: [launch] Helsing launches Clarity, a competitor to Palantir’s Maven - Resilience Media
+- **Fieldwork Robotics**: [funding] Seed Innovations Limited (SEED) Reports £10.43m NAV with Three New Robotics Inve
+- **Oxa**: [paper] SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agen; [paper] GHySSeg: Real-Time Geometric Ground and Road Segmentation for Hybrid Solid-State; [paper] Cantor Julia sets of positive area in non-autonomous dynamics
+- **Skyports Drone Services**: [hn] Firefox is now the last major browser that still supports uBlock Origin
+- **Proximie**: [news] Proximie Expands US Transformation Team With New Leadership as Demand for Surgic; [news] Proximie Expands US Transformation Team With New Leadership as Demand for Surgic
+- **Kheiron Medical**: [hn] Khronos Announces glTF Gaussian Splatting Extension
+- **Opteran**: [hn] OOS – an open operating system for the Rigol Scopes; [hn] Getting ready to operate GNU Taler in Germany; [hn] Google Cloud outage affects almost all banking and other operations in Europe
 
 ## Briefs ready
 - Oxa (medium confidence, 2026-10-06)

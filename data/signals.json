@@ -34,22 +34,22 @@
    },
    {
     "type": "news",
-    "title": "Dexory expands warehouse intelligence and robotics safety capabilities with NVIDIA - Logistics Magazine - Australia",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQWl3WUd6MDNfaW82bDE0RC1wOWlncFlCY19QdUtjREE5b2V6UERVakVWQXBZLXhaN2JGMlBxWmJ4SEczWkFMay14MnlucVA0OW9obUNiVGQ2OW1WVkoxMy1HT3FfeGs3YXNpVWR3YVZMNU8zNGhQdWJtRWlZLV9RWExVVHRBMWpwQ3l3SVBPdERLUlhBa2RtYlhTQkh1SFpPZzJuS2JVWFI3eEVTYnQ3T1NYS2ZEUXJHZm92N2ItVTI0UQ?oc=5",
-    "date": "2026-10-27",
-    "source": "Logistics Magazine - Australia",
-    "first_seen": "2026-11-09"
-   },
-   {
-    "type": "news",
     "title": "Stellantis’ new Dexory robot is an AI-powered vision-scanning system - The Detroit News",
     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV2VHYm5Yd1VYWDJNdUdtWGkxbDgxLU9kYTJUZ3VjSTJ0UXowaU5MT19LWVNTOWdiRlRDTlRYcDdVTGZQV0dsTmc3bmN1YU9sRTF1TzMzTmtmV2NDX0FDbDVjSTBMNlMxTjNUeXZnQ05taWZkN1JQdGlZbGNnWjN3UHlIeFV0LThESGhVbFdsNEtTc3g4TXJIOWpFajhWdW1BNWNVTXMxSU40cE13MnJBOUJVRTQzVEF0SlRSS1gzYlBUTG5BeTU4WDFCU2stLW1DSVhfakdWVjdPR2JuYnRnWm5uODE?oc=5",
     "date": "2026-09-28",
     "source": "The Detroit News",
     "first_seen": "2026-10-08"
+   },
+   {
+    "type": "news",
+    "title": "Dexory expands warehouse intelligence and robotics safety capabilities with NVIDIA - Logistics Magazine - Australia",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQWl3WUd6MDNfaW82bDE0RC1wOWlncFlCY19QdUtjREE5b2V6UERVakVWQXBZLXhaN2JGMlBxWmJ4SEczWkFMay14MnlucVA0OW9obUNiVGQ2OW1WVkoxMy1HT3FfeGs3YXNpVWR3YVZMNU8zNGhQdWJtRWlZLV9RWExVVHRBMWpwQ3l3SVBPdERLUlhBa2RtYlhTQkh1SFpPZzJuS2JVWFI3eEVTYnQ3T1NYS2ZEUXJHZm92N2ItVTI0UQ?oc=5",
+    "date": "2026-10-27",
+    "source": "Logistics Magazine - Australia",
+    "first_seen": "2026-11-09"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Oxa": {
   "name": "Oxa",
@@ -77,93 +77,77 @@
     "first_seen": "2026-11-16"
    },
    {
-    "type": "news",
-    "title": "Rolls-Royce veteran to chair autonomous driving leader Oxa - BusinessCloud",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQM1dJNFZsTWhqTzcyeE45RU02SGVCVE53Tl9UaHpfMmdqSGtCWG50ZFlCTlJLMlk5Mmx4ZmhhMVFwOE0zWEZVVk1aQXk0MHBxam9ienlLeGFrT0k2V0ZMeFdXYlduMlNfOVVqYlVSeWZ0UjRQeUN2WEdoMmZvUHRhNzFqZUZPSF9rWDJGVGl3VFhIS2o1WGpF?oc=5",
-    "date": "2026-11-11",
-    "source": "BusinessCloud",
-    "first_seen": "2026-11-16"
-   },
-   {
-    "type": "news",
-    "title": "DP World joins Oxa-DFF autonomous logistics venture SHIFFT - Traffic Technology Today",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcnJuRDJpOGExSDJZWFZ5cEE3MzlzOGJMQlNYYmNORUU1ZUFHUk9XeF8yRlF0bnhHeGRIc0UxMzY4MXBjRlNtOC13VTlYdGYtT1hVZWVPOC1yNlBKNjU0UWlpX0xETlVzb0VmYUtvZEpJQkZXYWc1eUhVV0ZnRXVzYkx4TDdIOGpqa2NOMk91XzRvenZidm9XQTVMSzNlZFdHOUozTDBKRWpHVW4yMzFablJYOUx0RjdJd3M3SjhUSERhRkY1?oc=5",
-    "date": "2026-11-09",
-    "source": "Traffic Technology Today",
-    "first_seen": "2026-11-11"
+    "type": "paper",
+    "title": "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents",
+    "url": "https://arxiv.org/abs/2611.21541v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "Complex fluid flow dynamics by bright scattershot boson sampling",
-    "url": "https://arxiv.org/abs/2611.18510v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "GHySSeg: Real-Time Geometric Ground and Road Segmentation for Hybrid Solid-State LiDAR",
+    "url": "https://arxiv.org/abs/2611.21507v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "Disturbance-Aware Informative Planning in Spatiotemporal Environments",
-    "url": "https://arxiv.org/abs/2611.18505v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "Cantor Julia sets of positive area in non-autonomous dynamics",
+    "url": "https://arxiv.org/abs/2611.21499v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "In Situ Monitoring and Predictive Modeling of Harmful Algal Blooms with Autonomous Surface Vehicles",
-    "url": "https://arxiv.org/abs/2611.18501v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "Data-Driven Predictive Control for Autonomous Vehicle Racing under Varying Friction",
+    "url": "https://arxiv.org/abs/2611.21378v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "Toward Resilient Self-Driving Laboratories through Telerobotic Interventions",
-    "url": "https://arxiv.org/abs/2611.18496v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "A Crowd-Audited Atlas of Implicit Bias in LLM-Powered Agents",
+    "url": "https://arxiv.org/abs/2611.21376v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents",
-    "url": "https://arxiv.org/abs/2611.18493v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "Proceedings Eighth International Workshop on Formal Methods for Autonomous Systems",
+    "url": "https://arxiv.org/abs/2611.21375v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
-    "url": "https://arxiv.org/abs/2611.18484v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "Singular Global Compactness for Logarithmically Coupled \\(p\\)-Laplacian Systems",
+    "url": "https://arxiv.org/abs/2611.21269v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "Heavy Metal Acrobatics: Learning Dynamic Control for Skid-Steer Loaders",
-    "url": "https://arxiv.org/abs/2611.18365v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "Neurosymbolic Synthesis of Contraction Metrics with Certified Verification",
+    "url": "https://arxiv.org/abs/2611.21247v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "Atlas-DeePC: Learning Behavioral Atlases for Predictive Control",
-    "url": "https://arxiv.org/abs/2611.18266v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "DRaGAN: Dynamic Graph Attention Network for Multi-Radar Point Cloud Encoding in Automotive Radar Perception",
+    "url": "https://arxiv.org/abs/2611.21162v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "NeoResearch: Literature- and Experience-Guided Autonomous Time Series Model Discovery",
-    "url": "https://arxiv.org/abs/2611.18235v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
-   },
-   {
-    "type": "paper",
-    "title": "Channel Prediction Using Deep Recurrent Neural Network with EVT-based Adaptive Quantile Loss Function",
-    "url": "https://arxiv.org/abs/2611.18171v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "IGRecon4D: Dynamic-Object-Aware Feed-Forward Reconstruction of Driving Scenes",
+    "url": "https://arxiv.org/abs/2611.21126v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Humanoid": {
   "name": "Humanoid",
@@ -196,30 +180,6 @@
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb1Z2WG5ZUGp6Q2tJTGFsazRjN00zVld3aEJkYlFaRGZhaEtkS0FzUXdLT2dCamowYmgxNW4wLXp4RU9nZm5aYWVYOS1YZFgybEpLZUY0NGZZU2FpMnQ1d3NaOEI1eTJvNFBJMlZ4d3Z4dklIN0h3bF85M2VqMDRYUHdJU3JvN09JV3c?oc=5",
     "date": "2026-11-06",
     "source": "IT Brief UK",
-    "first_seen": "2026-11-16"
-   },
-   {
-    "type": "news",
-    "title": "Robots able to do most industrial jobs ‘within two years’, says Humanoid founder - The Observer",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMWNPcEtBd1pRaWJyQjRaaTBJbXFvaklnakhHaGVkOWYzcTU5c2FfaFVUcmdmUWZLVndXM2RxR0liSVZTSmdDLUJEblRVNlE1ZWlmNUFVQlpBUkM3TUw5TXNjdVg2aXYyblRyR1pzMXNIYmlSYjhqTnItOEU2cGcyVEhjc3BwaDRlMDB2dWJMbTVOUUNZUUxiUlc0cDlOV1UwcURFLXp2c1BKOFhOd0FHZHR2UHFRbldtMEcxdDlNNA?oc=5",
-    "date": "2026-10-29",
-    "source": "The Observer",
-    "first_seen": "2026-11-16"
-   },
-   {
-    "type": "funding",
-    "title": "French startup Bleu Robotics secures €5 million to teach humanoid robots new tasks with fewer demonstrations - EU-Startups",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSXRpN25nUTJZNEYyTXFReU8wX2M5Rml6QnFrbDVKVXlrblNzRG5COTdOZ29zRHRTQmxTZjVfTFdoWUxwOVVNNG01LS1MM3lQWGFxTWF2N3doWDJtb1N3QUdyNjQ5M21ObHhWTi1MdlhfdEk5MVNxb2FLWWJzQnRHTjhhendEb1BuR05QMjh4alZvOWxQUmZzMkFoNmlDS3N4MVhSQW4wQXRWS09zNVB6QUpMaFJZWE5RVVZyYVc4bEV2aURiVWdrazRRbFkyVEVEMi1fTmFOUzNDa251eFE?oc=5",
-    "date": "2026-10-29",
-    "source": "EU-Startups",
-    "first_seen": "2026-11-16"
-   },
-   {
-    "type": "funding",
-    "title": "Eric Trump-Backed Robot Startup Foundation Missed Payroll After Its CEO Borrowed $4.6 Million From the Company - Thought Catalog",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNGxrLWJFalhQNHhiNGZ5NXVmb0xacWRQWFR3NTY0Qkl1MjFvWGczYkN4Ym9TTEtEcllCTldBMzRPVGN4QlNFN05tR0Zyamk1c0EyQXBYYVU5ek1EVmlyYmZBN0hYUnVfRHJ0TWEzRm9LejJuMXR4Sm9vTVZSYktVZEhkYW9nUS1oN05jVlYzVTZULUpDWnhtOVdRWko2VS1SNkwyVlgxWEpuVzFmSHBBX1BJT2I1a3VjQUZ2OW9Hd2NjQjBJa0pGdmxLU2M0Qm5ucmI3ck5UNVVtNWYwQVhpZlFMNTVWa2VwMXgxQkxhbm8?oc=5",
-    "date": "2026-11-15",
-    "source": "Thought Catalog",
     "first_seen": "2026-11-16"
    },
    {
@@ -288,73 +248,73 @@
    },
    {
     "type": "paper",
-    "title": "When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust to Unfamiliar Partners",
-    "url": "https://arxiv.org/abs/2611.18491v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression",
+    "url": "https://arxiv.org/abs/2611.20950v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
-    "url": "https://arxiv.org/abs/2611.18372v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations",
+    "url": "https://arxiv.org/abs/2611.20888v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "VLAN: Vision-Language Accessible Navigation",
-    "url": "https://arxiv.org/abs/2611.18346v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "QTOP: Scaling Humanoid Motion Tracking with Quantile Critics",
+    "url": "https://arxiv.org/abs/2611.20791v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "PoliMop: Policy-in-the-Loop Motion Planning in 3D Spaces for Mobile Robots",
-    "url": "https://arxiv.org/abs/2611.18110v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "SG-ODOM: Event-Driven Proprioceptive State Estimation with Stability-Gated Contact Updates for Legged Robots",
+    "url": "https://arxiv.org/abs/2611.20710v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "Reusing Locomotion Training Recipes Across Humanoids via Body-Aligned Virtual Joints",
-    "url": "https://arxiv.org/abs/2611.18003v1",
-    "date": "2026-11-13",
-    "first_seen": "2026-11-16"
+    "title": "XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute",
+    "url": "https://arxiv.org/abs/2611.20452v1",
+    "date": "2026-11-16",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot",
-    "url": "https://arxiv.org/abs/2611.17598v1",
-    "date": "2026-11-12",
-    "first_seen": "2026-11-16"
+    "title": "MoViC: Real-Time Humanoid Whole-Body Control from Monocular Video Streams",
+    "url": "https://arxiv.org/abs/2611.19998v1",
+    "date": "2026-11-15",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation",
-    "url": "https://arxiv.org/abs/2611.17142v1",
-    "date": "2026-11-12",
-    "first_seen": "2026-11-13"
+    "title": "Towards Probabilistically Safe Reinforcement Learning: Theory and Deployment on Humanoid and Aerial Robots",
+    "url": "https://arxiv.org/abs/2611.19616v1",
+    "date": "2026-11-14",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "ControlHarbor: A Benchmark for Control Design by Coding Agents",
-    "url": "https://arxiv.org/abs/2611.16867v1",
-    "date": "2026-11-12",
-    "first_seen": "2026-11-13"
+    "title": "Text Speeding Itself Up: Recency and Restraint in Session-Local Drafting",
+    "url": "https://arxiv.org/abs/2611.19455v1",
+    "date": "2026-11-14",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
-    "url": "https://arxiv.org/abs/2611.16728v1",
-    "date": "2026-11-12",
-    "first_seen": "2026-11-13"
+    "title": "ImpedanceMimic: Learned Impedance as Action Space for Force-Accurate Motion Imitation",
+    "url": "https://arxiv.org/abs/2611.19153v1",
+    "date": "2026-11-14",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "paper",
-    "title": "Towards Green Text Generation: Memory-Based Speculative Decoding",
-    "url": "https://arxiv.org/abs/2611.16714v1",
-    "date": "2026-11-12",
-    "first_seen": "2026-11-13"
+    "title": "Leaning Over to Reach Far-Away Objects",
+    "url": "https://arxiv.org/abs/2611.19100v1",
+    "date": "2026-11-14",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "hn",
@@ -365,7 +325,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Wayve": {
   "name": "Wayve",
@@ -386,14 +346,6 @@
   "signals": [
    {
     "type": "news",
-    "title": "Wayve accelerates autonomous vehicle AI with CoreWeave - Computer Weekly",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTk9NV0lfWjVZQ0pwSnlmcHJ4NXlpU1RxOHhITm9XVmJfeExYdU9OSHE0MHBua1l5Q1JicDlQWUZkcDdkTFJDcEFQaWRUNGw2NVlxTmdTWGQ3alBMb1l4TGZZbHZXSmxnZ1BlVUdLZVAtc0RkekVhNl96R245S0liVkpBQmtHdFd6T19zRF91MDVDOFVZV1FFVWRMSWJFZnkxaEE?oc=5",
-    "date": "2026-11-11",
-    "source": "Computer Weekly",
-    "first_seen": "2026-11-12"
-   },
-   {
-    "type": "news",
     "title": "CoreWeave to power Wayve’s AI driver training in multi-year agreement - TelecomTV",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNmV1VlkwLVktbDI4TC0xVzIyWmxScDRtd1FmWWlwNm5xYTcyeEZHWmI2MXY0TURxa09pNzhBY0pTdU9ScElCdVpqS2ktczB6SVZVdzNpX2lydzQ2cFpEdThSSTV2aDloRmdMLUhWWXRhaDVzSThQb0NLbWE5dnNnU3d1MmNrNF9sd2tHeHNOYmNLNmluekpybERKM2pvUHUtN1JDcTJabkRZT1dkNndEOTBYa3FWVXZHeGx5WF9n0gHDAUFVX3lxTE9nTGpOczE2QS1LbXUyX01NdFdpMGd5S3A2X3FDRm8yN2RQX1BzOWZhcVZkODJ0T210YjQybDAzSzNqbFJIMjBJQ0FfTU9GaURhZWZYWG5jUUJkMnNRYllCZkFWQW14akV5MnU0YXRNOElEVGlMblU3SmlHenpUWm5UYlNfSkxLWXVrelZwbHVpSHNJV3hmYUUzdlhoUnlmYXhGQ19PcDFGbTFPODZRemlBcUQxR29jRDY4SktLM2Joemxybw?oc=5",
     "date": "2026-11-12",
@@ -409,36 +361,12 @@
     "first_seen": "2026-10-08"
    },
    {
-    "type": "news",
-    "title": "Autonomous & Self-Driving Vehicle News: Rivian, CoreWeave, Wayve, Kakao, Nvidia, Kia, ASI, TIER IV, MAN Truck & Bus, Komatsu, May Mobility, Volkswagen, Tesla, Terawatt & Waymo | auto connected car news - AUTO Connected Car News",
-    "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPMkxJVEkxdjYzbWJ0LVRPYlNBVElOczdQOXRITVpsWEpzVF9RYm0xT1ZOeURGRFdYTFJ0bDJDTnNkUFNBSUFpcHFFSV9IVkl0NjhoZUNRT21qV2JoM2FmZmg1NmdOMXEweWJOekJqbTZvS085NXlhU01XZ3U1TUxFQVdvdXRPM3RvWGUxWUg0TzYyWW1FbnQ1OTBYaUltNU1QbkwxODdxeGt6OHZrUVZaQldlQVd1dEZSdHlFeVJkVWphQzZEaVBxRGR4Q29Gd2VVbThuWldLRlRzZTRYOVhuelh4YmpoTEM2Nmc2OW1jb0l0MU5ZWTlfdzJIUWY5dkh3UG9JcUJfaF9nNUQwTVhUbWhXRXU4VGpOTlRCMlBfbEpsQQ?oc=5",
-    "date": "2026-11-15",
-    "source": "AUTO Connected Car News",
-    "first_seen": "2026-11-16"
-   },
-   {
-    "type": "news",
-    "title": "CoreWeave partners with Wayve to accelerate AI training for autonomous vehicles - Robotics & Automation News",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMzN1Qk5zalMzYno3SC14ZmQxQmRVTEpwVU1JR2NTWUItbTVhTXQtelAxREJCTExNZTVPLWJkN0xpZ19yeHZpLTAzdFN0SlZJRkJudll4ZGt2YnNLVUtVcjJIcmhjY0QyR29HcHFhRTdWM2tCYVZCYTFINmRlMmc5SmtvTWlkaHpkZlNtU3ZSY1RKREpydHk2cUoyNkxkQlJmRHZiSXNRdU1Ud3Q2S2YyU3FpaHhHMjQ1T05FWk1fbC1wRFFNWWozLWhlcEJrX2NEZmc?oc=5",
-    "date": "2026-11-15",
-    "source": "Robotics & Automation News",
-    "first_seen": "2026-11-16"
-   },
-   {
     "type": "launch",
     "title": "Volkswagen announce autonomous driving partnership with Wayve - electrive.com",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQkVNYnFMa2xqcUw1d1ZjMkJnOXc4U0g2eTl2VjA5WVFndFViMkxHRkxKNVFtYzRUSkNmdnhBUHlRazFvMXVMbEEtSlp5aUp5U0RtUFpUSVdBY0VOTkltWXRzbTF2YklnNHJ2eEk5bDRoRDYyUWpYemp2QmFHcFE3b0NTYy0xQjNSMDl4MHFtcEE4MVZxNEs3aEU0YWNjLXNw?oc=5",
     "date": "2026-10-01",
     "source": "electrive.com",
     "first_seen": "2026-10-23"
-   },
-   {
-    "type": "news",
-    "title": "As CoreWeave Lands a Wayve Deal, Here Is How You Should Play CRWV Stock - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSHp3eFMtUUU1TUctQlF0ZmpGdktOeU16SW90T1pDTUhIb3VDRVY1SlhobEJkd0NyRlQwNU1hRkU5NTVPWDlZclg1MVVYWWl2b3lvOG5BTVVhbUMzQ1AxcHNxX3hZbmxpVFA5b1l0M25hRzd5cVB5WHNVZTAwNHN1X0Q1VGkyZlh4Z0M4MXhQT3lkTGJBMEdQeXBvRQ?oc=5",
-    "date": "2026-11-12",
-    "source": "Yahoo Finance",
-    "first_seen": "2026-11-13"
    },
    {
     "type": "news",
@@ -450,19 +378,11 @@
    },
    {
     "type": "news",
-    "title": "Wayve strikes deal to train its self-driving cars with CoreWeave - The Times",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdFVpTTQ5OWhkbUp1U1ByTXhYOTJKVnhVQlpETnJBMnVTMWFmcEtxcHg4ZWZqWHBiRUdPSkh4VHFFNHFzNDlQV1lHRU45ZlpMRksteWVrMDdoWUNPcjV4Tnc0S2VQd05RZzBVNVNEU09kN25mdkIyVEs5U19BTEI1SllvdC1QSW1hRXptMEFDdEpyVU53MW9fTjNia25qS0tJemt3RzJZUndoajQ?oc=5",
-    "date": "2026-11-09",
-    "source": "The Times",
-    "first_seen": "2026-11-09"
-   },
-   {
-    "type": "news",
-    "title": "Can You Invest in Wayve in 2026? Details & Alternatives - The Motley Fool",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdW45U05hcG5zUnk5WDBsVW00dkswdUN3X2twNEFjSVctNGxENDNYNGdrRGFCMWNZbEZBVk00cGVyX09kVFNWSTBBemNHYzJFVHJqN2lQd2lTdzllcUVaUHBpNHVnNXJ6T1k4ZzRPdi1ETVpUTkY0OFg5UUM3Z3Nqbw?oc=5",
-    "date": "2026-10-07",
-    "source": "The Motley Fool",
-    "first_seen": "2026-11-04"
+    "title": "Autonomous & Self-Driving Vehicle News: Rivian, CoreWeave, Wayve, Kakao, Nvidia, Kia, ASI, TIER IV, MAN Truck & Bus, Komatsu, May Mobility, Volkswagen, Tesla, Terawatt & Waymo | auto connected car news - AUTO Connected Car News",
+    "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPMkxJVEkxdjYzbWJ0LVRPYlNBVElOczdQOXRITVpsWEpzVF9RYm0xT1ZOeURGRFdYTFJ0bDJDTnNkUFNBSUFpcHFFSV9IVkl0NjhoZUNRT21qV2JoM2FmZmg1NmdOMXEweWJOekJqbTZvS085NXlhU01XZ3U1TUxFQVdvdXRPM3RvWGUxWUg0TzYyWW1FbnQ1OTBYaUltNU1QbkwxODdxeGt6OHZrUVZaQldlQVd1dEZSdHlFeVJkVWphQzZEaVBxRGR4Q29Gd2VVbThuWldLRlRzZTRYOVhuelh4YmpoTEM2Nmc2OW1jb0l0MU5ZWTlfdzJIUWY5dkh3UG9JcUJfaF9nNUQwTVhUbWhXRXU4VGpOTlRCMlBfbEpsQQ?oc=5",
+    "date": "2026-11-15",
+    "source": "AUTO Connected Car News",
+    "first_seen": "2026-11-16"
    },
    {
     "type": "news",
@@ -474,11 +394,11 @@
    },
    {
     "type": "news",
-    "title": "Stellantis CEO says Wayve tie-up can cut self-driving costs, development time - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYldMeElseFhadXkybkktR0swTklvbVVTZVpZazBhcUYyZGR3dHhUMUE2ZVVsOC1pbFRjcVJGajk5Tlo3bFhqeGRVX0ZSSmV3aHVWR1FyQmFYQTJfR1MxVFB6UUozLTNoRHNiMVUwcEpFTk51TEk0MUxuRlM2X0ZJRm8wemM1MVo2cFFQcGRlVVlkcUZmNnVDREUtTmdORnJVLXZ5SXRYT2VWLXNEdlFaSDQ1NXE4Y2syTm0waWpPUUpmWVBxTi1xMjRvTWZhTlRoeUNDb1h1OUtPdw?oc=5",
-    "date": "2026-10-09",
-    "source": "Reuters",
-    "first_seen": "2026-10-23"
+    "title": "Can You Invest in Wayve in 2026? Details & Alternatives - The Motley Fool",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdW45U05hcG5zUnk5WDBsVW00dkswdUN3X2twNEFjSVctNGxENDNYNGdrRGFCMWNZbEZBVk00cGVyX09kVFNWSTBBemNHYzJFVHJqN2lQd2lTdzllcUVaUHBpNHVnNXJ6T1k4ZzRPdi1ETVpUTkY0OFg5UUM3Z3Nqbw?oc=5",
+    "date": "2026-10-07",
+    "source": "The Motley Fool",
+    "first_seen": "2026-11-04"
    },
    {
     "type": "launch",
@@ -487,38 +407,6 @@
     "date": "2026-11-09",
     "source": "Securities.io",
     "first_seen": "2026-11-16"
-   },
-   {
-    "type": "launch",
-    "title": "CoreWeave Cloud to power Wayve's AI Driver training in deployment of autonomous vehicles - ROI-NJ",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMUNvcEZsZ3kzNzFsN295US1lLUlUQW5xcExTdFRwMm91ZG91dlVHU0lyeU40b2dweF9aYzBScEd5VHZXRmtBLUxYTTFkbzdheTFUN0Jrb0xiWklZWExlV0ZpRzZ1ZGlUNTlhaVdnM1p3aVdSdlRBUjk1eXBLRmRHemVUdk13WTRnUmU5bG5ReHREQkFPU0NxQmtRMk9qYXJpbk40cm82Mko1Y21oUGoySG1OeXZYZi1Ba2l0WkFQYVV2V2liWXc?oc=5",
-    "date": "2026-11-10",
-    "source": "ROI-NJ",
-    "first_seen": "2026-11-10"
-   },
-   {
-    "type": "launch",
-    "title": "CoreWeave Falls 1% Pre-Market: Strikes Multi-Year AI Cloud Partnership With UK Autonomous Driving Company Wayve Ahead of Q3 Earnings - TradingKey",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVTlxMlUydHpuRlJWdXdoNHU1Z19ISmg0UTcwaG1tNXh1YnpMOVNmSXdzZXVqS19uSG9oU3hJaXhFSFNpdktxWmdQR0YwTENiT3R6d0RJS2JwSDA0T3pYWG41T1pJWmpFaDViV1F3SDJuNnduc1N3U0h1SVRRNWYzY1RkY3planFLV1dnYmllMy1YN29fUzUtWVdyb0d4Q3VsbDlZNHpIeFNuQm5ldjRlRklPOFhoSDVsSVhQd2VrZkptVURGVVNyNHlrTlVOUWc2NnU0?oc=5",
-    "date": "2026-11-10",
-    "source": "TradingKey",
-    "first_seen": "2026-11-10"
-   },
-   {
-    "type": "news",
-    "title": "Wayve to Train AI Driver Models on CoreWeave Cloud with Blackwell GPUs - Unite.AI",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVF9QOENHT3BZUTlQdk93Tzl4dGExQkxhZzUzdW52N1c0V181ejRaQnkzbkFYT2xFWERjVC1weGJNMDE2Y0FESVZoQ0dXMzJfV3ZyekRaa1RrVzFoQ3hJYXZFRVJzWFhYWFVOdmVkMTR2cWJpN3ItNURpOGJFWlNQT1hNbENaeElqZ2dsZWN3YjcyUUtWTmNn?oc=5",
-    "date": "2026-11-09",
-    "source": "Unite.AI",
-    "first_seen": "2026-11-09"
-   },
-   {
-    "type": "news",
-    "title": "CRWV Stock Rallies 6%: Can Wayve Deal Fuel Its Physical AI Growth? - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRXlhdGhfRDlLYVRXcGU2WU84eEtUVGhibW1VcGhtQk81ZHoxc200WEVxNFluTC1rYXZGZGRhNUpud0FoeFp1aG5VdjhrOXJveThfemZ3TG9uNUs2cVhEcVZ0U2pEN2hsX3N4WjZiNUFvTHliNWNfaExJMjMxMmRZa001THgybU9fZGE0dHExTkw2eDZYUkRPNDR2NGNxWGkzNDVrZ1VJdThhSjlCYk5DaldGV0FkM1E0ZjM0?oc=5",
-    "date": "2026-11-09",
-    "source": "TradingView",
-    "first_seen": "2026-11-13"
    },
    {
     "type": "news",
@@ -530,19 +418,19 @@
    },
    {
     "type": "news",
+    "title": "Stellantis CEO says Wayve tie-up can cut self-driving costs, development time - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYldMeElseFhadXkybkktR0swTklvbVVTZVpZazBhcUYyZGR3dHhUMUE2ZVVsOC1pbFRjcVJGajk5Tlo3bFhqeGRVX0ZSSmV3aHVWR1FyQmFYQTJfR1MxVFB6UUozLTNoRHNiMVUwcEpFTk51TEk0MUxuRlM2X0ZJRm8wemM1MVo2cFFQcGRlVVlkcUZmNnVDREUtTmdORnJVLXZ5SXRYT2VWLXNEdlFaSDQ1NXE4Y2syTm0waWpPUUpmWVBxTi1xMjRvTWZhTlRoeUNDb1h1OUtPdw?oc=5",
+    "date": "2026-10-09",
+    "source": "Reuters",
+    "first_seen": "2026-10-23"
+   },
+   {
+    "type": "news",
     "title": "Why I won’t Wayve goodbye to Black Cabs - Liberal Democrat Voice",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNTZYRmM1dm5YT29lWVFsZjBJaFA1eUV5b1JKSng1VFgySTRQVmp3RXJBbUdFRElIRVhKaXZZRUt6dmhINy1yMVpUWThDOW1naklNQ0RIaHFYTzZ1UnBaRDcxMVdsejBaWDAxcEFhSGhRbE04eEs4SDlBRUQwcXNQMzhJNA?oc=5",
     "date": "2026-10-02",
     "source": "Liberal Democrat Voice",
     "first_seen": "2026-11-16"
-   },
-   {
-    "type": "funding",
-    "title": "CRWV Stock Rallies 6%: Can Wayve Deal Fuel Its Physical AI Growth? - Zacks Investment Research",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcTFsYWhUV1JTZzZ2emNmOHBXTXljTWY5c3Q3OGVEd3JFSDNBOVluVHc3d1ZhYllnTDNQYnREdVZkQVFuMGxxQjJrbGU1T2VuQ1pZZWJnOXdCMy1PYjN1U2w1SzdtMTdwY3BrcTgtaFVNb1kzbHNnaGNTNVhGME9ISThrRy1qN2RCbHBBMWh1Ym9obzFLcTY3RU00dUhsRkp0Ykw5U1JfTQ?oc=5",
-    "date": "2026-11-10",
-    "source": "Zacks Investment Research",
-    "first_seen": "2026-11-10"
    },
    {
     "type": "news",
@@ -551,6 +439,14 @@
     "date": "2026-09-22",
     "source": "Electrek",
     "first_seen": "2026-11-16"
+   },
+   {
+    "type": "news",
+    "title": "Cloudflare Jumps 11%, Nebius Surges 9% as AI Cloud Stocks Defy NVIDIA's Slide; CoreWeave Rallies 6% on Wayve Deal - 24/7 Wall St.",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZGlxYy1RZEJRY2lINGhCZDBvajBVaEZLV1Y5QzhudzdTWVVhWXZ4bXUzMVNhWXNEUGdBYVFfcWJLbk1kYUQ4NVFnZmJoaUNrbzZocXRZUVBkQTdoOVJZM1o1YTBXdUs4VWlrM05Tb1pKQ3ZwSEdyd09EMkVQaVEyRl9jaENLbWgxM2M1WklZVEIwTTR1dmplTGI0YVNjd3B0XzdzeVo5T3BoeVdYNDRtd042dnVqVnV5dVhSblo5TGtOZHJmemRiZ0J4b0J3RkRIRlZiNy1nYUJNa0txaU5BU19DMi1LZw?oc=5",
+    "date": "2026-11-09",
+    "source": "24/7 Wall St.",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "job",
@@ -663,14 +559,6 @@
     "loc": "London, United Kingdom",
     "ats": "ashby",
     "first_seen": "2026-10-05"
-   },
-   {
-    "type": "job",
-    "title": "Data Engineer, App SW",
-    "url": "https://jobs.ashbyhq.com/wayve/5b53e31e-3903-4c9b-b359-ffbc8a186630",
-    "loc": "Leonberg, Germany",
-    "ats": "ashby",
-    "first_seen": "2026-10-06"
    },
    {
     "type": "job",
@@ -848,14 +736,6 @@
    },
    {
     "type": "hn",
-    "title": "Stellantis and Wayve Partnership",
-    "url": "https://wayve.ai/press/stellantis-wayve-partnership/",
-    "date": "2026-05-21",
-    "points": 3,
-    "first_seen": "2026-09-20"
-   },
-   {
-    "type": "hn",
     "title": "Uber Opens London Waitlist for Wayve Robotaxis Ahead of Launch",
     "url": "https://www.bloomberg.com/news/articles/2026-06-08/uber-opens-london-waitlist-for-wayve-robotaxis-ahead-of-launch",
     "date": "2026-06-08",
@@ -885,9 +765,17 @@
     "date": "2026-09-30",
     "points": 254,
     "first_seen": "2026-10-26"
+   },
+   {
+    "type": "hn",
+    "title": "I used sound waves to make espresso",
+    "url": "https://theconversation.com/i-used-sound-waves-to-make-espresso-it-could-cut-coffee-brewing-energy-use-by-75-284929",
+    "date": "2026-06-13",
+    "points": 232,
+    "first_seen": "2026-11-17"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Dogtooth Technologies": {
   "name": "Dogtooth Technologies",
@@ -915,7 +803,7 @@
     "first_seen": "2026-11-13"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Automata": {
   "name": "Automata",
@@ -983,7 +871,7 @@
     "first_seen": "2026-11-16"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Skyports Drone Services": {
   "name": "Skyports Drone Services",
@@ -1012,19 +900,19 @@
    },
    {
     "type": "news",
-    "title": "Skyports partners with SP Electricity to trial AI-powered BVLOS drone inspections - ADS Advance",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55dTEwLXd0Q2tHQVBMUFliTEpWUnpYQmxlOTdkbzVyUFhjUks3V3QwU2FOU2VJRnBBZjJ0VFBLUjl5ZG9aVGpLU1lrM1dLWHhlU3dhNWFYS3ViRVVScDZZWV9qcHUtQzF2S1g4NE84NWlfRldk?oc=5",
-    "date": "2026-09-23",
-    "source": "ADS Advance",
-    "first_seen": "2026-10-13"
-   },
-   {
-    "type": "news",
     "title": "Substation-based drones to trial automated power-line inspections - Envirotec Magazine",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVDBjQmpWSmtRSkRzcG05OW1EY054UWNrTk15cThzdi1mWjJ5WGNnNDZmRXNQZ1Q0N1hRYUs5NWpNRmlfcDNkWk1DODlYRFIzcUhhTEV3WllNZWxJNld4OWUyRW5WOVkxVW9rYTlvOHUtZHpqY0dNX3oyQktyZUp2ekxVZS0xQ0RlNmI2MHhKczBfRi1rT2lpWWo1XzgtLThwbXA1V0QxRzNzRkU?oc=5",
     "date": "2026-09-23",
     "source": "Envirotec Magazine",
     "first_seen": "2026-10-30"
+   },
+   {
+    "type": "news",
+    "title": "Skyports partners with SP Electricity to trial AI-powered BVLOS drone inspections - ADS Advance",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55dTEwLXd0Q2tHQVBMUFliTEpWUnpYQmxlOTdkbzVyUFhjUks3V3QwU2FOU2VJRnBBZjJ0VFBLUjl5ZG9aVGpLU1lrM1dLWHhlU3dhNWFYS3ViRVVScDZZWV9qcHUtQzF2S1g4NE84NWlfRldk?oc=5",
+    "date": "2026-09-23",
+    "source": "ADS Advance",
+    "first_seen": "2026-10-13"
    },
    {
     "type": "news",
@@ -1082,14 +970,14 @@
    },
    {
     "type": "hn",
-    "title": "GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)",
-    "url": "https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e",
-    "date": "2026-08-29",
-    "points": 328,
-    "first_seen": "2026-11-16"
+    "title": "Firefox is now the last major browser that still supports uBlock Origin",
+    "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+    "date": "2026-08-14",
+    "points": 1765,
+    "first_seen": "2026-11-17"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "CMR Surgical": {
   "name": "CMR Surgical",
@@ -1150,10 +1038,10 @@
    },
    {
     "type": "news",
-    "title": "CMR Surgical Chose Agency Over Distribution To Keep Surgeons Close, CEO Says - Medtech Insight",
+    "title": "CMR Surgical Chose Agency Over Distribution To Keep Surgeons Close, CEO Says - insights.citeline.com",
     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUmtQV2tiWWhieGFkTTVjOWhTRXdJNk5rdUYteC1WbUdoSEh0My11MFYtQ29mTENYZHFzZHdtQm11TUt1emc0b19HWXY0VzFjaHgtYmROVlZDN0QxQTlyUGpXWmp3LVg5ZTBPZUJlUVl5UUFnV1pDUERpYWVzaUFFTUVwaUcwUXNXN0U1LWRhTFZCMlFRam0zdVFyUUF6eU5Iak5KMzFlYVd0ZndqWmdDVzdmeFVicE1mQkFuUlN6VWt0ZnQ2S09ZWWRncWxNbnVxM1FYLTQ0MFRqWHZPQzdBbmpxUzFVODFHUmFBcEQxRGszazBpMndvOFJwcUlKNVJh?oc=5",
     "date": "2026-10-23",
-    "source": "Medtech Insight",
+    "source": "insights.citeline.com",
     "first_seen": "2026-11-16"
    },
    {
@@ -1213,14 +1101,6 @@
     "first_seen": "2026-10-19"
    },
    {
-    "type": "funding",
-    "title": "Stryker Announces $400 Million Investment in CMR Surgical With Option for Full Acquisition - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3d6UVdmai1tVnZlWHdROHk3WThOZktKdlc1YzdfSnc3bnYtZVI3M1NRRUN6RUpja0ZibDJPc3ZHX2duZXF3Y19KME1MNXNPQjhmQk4ySFBfZHZhZm16MkMweGNwT1RYRTRYbzUwQUhtSy1aTUVuYXYwckVmTUNCSEFTeE4tNDB3SVl3WDMxS1lmbmY1WmF3bjdGX09aUVpROXVR?oc=5",
-    "date": "2026-10-12",
-    "source": "Yahoo Finance",
-    "first_seen": "2026-11-13"
-   },
-   {
     "type": "launch",
     "title": "Stryker and CMR Surgical announce strategic alliance to advance robotic-assisted surgery - GlobeNewswire",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNW5XUEZCWHRsWVdOc3ZpLXNLb2NqamU4OWZSRDBBMXNWMjZBMFgwLTdyVjExSm0tVzZNMEREZDJCa1Rza0RPaUxpQ1cyNHB0T3VIRjh2NTZOZTVwSDM2dHZtRVFIOUI2UmtmazNCUWhpMXVSV1N0QmljYlhZUUx5WXJvcURkeUh3N2hBMzQxTDZfVjRPSW9qU09QTW0xM0FOWlVvN0lyUHdNQWxsVTRxNU5QcFlDSlBkWGNKVTNZbUZEdmxLYi1TdUdSckpnOS1xcUI2dkgtVld1R2xva2g0M1dmcERxR3BhNzAyRUUyRzk1UQ?oc=5",
@@ -1250,7 +1130,7 @@
     "first_seen": "2026-10-28"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Kheiron Medical": {
   "name": "Kheiron Medical",
@@ -1269,6 +1149,14 @@
   "verified": "no",
   "brief": "no",
   "signals": [
+   {
+    "type": "hn",
+    "title": "Khronos Announces glTF Gaussian Splatting Extension",
+    "url": "https://www.khronos.org/news/press/gltf-gaussian-splatting-press-release",
+    "date": "2026-06-11",
+    "points": 4,
+    "first_seen": "2026-11-17"
+   },
    {
     "type": "hn",
     "title": "Khronos Group opens EU Entity to support European Projects with open standards",
@@ -1300,17 +1188,9 @@
     "date": "2026-07-24",
     "points": 2,
     "first_seen": "2026-11-16"
-   },
-   {
-    "type": "hn",
-    "title": "Show HN: A bunch of Apache2/MIT log generators",
-    "url": "https://github.com/expanso-io/log-simulators",
-    "date": "2026-06-13",
-    "points": 4,
-    "first_seen": "2026-11-13"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Opteran": {
   "name": "Opteran",
@@ -1339,14 +1219,6 @@
    },
    {
     "type": "hn",
-    "title": "AI agent bankrupted their operator while trying to scan DN42",
-    "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-    "date": "2026-06-12",
-    "points": 1467,
-    "first_seen": "2026-11-13"
-   },
-   {
-    "type": "hn",
     "title": "Evidence of a spying operation by ICE against left-wing social movements",
     "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
     "date": "2026-10-28",
@@ -1355,22 +1227,30 @@
    },
    {
     "type": "hn",
-    "title": "OnePlus halts operations in USA and Europe",
-    "url": "https://community.oneplus.com/thread/2170715118587871237",
-    "date": "2026-07-16",
-    "points": 600,
-    "first_seen": "2026-11-13"
+    "title": "Google Cloud outage affects almost all banking and other operations in Europe",
+    "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+    "date": "2026-10-20",
+    "points": 407,
+    "first_seen": "2026-11-17"
    },
    {
     "type": "hn",
-    "title": "Seattle Shield, an intelligence-sharing network operated by the Seattle police",
-    "url": "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/",
-    "date": "2026-05-21",
-    "points": 492,
-    "first_seen": "2026-11-16"
+    "title": "Getting ready to operate GNU Taler in Germany",
+    "url": "https://www.taler.net/en/news/2026-13.html",
+    "date": "2026-10-22",
+    "points": 364,
+    "first_seen": "2026-11-17"
+   },
+   {
+    "type": "hn",
+    "title": "OOS – an open operating system for the Rigol Scopes",
+    "url": "https://www.eevblog.com/forum/testgear/oos-an-open-operating-system-for-the-rigol-scopes/",
+    "date": "2026-11-13",
+    "points": 147,
+    "first_seen": "2026-11-17"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Tharsus": {
   "name": "Tharsus",
@@ -1388,57 +1268,8 @@
   "data": "Factory test and vision-QC imagery for customers' robots; data owned jointly with clients",
   "verified": "no",
   "brief": "no",
-  "signals": [
-   {
-    "type": "launch",
-    "title": "TUAL appoints Tharsus to produce ultra-deployable fast EV chargers - Highways News",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb2F3TFZoVVpzaGNZZDB5UVIyN0dsVzF1bF95MnFZY1Y1U2Nya1dhNjhWc2lJRk8xNmg1dTNCNGdKM0szWGFMc3FqQTExMTdfVHFEMW5WWXdIWTdiTUR6LVNzMkd0SFhTc3BCRGFYM3Eyam5uQWlGbXJpT2ZvMlFQQmhOeGx4ZmEyd2hKS0I3ZFZiS2s1eGg3SQ?oc=5",
-    "date": "2026-09-18",
-    "source": "Highways News",
-    "first_seen": "2026-10-08"
-   },
-   {
-    "type": "hn",
-    "title": "Tesla unveils 'flying' Roadster with SpaceX thrusters [video]",
-    "url": "https://www.youtube.com/watch?v=eqOfmtTJD1A",
-    "date": "2026-10-16",
-    "points": 63,
-    "first_seen": "2026-11-16"
-   },
-   {
-    "type": "hn",
-    "title": "AI Can't Recreate the Thrust Game (But It Can Help You Understand It)",
-    "url": "https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/",
-    "date": "2026-07-10",
-    "points": 52,
-    "first_seen": "2026-11-16"
-   },
-   {
-    "type": "hn",
-    "title": "Northstar: A New Booster Engine with More Thrust and Less Mass",
-    "url": "https://www.blueorigin.com/news/introducing-northstar-new-booster-engine",
-    "date": "2026-11-06",
-    "points": 22,
-    "first_seen": "2026-11-16"
-   },
-   {
-    "type": "hn",
-    "title": "NASA Fires Up Powerful Lithium-Fed Thruster for Trips to Mars",
-    "url": "https://www.nasa.gov/missions/tech-demonstration/nasa-fires-up-powerful-lithium-fed-thruster-for-trips-to-mars/",
-    "date": "2026-08-10",
-    "points": 10,
-    "first_seen": "2026-11-16"
-   },
-   {
-    "type": "hn",
-    "title": "Acceleration without fuel: superconducting thruster uses Earth's magnetic field",
-    "url": "https://www.space.com/technology/acceleration-without-fuel-revolutionary-superconducting-thruster-harnesses-earths-magnetic-field-in-1st-orbital-test",
-    "date": "2026-07-07",
-    "points": 10,
-    "first_seen": "2026-11-16"
-   }
-  ],
-  "fetched": "2026-11-16"
+  "signals": [],
+  "fetched": "2026-11-17"
  },
  "Extend Robotics": {
   "name": "Extend Robotics",
@@ -1560,7 +1391,7 @@
     "first_seen": "2026-10-05"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Proximie": {
   "name": "Proximie",
@@ -1579,6 +1410,14 @@
   "verified": "yes",
   "brief": "yes",
   "signals": [
+   {
+    "type": "news",
+    "title": "Proximie Expands US Transformation Team With New Leadership as Demand for Surgical Intelligence Grows - Business Wire",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOS183NFR1NmItZzBDa0FDTER5SjFIanVMdTQxM1N0SDVRQzdQMjVhdVgtNktmZFhfdWJRVHMtNF9SYS1zbHZsZUFYM3EtWS1iYWVoSWQzb2FPS2FTSlFyelJ4SE0xYy1GSU5SZk9maUpIM3BCektJbzlYOHNJMzgtY2toM0oycWdZZGpjbGw5a19vbFI0RlJVenhkby1wZDFFejV6ZEU1c0xGNmlRdlZ5cjk0X1FaaVAxamdQWk5IZ2dWcklMcTNKSlZYV0NoYzVRV21nY1hxdTRFYmZGTjFyZjJvWjNBRUQwcVBTVW9UYw?oc=5",
+    "date": "2026-11-16",
+    "source": "Business Wire",
+    "first_seen": "2026-11-17"
+   },
    {
     "type": "news",
     "title": "THE BIG INTERVIEW: Work smarter, not harder - Healthcare Management Magazine",
@@ -1602,6 +1441,14 @@
     "date": "2026-10-21",
     "source": "Zawya",
     "first_seen": "2026-11-16"
+   },
+   {
+    "type": "news",
+    "title": "Proximie Expands US Transformation Team With New Leadership as Demand for Surgical Intelligence Grows - The Joplin Globe",
+    "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQWjc1UndSakhBNV9pb2NObVJZNWZ2Mmc3dXpDd1o1NHlnV0tlSkxvN2tUTDBXTmM4NWs2VzRiQlRwVmdLOUU1Q05uaTVJWlpRZnZjODN5M3B6M0loOXh3THIxVG0xdGZpUjBiLVl0SG45azVXX0tDNzBpakJ5cjR6MFhRdDZJeGgtS3VDLWxfejVLMFI4RURtYzY3NW5kWVlmNi1SVWNmNWFIWi05NVFBbmc1dUNrZGlwQ1daLTZDWWtVa1dhRndjRWNLWWNBTHhVQXM2RzBiM3VLNlR6eGd0SFUzTThUM19IWmxkU1pDb0FKVTFiaThEVFVTNHB1LWM1NUQ5MWo5eVhkXzZGQnpzY3dnTTRUNWlObnRLeXZzMVBLTDhELUZ0ZDZzYlo?oc=5",
+    "date": "2026-11-16",
+    "source": "The Joplin Globe",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "news",
@@ -1652,7 +1499,7 @@
     "first_seen": "2026-11-03"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Perceptual Robotics": {
   "name": "Perceptual Robotics",
@@ -1671,7 +1518,7 @@
   "verified": "yes",
   "brief": "no",
   "signals": [],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Muddy Machines": {
   "name": "Muddy Machines",
@@ -1690,7 +1537,7 @@
   "verified": "no",
   "brief": "no",
   "signals": [],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Ocado Technology": {
   "name": "Ocado Technology",
@@ -1822,7 +1669,7 @@
     "first_seen": "2026-09-20"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Panakeia": {
   "name": "Panakeia",
@@ -1840,25 +1687,8 @@
   "data": "Gigapixel whole-slide images; pathologist-level labels, small expert pool",
   "verified": "no",
   "brief": "no",
-  "signals": [
-   {
-    "type": "hn",
-    "title": "Ask HN: Do you see a Pancake in the top left menu at Github.com?",
-    "url": "https://news.ycombinator.com/item?id=49112739",
-    "date": "2026-07-30",
-    "points": 21,
-    "first_seen": "2026-11-16"
-   },
-   {
-    "type": "hn",
-    "title": "Live Atomic Spatial Audio",
-    "url": "https://panaudia.com/",
-    "date": "2026-09-03",
-    "points": 5,
-    "first_seen": "2026-11-16"
-   }
-  ],
-  "fetched": "2026-11-16"
+  "signals": [],
+  "fetched": "2026-11-17"
  },
  "Sees.ai": {
   "name": "Sees.ai",
@@ -1877,7 +1707,7 @@
   "verified": "no",
   "brief": "no",
   "signals": [],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Fieldwork Robotics": {
   "name": "Fieldwork Robotics",
@@ -1895,8 +1725,17 @@
   "data": "Fruit images in tunnels, ripeness and occlusion labels",
   "verified": "no",
   "brief": "no",
-  "signals": [],
-  "fetched": "2026-11-16"
+  "signals": [
+   {
+    "type": "funding",
+    "title": "Seed Innovations Limited (SEED) Reports £10.43m NAV with Three New Robotics Investments in H1 2026 - Kalkine Media",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWlFGaHRNZFRZTzdhUldVOGNwQl9vNWloTFhCZExBcm1Zdm5zUXNORzNXMEgtRUVtNnJpSlIwdzNhYzNUdXpqSFBDajRPcHNRMVFzRW1KUDJTOEhEM1ZaRjBIZVJPNGpmeEFuWFcyWW9JRzl2LTUtQmtzcUdPYW03eE5CR1BrQ0lVMllMY2l1bmo5QmZ5Y2tjeWZwWXRTUTV6SXdFbkluM1JOOVpGRk9FXzR6TWhKVzdPT0dLOTZkZ1lqQV85aWZ1R0MxZm5fSC1BSDc1T1B0MkVhRmc?oc=5",
+    "date": "2026-11-11",
+    "source": "Kalkine Media",
+    "first_seen": "2026-11-17"
+   }
+  ],
+  "fetched": "2026-11-17"
  },
  "Helsing UK": {
   "name": "Helsing UK",
@@ -1925,11 +1764,11 @@
    },
    {
     "type": "launch",
-    "title": "Helsing unveils European rival to Palantir military targeting system - Financial Times",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQM3hCb09DYWJEVW1TX1BBVmFJWFZpR0IwRC1FeFQ3Um5yeUZsMGRfX0ZfZEE4cDNrY2I4eXRqbnRmOVlRTDNvdFFKQkRlUmN3TDdZU19ua3lOQ1YyRGFHbXNkQ3I0T2N2ZnJpNkRCN29zMk5Eb2pvX3ZfLXk5Mk9OZTB1ZVE?oc=5",
-    "date": "2026-11-11",
-    "source": "Financial Times",
-    "first_seen": "2026-11-13"
+    "title": "Helsing unveils Contra autonomous air defence alongside missile interceptors AD-1 Inferno and AD-2 Ambush - Helsing",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQmlGVVVfVE4tNkJOSDRCaExZU2xZZXBuSncwX3ozN1hLTmxWQnVfTUY5RU5YZHA2d1MzNXY0Z3BxeHZRSDNXNFR4U21zYklNQ0gyRjZVS0J3ZlJpQlVoeHR1MzZyUjM5bVVqd3J4bTdZR21IdTRET0tzU0l1R0JHU0dJUGRGZk5zSHNrbkdCeXllLWxDRHk5NXZSc2tzd3NMeEl3RXlBTXN6RGJva1NQVFVWdWRuelJrNm5ZOVA5RjZvU2hMNE02MWNVU2UwQQ?oc=5",
+    "date": "2026-10-26",
+    "source": "Helsing",
+    "first_seen": "2026-10-26"
    },
    {
     "type": "news",
@@ -1941,11 +1780,11 @@
    },
    {
     "type": "launch",
-    "title": "Helsing unveils Contra autonomous air defence alongside missile interceptors AD-1 Inferno and AD-2 Ambush - Helsing",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQmlGVVVfVE4tNkJOSDRCaExZU2xZZXBuSncwX3ozN1hLTmxWQnVfTUY5RU5YZHA2d1MzNXY0Z3BxeHZRSDNXNFR4U21zYklNQ0gyRjZVS0J3ZlJpQlVoeHR1MzZyUjM5bVVqd3J4bTdZR21IdTRET0tzU0l1R0JHU0dJUGRGZk5zSHNrbkdCeXllLWxDRHk5NXZSc2tzd3NMeEl3RXlBTXN6RGJva1NQVFVWdWRuelJrNm5ZOVA5RjZvU2hMNE02MWNVU2UwQQ?oc=5",
-    "date": "2026-10-26",
-    "source": "Helsing",
-    "first_seen": "2026-10-26"
+    "title": "Helsing unveils European rival to Palantir military targeting system - Financial Times",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQM3hCb09DYWJEVW1TX1BBVmFJWFZpR0IwRC1FeFQ3Um5yeUZsMGRfX0ZfZEE4cDNrY2I4eXRqbnRmOVlRTDNvdFFKQkRlUmN3TDdZU19ua3lOQ1YyRGFHbXNkQ3I0T2N2ZnJpNkRCN29zMk5Eb2pvX3ZfLXk5Mk9OZTB1ZVE?oc=5",
+    "date": "2026-11-11",
+    "source": "Financial Times",
+    "first_seen": "2026-11-13"
    },
    {
     "type": "launch",
@@ -1956,12 +1795,12 @@
     "first_seen": "2026-11-10"
    },
    {
-    "type": "launch",
-    "title": "Germany’s Helsing Unveils AI Defence Software to Challenge Palantir’s Military Dominance - Modern Diplomacy",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa0NDRF83UHlyelJQWkU0OE9Yekg0Sk5sN2w0V0c2eXJORC1iVDJHNm4xZlBDZUs3ekxhTF93RkQzLXlVSUxhcWpyUXNLczZweHk0U0o1UzJia016azJfd2VaVlVFWnFQdFAtMGpOQmdTMjk4b21aWFh2c0U5bGFZazhnY2ZCUTRvUWtoYjJWbHpwZThPYURac3Z0Z2dPR2tSZnZtMFVzTWNFak85aGN0S0Y0MDFGbzFsZUY1SlU1aEJMMTQ?oc=5",
-    "date": "2026-11-10",
-    "source": "Modern Diplomacy",
-    "first_seen": "2026-11-11"
+    "type": "news",
+    "title": "Defence start-up Helsing moves into missile interceptors - The Telegraph",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPblZHcS1DRVBrMG91MFpCbDVqNG12bWlwVzFPZGc2TW9qTEdTMzM5SDNqTWI1ODBNc1NQMjNPVVhNVXNxdlRrLUVsd3NrOUFyYXJJT1N1cmtxaTM2VFJOWU1mTTVhbDhCcUdTV2VoVjlIRUVvNHpMdWRFdkJwZlRabXRvd0lYckQtc1B6NElENy0zVWZQdVZiUm9HeXd2QUQzQ0Job21rWlc?oc=5",
+    "date": "2026-10-26",
+    "source": "The Telegraph",
+    "first_seen": "2026-11-16"
    },
    {
     "type": "news",
@@ -1972,12 +1811,20 @@
     "first_seen": "2026-11-11"
    },
    {
-    "type": "news",
-    "title": "Defence start-up Helsing moves into missile interceptors - The Telegraph",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPblZHcS1DRVBrMG91MFpCbDVqNG12bWlwVzFPZGc2TW9qTEdTMzM5SDNqTWI1ODBNc1NQMjNPVVhNVXNxdlRrLUVsd3NrOUFyYXJJT1N1cmtxaTM2VFJOWU1mTTVhbDhCcUdTV2VoVjlIRUVvNHpMdWRFdkJwZlRabXRvd0lYckQtc1B6NElENy0zVWZQdVZiUm9HeXd2QUQzQ0Job21rWlc?oc=5",
-    "date": "2026-10-26",
-    "source": "The Telegraph",
-    "first_seen": "2026-11-16"
+    "type": "launch",
+    "title": "Germany’s Helsing Unveils AI Defence Software to Challenge Palantir’s Military Dominance - Modern Diplomacy",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa0NDRF83UHlyelJQWkU0OE9Yekg0Sk5sN2w0V0c2eXJORC1iVDJHNm4xZlBDZUs3ekxhTF93RkQzLXlVSUxhcWpyUXNLczZweHk0U0o1UzJia016azJfd2VaVlVFWnFQdFAtMGpOQmdTMjk4b21aWFh2c0U5bGFZazhnY2ZCUTRvUWtoYjJWbHpwZThPYURac3Z0Z2dPR2tSZnZtMFVzTWNFak85aGN0S0Y0MDFGbzFsZUY1SlU1aEJMMTQ?oc=5",
+    "date": "2026-11-10",
+    "source": "Modern Diplomacy",
+    "first_seen": "2026-11-11"
+   },
+   {
+    "type": "launch",
+    "title": "Helsing launches Clarity, a competitor to Palantir’s Maven - Resilience Media",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY21EWlEwOE5vZzRvcUQwU0pEc1U2dGt4aEdyaE04Y3Etam9zSzBTWkUyLU52WjFJLXlDNlB2Uk0zY2RWTmJTWldKc3FCUnFTdHN0bG5xcFJqYjR5ekFUbk1XUDA0dE1Lb2VBLW0wRm16WnhjazdkM2JhRTBjbWVoaDdJdFc3WGhSSW4xRA?oc=5",
+    "date": "2026-11-11",
+    "source": "Resilience Media",
+    "first_seen": "2026-11-17"
    },
    {
     "type": "launch",
@@ -2004,20 +1851,20 @@
     "first_seen": "2026-10-08"
    },
    {
-    "type": "launch",
-    "title": "Helsing launches Clarity, a European rival to Palantir's Maven - Startup Fortune",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWkZBVnN5Y2VYS05PMEpXSTZ5cFpVbXplN1RuTWs1RWdqRmxtVDNhUl9pU1lLdmRnZkV4bVlfaE83Vnh3Skk3RklnekhLYUdFWEpEREFlLWt1aHJfTWg5ekRSdEVDRWpGWFhuZDFCQWt1SnN2bndxXzdQMjlLQVdvLWhKaTlmYURIbFhmVExyQVIzZw?oc=5",
-    "date": "2026-11-11",
-    "source": "Startup Fortune",
-    "first_seen": "2026-11-12"
-   },
-   {
     "type": "news",
     "title": "Helsing HX-2 Loitering Munition: Specs, Users, Cost - Calibre Defence",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jeE8tNkhyQlZKa0JSZmVQd2N3OThYOXltaEpzVG83c0cyQzQ5MHo0anNnV1lUa1A1bHQxVmVhalFjZndkMmR0dHU5SEVIU09qRENnWldyR3lRbGgtbGIxeFNqc1JwUk9uTnUtaG9tRjFSam8?oc=5",
     "date": "2026-10-06",
     "source": "Calibre Defence",
     "first_seen": "2026-10-08"
+   },
+   {
+    "type": "launch",
+    "title": "Helsing launches Clarity, a European rival to Palantir's Maven - Startup Fortune",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWkZBVnN5Y2VYS05PMEpXSTZ5cFpVbXplN1RuTWs1RWdqRmxtVDNhUl9pU1lLdmRnZkV4bVlfaE83Vnh3Skk3RklnekhLYUdFWEpEREFlLWt1aHJfTWg5ekRSdEVDRWpGWFhuZDFCQWt1SnN2bndxXzdQMjlLQVdvLWhKaTlmYURIbFhmVExyQVIzZw?oc=5",
+    "date": "2026-11-11",
+    "source": "Startup Fortune",
+    "first_seen": "2026-11-12"
    },
    {
     "type": "launch",
@@ -2169,7 +2016,7 @@
     "first_seen": "2026-11-16"
    }
   ],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  },
  "Wootzano": {
   "name": "Wootzano",
@@ -2188,6 +2035,6 @@
   "verified": "no",
   "brief": "yes",
   "signals": [],
-  "fetched": "2026-11-16"
+  "fetched": "2026-11-17"
  }
 }
