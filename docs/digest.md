@@ -1,20 +1,19 @@
-# Signal Desk digest, 2026-11-17
+# Signal Desk digest, 2026-11-18
 
 ## Hot accounts
-- **Humanoid** (385): An 11-person startup raised $40 million to challenge robotics' data-hungry giants (2026-10-27); hiring 8 ML/CV roles: Senior Dev/ML Ops Engineer
-- **Wayve** (350): CoreWeave Announces Multi-Year AI Training Agreement With Wayve (2026-11-09); hiring 34 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
-- **Helsing UK** (328): Helsing unveils Clarity, a sovereign software platform for military intelligence (2026-11-11); hiring 10 ML/CV roles: AI Research Engineer - ML & Signal Processing
+- **Helsing UK** (292): Helsing scales back Plymouth factory after losing out on British navy contract (2026-11-18); hiring 10 ML/CV roles: AI Research Engineer - ML & Signal Processing
+- **Wayve** (270): Volkswagen announce autonomous driving partnership with Wayve (2026-10-01); hiring 34 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
 
 ## New signals since yesterday
-- **Humanoid**: [paper] ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Ex; [paper] Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstra; [paper] QTOP: Scaling Humanoid Motion Tracking with Quantile Critics
-- **Wayve**: [news] Cloudflare Jumps 11%, Nebius Surges 9% as AI Cloud Stocks Defy NVIDIA's Slide; C; [hn] I used sound waves to make espresso
-- **Helsing UK**: [launch] Helsing launches Clarity, a competitor to Palantir’s Maven - Resilience Media
-- **Fieldwork Robotics**: [funding] Seed Innovations Limited (SEED) Reports £10.43m NAV with Three New Robotics Inve
-- **Oxa**: [paper] SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agen; [paper] GHySSeg: Real-Time Geometric Ground and Road Segmentation for Hybrid Solid-State; [paper] Cantor Julia sets of positive area in non-autonomous dynamics
-- **Skyports Drone Services**: [hn] Firefox is now the last major browser that still supports uBlock Origin
-- **Proximie**: [news] Proximie Expands US Transformation Team With New Leadership as Demand for Surgic; [news] Proximie Expands US Transformation Team With New Leadership as Demand for Surgic
-- **Kheiron Medical**: [hn] Khronos Announces glTF Gaussian Splatting Extension
-- **Opteran**: [hn] OOS – an open operating system for the Rigol Scopes; [hn] Getting ready to operate GNU Taler in Germany; [hn] Google Cloud outage affects almost all banking and other operations in Europe
+- **Helsing UK**: [launch] Helsing scales back Plymouth factory after losing out on British navy contract -
+- **Wayve**: [news] AI Startup Wayve is Charting a New Road - J.P. Morgan
+- **CMR Surgical**: [news] Stryker CEO Kevin Lobo says robots now do 2 of every 3 knee replacements—and he ; [funding] Stryker invests $400M in CMR Surgical with option to buy - Modern Healthcare
+- **Oxa**: [funding] Oxford autonomous car firm narrows annual losses to £52.5m - Oxford Mail
+- **Proximie**: [news] Proximie Expands US Transformation Team With New Leadership as Demand for Surgic
+- **Kheiron Medical**: [hn] A first-person 3D adaptation of Zork I by Ethan Mollick
+- **Opteran**: [hn] I Inspected My Take-Home Interview Project. It Was a Whole Operation; [hn] OnePlus halts operations in USA and Europe; [hn] AI agent bankrupted their operator while trying to scan DN42
+- **Tharsus**: [hn] Tesla unveils 'flying' Roadster with SpaceX thrusters [video]; [hn] NASA Fires Up Powerful Lithium-Fed Thruster for Trips to Mars; [hn] AI Can't Recreate the Thrust Game (But It Can Help You Understand It)
+- **Panakeia**: [hn] Show HN: Justif – Knuth-Plass justification and microtypography for the web
 
 ## Briefs ready
 - Oxa (medium confidence, 2026-10-06)
