@@ -1,26 +1,26 @@
-# Signal Desk digest, 2026-11-19
+# Signal Desk digest, 2026-11-20
 
 ## Hot accounts
-- **Helsing UK** (336): Helsing scales back its Plymouth factory after losing the Royal Navy's Atlantic Net contract (2026-11-19); hiring 11 ML/CV roles: AI Research Engineer - ML & Signal Processing
-- **Wayve** (330): CoreWeave Announces Multi-Year AI Training Agreement With Wayve (2026-11-09); hiring 34 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
-- **Humanoid** (325): An 11-person startup raised $40 million to challenge robotics' data-hungry giants (2026-10-27); hiring 9 ML/CV roles: Senior Dev/ML Ops Engineer
+- **Humanoid** (355): An 11-person startup raised $40 million to challenge robotics' data-hungry giants (2026-10-27); hiring 9 ML/CV roles: Senior Dev/ML Ops Engineer
+- **Helsing UK** (324): Helsing scales back Plymouth factory after losing out on British navy contract (2026-11-18); hiring 11 ML/CV roles: AI Research Engineer - ML & Signal Processing
+- **Wayve** (290): Volkswagen announce autonomous driving partnership with Wayve (2026-10-01); hiring 33 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
 
 ## New signals since yesterday
-- **Helsing UK**: [launch] Helsing scales back its Plymouth factory after losing the Royal Navy's Atlantic ; [news] Germany’s Helsing Scales Back Touted Plymouth Drone Hub - Silicon UK; [news] Helsing cuts Plymouth workforce after Royal Navy selects Ocean Infinity for Atla
-- **Wayve**: [news] Qualcomm takes on Wayve, Chinese rivals with new AI driving platform - Automotiv; [news] Wayve and Stellantis partner to advance autonomous driving in France - Robotics ; [news] As CoreWeave Lands a Wayve Deal, Here Is How You Should Play CRWV Stock - Barcha
-- **Humanoid**: [launch] London startup Saturn Dynamics launches Arc for robots - IT Brief UK; [job] Senior Talent Acquisition Partner - Robotics & ML
-- **Proximie**: [news] Proximie Expands US Transformation Team With New Leadership as Demand for Surgic
-- **Dexory**: [news] ROBOTICS ROUNDTABLE: Easing the pain - DC Velocity
-- **Kheiron Medical**: [hn] KeiroLabs – Web research infrastructure for AI agents
-- **Tharsus**: [hn] Northstar: A New Booster Engine with More Thrust and Less Mass; [hn] Show HN: CloneGuard – Scan a repo for credential-stealing tricks before it runs; [hn] Show HN: Apollo Lunar Module landing simulation
-- **Opteran**: [hn] Google Cloud outage affects almost all banking and other operations in Europe
-- **Panakeia**: [hn] Live Atomic Spatial Audio; [hn] Ask HN: Do you see a Pancake in the top left menu at Github.com?
-- **Dogtooth Technologies**: [hn] mRNA vaccine targeting tick proteins induces tick resistance in guinea pigs
+- **Humanoid**: [paper] PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation; [paper] PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via ; [paper] Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience
+- **Helsing UK**: [news] Defence Industry: Warning Shots Across Burnham’s Bow? - Defence Eye
+- **Wayve**: [paper] RIDE-Splat: Reflection Removal for In-the-Wild Driving Environments; [news] Wayve AI Driver Takes on Turin in a Maserati Grecale - eletric-vehicles.com; [paper] BLInD: Learning Driver Intent as a Distribution over Future Ego Trajectories
+- **CMR Surgical**: [news] Global Autonomous Surgical Robotics Market Opportunities and Strategies to 2035 ; [news] Stryker CEO Kevin Lobo says Stryker won’t build its surgical robots in China ove; [funding] Stryker invests US$400m in CMR Surgical and secures option to acquire business -
+- **Ocado Technology**: [hn] Show HN: AgentMall – Let your AI agent buy groceries
+- **Oxa**: [paper] From Seed to BLOOM: Autonomously Growing a Better Out-of-Order Core; [paper] AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher; [paper] JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own
+- **Extend Robotics**: [paper] Where to Generate Touch: Do Image Latents Preserve Material Recognition?; [paper] Robotic Boomerang Throwing via Model-Based Release Design; [funding] Extend Robotics Raises £2.6M in Funding to Expand Outcome-Based Industrial Robot
+- **Skyports Drone Services**: [paper] Photometric classification and out-of-taxonomy detection of ZTF transients with ; [paper] A data processing pipeline for the WINTER near-infrared surveyor using the $\tex
+- **Dexory**: [news] Dexory Adds Safety Intelligence to Warehouse Platform - Logistics Business
+- **Kheiron Medical**: [hn] After Parallel Turbo, Keiro launches $0.10/1K web search
 
 ## Briefs ready
-- Proximie (medium confidence, 2026-10-06)
-- Dexory (medium confidence, 2026-10-05)
 - Oxa (medium confidence, 2026-10-06)
+- Dexory (medium confidence, 2026-10-05)
+- Proximie (medium confidence, 2026-10-06)
 - Wootzano (low confidence, 2026-10-05)
 
 Open the desk: https://qaisak.github.io/signal-desk/
