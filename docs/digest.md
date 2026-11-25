@@ -1,21 +1,22 @@
-# Signal Desk digest, 2026-11-24
+# Signal Desk digest, 2026-11-25
 
 ## Hot accounts
-- **Helsing UK** (332): Helsing scales back its Plymouth factory after losing the Royal Navy's Atlantic Net contract (2026-11-19); hiring 11 ML/CV roles: AI Research Engineer - ML & Signal Processing
-- **Humanoid** (325): An 11-person startup raised $40 million to challenge robotics' data-hungry giants (2026-10-27); hiring 9 ML/CV roles: Senior Dev/ML Ops Engineer
+- **Humanoid** (435): Robotics startup Genesis AI raises $500m backed by Nvidia (2026-11-17); hiring 9 ML/CV roles: Senior Dev/ML Ops Engineer
 - **Wayve** (315): Wayve, Stellantis, and NVIDIA Collaborate to Advance Safe and Responsible Autonomous Vehicle Deployment across France (2026-11-02); hiring 33 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
+- **Helsing UK** (296): Helsing scales back Plymouth factory after losing out on British navy contract (2026-11-18); hiring 11 ML/CV roles: AI Research Engineer - ML & Signal Processing
+- **Ocado Technology** (228): Ocado Retail lines up alongside UK launch partners like Sainsbury's as Meta Muse AI product goes live (2026-11-25); hiring 6 ML/CV roles: Data Engineer 
 
 ## New signals since yesterday
-- **Helsing UK**: [news] German Military Tests Helsing and Stark Kamikaze Drones Against Tank Targets in ; [news] German army tests Helsing and Stark kamikaze drones and an AI targeting tool in ; [news] Germany’s Helsing Scales Back Touted Plymouth Drone Hub - Silicon UK
-- **Humanoid**: [paper] Can Multimodal Fusion MakeSense for Embodied Vision in Degraded Sensing?; [paper] GeoMerge-OPD: Balanced Skill Integration in Vision-Language-Action Models; [paper] SuSi-RAG: A Hybrid Graph RAG for Equipment Maintenance
-- **Wayve**: [news] Wayve Trains Its AI Driver on CoreWeave Case Study - CoreWeave; [news] Stellantis And Wayve Take Hands-Free Driving Tech To Turin - MoparInsiders; [news] Wayve and Stellantis partner to advance autonomous driving in France - Robotics 
-- **CMR Surgical**: [news] Stryker’s CEO Won’t Build Robots in China. Here’s What He’s Building Instead. - ; [news] Stryker CEO Kevin Lobo says Stryker won’t build its surgical robots in China ove
-- **Ocado Technology**: [news] Here's why Walmart should pilot Ocado Group's game changing online grocery fulfi
-- **Oxa**: [paper] Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action; [paper] Agentic AI for Intent Management and Control in Autonomous Communication Network; [paper] FATCAT: Fault Injection Attacks Targeting Chip-level Alignment
-- **Extend Robotics**: [paper] RoboColiseum: Co-evolution of Simulation, Evaluation, and Models
-- **Dexory**: [news] Dexory collaborates with NVDIA on Physical AI platform, United Kingdom. News sto
-- **Proximie**: [news] How Kenya's rural hospitals are dialling into the world's best surgeons - Daily 
-- **Kheiron Medical**: [hn] MoltenVK (Vulkan on Metal) was deprecated in favor of KosmicKrisp; [hn] KeiroLabs – Web research infrastructure for AI agents; [hn] Khronos Group opens EU Entity to support European Projects with open standards
+- **Humanoid**: [paper] DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking; [paper] DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Visio; [paper] BARE: Body-Aware Reflexive Evasion for Humanoid Robots
+- **Wayve**: [news] CoreWeave Signs Multi-Year Agreement to Support Wayve’s Autonomous Driving AI De
+- **Helsing UK**: [news] Germany's Helsing considering takeover of Destinus, Handelsblatt says - Yahoo Fi; [news] Helsing considers Destinus takeover in potential defence sector deal - Traders U
+- **CMR Surgical**: [funding] Stryker invests $400M in CMR Surgical, gains exclusive U.S. rights By Investing.
+- **Ocado Technology**: [launch] Ocado Retail lines up alongside UK launch partners like Sainsbury's as Meta Muse; [news] Ocado (LSE:OCDO) Extends Its Robotic Grocery Model for Shareholders Below FTSE 1
+- **Oxa**: [paper] Exploratory Midtraining for Robot Policies; [paper] Neural Implicit Representation for Bathymetry Estimation using Sidescan Sonar Im; [paper] EmbodiSafety: Benchmarking Risk Understanding and Response in Embodied AI
+- **Dexory**: [news] Dexory Powers Real-Time Warehouse Intelligence with AMD - AMD
+- **Skyports Drone Services**: [news] Ørsted's Turbine Drone Looks Like a DJI Heavy Lifter the US Taxes 100% - DroneXL; [news] HumeLink West takes drone monitoring to new heights - Energy Magazine; [news] Automated BVLOS Drone Surveys Take on Major Infrastructure Project in Australia 
+- **Kheiron Medical**: [hn] DiscoBox: AI Coding Agents in Disposable Sandboxes; [hn] Mullet of Log Processing: Determinism in the Front, AI at the Back (Expanso/Jev); [hn] Bad Apple but It's Frontier Lab Benchmarks [video]
+- **Panakeia**: [hn] Show HN: Justif – Knuth-Plass justification and microtypography for the web
 
 ## Briefs ready
 - Oxa (medium confidence, 2026-10-06)
