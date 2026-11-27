@@ -1,22 +1,21 @@
-# Signal Desk digest, 2026-11-26
+# Signal Desk digest, 2026-11-27
 
 ## Hot accounts
-- **Humanoid** (430): Robotics startup Genesis AI raises $500m backed by Nvidia (2026-11-17); hiring 9 ML/CV roles: Senior Dev/ML Ops Engineer
-- **Wayve** (345): Wayve and Uber launch UK’s first autonomous ride-hailing service (2026-11-18); hiring 33 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
-- **Helsing UK** (328): Helsing scales back its Plymouth factory after losing the Royal Navy's Atlantic Net contract (2026-11-19); hiring 11 ML/CV roles: AI Research Engineer - ML & Signal Processing
-- **Ocado Technology** (220): Ocado Retail lines up alongside UK launch partners like Sainsbury's as Meta Muse AI product goes live (2026-11-25); hiring 7 ML/CV roles: Data Engineer 
+- **Helsing UK** (328): Helsing scales back its Plymouth factory after losing the Royal Navy's Atlantic Net contract (2026-11-19); hiring 10 ML/CV roles: AI Research Engineer - ML & Signal Processing
+- **Wayve** (255): Volkswagen announce autonomous driving partnership with Wayve (2026-10-01); hiring 33 ML/CV roles: Staff Machine Learning Engineer, Data Curation & Dataset Strategy
+- **Ocado Technology** (248): Ocado Retail lines up alongside UK launch partners like Sainsbury's as Meta Muse AI product goes live (2026-11-25); hiring 7 ML/CV roles: Data Engineer 
 
 ## New signals since yesterday
-- **Humanoid**: [paper] FineDex: Bridging Fine-Grained Human-Object Interaction Generation to Dexterous ; [paper] Riding the Wave: Sim-to-Real Humanoid Control on Elastic Terrain; [paper] AGLR: Attribute-Guided Latent Refinement for Fine-Grained Humanoid Motion Genera
-- **Wayve**: [news] Wayve | UK Billion-Pound Businesses - Business Leader; [launch] Wayve and Uber launch UK’s first autonomous ride-hailing service - TransportXtra; [news] CoreWeave signs multi-year cloud deal with autonomous vehicle firm Wayve - Inves
-- **Helsing UK**: [news] Helsing weighs full takeover of Dutch arms maker Destinus at up to $6B - Dealroo; [news] Germany’s Helsing Scales Back Touted Plymouth Drone Hub - Silicon UK; [launch] Helsing scales back its Plymouth factory after losing the Royal Navy's Atlantic 
-- **CMR Surgical**: [funding] Stryker enters soft tissue robotics with $400M investment in CMR Surgical - Yaho
-- **Ocado Technology**: [job] Data Scientist 
-- **Oxa**: [paper] Tracking Any Point with Agentic Visual Reasoning; [paper] Drilling for the Radio Neutrino Observatory in Greenland (RNO-G): field performa; [paper] A Failure-Driven Data Flywheel for Post-Training Vision-Language-Action Models
-- **Skyports Drone Services**: [news] Michigan's $512,168 Drone Grant Flew Mail to Great Lakes Freighters - DroneXL
-- **Opteran**: [hn] Japan tried to build an operating system for the world, the US intervened; [hn] I Inspected My Take-Home Interview Project. It Was a Whole Operation
-- **Kheiron Medical**: [hn] RegEx 101 for Data Pipelines
-- **Panakeia**: [hn] Live Atomic Spatial Audio
+- **Helsing UK**: [launch] Helsing launches autonomous Contra air defence/C-UAS system to mitigate high spe
+- **Wayve**: [news] Stellantis CEO says Wayve tie-up can cut self-driving costs, development time - ; [news] Can You Invest in Wayve in 2026? Details & Alternatives - The Motley Fool; [news] Watch Wayve CEO Kendall on the Future of Driving - Bloomberg.com
+- **Ocado Technology**: [launch] Ocado Retail lines up alongside UK launch partners like Sainsbury's as Meta Muse; [news] Here's why Walmart should pilot Ocado Group's game changing online grocery fulfi; [launch] Ocado Group launches second customer fulfilment centre with AEON in Japan - Reta
+- **CMR Surgical**: [news] Stryker’s CEO Won’t Build Robots in China. Here’s What He’s Building Instead. - ; [funding] Stryker bets big on robot surgery, backing CMR Surgical in $400m deal - BioXcono
+- **Skyports Drone Services**: [news] SP Electricity North West to Trial Remote Drones for Post-Storm Fault Finding - ; [news] DJI FlyCart 100 delivers toolkits to offshore wind turbines - Heliguy; [news] Ørsted's Turbine Drone Looks Like a DJI Heavy Lifter the US Taxes 100% - DroneXL
+- **Proximie**: [news] Proximie Expands US Transformation Team With New Leadership as Demand for Surgic
+- **Dexory**: [news] Dexory Powers Real-Time Warehouse Intelligence with AMD - AMD
+- **Kheiron Medical**: [hn] Show HN: Resolving the black hole singularity with a pure-P(X) khronon bounce; [hn] KeiroLabs – Web research infrastructure for AI agents; [hn] Khronos Group opens EU Entity to support European Projects with open standards
+- **Opteran**: [hn] Evidence of a spying operation by ICE against left-wing social movements; [hn] AI agent bankrupted their operator while trying to scan DN42
+- **Panakeia**: [hn] SolDrift: Open-source nowcasting model for Australia's solar farms
 
 ## Briefs ready
 - Oxa (medium confidence, 2026-10-06)
